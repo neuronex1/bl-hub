@@ -14,7 +14,9 @@
     "webpack": "^4.6.0"
   },
   "scripts": {
-    "start": "webpack && rails server",
+    "postinstall": "webpack --display-error-details",
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress --display-error-details",
+    "start": "rails server",
     "build": "export NODE_ENV=development && webpack --progress --color",
     "prod": "export NODE_ENV=production && webpack --progress -p"
   },
