@@ -5,9 +5,12 @@
 // import NavBar from './components/NavBar.jsx';
 // import Homepage from './components/Homepage.jsx';
 // import AboutUs from './components/AboutUs.jsx';
+console.log('but really what?');
+alert('i hate everything');
 
 document.addEventListener("DOMContentLoaded", function () {
     alert('this file gets loaded');
+    console.log('this file is the worst');
     //
     // ReactDOM.render(
     //     <NavBar />,
