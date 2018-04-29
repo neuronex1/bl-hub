@@ -17,7 +17,8 @@
     "postinstall": "node_modules/.bin/webpack --display-error-details",
     "heroku-postbuild": "node_modules/.bin/webpack --display-error-details",
     "start": "rails server",
-    "build": "export NODE_ENV=development&& webpack --progress --color"
+    "build": "export NODE_ENV=development && webpack --progress --color",
+    "prod": "export NODE_ENV=production && webpack --progress -p"
   },
   "devDependencies": {
     "webpack-cli": "^2.0.15"
