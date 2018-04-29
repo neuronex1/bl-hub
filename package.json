@@ -15,7 +15,7 @@
   },
   "scripts": {
     "postinstall": "node_modules/.bin/webpack",
-    "heroku-postbuild": "webpack",
+    "heroku-postbuild": "node_modules/.bin/webpack",
     "start": "rails server"
   },
   "devDependencies": {
