@@ -25,4 +25,4 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/assets/javascripts
+app/assets/javascripts/*

@@ -6,8 +6,7 @@ import NavBar from './components/NavBar.jsx';
 import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
 
-$(document).ready(function () {
-    console.log('--------other---------');
+document.addEventListener("DOMContentLoaded", function () {
     ReactDOM.render(
         <NavBar />,
         document.getElementById('nav-bar-container')

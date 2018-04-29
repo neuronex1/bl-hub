@@ -1,3 +1,49 @@
-// Place all the styles related to the home controller here.
+// Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'reset';
+
+.header h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    display: inline-block;
+
+    &.login {
+        background: $grey-lighter;
+        color: $off-black;
+        &:hover {
+            background: darken($grey-lighter, 15);
+            color: white;
+        }
+    }
+
+    &.signup {
+        background: $yellow;
+        color: $off-black;
+        &:hover {
+            background: $yellow-darker;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}

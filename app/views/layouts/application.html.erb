@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BlHub</title>
+    <title>BL Hub</title>
     <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body id='bl-app'>
+      <div class='header clearfix'>
+          <h1 class='float-left'>The Bioluminescence Hub</h1>
+      </div>
+
+      <div id='content'>
+          <div id='nav-bar-container'></div>
+          <div id='home'></div>
+          <%= yield %>
+      </div>
   </body>
+
+  <footer class='footer'>
+      <p>
+          Copyright 2018 | Kia Salehi
+      </p>
+  </footer>
 </html>
