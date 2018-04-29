@@ -14,9 +14,10 @@
     "webpack": "^4.6.0"
   },
   "scripts": {
-    "postinstall": "node_modules/.bin/webpack",
-    "heroku-postbuild": "node_modules/.bin/webpack",
-    "start": "rails server"
+    "postinstall": "node_modules/.bin/webpack --display-error-details",
+    "heroku-postbuild": "node_modules/.bin/webpack --display-error-details",
+    "start": "rails server",
+    "build": "export NODE_ENV=development&& webpack --progress --color"
   },
   "devDependencies": {
     "webpack-cli": "^2.0.15"
