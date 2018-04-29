@@ -13,6 +13,7 @@ module.exports = {
       'react': path.join(__dirname, 'node_modules', 'react')
     }
   },
+  mode: 'development',
   module: {
     rules: [
       {
