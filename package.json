@@ -14,7 +14,7 @@
     "webpack": "^4.6.0"
   },
   "scripts": {
-    "postinstall": "webpack",
+    "heroku-postbuild": "webpack",
     "start": "rails server"
   },
   "devDependencies": {
