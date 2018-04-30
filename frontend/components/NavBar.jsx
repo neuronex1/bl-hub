@@ -50,7 +50,7 @@ class NavBar extends React.PureComponent {
                     },
                     {
                         title: 'Poster Guidelines',
-                        link: '/symposium/poster-guidlines'
+                        link: '/symposium/poster-guidelines'
                     },
                 ]
             },
@@ -80,6 +80,18 @@ class NavBar extends React.PureComponent {
         this.renderTabs = this.renderTabs.bind(this);
     }
 
+    isCurrentTab(tab) {
+        let isActive = false;
+        for(let i=0; i<tab.options.length; i++) {
+            if (tab.options[i].link == window.location.pathname) {
+                isActive = true;
+                break;
+            }
+        }
+
+        return isActive;
+    }
+
     renderTabs(tabs) {
         return tabs.map((tab, idx) => {
             if (tab.options) {
@@ -88,6 +100,7 @@ class NavBar extends React.PureComponent {
                         key={idx}
                         title={tab.title}
                         options={tab.options}
+                        isActive={this.isCurrentTab(tab)}
                     />
                 );
             } else {
