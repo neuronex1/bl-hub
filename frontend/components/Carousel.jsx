@@ -8,9 +8,9 @@ class Carousel extends React.PureComponent {
         this.changeSlide = this.changeSlide.bind(this);
 
         this.slides = [
-            'assets/jellyfish.jpg',
-            'assets/jellyfish2.jpg',
-            'assets/jellyfish3.jpg',
+            'http://gdurl.com/nI36',
+            'http://gdurl.com/BjwD',
+            'http://gdurl.com/w-IP'
         ];
 
         this.state = {
@@ -42,12 +42,12 @@ class Carousel extends React.PureComponent {
                 className += ' current';
             }
 
+            const style = {
+                background: 'url(' + src + ') no-repeat center center / cover'
+            };
+
             return (
-                <div className={className} key={idx}>
-                    <img className='hero-img'
-                        src={src}
-                        data-pin-no-pin={true}
-                    />
+                <div className={className} key={idx} style={style} >
                 </div>
             );
         });

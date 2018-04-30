@@ -2,13 +2,12 @@
 
 .carousel {
     position: relative;
-    height: 500px;
+    height: 550px;
     background: black;
-    margin-right: -15px;
-    margin-left: -15px;
 
     .hero-img-container {
         height: 550px;
+        width: 100%;
         overflow: hidden;
         position: absolute;
         z-index: 0;

@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import NavBar from './components/NavBar.jsx';
 import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
+import Footer from './components/Footer.jsx';
 
 document.addEventListener("DOMContentLoaded", function () {
     ReactDOM.render(
@@ -26,4 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
             );
             break;
     }
+
+    ReactDOM.render(
+        <Footer />,
+        document.getElementById('footer')
+    );
 });

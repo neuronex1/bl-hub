@@ -48,18 +48,23 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* Clearfix */
-
 .clearfix:after {
   content: '';
   display: block;
   clear: both;
 }
 
+p, span, h1, h2, h3, h4, h5 {
+    margin: 15px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
 html {
   background: rgba(245,245,245,1);
   font-family: 'Roboto', sans-serif;
-  margin: 15px;
 }
 
 body {
