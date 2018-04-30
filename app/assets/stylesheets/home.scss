@@ -44,6 +44,21 @@
     min-height: 500px;
 }
 
+#symposium-schedule {
+    margin: 25px 200px;
+}
+
+#register {
+    iframe {
+        display: block;
+        margin: 15px auto;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
 .float-left {
     float: left;
 }
