@@ -1,0 +1,19 @@
+@import 'reset';
+
+.about-us{
+    &__img {
+        width: 300px;
+        height: auto;
+        margin: 25px;
+    }
+
+    &__img-container {
+        margin: 25px auto;
+    }
+
+    &__img-wrapper {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+}
