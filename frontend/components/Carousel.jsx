@@ -6,6 +6,7 @@ class Carousel extends React.PureComponent {
     constructor(props) {
         super(props);
         this.changeSlide = this.changeSlide.bind(this);
+        this.renderSubtitle = this.renderSubtitle.bind(this);
 
         // this.slides = [
         //     {
@@ -20,30 +21,52 @@ class Carousel extends React.PureComponent {
         // ];
 
         this.slides = [
+            // {
+            //     src: 'http://gdurl.com/nI36',
+            //     caption: 'Education at Many Levels',
+            //     title: 'Applications for the 2019 MBL Undergraduate Practicum open in October 2018!',
+            //     subtitle: '18-23 March 2018 | Marine Biological Laboratory | Woods Hole, MA'
+            // },
+            // {
+            //     src: 'http://gdurl.com/2Dnb',
+            //     caption: 'Sharing New Tools With Scientists',
+            //     title: 'Register now for our next Workshop!',
+            //     subtitle: '06 August 2018 | Brown University'
+            // },
             {
                 src: 'http://gdurl.com/nI36',
                 caption: 'Education at Many Levels',
-                title: 'Applications for the 2019 MBL Undergraduate Practicum open in October 2018!',
-                subtitle: '18-23 March 2018 | Marine Biological Laboratory | Woods Hole, MA'
+                title: 'Applications open October 2018!',
+                subtitle: ['18-23 March 2018', 'Marine Biological Laboratory', 'Woods Hole, MA'],
+                buttonLabel: 'LEARN MORE',
+                link: '/mbl/apply'
             },
             {
-                src: 'http://gdurl.com/BjwD',
+                src: 'http://gdurl.com/2Dnb',
                 caption: 'Sharing New Tools With Scientists',
                 title: 'Register now for our next Workshop!',
-                subtitle: '06 August 2018 | Brown University'
+                subtitle: ['06 August 2018', 'Brown University'],
+                buttonLabel: 'LEARN MORE',
+                link: '/symposium/schedule'
             },
-            {
-                src: 'http://gdurl.com/w-IP',
-                caption: 'Developing Best Practices in Vertical and Horizontal Open Science',
-                title: '',
-                subtitle: ''
-            },
-            {
-                src: 'http://gdurl.com/DjIx',
-                caption: 'Symposium: Next Generation Technologies for Neuroscience',
-                title: '',
-                subtitle: ''
-            }
+            // {
+            //     src: 'http://gdurl.com/BjwD',
+            //     caption: 'Sharing New Tools With Scientists',
+            //     title: 'Register now for our next Workshop!',
+            //     subtitle: '06 August 2018 | Brown University'
+            // },
+            // {
+            //     src: 'http://gdurl.com/w-IP',
+            //     caption: 'Developing Best Practices in Vertical and Horizontal Open Science',
+            //     title: '',
+            //     subtitle: ''
+            // },
+            // {
+            //     src: 'http://gdurl.com/DjIx',
+            //     caption: 'Symposium: Next Generation Technologies for Neuroscience',
+            //     title: '',
+            //     subtitle: ''
+            // }
         ];
 
         this.state = {
@@ -68,6 +91,12 @@ class Carousel extends React.PureComponent {
         window.clearInterval(this.changeSlide);
     }
 
+    renderSubtitle(subtitle) {
+        return subtitle.map(str => {
+            return <span className='subtitle'>{str}</span>;
+        });
+    }
+
     renderSlides() {
         return this.slides.map((slide, idx) => {
             let className = 'hero-img-container';
@@ -84,10 +113,22 @@ class Carousel extends React.PureComponent {
                     <div className='text-container'>
                         <p className='slide-caption'>{slide.caption}</p>
                         <p className='slide-title'>{slide.title}</p>
-                        <p className='slide-subtitle'>{slide.subtitle}</p>
+                        <p className='slide-subtitle'>{this.renderSubtitle(slide.subtitle)}</p>
+                        <a className='slide-button' href={slide.link}>
+                            {slide.buttonLabel}
+                            <i class="fa fa-caret fa-caret-right" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
             );
+
+            // <div className={className} key={idx} style={style}>
+            //     <div className='text-container'>
+            //         <p className='slide-caption'>{slide.caption}</p>
+            //         <p className='slide-title'>{slide.title}</p>
+            //         <p className='slide-subtitle'>{slide.subtitle}</p>
+            //     </div>
+            // </div>
         });
     }
 
