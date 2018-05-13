@@ -1,6 +1,7 @@
-// $yellow: #ffd507;
 $yellow: #FFC726;
 $yellow-darker: #FFAE00;
+$green: #00bf08;
+$green-darker: #00b908;
 $grey-lighter: #8D8D8D;
 $slate: #434343;
 $off-black: #111111;
@@ -48,6 +49,11 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+iframe {
+    display: block;
+    margin: 15px auto;
+}
+
 .clearfix:after {
   content: '';
   display: block;
@@ -69,4 +75,19 @@ html {
 
 body {
   position: relative;
+}
+
+.bl-link {
+    color: $green;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.container {
+    margin: -15px auto;
+    background: white;
+    width: 85%;
+    padding: 25px auto;
 }

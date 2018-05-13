@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import NavBar from './components/NavBar.jsx';
 import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
+import ContactForm from './components/ContactForm.jsx';
 import Footer from './components/Footer.jsx';
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -20,6 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('home')
             );
             break;
+        case '/contact-us':
+            ReactDOM.render(
+                <ContactForm />,
+                document.getElementById('contact-us')
+            );
+            break;
+
     }
 
     ReactDOM.render(
