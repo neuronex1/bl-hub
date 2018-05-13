@@ -1,9 +1,15 @@
 @import 'reset';
 
-.bl-nav-bar {
+.bl-nav-bar-wrapper {
     background: $slate;
     color: whitesmoke;
     z-index: 10;
+    min-width: 950px;
+
+    .bl-nav-bar {
+        margin: auto;
+        width: 950px;
+    }
 
     .bl-nav-tab {
         &:hover {

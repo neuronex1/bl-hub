@@ -106,9 +106,11 @@ class NavBar extends React.PureComponent {
     render() {
          return (
              <div>
-                <ul className='bl-nav-bar clearfix'>
-                    {this.renderTabs(this.tabs)}
-                </ul>
+                <div className='bl-nav-bar-wrapper clearfix'>
+                    <ul className='bl-nav-bar'>
+                        {this.renderTabs(this.tabs)}
+                    </ul>
+                </div>
             </div>
         );
     }
