@@ -13,31 +13,6 @@ class NavBar extends React.PureComponent {
                 link: '/'
             },
             {
-                title: 'BL in Nature',
-                link: '/bl-in-nature'
-            },
-            {
-                title: 'Why Use BL?',
-                options: [
-                    {
-                        title: 'Workshops',
-                        link: '/research/workshops'
-                    },
-                    {
-                        title: 'Emissaries',
-                        link: '/research/emissaries'
-                    }
-                ]
-            },
-            {
-                title: 'Learn How',
-                link: '/learn'
-            },
-            {
-                title: 'About Our Hub',
-                link: '/about-us'
-            },
-            {
                 title: 'Symposium',
                 options: [
                     {
@@ -72,8 +47,20 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'Curricula',
-                link: '/curricula'
+                title: 'Workshops',
+                link: '/research/workshops'
+            },
+            {
+                title: 'Emissaries',
+                link: '/research/emissaries'
+            },
+            {
+                title: 'About Our Hub',
+                link: '/about-us'
+            },
+            {
+                title: 'Contact Us',
+                link: '/contact-us'
             }
         ];
 
