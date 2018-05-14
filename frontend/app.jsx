@@ -21,12 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('home')
             );
             break;
-        case '/contact-us':
-            ReactDOM.render(
-                <ContactForm />,
-                document.getElementById('contact-us')
-            );
-            break;
         case '/about-us':
             ReactDOM.render(
                 <AboutUs />,
