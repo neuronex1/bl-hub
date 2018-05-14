@@ -8,31 +8,20 @@ class Carousel extends React.PureComponent {
         this.changeSlide = this.changeSlide.bind(this);
         this.renderSubtitle = this.renderSubtitle.bind(this);
 
-        // this.slides = [
-        //     {
-        //         src: 'http://gdurl.com/WuX6',
-        //     },
-        //     {
-        //         src: 'http://gdurl.com/OZqH',
-        //     },
-        //     {
-        //         src: 'http://gdurl.com/oTfB',
-        //     }
-        // ];
-
         this.slides = [
-            // {
-            //     src: 'http://gdurl.com/nI36',
-            //     caption: 'Education at Many Levels',
-            //     title: 'Applications for the 2019 MBL Undergraduate Practicum open in October 2018!',
-            //     subtitle: '18-23 March 2018 | Marine Biological Laboratory | Woods Hole, MA'
-            // },
-            // {
-            //     src: 'http://gdurl.com/2Dnb',
-            //     caption: 'Sharing New Tools With Scientists',
-            //     title: 'Register now for our next Workshop!',
-            //     subtitle: '06 August 2018 | Brown University'
-            // },
+            {
+                src: 'http://gdurl.com/IYMt',
+                caption: 'Symposium: Next Generation Technologies for Neuroscience',
+                title: 'June 11-12, 2018 | Brown University',
+                subtitle: [
+                    'Invited Speakers',
+                    'Industry Panel',
+                    'Networking Opportunities',
+                    'Poster Session'
+                ],
+                buttonLabel: 'REGISTER',
+                link: '/symposium/register'
+            },
             {
                 src: 'http://gdurl.com/nI36',
                 caption: 'Education at Many Levels',
@@ -48,25 +37,7 @@ class Carousel extends React.PureComponent {
                 subtitle: ['06 August 2018', 'Brown University'],
                 buttonLabel: 'LEARN MORE',
                 link: '/symposium/schedule'
-            },
-            // {
-            //     src: 'http://gdurl.com/BjwD',
-            //     caption: 'Sharing New Tools With Scientists',
-            //     title: 'Register now for our next Workshop!',
-            //     subtitle: '06 August 2018 | Brown University'
-            // },
-            // {
-            //     src: 'http://gdurl.com/w-IP',
-            //     caption: 'Developing Best Practices in Vertical and Horizontal Open Science',
-            //     title: '',
-            //     subtitle: ''
-            // },
-            // {
-            //     src: 'http://gdurl.com/DjIx',
-            //     caption: 'Symposium: Next Generation Technologies for Neuroscience',
-            //     title: '',
-            //     subtitle: ''
-            // }
+            }
         ];
 
         this.state = {

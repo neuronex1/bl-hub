@@ -1,19 +1,31 @@
 @import 'reset';
 
 .about-us{
+    &__table {
+        margin: auto;
+        margin-left: -15px;
+    }
+
     &__img {
         width: 300px;
         height: auto;
-        margin: 25px;
+        display: inline-block;
     }
 
     &__img-container {
-        margin: 25px auto;
-    }
-
-    &__img-wrapper {
         width: 300px;
         height: 300px;
         overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 15px;
+    }
+
+    &__section {
+        vertical-align: top;
+    }
+
+    &__text-wrapper {
+        margin-left: 15px;
     }
 }
