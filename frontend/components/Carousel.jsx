@@ -28,7 +28,7 @@ class Carousel extends React.PureComponent {
                 title: 'Applications open October 2018!',
                 subtitle: ['18-23 March 2018', 'Marine Biological Laboratory', 'Woods Hole, MA'],
                 buttonLabel: 'LEARN MORE',
-                link: '/mbl/apply'
+                link: '/mbl/about'
             },
             {
                 src: 'http://gdurl.com/2Dnb',
@@ -36,7 +36,7 @@ class Carousel extends React.PureComponent {
                 title: 'Register now for our next Workshop!',
                 subtitle: ['06 August 2018', 'Brown University'],
                 buttonLabel: 'LEARN MORE',
-                link: '/symposium/schedule'
+                link: '/research/workshops'
             }
         ];
 
