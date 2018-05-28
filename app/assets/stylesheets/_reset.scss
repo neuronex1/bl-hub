@@ -95,6 +95,23 @@ body {
     min-width: 600px;
 }
 
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 .mbs {
     margin-bottom: 5px;
 }
@@ -105,6 +122,14 @@ body {
 
 .mtm {
     margin-top: 10px;
+}
+
+.mbl {
+    margin-bottom: 15px;
+}
+
+.mtl {
+    margin-top: 15px;
 }
 
 .mts {
@@ -127,10 +152,22 @@ body {
     padding-left: 15px;
 }
 
-.text-m {
+.text-l {
     font-size: 16px;
 }
 
+.text-m {
+    font-size: 14px;
+}
+
 .text-s {
+    font-size: 13px;
+}
+
+.text-xs {
     font-size: 12px;
+}
+
+.italics {
+    font-style: italic;
 }
