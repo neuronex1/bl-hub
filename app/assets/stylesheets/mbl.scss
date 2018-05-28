@@ -1,3 +1,5 @@
+@import 'reset';
+
 #mbl-about {
     ul {
        list-style-type: unset;
@@ -21,6 +23,74 @@
     background: cornflowerblue;
     text-align: center;
     font-weight: bold;
+}
+
+.mbl__landing {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.panel-wrapper {
+    width: 33%;
+    height: 200px;
+    background: cornflowerblue;
+    position: relative;
+
+    .text {
+        opacity: 0;
+        font-size: large;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: darken(aliceblue, 10%);
+        transition: none;
+
+        .bl-icon {
+            opacity: 0;
+        }
+
+        .text {
+            opacity: 0.8;
+        }
+    }
+
+    .bl-icon {
+        position: absolute;
+        opacity: 0.8;
+
+        &__schedule, &__photo {
+            top: 50%;
+            transform: translateY(-50%);
+            height: 70%;
+        }
+
+        &__quote {
+            height: 60px;
+            width: auto;
+            margin: 40px;
+
+            &--right {
+                bottom: 0;
+                right: 0;
+            }
+            &--left {
+                top: 0;
+                left: 0;
+                -moz-transform: scaleX(-1);
+                -o-transform: scaleX(-1);
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+                filter: FlipH;
+                -ms-filter: “FlipH”;
+            }
+        }
+    }
+
+
 }
 
 .tg {
