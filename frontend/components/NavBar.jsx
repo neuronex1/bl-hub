@@ -68,6 +68,10 @@ class NavBar extends React.PureComponent {
     }
 
     isCurrentTab(tab) {
+        if (tab.title == 'MBL Practicum') {
+            return window.location.pathname.match('/mbl/');
+        }
+
         let isActive = false;
         for(let i=0; i<tab.options.length; i++) {
             if (tab.options[i].link == window.location.pathname) {
