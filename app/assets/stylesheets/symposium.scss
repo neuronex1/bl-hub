@@ -1,0 +1,12 @@
+@import 'reset';
+
+#symposium-directions {
+    ul {
+       list-style-type: unset;
+       list-style-position: unset;
+       margin-left: 35px;
+       li {
+          list-style: unset;
+      }
+  }
+}
