@@ -31,23 +31,22 @@ const ABOUT_US_CONFIG = [
         title: 'Ute Hochgeschwender, MD, College of Medicine at Central Michigan University',
         positions: [
             'Professor of Neuroscience',
-            'Co- Principal Investigator',
+            'Co-Principal Investigator',
         ],
         blurb: 'Ute studies the role of neural activity in generating and alleviating neurological and psychiatric conditions, and is focused on stimulating or silencing neuronal activity using combinations of bioluminescent light and genetically-targeted, light-sensing opsins.'
     },
     {
         imgSrc: 'http://gdurl.com/7JjY',
-        title: 'Nathan Shaner, PhD',
+        title: 'Nathan Shaner, PhD, Associate Professor at Scintillon Institute for Biomedical and Bioenergy Research',
         positions: [
-            'Associate Professor, Scintillon Institute for Biomedical and Bioenergy Research',
-            'Co- Principal Investigator',
+            'Co-Principal Investigator',
         ],
         blurb: 'Nathan discovers new, naturally occurring bioluminescent and fluorescent molecules, and engineers improved variants for biological research applications, such as imaging.'
     },
     {
         imgSrc: 'http://gdurl.com/5-yM',
         backgroundPos: '-140px',
-        title: 'Justine J. Allen, PhD',
+        title: 'Justine J. Allen, PhD, Brown University',
         positions: [
             'Program Manager'
         ],
@@ -55,11 +54,11 @@ const ABOUT_US_CONFIG = [
     },
     {
         imgSrc: 'http://gdurl.com/3A4i',
-        title: 'Krystal Literman, MS',
+        title: 'Krystal Literman, MS, Brown University',
         positions: [
             'Administrative Assistant'
         ],
-        blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree of Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
+        blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree in Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
     }
 ];
 
@@ -78,7 +77,7 @@ const AboutUs = () => {
                     {renderAboutBoxes()}
                 </tbody>
             </table>
-            <div className='text-xs'>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a></div>
+            <div className='text-xs'>Website icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a></div>
         </React.Fragment>
     );
 }
