@@ -10,7 +10,7 @@ class Carousel extends React.PureComponent {
 
         this.slides = [
             {
-                src: 'http://gdurl.com/nsPir',
+                src: 'https://s3.amazonaws.com/bl-hub/aquorea_victoria-min.png',
                 caption: 'Symposium: Next Generation Technologies for Neuroscience',
                 title: 'June 11-12, 2018 | Brown University',
                 subtitle: [
