@@ -13,7 +13,6 @@ const AboutUsTextBox = (props) => {
 
     const style = {
         backgroundImage: 'url(\'' + props.imgSrc + '\') ',
-        backgroundPositionX: props.backgroundPos ? props.backgroundPos : 'initial'
     };
 
     return (

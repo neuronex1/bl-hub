@@ -10,7 +10,7 @@ class Carousel extends React.PureComponent {
 
         this.slides = [
             {
-                src: 'https://s3.amazonaws.com/bl-hub/aquorea_victoria-min.png',
+                src: 'https://s3.amazonaws.com/bl-hub/aquorea_victoria-min.jpg',
                 caption: 'Symposium: Next Generation Technologies for Neuroscience',
                 title: 'June 11-12, 2018 | Brown University',
                 subtitle: [
@@ -23,7 +23,7 @@ class Carousel extends React.PureComponent {
                 link: '/symposium/register'
             },
             {
-                src: 'http://gdurl.com/nI36',
+                src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
                 caption: 'Education at Many Levels',
                 title: 'Applications open October 2018!',
                 subtitle: ['18-23 March 2018', 'Marine Biological Laboratory', 'Woods Hole, MA'],
@@ -31,7 +31,7 @@ class Carousel extends React.PureComponent {
                 link: '/mbl/about'
             },
             {
-                src: 'http://gdurl.com/2Dnb',
+                src: 'https://s3.amazonaws.com/bl-hub/test_tubes-min.jpg',
                 caption: 'Sharing New Tools With Scientists',
                 title: 'Register now for our next Workshop!',
                 subtitle: ['06 August 2018', 'Brown University'],
