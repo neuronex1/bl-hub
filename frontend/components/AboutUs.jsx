@@ -9,10 +9,10 @@ const ABOUT_US_CONFIG = [
         title: 'Christopher I. Moore, PhD, Brown University',
         positions: [
             'Professor of Neuroscience',
-            'Associate Director of the Carney Institute for Brain Science',
+            'Associate Director of the Robert J. and Nancy D. Carney Institute for Brain Science',
             'Principal Investigator'
         ],
-        blurb: 'Chris studies neural dynamics and their role in information processing, and develops new technologies to test how phenomena such as ongoing brain activity patterns impact perception. www.themoorelab.org'
+        blurb: 'Chris studies neural dynamics and their role in information processing, and develops new technologies to test how phenomena such as ongoing brain activity patterns impact perception. Learn more on the <a class="bl-link" href="http://www.themoorelab.org">Moore Lab website.</a>'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/diane_lipscombe-min.jpg',
@@ -20,7 +20,7 @@ const ABOUT_US_CONFIG = [
         positions: [
             'Thomas J. Watson, Sr. Professor of Science',
             'Professor of Neuroscience ',
-            'Director of the Carney Institute for Brain Science',
+            'Director of the Robert J. and Nancy D. Carney Institute for Brain Science',
             'President of the Society for Neuroscience in 2019',
             'Co-Principal Investigator'
         ],
@@ -37,8 +37,9 @@ const ABOUT_US_CONFIG = [
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Nathan-min.jpg',
-        title: 'Nathan Shaner, PhD, Associate Professor at Scintillon Institute for Biomedical and Bioenergy Research',
+        title: 'Nathan Shaner, PhD, Scintillon Institute for Biomedical and Bioenergy Research',
         positions: [
+            'Associate Professor',
             'Co-Principal Investigator',
         ],
         blurb: 'Nathan discovers new, naturally occurring bioluminescent and fluorescent molecules, and engineers improved variants for biological research applications, such as imaging.'

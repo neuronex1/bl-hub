@@ -15,6 +15,10 @@ const AboutUsTextBox = (props) => {
         backgroundImage: 'url(\'' + props.imgSrc + '\') ',
     };
 
+    const getBlurb = (blurb) => {
+        return {__html: blurb};
+    };
+
     return (
         <tr key={props.title}>
             <td className='about-us__section'>
@@ -26,7 +30,8 @@ const AboutUsTextBox = (props) => {
                 <div className='about-us__text-wrapper'>
                     <p className='mbs mtm'><b>{props.title}</b></p>
                     {renderPositions()}
-                    <p className='mtm'>{props.blurb}</p>
+                    <p className='mtm'
+                        dangerouslySetInnerHTML={getBlurb(props.blurb)}></p>
                 </div>
             </td>
         </tr>
