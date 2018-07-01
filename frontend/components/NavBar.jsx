@@ -20,10 +20,6 @@ class NavBar extends React.PureComponent {
                         link: '/symposium/schedule'
                     },
                     {
-                        title: 'Register',
-                        link: '/symposium/register'
-                    },
-                    {
                         title: 'Poster Guidelines',
                         link: '/symposium/poster-guidelines'
                     },
@@ -112,8 +108,8 @@ class NavBar extends React.PureComponent {
     }
 
     render() {
-         return (
-             <div>
+        return (
+            <div>
                 <div className='bl-nav-bar-wrapper clearfix'>
                     <ul className='bl-nav-bar'>
                         {this.renderTabs(this.tabs)}
