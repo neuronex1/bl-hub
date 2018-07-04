@@ -27,7 +27,7 @@ class Carousel extends React.PureComponent {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
                 caption: 'Education at Many Levels',
                 title: 'Applications open October 2018!',
-                subtitle: ['18-23 March 2018', 'Marine Biological Laboratory', 'Woods Hole, MA'],
+                subtitle: ['March 18-23, 2018', 'Marine Biological Laboratory', 'Woods Hole, MA'],
                 buttonLabel: 'LEARN MORE',
                 link: '/mbl/about'
             },
@@ -35,7 +35,7 @@ class Carousel extends React.PureComponent {
                 src: 'https://s3.amazonaws.com/bl-hub/test_tubes-min.jpg',
                 caption: 'Sharing New Tools With Scientists',
                 title: 'Register now for our next Workshop!',
-                subtitle: ['06 August 2018', 'Brown University'],
+                subtitle: ['August 6, 2018', 'Brown University'],
                 buttonLabel: 'LEARN MORE',
                 link: '/research/workshops'
             }
