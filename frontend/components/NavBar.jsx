@@ -55,6 +55,17 @@ class NavBar extends React.PureComponent {
                 link: '/research/emissaries'
             },
             {
+                title: 'Data',
+                options: [
+                    {
+                        title: 'BDR Collection',
+                        link: 'https://repository.library.brown.edu/studio/collections/id_784/',
+                        extraClass: 'bl-dropdown__item--small-parent',
+                        linkTarget: '_blank'
+                    }
+                ]
+            },
+            {
                 title: 'About Our Hub',
                 link: '/about-us'
             },

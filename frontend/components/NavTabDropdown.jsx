@@ -11,9 +11,11 @@ class NavTabDropdown extends React.PureComponent {
         }
 
         return this.props.options.map((tab, idx) => {
+            let className = 'bl-dropdown__item ' + (tab.extraClass ? tab.extraClass : '');
+
             return (
-                <a href={tab.link} key={idx}>
-                    <li className='bl-dropdown__item'>
+                <a href={tab.link} key={idx} target={tab.linkTarget}>
+                    <li className={className}>
                         {tab.title}
                     </li>
                 </a>

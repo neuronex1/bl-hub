@@ -4,11 +4,11 @@
     background: $slate;
     color: whitesmoke;
     z-index: 10;
-    min-width: 950px;
+    min-width: 1012px;
 
     .bl-nav-bar {
         margin: auto;
-        width: 950px;
+        width: 1012px;
     }
 
     .bl-nav-tab {
@@ -42,6 +42,7 @@
                 .bl-dropdown {
                     display: inline-block;
                 }
+
                 .bl-nav-tab {
                     background: $yellow;
                     color: $off-black;
@@ -53,6 +54,11 @@
             color: white;
             padding: 15px 20px;
             background: gray;
+
+            &--small-parent {
+                display: block;
+                min-width: 100%;
+            }
 
             &:hover {
                 cursor: pointer;
