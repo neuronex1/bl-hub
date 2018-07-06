@@ -20,8 +20,8 @@ class Carousel extends React.PureComponent {
                     'Networking Opportunities',
                     'Poster Session'
                 ],
-                buttonLabel: 'REGISTER',
-                link: '/symposium/register'
+                buttonLabel: 'LEARN MORE',
+                link: '/symposium/learn-more'
             },
             {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',

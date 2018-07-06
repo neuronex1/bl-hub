@@ -35,7 +35,13 @@ img {
 }
 
 h2 {
+    font-size: 24px;
     margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 
 input[type="password"],
@@ -62,10 +68,6 @@ iframe {
   content: '';
   display: block;
   clear: both;
-}
-
-h2 {
-    font-size: 24px;
 }
 
 html {
