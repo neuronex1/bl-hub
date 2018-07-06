@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import NavBar from './components/NavBar.jsx';
 import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
+import FAQs from './components/FAQs.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -25,6 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
             ReactDOM.render(
                 <AboutUs />,
                 document.getElementById('about-us')
+            );
+            break;
+        case '/mbl/faqs':
+            ReactDOM.render(
+                <FAQs />,
+                document.getElementById('mbl-faqs')
             );
             break;
 
