@@ -59,7 +59,9 @@ class Carousel extends React.PureComponent {
     render() {
         return (
             <div>
-                <h2 className='text-center'>MBL Undergraduate Practicum FAQs</h2>
+                <div className='faq__img mbxl'>
+                    <h2 className='faq__title text-center'>MBL Undergraduate Practicum FAQs</h2>
+                </div>
                 {this.renderFAQs()}
                 <p>Have a question that is not answered here? <a class='bl-link' href='/contact-us'>Contact us!</a></p>
             </div>
