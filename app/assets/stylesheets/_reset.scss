@@ -1,10 +1,16 @@
-$yellow: #FFC726;
-$yellow-darker: #FFAE00;
-$green: #00bf08;
-$green-darker: #00b908;
+// $lightblue: #FFC726;
+// $lightblue-darker: #FFAE00;
+// $green: #00bf08;
+// $green-darker: #00b908;
 $grey-lighter: #8D8D8D;
 $slate: #434343;
 $off-black: #111111;
+
+$lightblue: #b5e8ff;
+$lightblue-darker: #82d8ff;
+$green: #3ce838;
+$green-darker: #3ce838;
+
 
 html, body, header, nav, div, a,
 ul, li, main, button, aside,
@@ -144,6 +150,23 @@ body {
 
 .mts {
     margin-top: 10px;
+}
+
+.mrs {
+    margin-right: 5px;
+}
+
+.mls {
+    margin-left: 5px;
+}
+
+
+.mrm {
+    margin-right: 10px;
+}
+
+.mlm {
+    margin-left: 10px;
 }
 
 .mrl {

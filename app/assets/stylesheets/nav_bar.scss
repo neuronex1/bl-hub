@@ -16,7 +16,7 @@
             cursor: pointer;
         }
         &.active, &:hover {
-            background: $yellow;
+            background: $lightblue;
             color: $off-black;
             transition: 0.2s ease;
         }
@@ -44,7 +44,7 @@
                 }
 
                 .bl-nav-tab {
-                    background: $yellow;
+                    background: $lightblue;
                     color: $off-black;
                 }
             }
