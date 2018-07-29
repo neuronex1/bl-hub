@@ -1,16 +1,10 @@
-// $lightblue: #FFC726;
-// $lightblue-darker: #FFAE00;
-// $green: #00bf08;
-// $green-darker: #00b908;
-$grey-lighter: #8D8D8D;
-$slate: #434343;
-$off-black: #111111;
-
 $lightblue: #b5e8ff;
 $lightblue-darker: #82d8ff;
 $green: #3ce838;
-$green-darker: #3ce838;
-
+$green-darker: #1dd419;
+$grey-lighter: #8D8D8D;
+$slate: #434343;
+$off-black: #111111;
 
 html, body, header, nav, div, a,
 ul, li, main, button, aside,
@@ -77,7 +71,7 @@ iframe {
 }
 
 html {
-  background: rgba(245,245,245,1);
+  background: white; // rgba(245,245,245,1);
   font-family: 'Roboto', sans-serif;
 }
 
