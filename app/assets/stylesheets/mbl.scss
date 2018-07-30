@@ -16,7 +16,7 @@
 }
 
 .mbl__header {
-    background: cornflowerblue;
+    background: $lightblue;
     text-align: center;
     font-weight: bold;
 }
@@ -30,7 +30,7 @@
 .panel-wrapper {
     width: 33%;
     height: 200px;
-    background: cornflowerblue;
+    background: $lightblue;
     position: relative;
 
     a {
@@ -51,7 +51,7 @@
 
     &:hover {
         cursor: pointer;
-        background: darken(aliceblue, 10%);
+        background: cornflowerblue;
         transition: none;
 
         .bl-icon {
@@ -151,10 +151,10 @@
     line-height: 24px;
 
     &:nth-of-type(odd) {
-        background: darken(aliceblue, 10%);
+        background: $lightblue;
     }
     &:nth-of-type(even) {
-        background: darken(aliceblue, 2%);
+        background: lighten($lightblue, 10%);
     }
     &:last-of-type {
         font-style: normal;
