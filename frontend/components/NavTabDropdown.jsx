@@ -29,11 +29,22 @@ class NavTabDropdown extends React.PureComponent {
             className += ' active';
         }
 
+        let titleTab = (
+            <li className={className}>
+                {this.props.title}
+            </li>
+        );
+
+        console.log(this.props);
+
+        if (this.props.titleLink) {
+            console.log('hi kia');
+            titleTab = <a href={this.props.titleLink}>{titleTab}</a>;
+        }
+
         return (
             <ul className='bl-dropdown__wrapper'>
-                <li className={className}>
-                    {this.props.title}
-                </li>
+                { titleTab }
                 <ul className='bl-dropdown'>
                     {this.renderOptions()}
                 </ul>

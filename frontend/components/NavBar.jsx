@@ -35,11 +35,8 @@ class NavBar extends React.PureComponent {
             },
             {
                 title: 'MBL Practicum',
+                link: '/mbl',
                 options: [
-                    {
-                        title: 'About',
-                        link: '/mbl/about'
-                    },
                     {
                         title: 'FAQs',
                         link: '/mbl/faqs'
@@ -112,6 +109,7 @@ class NavBar extends React.PureComponent {
                 return (
                     <NavTabDropdown
                         key={idx}
+                        titleLink={tab.link}
                         title={tab.title}
                         options={tab.options}
                         isActive={this.isCurrentTab(tab)}
