@@ -38,7 +38,6 @@ class NavTabDropdown extends React.PureComponent {
         console.log(this.props);
 
         if (this.props.titleLink) {
-            console.log('hi kia');
             titleTab = <a href={this.props.titleLink}>{titleTab}</a>;
         }
 

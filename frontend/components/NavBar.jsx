@@ -62,6 +62,7 @@ class NavBar extends React.PureComponent {
             },
             {
                 title: 'Data',
+                link: '/data',
                 options: [
                     {
                         title: 'BDR Collection',
