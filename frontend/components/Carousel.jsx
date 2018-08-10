@@ -20,7 +20,8 @@ class Carousel extends React.PureComponent {
                     'Demonstrations'
                 ],
                 buttonLabel: 'LEARN MORE',
-                link: '/workshops'
+                link: '/workshops',
+                photoCredit: 'Photo: Osamu Shimomura, courtesy NSF'
             },
             {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
@@ -28,7 +29,8 @@ class Carousel extends React.PureComponent {
                 title: 'Applications open October 2018!',
                 subtitle: ['March 18-23, 2018', 'Marine Biological Laboratory', 'Woods Hole, MA'],
                 buttonLabel: 'LEARN MORE',
-                link: '/mbl/about'
+                link: '/mbl/about',
+                photoCredit: ''
             },
             {
                 src: 'https://s3.amazonaws.com/bl-hub/test_tubes-min.jpg',
@@ -36,7 +38,8 @@ class Carousel extends React.PureComponent {
                 title: 'Register now for our next Workshop!',
                 subtitle: ['August 6, 2018', 'Brown University'],
                 buttonLabel: 'LEARN MORE',
-                link: '/research/workshops'
+                link: '/research/workshops',
+                photoCredit: ''
             }
         ];
 
@@ -108,6 +111,7 @@ class Carousel extends React.PureComponent {
                             <i className="fa fa-caret fa-caret-right" aria-hidden="true"></i>
                         </a>
                     </div>
+                    <p className='slide-photo-credit'>{slide.photoCredit}</p>
                 </div>
             );
 
