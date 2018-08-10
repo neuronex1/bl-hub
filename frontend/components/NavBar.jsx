@@ -14,7 +14,7 @@ class NavBar extends React.PureComponent {
             },
             {
                 title: 'Symposium',
-                link: '/symposium/learn-more',
+                link: '/symposium',
                 options: [
                     {
                         title: 'Schedule',

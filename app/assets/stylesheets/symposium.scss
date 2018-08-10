@@ -1,5 +1,37 @@
 @import 'reset';
 
+#symposium {
+    width: 700px;
+    line-height: 22px;
+
+    .symposium-subheader {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bl-logo {
+        display: inline-block;
+        height: 33px;
+        width: auto;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &--twitter {
+            height: 40px;
+            margin-bottom: -3px;
+        }
+
+        &--fb, &--linked-in{
+            height: 25px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
 #symposium-directions {
     ul {
        list-style-type: unset;

@@ -90,6 +90,12 @@ body {
     }
 }
 
+.horizontal-divider {
+    width: 100%;
+    background-color: #1111111;
+    border-bottom: 1px solid $slate;
+}
+
 .container {
     margin: 0 auto;
     background: white;
