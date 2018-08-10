@@ -39,10 +39,6 @@ class NavBar extends React.PureComponent {
                         link: '/mbl/faqs'
                     },
                     {
-                        title: 'Blog Post',
-                        link: '/mbl/blog'
-                    },
-                    {
                         title: '2018 Practicum',
                         link: '/mbl/2018-practicum'
                     },
