@@ -38,7 +38,7 @@ class Carousel extends React.PureComponent {
                 title: 'Register now for our next Workshop!',
                 subtitle: ['August 6, 2018', 'Brown University'],
                 buttonLabel: 'LEARN MORE',
-                link: '/research/workshops',
+                link: '/workshops',
                 photoCredit: ''
             }
         ];
