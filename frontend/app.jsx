@@ -6,6 +6,7 @@ import NavBar from './components/NavBar.jsx';
 import Homepage from './components/Homepage.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import FAQs from './components/FAQs.jsx';
+import MblPhotos from './components/MblPhotos.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -32,6 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
             ReactDOM.render(
                 <FAQs />,
                 document.getElementById('mbl-faqs')
+            );
+            break;
+        case '/mbl/2018-practicum/photos':
+            ReactDOM.render(
+                <MblPhotos />,
+                document.getElementById('mbl-photos')
             );
             break;
 

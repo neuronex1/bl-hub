@@ -27,6 +27,21 @@
     border-spacing: 15px;
 }
 
+.mbl__photo {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+
+    &-container {
+        margin: auto;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 .panel-wrapper {
     width: 33%;
     height: 200px;
