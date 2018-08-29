@@ -90,6 +90,15 @@ body {
     }
 }
 
+.styled-list {
+    list-style-type: unset;
+    list-style-position: unset;
+    margin-left: 35px;
+    li {
+        list-style: unset;
+    }
+}
+
 .horizontal-divider {
     width: 100%;
     background-color: #1111111;
@@ -212,4 +221,8 @@ body {
 
 .italics {
     font-style: italic;
+}
+
+.text-bold {
+    font-weight: bold;
 }
