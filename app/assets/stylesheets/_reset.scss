@@ -79,7 +79,7 @@ html {
 
 body {
   position: relative;
-  min-width: 1012px;
+  min-width: 1133px;
 }
 
 .bl-link {
@@ -225,4 +225,36 @@ body {
 
 .text-bold {
     font-weight: bold;
+}
+
+.img__fixed-width {
+    width: 70%;
+    margin: auto;
+}
+
+.img__hero-bg {
+    position: relative;
+    height: 300px;
+    width: 100%;
+
+    &--utra {
+        background:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://s3.amazonaws.com/bl-hub/luminb_h_Shimomura+NSF-min+cropped.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &--faq {
+        background:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://s3.amazonaws.com/bl-hub/mbl-faq-min.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+.hero-img__title {
+    vertical-align: middle;
+    line-height: 300px;
+    z-index: 3;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,.5);
 }

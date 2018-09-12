@@ -31,6 +31,33 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
+                title: 'Workshops',
+                link: '/workshops',
+                options: [
+                    {
+                        title: 'August 2018',
+                        link: '/workshops/august-2018'
+                    }
+                ]
+            },
+            {
+                title: 'Emissaries',
+                link: '/research/emissaries'
+            },
+            {
+                title: 'Education',
+                options: [
+                    {
+                        title: 'Summer Students',
+                        link: '/education/summer-students',
+                    },
+                    {
+                        title: 'UTRA at Brown',
+                        link: '/education/utra'
+                    }
+                ]
+            },
+            {
                 title: 'MBL Practicum',
                 link: '/mbl',
                 options: [
@@ -47,20 +74,6 @@ class NavBar extends React.PureComponent {
                         link: '/mbl/apply'
                     },
                 ]
-            },
-            {
-                title: 'Workshops',
-                link: '/workshops',
-                options: [
-                    {
-                        title: 'August 2018',
-                        link: '/workshops/august-2018'
-                    }
-                ]
-            },
-            {
-                title: 'Emissaries',
-                link: '/research/emissaries'
             },
             {
                 title: 'Data',
