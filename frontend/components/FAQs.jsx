@@ -17,6 +17,14 @@ const FAQs = [
         answer: '<p>If you have a laptop or other portable device, you may bring it with you; you will be able to access the MBL’s wifi once you are on campus.</p>'
     },
     {
+        question: 'Should I email you my résumé/CV?',
+        answer: '<p>You are not required to send us your résumé/CV, but you may include one when you email your transcript if you would like to share with us information that is not captured by our application.</p>'
+    },
+    {
+        question: 'Are international students eligible to apply?',
+        answer:'<p>Yes!</p>'
+    },
+    {
         question: 'When will I hear whether I have been accepted?',
         answer: '<p>We aim to notify applicants of their status in December, before winter break, but cannot guarantee a particular date.</p>'
     },
