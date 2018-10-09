@@ -48,8 +48,12 @@ class NavBar extends React.PureComponent {
                 title: 'Education',
                 options: [
                     {
-                        title: 'Summer Students',
-                        link: '/education/summer-students',
+                        title: 'Scintillon Students',
+                        link: '/education/scintillon-students',
+                    },
+                    {
+                        title: 'High School Students',
+                        link: '/education/high-school-students',
                     },
                     {
                         title: 'UTRA at Brown',
