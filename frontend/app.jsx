@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs.jsx';
 import FAQs from './components/FAQs.jsx';
 import MblPhotos from './components/MblPhotos.jsx';
 import ContactForm from './components/ContactForm.jsx';
+import DataIframes from './components/DataIframes.jsx';
 import Footer from './components/Footer.jsx';
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -41,6 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('mbl-photos')
             );
             break;
+        case '/data':
+            ReactDOM.render(
+                <DataIframes />,
+                document.getElementById('data-iframes')
+            );
 
     }
 
