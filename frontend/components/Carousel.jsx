@@ -103,15 +103,13 @@ class Carousel extends React.PureComponent {
                     <img className='bl-icon bl-icon__arrow bl-icon__arrow--left' src='https://s3.amazonaws.com/bl-hub/right-arrow.svg'
                     onClick={this.changeSlideClick.bind(this, 'prev')} />
                     <div className='text-container'>
-                        <p className='slide-caption'>{slide.caption}</p>
-                        <p className='slide-title'>{slide.title}</p>
+                        <p className='slide-title'>{slide.caption}</p>
                         <p className='slide-subtitle'>{this.renderSubtitle(slide.subtitle)}</p>
                         <a className='slide-button' href={slide.link}>
                             {slide.buttonLabel}
                             <i className="fa fa-caret fa-caret-right" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <p className='slide-photo-credit'>{slide.photoCredit}</p>
                 </div>
             );
 

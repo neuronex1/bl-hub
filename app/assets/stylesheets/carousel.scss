@@ -2,7 +2,8 @@
 
 .carousel {
     position: relative;
-    height: 600px;
+    min-height: 600px;
+    height: 100vh;
     background: black;
 
     .hero-img-container {
@@ -36,6 +37,7 @@
             height: 40px;
             position: absolute;
             right: 15px;
+            opacity: 0.6;
             width: auto;
             transform: translateY(-50%);
             top: 50%;
@@ -52,19 +54,10 @@
             }
 
             &:hover {
+                opacity: 1;
                 cursor: pointer;
             }
         }
-    }
-
-    .slide-photo-credit {
-        position: absolute;
-        bottom: 15px;
-        right: 15px;
-        font-size: 14px;
-        font-weight: 100;
-        color: white;
-        z-index: 2;
     }
 
     .text-container {

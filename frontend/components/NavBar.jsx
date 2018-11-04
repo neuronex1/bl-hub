@@ -9,11 +9,7 @@ class NavBar extends React.PureComponent {
         super(props);
          this.tabs = [
             {
-                title: 'Home',
-                link: '/'
-            },
-            {
-                title: 'Symposium',
+                title: 'SYMPOSIUM',
                 link: '/symposium',
                 options: [
                     {
@@ -31,7 +27,7 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'Workshops',
+                title: 'WORKSHOPS',
                 link: '/workshops',
                 options: [
                     {
@@ -41,11 +37,11 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'Emissaries',
+                title: 'EMISSARIES',
                 link: '/research/emissaries'
             },
             {
-                title: 'Education',
+                title: 'EDUCATION',
                 options: [
                     {
                         title: 'Scintillon Students',
@@ -62,7 +58,7 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'MBL Practicum',
+                title: 'PRACTICUM',
                 link: '/mbl',
                 options: [
                     {
@@ -80,7 +76,7 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'Data',
+                title: 'DATA',
                 link: '/data',
                 options: [
                     {
@@ -92,11 +88,11 @@ class NavBar extends React.PureComponent {
                 ]
             },
             {
-                title: 'About Our Hub',
+                title: 'ABOUT',
                 link: '/about-us'
             },
             {
-                title: 'Contact Us',
+                title: 'CONTACT',
                 link: '/contact-us'
             }
         ];
@@ -146,8 +142,17 @@ class NavBar extends React.PureComponent {
     }
 
     render() {
+        let logoSrc = 'https://s3.amazonaws.com/bl-hub/brain_black.png';
+        if (this.props.isHomepage) {
+            logoSrc ='https://s3.amazonaws.com/bl-hub/brain.png';
+        }
+
         return (
             <div>
+                <a href='/'>
+                    <h1 class='header float-left'>The Bioluminescence Hub</h1>
+                    <img class='header__logo' src={logoSrc}/>
+                </a>
                 <div className='bl-nav-bar-wrapper clearfix'>
                     <ul className='bl-nav-bar'>
                         {this.renderTabs(this.tabs)}

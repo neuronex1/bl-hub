@@ -12,10 +12,17 @@ import DataIframes from './components/DataIframes.jsx';
 import Footer from './components/Footer.jsx';
 
 document.addEventListener("DOMContentLoaded", function () {
-    ReactDOM.render(
-        <NavBar />,
-        document.getElementById('nav-bar-container')
-    );
+    if (window.location.pathname === '/') {
+        ReactDOM.render(
+            <Homepage />,
+            document.getElementById('home')
+        );
+    } else {
+        ReactDOM.render(
+            <NavBar />,
+            document.getElementById('nav-bar-container')
+        );
+    }
 
     switch (window.location.pathname) {
         case '/':

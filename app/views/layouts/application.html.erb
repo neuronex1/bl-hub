@@ -15,16 +15,9 @@
   </head>
 
   <body id='bl-app'>
-      <div class='header clearfix'>
-          <img class='header__logo mlxl mbxl' src='https://s3.amazonaws.com/bl-hub/home-logo.png'/>
-          <h1>The Bioluminescence Hub</h1>
-          <span class='neuronex-text'><span class='italics'>Powered by</span> <a href='https://www.nsf.gov/news/news_summ.jsp?cntn_id=242652'>NSF NeuroNex</a></span>
-          <div class='logo-container'>
-              <a href='https://twitter.com/biolumhub'><img class='bl-logo bl-logo--twitter' src='https://s3.amazonaws.com/bl-hub/Twitter_Logo_Blue.svg'/></a>
-              <a href='https://www.instagram.com/biolumhub/'><img class='bl-logo bl-logo--ig' src='https://s3.amazonaws.com/bl-hub/logos/IG_Glyph_Fill-min.png'/></a>
-          </div>
-      </div>
-      <div id='nav-bar-container'></div>
+      <% unless (params[:controller] == 'home') %>
+          <div id='nav-bar-container'></div>
+      <% end %>
       <%= yield %>
   </body>
 

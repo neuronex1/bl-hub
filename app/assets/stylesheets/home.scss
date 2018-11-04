@@ -12,17 +12,15 @@
 }
 
 .header {
-    position: relative;
-
-    h1 {
-        font-size: 34px;
-        margin: 15px 0 25px 130px;
-    }
+    margin: 25px;
+    margin-left: 60px;
+    font-weight: lighter;
 
     &__logo {
-        width: 100px;
+        width: 30px;
         position: absolute;
-        bottom: -30px;
+        top: 19px;
+        left: 25px;
     }
 }
 
