@@ -110,16 +110,9 @@ class Carousel extends React.PureComponent {
                             <i className="fa fa-caret fa-caret-right" aria-hidden="true"></i>
                         </a>
                     </div>
+                    <p className='slide-photo-credit'>{slide.photoCredit}</p>
                 </div>
             );
-
-            // <div className={className} key={idx} style={style}>
-            //     <div className='text-container'>
-            //         <p className='slide-caption'>{slide.caption}</p>
-            //         <p className='slide-title'>{slide.title}</p>
-            //         <p className='slide-subtitle'>{slide.subtitle}</p>
-            //     </div>
-            // </div>
         });
     }
 
