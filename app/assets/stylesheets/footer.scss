@@ -1,16 +1,19 @@
-#footer .footer-contents {
-    height: 20px;
-    border-top: 1px solid lightgray;
-    padding: 50px;
-    background-color: #f4f4f4;
-    font-size: 14px;
-    font-weight: lighter;
-    position: relative;
+#footer {
+    .footer-wrapper {
+        height: 110px;
+        border-top: 1px solid lightgray;
+        background-color: #f4f4f4;
+        font-size: 14px;
+        font-weight: lighter;
+        position: relative;
+    }
 
-    .footer-center {
-        position: absolute;
-        top: 50px;
-        right: 0;
-        left: 0;
+    .footer-contents {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        margin: 0 auto;
+        line-height: 30px;
     }
 }
