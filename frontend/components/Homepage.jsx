@@ -11,6 +11,7 @@ const Homepage = (props) => {
                 <NavBar isHomepage={true}/>
             </div>
             <Carousel />
+            <img className='bl-hub__logo mtxl mbxl' src='https://s3.amazonaws.com/bl-hub/logos/BL+Hub+Logo.png'/>
         </React.Fragment>
     );
 };

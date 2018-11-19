@@ -54,3 +54,23 @@
         cursor: pointer;
     }
 }
+
+.bl-hub__logo {
+    width: 330px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1180px) {
+    .header, .header__logo {
+        display: none;
+    }
+
+    .nav-bar-container {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .bl-nav-bar-wrapper {
+        position: relative !important;
+    }
+}
