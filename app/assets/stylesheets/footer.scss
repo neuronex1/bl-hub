@@ -1,10 +1,16 @@
 #footer .footer-contents {
-    height: 150px;
+    height: 20px;
     border-top: 1px solid lightgray;
-    width: 100%;
+    padding: 50px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    font-weight: lighter;
+    position: relative;
 
-    p {
-        margin: 65px auto 0;
-        text-align: center;
+    .footer-center {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        left: 0;
     }
 }
