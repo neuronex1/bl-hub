@@ -42,20 +42,7 @@ class NavBar extends React.PureComponent {
             },
             {
                 title: 'EDUCATION',
-                options: [
-                    {
-                        title: 'Scintillon Students',
-                        link: '/education/scintillon-students',
-                    },
-                    {
-                        title: 'High School Students',
-                        link: '/education/high-school-students',
-                    },
-                    {
-                        title: 'UTRA at Brown',
-                        link: '/education/utra'
-                    }
-                ]
+                link: '/education'
             },
             {
                 title: 'PRACTICUM',
