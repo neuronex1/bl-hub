@@ -72,7 +72,6 @@ const AboutUs = () => {
     return (
         <React.Fragment>
             <h2 className='text-center'>About Us</h2>
-            <p className='mbxl mtxl'>Our Hub will systematically develop and disseminate novel and powerful bioluminescent (BL) tools for brain science and advance BL as a transformative tool in neuroscience through Innovation, Dissemination and Education. Hub-driven Innovation will greatly enhance BL control and imaging applications, widespread Dissemination of these new BL methods and related technologies will support their use across neuroscience, and Education will use this compelling biological phenomenon as a focus for an interdisciplinary curriculum for high school and undergraduate students.</p>
             <table className='about-us__table'>
                 <tbody>
                     {renderAboutBoxes()}
