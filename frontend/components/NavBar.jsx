@@ -137,8 +137,8 @@ class NavBar extends React.PureComponent {
         return (
             <div>
                 <a href='/'>
-                    <h1 class='header float-left'>The Bioluminescence Hub</h1>
-                    <img class='header__logo' src={logoSrc}/>
+                    <h1 className='header float-left'>The Bioluminescence Hub</h1>
+                    <img className='header__logo' src={logoSrc}/>
                 </a>
                 <div className='bl-nav-bar-wrapper clearfix'>
                     <ul className='bl-nav-bar'>
