@@ -36,6 +36,7 @@ span, article, footer {
 
 ul, li {
   list-style: none;
+  list-style-position: outside;
 }
 
 img {
@@ -132,9 +133,12 @@ footer {
 .button-img {
     margin: auto;
     position: relative;
-    width: 50%;
+    display: inline-block;
+    width: 47%;
 
     img {
+        min-width: 310px;
+        max-width: 450px;
         position: relative;
         border-radius: 3px;
     }
@@ -146,6 +150,9 @@ footer {
         background-color: darken($lightblue, 40);
         opacity: 0;
         top: 0;
+        bottom: 0;
+        left: 0;
+        right: -4px;
         cursor: pointer;
         border-radius: 3px;
     }
