@@ -26,21 +26,7 @@ class NavBar extends React.PureComponent {
             },
             {
                 title: 'MBL PRACTICUM',
-                link: '/mbl',
-                options: [
-                    {
-                        title: 'FAQs',
-                        link: '/mbl/faqs'
-                    },
-                    {
-                        title: '2018 Practicum',
-                        link: '/mbl/2018-practicum'
-                    },
-                    {
-                        title: 'Apply',
-                        link: '/mbl/apply'
-                    },
-                ]
+                link: '/mbl'
             },
             {
                 title: 'DATA',

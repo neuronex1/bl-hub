@@ -6,9 +6,10 @@
        list-style-position: outside;
        margin: 15px;
        li {
-          list-style: unset;
-      }
-   }
+           margin-left: 15px;
+           list-style: unset;
+        }
+    }
 }
 
 .row:nth-of-type(odd) {
@@ -22,7 +23,8 @@
 }
 
 .mbl__landing {
-    width: 100%;
+    margin: auto;
+    width: 80%;
     border-collapse: separate;
     border-spacing: 15px;
 }
@@ -107,6 +109,12 @@
                 filter: FlipH;
                 -ms-filter: “FlipH”;
             }
+        }
+
+        &__newspaper {
+            top: 50%;
+            transform: translateY(-50%);
+            height: 70%;
         }
     }
 }
