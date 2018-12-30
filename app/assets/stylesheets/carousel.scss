@@ -115,20 +115,9 @@
         }
 
         .slide-button {
-            background-color: $lightblue;
-            padding: 10px 15px;
-            border-radius: 2px;
             position: absolute;
             bottom: 60px;
             left: 55px;
-
-            &:hover {
-                cursor: pointer;
-            }
-
-            i {
-                margin-left: 5px;
-            }
         }
     }
 }

@@ -56,9 +56,4 @@ document.addEventListener("DOMContentLoaded", function () {
             );
 
     }
-
-    ReactDOM.render(
-        <Footer />,
-        document.getElementById('footer')
-    );
 });
