@@ -11,12 +11,23 @@
     font-size: 14px;
 }
 
-.mission-statement-container {
-    position: relative;
-    width: 66%;
-    margin: 30px auto;
+.mission-statement {
+    width: 1000px;
+    margin: auto;
 
-    .mission-statement {
+    img {
+        display: inline-block;
+        vertical-align: text-bottom;
+    }
+
+    &__text-container {
+        display: inline-block;
+        position: relative;
+        width: 631px;
+        margin: 30px auto;
+    }
+
+    &__text {
         text-align: center;
         line-height: 1.5;
         font-weight: 100;
