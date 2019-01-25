@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>BL Hub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <%= favicon_link_tag 'https://s3.amazonaws.com/bl-hub/logos/brain_blue.png' %>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/f8e35c4eda.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -12,25 +14,58 @@
     <%= stylesheet_link_tag 'default-skin' %>
     <script src="/assets/photoswipe-ui-default.min.js"></script>
     <script src="/assets/photoswipe.min.js"></script>
-  </head>
+</head>
 
-  <body id='bl-app'>
-      <% unless (params[:controller] == 'home') %>
-          <div id='nav-bar-container'></div>
-      <% end %>
-      <%= yield %>
-  </body>
+<body id='bl-app'>
+    <% unless (params[:controller] == 'home') %>
+    <div id='nav-bar-container'></div>
+    <% end %>
+    <%= yield %>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
 
-  <footer id='footer'>
-      <div class='footer-wrapper'>
-          <div class='footer-contents'>
-              <p>© 2018 Sail High Productions</p>
-              <p>The Bioluminescence Hub</p>
-              <div>
-                  <a href='https://twitter.com/biolumhub' target='_blank'><img class='bl-logo bl-logo--twitter' src='https://s3.amazonaws.com/bl-hub/Twitter_Logo_Blue.svg'/></a>
-                  <a href='https://www.instagram.com/biolumhub/' target='_blank'><img href='#' class='bl-logo bl-logo--ig' src='https://s3.amazonaws.com/bl-hub/logos/IG_Glyph_Fill-min.png'/></a>
-              </div>
-          </div>
-      </div>
-  </footer>
+<footer id='footer'>
+    <div class='footer-wrapper'>
+        <div class='footer-contents'>
+            <p>© 2018 Sail High Productions</p>
+            <p>The Bioluminescence Hub</p>
+            <div>
+                <a><img class='bl-logo bl-logo--email' src='https://s3.amazonaws.com/bl-hub/logos/email.png'/></a>
+                <a href='https://twitter.com/biolumhub' target='_blank'><img class='bl-logo bl-logo--twitter' src='https://s3.amazonaws.com/bl-hub/Twitter_Logo_Blue.svg'/></a>
+                <a href='https://www.instagram.com/biolumhub/' target='_blank'><img href='#' class='bl-logo bl-logo--ig' src='https://s3.amazonaws.com/bl-hub/logos/IG_Glyph_Fill-min.png'/></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id='email-modal'>
+    <div class='text-xl text-center mbl'>Contact Us</div>
+    <form  method="POST" action="https://formspree.io/kia.salehi@gmail.com">
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email address" name="email">
+        </div>
+        <div class="form-group">
+            <select class="form-control" name="subject">
+                <option>Subject</option>
+                <option>Constructs</option>
+                <option>Emissaries</option>
+                <option>MBL Practicums</option>
+                <option>Questions</option>
+                <option>Research Ideas</option>
+                <option>Workshops</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="messageTextArea">Message:</label>
+            <textarea name="message" class="form-control" id="messageTextArea" rows="6"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary mb-2 mbl mtl">Submit</button>
+        </div>
+        <div id="form-close" class="text-xs text-center" style="color:grey;">Close</div>
+    </form>
+</div>
 </html>

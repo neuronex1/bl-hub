@@ -35,10 +35,6 @@ class NavBar extends React.PureComponent {
             {
                 title: 'ABOUT',
                 link: '/about-us'
-            },
-            {
-                title: 'CONTACT',
-                link: '/contact-us'
             }
         ];
 

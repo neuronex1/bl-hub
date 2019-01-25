@@ -9,7 +9,6 @@ import FAQs from './components/FAQs.jsx';
 import MblPhotos from './components/MblPhotos.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import DataIframes from './components/DataIframes.jsx';
-import Footer from './components/Footer.jsx';
 
 document.addEventListener("DOMContentLoaded", function () {
     if (window.location.pathname === '/') {
