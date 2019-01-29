@@ -64,6 +64,9 @@
         font-weight: bold;
         letter-spacing: 3px;
         line-height: 200px;
+        cursor: pointer;
+        text-decoration: none !important;
+        color: $off-black;
     }
 
     &:hover {

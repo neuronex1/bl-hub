@@ -87,6 +87,7 @@
         &:hover {
             background: darken($grey-lighter, 15);
             color: white;
+            transition: 0.5s ease;
         }
     }
 
@@ -142,6 +143,10 @@
         cursor: pointer;
         text-decoration: none;
         color: $off-black;
+        font-size: 20px;
+        width: 80%;
+        font-weight: bold;
+        letter-spacing: 2px;
     }
 
     &__img {
