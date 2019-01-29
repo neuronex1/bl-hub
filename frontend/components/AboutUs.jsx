@@ -58,7 +58,7 @@ const ABOUT_US_CONFIG = [
             'Administrative Assistant'
         ],
         blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree in Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
-    }, 
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
         title: 'Andreas Björefeldt, PhD, Central Michigan University',
@@ -140,7 +140,7 @@ const ABOUT_US_CONFIG = [
         blurb: 'Eric is working on two projects. First, he is refining the generation of neural stem cells from adipose tissue. Second, he is applying luminopsins as a novel therapeutic method for stimulation at the neuronal level to improve recovery after spinal cord injury in a rat model.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Rachel_Schumaker-min.jpg',
         title: 'Rachel Schumaker, Central Michigan University',
         positions: [
             'Graduate Student'

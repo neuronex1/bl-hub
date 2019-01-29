@@ -22,6 +22,6 @@
     "prod": "export NODE_ENV=production && webpack --progress -p"
   },
   "devDependencies": {
-    "webpack-cli": "^2.0.15"
+    "webpack-cli": "^3.2.1"
   }
 }
