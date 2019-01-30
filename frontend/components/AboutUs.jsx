@@ -124,6 +124,14 @@ const ABOUT_US_CONFIG = [
         blurb: 'Manny is focusing on driving non-ion-exchanging optical sensors with bioluminescence.'
     },
     {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Klein-min.JPG',
+        title: 'Eric Klein, Brown University',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'Eric is researching neuronal activity along blood vessels in the brain using viruses injected into mouse tail veins for systemic infection.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Akash_Pal-min.jpg',
         title: 'Akash Pal, Central Michigan University',
         positions: [
@@ -146,6 +154,14 @@ const ABOUT_US_CONFIG = [
             'Graduate Student'
         ],
         blurb: 'Rachel is is focused on molecular engineering of luciferase-driven tools.'
+    },
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Robyn_St.Laurent-min.jpeg',
+        title: 'Robyn St. Laurent, Brown University',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
