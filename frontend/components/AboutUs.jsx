@@ -132,6 +132,14 @@ const ABOUT_US_CONFIG = [
         blurb: 'Eric is researching neuronal activity along blood vessels in the brain using viruses injected into mouse tail veins for systemic infection.'
     },
     {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ian_More-min.jpg',
+        title: 'A. Ian More, Brown University',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Akash_Pal-min.jpg',
         title: 'Akash Pal, Central Michigan University',
         positions: [
