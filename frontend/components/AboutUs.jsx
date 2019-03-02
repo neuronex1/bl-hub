@@ -217,6 +217,7 @@ const AboutUs = () => {
             <p className='text-m pull-right'>Additional icons: Clker-Free-Vector-Image (Pixabay).</p>
             <br/>
             <p className='text-m pull-right'>Credit for glow worms: Flickr; Eden, Janine and Jim.</p>
+            <p className='text-m pull-right'>Credit for <span class='italics'>Gaussia princeps</span> on Emissary button: Hopcroft/UAF/CMarZ hopcroft@ims.uaf.edu.</p>
         </React.Fragment>
     );
 }
