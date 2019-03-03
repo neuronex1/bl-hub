@@ -3,6 +3,7 @@ $lightblue-darker: #97B7D5;
 $green: #339966;
 $green-darker: #268C59;
 $grey-lighter: #8D8D8D;
+$grey-lightest: #e6e6e6;
 $slate: #434343;
 $off-black: #000000;
 $purple: #666699;
@@ -175,6 +176,11 @@ footer {
     padding: 15px 100px 70px;
     min-height: 330px;
     min-width: 600px;
+
+    &--wide {
+        width: 85%;
+        min-width: 1000px;
+    }
 }
 
 .text-center {

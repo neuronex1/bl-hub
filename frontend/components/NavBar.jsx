@@ -29,6 +29,10 @@ class NavBar extends React.PureComponent {
                 link: '/mbl'
             },
             {
+                title: 'CONSTRUCTS',
+                link: '/constructs'
+            },
+            {
                 title: 'DATA',
                 link: '/data'
             },

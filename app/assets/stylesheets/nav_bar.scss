@@ -22,13 +22,14 @@
 }
 
 .bl-nav-bar-wrapper {
-    min-width: 819px;
+    min-width: 951px;
     position: absolute;
+    float: right;
     right: 15px;
 
     .bl-nav-bar {
         margin: auto;
-        width: 819px;
+        width: 951px;
     }
 
     .bl-nav-tab {

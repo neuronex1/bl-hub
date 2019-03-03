@@ -1,0 +1,68 @@
+@import 'reset';
+
+.bdr-filter {
+    display: inline;
+}
+
+.construct__img {
+    height: 240px;
+    width: auto;
+    margin: auto;
+}
+
+.constructs {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 25px 0 0;
+    min-width: 690px;
+}
+
+.construct__item {
+    width: 100%;
+    margin-top: 30px;
+    padding: 25px;
+    border: 1px solid $grey-lightest;
+
+    td {
+        padding: 15px;
+    }
+
+    li {
+        line-height: 22px;
+    }
+
+    &-title {
+        background-color: $grey-lightest;
+    }
+}
+
+.facets {
+    padding: 25px;
+    min-width: 250px;
+    display: inline-block;
+}
+
+.facet__item {
+    display: block;
+    width: 200px;
+
+    label {
+        display: inline;
+    }
+
+    input[type=checkbox] {
+        display: inline;
+        vertical-align: top;
+        margin-top: 2px;
+    }
+}
+
+.facets__nav {
+    height: 35px;
+}
+
+.facet__wrapper {
+    background: $grey-lightest;
+    padding: 15px;
+    margin-top: 15px;
+}

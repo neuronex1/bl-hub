@@ -1,0 +1,57 @@
+<div class='bdr container container--wide' id='bdr'>
+<table class='bdr-filter' width='100%'>
+<tr>
+    <td class='facets'>
+        <div class='facets__nav'>
+            <span>Filter</span>
+            <button id='filter-button'
+                form='facet-filter'
+                class='btn btn-primary float-right'>
+                Refine Search
+            </button>
+        </div>
+        <form method='get' id='facet-filter'>
+        <% @facets.each do |facet, propertyArr| %>
+            <div class='facet__wrapper'>
+                <p class='mbs'><%= facet %></p>
+                <% propertyArr.uniq.each_with_index do |propertyObj, idx| %>
+                    <div class='facet__item'>
+                        <% if propertyObj[:isChecked] %>
+                            <input type='checkbox' id='<%= propertyObj[:property] %>' name='<%= "#{facet}_#{idx}" %>' value='<%= propertyObj[:property] %>' checked />
+                        <% else %>
+                            <input type='checkbox' id='<%= propertyObj[:property] %>' name='<%= "#{facet}_#{idx}" %>' value='<%= propertyObj[:property] %>' />
+                        <% end %>
+                        <span><label for='<%= propertyObj[:property] %>'><%= propertyObj[:property] %></label></span>
+                    </div>
+                <% end %>
+            </div>
+        <% end %>
+        </form>
+    </td>
+    <td class='constructs'>
+        <p>Results:</p>
+        <% @searchResults.each do |construct| %>
+            <table class='construct__item'>
+                <tr><td colspan='2' class='construct__item-title'><div><%= construct['primary_title'] %></div></td></tr>
+                <tr>
+                    <td>
+                        <% @facets.each do |facetName, prop| %>
+                            <% facetStr = facetName.downcase %>
+                            <% constructField = "mods_note_construct_#{facetStr}_ssim" %>
+                            <% if construct[constructField] %>
+                                <li class='text-s'><%= facetName %>: <%= construct[constructField][0] %></li>
+                            <% end %>
+                        <% end %>
+                    </td>
+                    <td>
+                        <img src='<%= construct['thumbnail'] %>'
+                            class='construct__img'
+                        />
+                    </td>
+                </tr>
+            </table>
+        <% end %>
+    </td>
+</tr>
+</table>
+</div>
