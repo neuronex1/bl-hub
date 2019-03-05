@@ -30,6 +30,9 @@
     </td>
     <td class='constructs'>
         <p>Results:</p>
+        <% if @searchResults.empty? %>
+            <p class='construct__item'>There are no constructs matching the parameters you have selected.</p>
+        <% end %>
         <% @searchResults.each do |construct| %>
             <table class='construct__item'>
                 <tr><td colspan='2' class='construct__item-title'><div><%= construct['primary_title'] %></div></td></tr>
