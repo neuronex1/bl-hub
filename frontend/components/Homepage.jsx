@@ -18,7 +18,7 @@ const CARDS_DATA = [
     {
         title: 'Research & Constructs',
         imgSrc: 'https://s3.amazonaws.com/bl-hub/open-science-fig-min.jpg',
-        destinationLink: 'research-and-constructs'
+        destinationLink: 'constructs'
     },
 ];
 
