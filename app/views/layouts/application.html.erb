@@ -2,13 +2,21 @@
 <html>
 <head>
     <title>BL Hub</title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135505723-1"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5P9CVGP');</script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-13550597-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-135505723-1');
+      gtag('config', 'UA-13550597-1');
     </script>
+    <!-- end Google Analytics -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <%= favicon_link_tag 'https://s3.amazonaws.com/bl-hub/logos/brain_blue.png' %>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -19,11 +27,13 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag 'photoswipe'  %>
     <%= stylesheet_link_tag 'default-skin' %>
-    <script src="/assets/photoswipe-ui-default.min.js"></script>
-    <script src="/assets/photoswipe.min.js"></script>
 </head>
 
 <body id='bl-app'>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5P9CVGP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <% unless (params[:controller] == 'home') %>
     <div id='nav-bar-container'></div>
     <% end %>
