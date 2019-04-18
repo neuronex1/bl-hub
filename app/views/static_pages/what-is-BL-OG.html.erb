@@ -1,5 +1,13 @@
+<% url = 'https://repository.library.brown.edu/api/items/bdr:847090/'; %>
+<%response = RestClient.get(url)%>
+<% data = JSON.parse(response)%>
+<% @iframeHtml = data['display_inline'] %>
+
 <div class='container' id='what-is-blog'>
 <h2 class='text-center'>What is BL-OG?</h2>
+<br/>
+<br/>
+<%= @iframeHtml.html_safe  %>
 <br/>
 <br/>
 <h3>What is bioluminescence?</h3>
