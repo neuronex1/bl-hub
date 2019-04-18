@@ -1,92 +1,75 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8" />
-  <title>Challenge: Mad Libs</title>
- </head>
- <body>
- 
-    <h1>The Professor's Glowing Brains</h1>
-     
-    <ul>
-      <li>Adverb: <input type="text" id="adverb1"></li>
-      <li>Plural Noun: <input type="text" id="pluralnoun"></li>
-      <li>Someone's Name: <input type="text" id="name1"></li>
-      <li>Someone's Name: <input type="text" id="name2"></li>
-      <li>Someone's Name: <input type="text" id="name3"></li>
-      <li>Adjective: <input type="text" id="adjective1"></li>
-      <li>Verb: <input type="text" id="verb1"></li>
-      <li>Adjective: <input type="text" id="adjective2"></li>
-      <li>Color: <input type="text" id="color1"></li>
-      <li>Verb: <input type="text" id="verb2"></li>
-      <li>Noun: <input type="text" id="noun1"></li>
-      <li>Adverb: <input type="text" id="adverb2"></li>
-      <li>Verb: <input type="text" id="verb3"></li>
-      <li>Color: <input type="text" id="color2"></li>
-      <li>Emotion: <input type="text" id="emotion"></li>
-      <li>Exclamation: <input type="text" id="exclamation1"></li>
-      <li>Noun: <input type="text" id="noun2"></li>
-      <li>Verb (present tense): <input type="text" id="verb4"></li>
-      <li>Verb (past tense): <input type="text" id="verb5"></li>
-      <li>Exclamation: <input type="text" id="exclamation2"></li>
-      <li>Adjective: <input type="text" id="adjective3"></li>
-      <li>Color: <input type="text" id="color3"></li>
-      <li>Adjective: <input type="text" id="adjective4"></li>
-      <li>Verb (present tense): <input type="text" id="verb6"></li>
-      <li>Adjective: <input type="text" id="adjective5"></li>
-      <li>Adjective: <input type="text" id="adjective6"></li>
-    </ul>
-     
-    <button id="lib-button" onclick="libIt();">Lib it!</button>
-      
-    <p>Generated story:
-    <span id="story"></span>
-    </p>
- 
-    <script>
-        var libIt = function() {
-        var storyDiv = document.getElementById("story");
-        var adverb1 = document.getElementById("adverb1").value;
-        var pluralnoun = document.getElementById("pluralnoun").value;
-        var name1 = document.getElementById("name1").value;
-        var name2 = document.getElementById("name2").value;
-        var name3 = document.getElementById("name3").value;
-        var adjective1 = document.getElementById("adjective1").value;
-        var verb1 = document.getElementById("verb1").value;
-        var adjective2 = document.getElementById("adjective2").value;
-        var color1 = document.getElementById("color1").value;
-        var verb2 = document.getElementById("verb2").value;
-        var noun1 = document.getElementById("noun1").value;
-        var adverb2 = document.getElementById("adverb2").value;
-        var verb3 = document.getElementById("verb3").value;
-        var color2 = document.getElementById("color2").value;
-        var emotion = document.getElementById("emotion").value;
-        var exclamation1 = document.getElementById("exclamation1").value;
-        var noun2 = document.getElementById("noun2").value;
-        var verb4 = document.getElementById("verb4").value;
-        var verb5 = document.getElementById("verb5").value;
-        var exclamation2 = document.getElementById("exclamation2").value;
-        var adjective3 = document.getElementById("adjective3").value;
-        var color3 = document.getElementById("color3").value;
-        var adjective4 = document.getElementById("adjective4").value;
-        var verb6 = document.getElementById("verb6").value;
-        var adjective5 = document.getElementById("adjective5").value;
-        var adjective6 = document.getElementById("adjective6").value;
+<div class='container' id='madlib-professors-brains'>
+    <h2 class='text-center'>The Professor's Glowing Brains</h2>
+    <ul class='bl-list'>
+        <li>Adverb: <input type="text" id="adverb1"></li>
+        <li>Plural Noun: <input type="text" id="pluralnoun"></li>
+        <li>Someone's Name: <input type="text" id="name1"></li>
+        <li>Someone's Name: <input type="text" id="name2"></li>
+        <li>Someone's Name: <input type="text" id="name3"></li>
+        <li>Adjective: <input type="text" id="adjective1"></li>
+        <li>Verb: <input type="text" id="verb1"></li>
+        <li>Adjective: <input type="text" id="adjective2"></li>
+        <li>Color: <input type="text" id="color1"></li>
+        <li>Verb: <input type="text" id="verb2"></li>
+        <li>Noun: <input type="text" id="noun1"></li>
+        <li>Adverb: <input type="text" id="adverb2"></li>
+        <li>Verb: <input type="text" id="verb3"></li>
+        <li>Color: <input type="text" id="color2"></li>
+        <li>Emotion: <input type="text" id="emotion"></li>
+        <li>Exclamation: <input type="text" id="exclamation1"></li>
+        <li>Noun: <input type="text" id="noun2"></li>
+        <li>Verb (present tense): <input type="text" id="verb4"></li>
+        <li>Verb (past tense): <input type="text" id="verb5"></li>
+        <li>Exclamation: <input type="text" id="exclamation2"></li>
+        <li>Adjective: <input type="text" id="adjective3"></li>
+        <li>Color: <input type="text" id="color3"></li>
+        <li>Adjective: <input type="text" id="adjective4"></li>
+        <li>Verb (present tense): <input type="text" id="verb6"></li>
+        <li>Adjective: <input type="text" id="adjective5"></li>
+        <li>Adjective: <input type="text" id="adjective6"></li>
+    </ul>
+    <button class='btn btn-primary mtxl mbxl' id="lib-button" onclick="libIt();">Lib it!</button>
+    <p>Generated story:
+        <span id="story"></span>
+    </p>
 
-            storyDiv.innerHTML = 'The professor ' + adverb1 + ' walked into the lab. The ' + pluralnoun + ' called ' + name1 + ', ' + name2 + ', and ' + name3 + ' scurried about their ' + adjective1 + ' cage upon the professor&apos;s arrival. The professor ' + verb1 + 'ed over to them, smiling. "Today is the day we make your ' + adjective2
-+ ' brains glow ' + color1 + '! You won&apos;t ' + verb2 + ' a ' + noun1 + '!" The construct prepared beforehand was ' + adverb2 + ' ready for injection. “I&apos;m ready," '
-+ name1 + ' said, "I want to ' + verb3 + ' my brain glow ' + color2 + '!" Professor Moore gently injected the luciferin. Now we wait!" the professor said to ' + name3
-+ ' and ' + name2 + ', watching in ' + emotion + '. "' + exclamation1 + '!" said ' + name3 + ' while chewing on a piece of ' + noun2 + ' "I hope it works!" ' + name2 + ' said while '
-+ verb4 + ' some cheese. The professor ' + verb5 + ' the charge-coupled device (CCD) camera. "' + exclamation2 + '!" The luciferin seems to have found the target luciferase! The '+ adjective3 + ' brain, it glows ' + color3 + '!" Next, using electrophysiology, the ' + adjective4 + ' professor noticed a particular neuron was ' + verb6
-+ 'more than usual. "This is ' + adjective5 + '! This construct might cause excitation in your ' + adjective6 + ' brains!" The professor said to the mice. "Eureka!"';
-        };
-        
-    </script>
- 
- </body>
- 
-<!Story by Rebecca Berger-Gutierrez; HTML by Justine; inspiration for code from khanacademy.org>
+    <script>
+    var libIt = function() {
+        var storyDiv = document.getElementById("story");
+        var adverb1 = document.getElementById("adverb1").value;
+        var pluralnoun = document.getElementById("pluralnoun").value;
+        var name1 = document.getElementById("name1").value;
+        var name2 = document.getElementById("name2").value;
+        var name3 = document.getElementById("name3").value;
+        var adjective1 = document.getElementById("adjective1").value;
+        var verb1 = document.getElementById("verb1").value;
+        var adjective2 = document.getElementById("adjective2").value;
+        var color1 = document.getElementById("color1").value;
+        var verb2 = document.getElementById("verb2").value;
+        var noun1 = document.getElementById("noun1").value;
+        var adverb2 = document.getElementById("adverb2").value;
+        var verb3 = document.getElementById("verb3").value;
+        var color2 = document.getElementById("color2").value;
+        var emotion = document.getElementById("emotion").value;
+        var exclamation1 = document.getElementById("exclamation1").value;
+        var noun2 = document.getElementById("noun2").value;
+        var verb4 = document.getElementById("verb4").value;
+        var verb5 = document.getElementById("verb5").value;
+        var exclamation2 = document.getElementById("exclamation2").value;
+        var adjective3 = document.getElementById("adjective3").value;
+        var color3 = document.getElementById("color3").value;
+        var adjective4 = document.getElementById("adjective4").value;
+        var verb6 = document.getElementById("verb6").value;
+        var adjective5 = document.getElementById("adjective5").value;
+        var adjective6 = document.getElementById("adjective6").value;
 
-</html>
+        storyDiv.innerHTML = 'The professor ' + adverb1 + ' walked into the lab. The ' + pluralnoun + ' called ' + name1 + ', ' + name2 + ', and ' + name3 + ' scurried about their ' + adjective1 + ' cage upon the professor&apos;s arrival. The professor ' + verb1 + 'ed over to them, smiling. "Today is the day we make your ' + adjective2
+        + ' brains glow ' + color1 + '! You won&apos;t ' + verb2 + ' a ' + noun1 + '!" The construct prepared beforehand was ' + adverb2 + ' ready for injection. “I&apos;m ready," '
+        + name1 + ' said, "I want to ' + verb3 + ' my brain glow ' + color2 + '!" Professor Moore gently injected the luciferin. Now we wait!" the professor said to ' + name3
+        + ' and ' + name2 + ', watching in ' + emotion + '. "' + exclamation1 + '!" said ' + name3 + ' while chewing on a piece of ' + noun2 + ' "I hope it works!" ' + name2 + ' said while '
+        + verb4 + ' some cheese. The professor ' + verb5 + ' the charge-coupled device (CCD) camera. "' + exclamation2 + '!" The luciferin seems to have found the target luciferase! The '+ adjective3 + ' brain, it glows ' + color3 + '!" Next, using electrophysiology, the ' + adjective4 + ' professor noticed a particular neuron was ' + verb6
+        + 'more than usual. "This is ' + adjective5 + '! This construct might cause excitation in your ' + adjective6 + ' brains!" The professor said to the mice. "Eureka!"';
+    };
 
-
+    </script>
+</div>

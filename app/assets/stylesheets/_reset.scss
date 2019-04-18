@@ -108,6 +108,17 @@ footer {
     }
 }
 
+.bl-list {
+    li {
+        margin-bottom: 5px;
+    }
+
+    input {
+        border: 1px solid #e6e6e6;
+        border-radius: 2px;
+    }
+}
+
 .styled-list {
     list-style-type: unset;
     list-style-position: unset;
