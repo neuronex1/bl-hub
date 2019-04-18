@@ -7,7 +7,7 @@
         <li>Someone's Name: <input type="text" id="name2"></li>
         <li>Someone's Name: <input type="text" id="name3"></li>
         <li>Adjective: <input type="text" id="adjective1"></li>
-        <li>Verb: <input type="text" id="verb1"></li>
+        <li>Verb (past tense): <input type="text" id="verb1"></li>
         <li>Adjective: <input type="text" id="adjective2"></li>
         <li>Color: <input type="text" id="color1"></li>
         <li>Verb: <input type="text" id="verb2"></li>
@@ -30,7 +30,7 @@
     </ul>
     <button class='btn btn-primary mtxl mbxl' id="lib-button" onclick="libIt();">Lib it!</button>
     <p>Generated story:
-        <span id="story"></span>
+        <p class='mtl mbl' id="story"></p>
     </p>
 
     <script>
@@ -63,12 +63,7 @@
         var adjective5 = document.getElementById("adjective5").value;
         var adjective6 = document.getElementById("adjective6").value;
 
-        storyDiv.innerHTML = 'The professor ' + adverb1 + ' walked into the lab. The ' + pluralnoun + ' called ' + name1 + ', ' + name2 + ', and ' + name3 + ' scurried about their ' + adjective1 + ' cage upon the professor&apos;s arrival. The professor ' + verb1 + 'ed over to them, smiling. "Today is the day we make your ' + adjective2
-        + ' brains glow ' + color1 + '! You won&apos;t ' + verb2 + ' a ' + noun1 + '!" The construct prepared beforehand was ' + adverb2 + ' ready for injection. “I&apos;m ready," '
-        + name1 + ' said, "I want to ' + verb3 + ' my brain glow ' + color2 + '!" Professor Moore gently injected the luciferin. Now we wait!" the professor said to ' + name3
-        + ' and ' + name2 + ', watching in ' + emotion + '. "' + exclamation1 + '!" said ' + name3 + ' while chewing on a piece of ' + noun2 + ' "I hope it works!" ' + name2 + ' said while '
-        + verb4 + ' some cheese. The professor ' + verb5 + ' the charge-coupled device (CCD) camera. "' + exclamation2 + '!" The luciferin seems to have found the target luciferase! The '+ adjective3 + ' brain, it glows ' + color3 + '!" Next, using electrophysiology, the ' + adjective4 + ' professor noticed a particular neuron was ' + verb6
-        + 'more than usual. "This is ' + adjective5 + '! This construct might cause excitation in your ' + adjective6 + ' brains!" The professor said to the mice. "Eureka!"';
+        storyDiv.innerHTML = `The professor <strong class='text-green'>${adverb1}</strong> walked into the lab. The <strong class='text-green'>${pluralnoun}</strong> called <strong class='text-green'>${name1}</strong>, <strong class='text-green'>${name2}</strong>, and <strong class='text-green'>${name3}</strong> scurried about their <strong class='text-green'>${adjective1}</strong> cage upon the professor&apos;s arrival. The professor <strong class='text-green'>${verb1}</strong> over to them, smiling. "Today is the day we make your <strong class='text-green'>${adjective2}</strong> brains glow <strong class='text-green'>${color1}</strong>! You won&apos;t <strong class='text-green'>${verb2}</strong> a <strong class='text-green'>${noun1}</strong>!" The construct prepared beforehand was <strong class='text-green'>${adverb2}</strong> ready for injection. “I&apos;m ready," <strong class='text-green'>${name1}</strong> said, "I want to <strong class='text-green'>${verb3}</strong> my brain glow <strong class='text-green'>${color2}</strong>!" Professor Moore gently injected the luciferin. Now we wait!" the professor said to <strong class='text-green'>${name3}</strong> and <strong class='text-green'>${name2}</strong>, watching in <strong class='text-green'>${emotion}</strong>. "<strong class='text-green'>${exclamation1}</strong>!" said <strong class='text-green'>${name3}</strong> while chewing on a piece of <strong class='text-green'>${noun2}</strong>. "I hope it works!" <strong class='text-green'>${name2}</strong> said while <strong class='text-green'>${verb4}</strong> some cheese. The professor <strong class='text-green'>${verb5}</strong> the charge-coupled device (CCD) camera. "<strong class='text-green'>${exclamation2}</strong>!" The luciferin seems to have found the target luciferase! The <strong class='text-green'>${adjective3}</strong> brain, it glows <strong class='text-green'>${color3}</strong>!" Next, using electrophysiology, the <strong class='text-green'>${adjective4}</strong> professor noticed a particular neuron was <strong class='text-green'>${verb6}</strong> more than usual. "This is <strong class='text-green'>${adjective5}</strong>! This construct might cause excitation in your <strong class='text-green'>${adjective6}</strong> brains!" The professor said to the mice. "Eureka!"`;
     };
 
     </script>
