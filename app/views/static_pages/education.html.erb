@@ -1,8 +1,13 @@
+<% url = 'https://repository.library.brown.edu/api/items/bdr:847089/'; %>
+<% response = RestClient.get(url) %>
+<% data = JSON.parse(response) %>
+<% @iframeHtml = data['display_inline'] %>
 <div id='education' class='container'>
     <h2 class='text-center'>Education at Many Levels</h2>
-
     <p>We will use bioluminescence as a model phenomenon to develop interdisciplinary curricula, resources, and education outreach events for all educational levels and backgrounds. Using bioluminescence, our hub will provide an example of how a unifying concept can be used to bridge disciplinary boundaries, while illustrating core ideas in STEM content and practice.
     </p>
+    <br>
+    <div class='bl-iframe__scaled--wrapper'><%= @iframeHtml.html_safe %></div>
     <br>
     <h2 class='text-center mtxl mbxl'>Join us!</h2>
         <div class='button-img mll'>
