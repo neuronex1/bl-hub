@@ -193,6 +193,21 @@
     }
 }
 
+#home {
+    .bl-iframe__scaled--wrapper  {
+        width: 830px;
+        height: 500px;
+        padding: 0;
+        overflow: hidden;
+        margin: auto;
+
+        iframe {
+            width: 100%;
+            height: 98%;
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .header {
         display: none;

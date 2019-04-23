@@ -55,6 +55,7 @@ const Homepage = (props) => {
             <div className='hp-cards'>
                 {renderCards()}
             </div>
+            <div className='bl-iframe__scaled--wrapper'><iframe src='https://repository.library.brown.edu/viewers/stream/bdr:847082/'></iframe></div>
         </React.Fragment>
     );
 };
