@@ -1,0 +1,83 @@
+<div class='container' id='madlib-bioluminescent-jellyfish'>
+    <h2 class='text-center'>The Bioluminescent Jellyfish</h2>
+
+    <ul class='bl-list'>
+        <li>Adjective: <input type="text" id="adjective1"></li>
+        <li>Someone's Name: <input type="text" id="name1"></li>
+        <li>Adjective: <input type="text" id="adjective2"></li>
+        <li>Adjective: <input type="text" id="adjective3"></li>
+        <li>Verb: <input type="text" id="verb1"></li>
+        <li>Noun: <input type="text" id="noun1"></li>
+        <li>Plural Noun: <input type="text" id="noun2"></li>
+        <li>Verb: <input type="text" id="verb2"></li>
+        <li>Adjective: <input type="text" id="adjective4"></li>
+        <li>Verb (present tense): <input type="text" id="verb3"></li>
+        <li>Noun: <input type="text" id="noun3"></li>
+        <li>Color: <input type="text" id="color1"></li>
+        <li>Adjective: <input type="text" id="adjective5"></li>
+        <li>Noun: <input type="text" id="noun4"></li>
+        <li>Verb (present tense): <input type="text" id="verb4"></li>
+        <li>Noun: <input type="text" id="noun5"></li>
+        <li>Verb: <input type="text" id="verb5"></li>
+        <li>Noun: <input type="text" id="noun6"></li>
+        <li>Adverb: <input type="text" id="adverb1"></li>
+        <li>Exclamation: <input type="text" id="exclamation"></li>
+        <li>Adjective: <input type="text" id="adjective6"></li>
+        <li>Verb (past tense): <input type="text" id="verb6"></li>
+        <li>Adjective: <input type="text" id="adjective7"></li>
+        <li>Verb: <input type="text" id="verb7"></li>
+        <li>Noun: <input type="text" id="noun7"></li>
+        <li>Verb (past tense): <input type="text" id="verb8"></li>
+        <li>Adverb: <input type="text" id="adverb2"></li>
+        <li>Emotion: <input type="text" id="emotion"></li>     
+    </ul>
+
+    <button class='btn btn-primary mtxl mbxl' id="lib-button" onclick="libIt();">Lib it!</button>
+    <div>Generated story:
+        <p class='mtl mbl' id="story"></p>
+    </div>
+
+    <script>
+        var libIt = function() {
+            var storyDiv = document.getElementById("story");
+            var adjective1 = document.getElementById("adjective1").value;
+            var name1 = document.getElementById("name1").value;
+            var adjective2 = document.getElementById("adjective2").value;
+            var adjective3 = document.getElementById("adjective3").value;
+            var verb1 = document.getElementById("verb1").value;
+            var noun1 = document.getElementById("noun1").value;
+            var noun2 = document.getElementById("noun2").value;
+            var verb2 = document.getElementById("verb2").value;
+            var adjective4 = document.getElementById("adjective4").value;
+            var verb3 = document.getElementById("verb3").value;
+            var noun3 = document.getElementById("noun3").value;
+            var color1 = document.getElementById("color1").value;
+            var adjective5 = document.getElementById("adjective5").value;
+            var noun4 = document.getElementById("noun4").value;
+            var verb4 = document.getElementById("verb4").value;
+            var noun5 = document.getElementById("noun5").value;
+            var verb5 = document.getElementById("verb5").value;
+            var noun6 = document.getElementById("noun6").value;
+            var adverb1 = document.getElementById("adverb1").value;
+            var exclamation = document.getElementById("exclamation").value;
+            var adjective6 = document.getElementById("adjective6").value;
+            var verb6 = document.getElementById("verb6").value;
+            var adjective7 = document.getElementById("adjective7").value;
+            var verb7 = document.getElementById("verb7").value;
+            var noun7 = document.getElementById("noun7").value;
+            var verb8 = document.getElementById("verb8").value;
+            var adverb2 = document.getElementById("adverb2").value;
+            var emotion = document.getElementById("emotion").value;
+
+            storyDiv.innerHTML = `There once was a <strong class='text-green'>${adjective1}</strong> jellyfish named <strong class='text-green'>${name1}</strong>. The jellyfish lived in the deep, <strong class='text-green'>${adjective2}</strong> ocean where no sunlight would ever reach, but <strong class='text-green'>${name1}</strong> was a <strong class='text-green'>${adjective3}</strong> jellyfish that could make itself <strong class='text-green'>${verb1}</strong> to signal its l<strong class='text-green'>${noun1}</strong> to other <strong class='text-green'>${noun2}</strong>. Every day, <strong class='text-green'>${name1}</strong> would <strong class='text-green'>${verb2}</strong> around the <strong class='text-green'>${adjective4}</strong> parts of the ocean, <strong class='text-green'>${verb3}</strong> for a bioluminescent friend. One day, <strong class='text-green'>${name1}</strong> saw, out of the corner of its <strong class='text-green'>${noun3}</strong>, a <strong class='text-green'>${color1}</strong> light off in the distance. "Hello? Is anyone there?" the <strong class='text-green'>${adjective5}</strong> jellyfish asked, but there was no <strong class='text-green'>${noun4}</strong> from the <strong class='text-green'>${color1}</strong> light. <strong class='text-green'>${name1}</strong> swam closer to the light, <strong class='text-green'>${verb5}</strong> out, but there was still no <strong class='text-green'>${noun5}</strong>. As the jellyfish swam closer, it <strong class='text-green'>${verb6}</strong> that this light was not like itself. The light was attached to a special part of a dorsal fin, and as it looked more <strong class='text-green'>${adverb1}</strong>, the jellyfish noticed that the light was actually an angler fish. "<strong class='text-green'>${exclamation}</strong>!" The <strong class='text-green'>${adjective6}</strong> jellyfish <strong class='text-green'>${verb6}</strong>, and swam away as <strong class='text-green'>${adjective7}</strong> as it could, making sure not to <strong class='text-green'>${verb7}</strong>. "All I wanted was a <strong class='text-green'>${noun7}</strong>!" As soon as the jellyfish said those words, another light <strong class='text-green'>${verb8}</strong>. This light was <strong class='text-green'>${adverb2}</strong> another jellyfish like <strong class='text-green'>${name1}</strong> and it was so <strong class='text-green'>${emotion}</strong> to have finally found a friend.`;
+        };
+
+    </script>
+
+    <!-- This is the "answer key" to this story JJA 30 April 2019: `There once was a <strong class='text-green'>little</strong> jellyfish named <strong class='text-green'>Steve</strong>. The jellyfish lived in the deep, <strong class='text-green'>dark</strong> ocean where no sunlight would ever reach, but <strong class='text-green'>Steve</strong> was a <strong class='text-green'>bioluminescent}</strong> jellyfish that could make itself <strong class='text-green'>glow</strong> to signal its l<strong class='text-green'>location</strong> to other <strong class='text-green'>animals</strong>. Every day, <strong class='text-green'>Steve</strong> would <strong class='text-green'>swim</strong> around the <strong class='text-green'>darkest</strong> parts of the ocean, <strong class='text-green'>searching</strong> for a bioluminescent friend. One day, <strong class='text-green'>Steve</strong> saw, out of the corner of its <strong class='text-green'>eye</strong>, a <strong class='text-green'>blue</strong> light off in the distance. "Hello? Is anyone there?" the <strong class='text-green'>curious</strong> jellyfish asked, but there was no <strong class='text-green'>response</strong> from the <strong class='text-green'>blue</strong> light. <strong class='text-green'>Steve</strong> swam closer to the light, <strong class='text-green'>calling</strong> out, but there was still no <strong class='text-green'>answer</strong>. As the jellyfish swam closer, it <strong class='text-green'>noticed</strong> that this light was not like itself. The light was attached to a special part of a dorsal fin, and as it looked more <strong class='text-green'>closely</strong>, the jellyfish noticed that the light was actually an angler fish. "<strong class='text-green'>Oh no</strong>!" The <strong class='text-green'>scared</strong> jellyfish <strong class='text-green'>screamed</strong>, and swam away as <strong class='text-green'>fast</strong> as it could, making sure not to <strong class='text-green'>glow</strong>. "All I wanted was a <strong class='text-green'>friend</strong>!" As soon as the jellyfish said those words, another light <strong class='text-green'>appeared</strong>. This light was <strong class='text-green'>clearly</strong> another jellyfish like <strong class='text-green'>Steve</strong> and it was so <strong class='text-green'>happy</strong> to have finally found a friend.` -->
+
+    <br/>
+    <p>Madlib by Rebecca Berger-Gutierrez</p>
+
+    <!-- Story by Rebecca Berger-Gutierrez; HTML by Justine with help from Kia; inspiration for code from khanacademy.org -->
+</div>
