@@ -180,10 +180,6 @@
     &:nth-of-type(even) {
         background: lighten($lightblue, 10%);
     }
-    &:last-of-type {
-        font-style: normal;
-        background: transparent;
-    }
 
     .text-s {
         font-style: normal;
