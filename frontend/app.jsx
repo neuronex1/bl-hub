@@ -44,8 +44,14 @@ document.addEventListener("DOMContentLoaded", function () {
             break;
         case '/mbl/2018-practicum/photos':
             ReactDOM.render(
-                <MblPhotos />,
-                document.getElementById('mbl-photos')
+                <MblPhotos year={2018} />,
+                document.getElementById('mbl-2018-photos')
+            );
+            break;
+        case '/mbl/2019-practicum/photos':
+            ReactDOM.render(
+                <MblPhotos year={2019}/>,
+                document.getElementById('mbl-2019-photos')
             );
             break;
         case '/data':

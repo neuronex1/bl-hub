@@ -4,21 +4,28 @@ import React from 'react';
 import * as PhotoSwipe from 'photoswipe';
 import * as PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default';
 
-const PHOTO_PREFIX = 'https://s3.amazonaws.com/bl-hub/mbl-2018-photos/2018+MBL+Practicum_';
-const NUM_PHOTOS = 21;
-
 class MblPhotos extends React.PureComponent {
     constructor(props) {
         super(props);
         this.renderPhotos = this.renderPhotos.bind(this);
         this.showLightbox = this.showLightbox.bind(this);
         this.getLightboxPhotos = this.getLightboxPhotos.bind(this);
+
+        if (this.props.year === 2018) {
+            this.PHOTO_PREFIX = 'https://s3.amazonaws.com/bl-hub/mbl-2018-photos/2018+MBL+Practicum_';
+            this.NUM_PHOTOS = 21;
+        } else {
+
+            this.PHOTO_PREFIX = 'https://s3.amazonaws.com/bl-hub/mbl-2019/MBL-2019-photos/2019_MBL_Practicum_';
+            this.NUM_PHOTOS = 39;
+        }
     }
 
-    getLightboxPhotos() {
-        return [...Array(NUM_PHOTOS).keys()].map(idx => {
+    getLightboxPhotos(year) {
+        return [...Array(this.NUM_PHOTOS).keys()].map(idx => {
+            let src = year === 2018 ? `${this.PHOTO_PREFIX}${idx + 1}-min.jpg` : `${this.PHOTO_PREFIX}${idx + 1}.jpg`;
             return {
-                src: `${PHOTO_PREFIX}${idx + 1}-min.jpg`,
+                src: src,
                 w: 800,
                 h: 600
             }
@@ -27,7 +34,7 @@ class MblPhotos extends React.PureComponent {
 
     showLightbox(idx) {
         const lightboxElement = document.querySelectorAll('.pswp')[0];
-        const lightboxPhotos = this.getLightboxPhotos();
+        const lightboxPhotos = this.getLightboxPhotos(this.props.year);
         const options = {
             bgOpacity: 0.9,
             index: idx
@@ -37,9 +44,9 @@ class MblPhotos extends React.PureComponent {
         lightbox.init();
     }
 
-    renderPhotos() {
-        return [...Array(NUM_PHOTOS).keys()].map((idx) => {
-            const src = `${PHOTO_PREFIX}${idx + 1}-min.jpg`;
+    renderPhotos(year) {
+        return [...Array(this.NUM_PHOTOS).keys()].map((idx) => {
+            let src = year === 2018 ? `${this.PHOTO_PREFIX}${idx + 1}-min.jpg` : `${this.PHOTO_PREFIX}${idx + 1}.jpg`;
             return (
                 <img className='mbl__photo'
                     onClick={this.showLightbox.bind(this, idx)}
@@ -50,10 +57,9 @@ class MblPhotos extends React.PureComponent {
     }
 
     render() {
-
         return (
             <div className='mbl__photo-container'>
-                {this.renderPhotos()}
+                {this.renderPhotos(this.props.year)}
             </div>
         );
     }
