@@ -13,7 +13,6 @@ class Carousel extends React.PureComponent {
             {
                 src: 'https://s3.amazonaws.com/bl-hub/workshop_photo-min.jpg',
                 caption: 'Workshop: Bioluminescence Methods for Scientists',
-                title: 'August 6, 2018 | Brown University',
                 subtitle: [
                     'Lectures',
                     'Discussions',
@@ -24,21 +23,19 @@ class Carousel extends React.PureComponent {
                 photoCredit: 'Photo: Osamu Shimomura, courtesy NSF'
             },
             {
-                src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
-                caption: 'MBL Practicum for Undergraduates',
-                title: 'Applications open October 2018!',
-                subtitle: ['March 24-29, 2019', 'Marine Biological Laboratory', 'Woods Hole, MA'],
-                buttonLabel: 'LEARN MORE',
-                link: '/mbl',
-                photoCredit: ''
-            },
-            {
                 src: 'https://s3.amazonaws.com/bl-hub/test_tubes-min.jpg',
                 caption: 'Sharing New Tools With Scientists',
-                title: 'Plans for our next Workshop are underway; contact us to participate!',
                 subtitle: ['Spring 2019', 'Brown University'],
                 buttonLabel: 'LEARN MORE',
                 link: '/workshops',
+                photoCredit: ''
+            },
+            {
+                src: 'https://s3.amazonaws.com/bl-hub/mbl-2019/MBL-synopsis/Waterfront-min.jpg',
+                caption: 'MBL Practicum for Undergraduates',
+                subtitle: ['March 24-29, 2019', 'Marine Biological Laboratory', 'Woods Hole, MA'],
+                buttonLabel: 'KEEP READING',
+                link: '/mbl/2019-practicum/practicum',
                 photoCredit: ''
             }
         ];
