@@ -224,6 +224,8 @@ const AboutUs = () => {
             <br/>
             <p className='text-m pull-right'>Jellyfish on Education page: NOAA's National Ocean Service.</p>
             <br/>
+            <p className='text-m pull-right'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
+            <br/>
         </React.Fragment>
     );
 }
