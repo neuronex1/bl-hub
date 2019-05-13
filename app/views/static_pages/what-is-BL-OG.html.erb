@@ -1,12 +1,9 @@
-<% url = 'https://repository.library.brown.edu/api/items/bdr:847090/'; %>
-<% response = RestClient.get(url) %>
-<% data = JSON.parse(response) %>
-<% @iframeHtml = data['display_inline'] %>
-
 <div class='container' id='what-is-blog'>
 <h2 class='text-center'>What is BL-OG?</h2>
 <br/>
-<div style='background:lightgray;'><%= @iframeHtml.html_safe %></div>
+<div style='background:lightgray;border:1px solid grey;'>
+    <img src='https://repository.library.brown.edu/iiif/image/bdr:847090/full/!1200,1200/0/default.jpg' />
+</div>
 <br/>
 <br/>
 <h3>What is bioluminescence?</h3>
