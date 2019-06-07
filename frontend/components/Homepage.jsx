@@ -11,7 +11,7 @@ const CARDS_DATA = [
         destinationLink: '/what-is-BL-OG'
     },
     {
-        title: 'For Students',
+        title: 'For Students & Teachers',
         imgSrc: 'https://s3.amazonaws.com/bl-hub/education/Scintillon-students-min.jpg',
         destinationLink: '/education'
     },
