@@ -220,7 +220,7 @@ const AboutUs = () => {
             <br/>
             <p className='text-m pull-right'><span class='italics'>Gaussia princeps</span> on Emissary button: Hopcroft/UAF/CMarZ hopcroft@ims.uaf.edu.</p>
             <br/>
-            <p className='text-m pull-right'>Fungi on Education page: Ylem; WikiCommons.</p>
+            <p className='text-m pull-right'>Fungi on Education page: Ylem, WikiCommons and Angus Veitch.</p>
             <br/>
             <p className='text-m pull-right'>Jellyfish on Education page: NOAA's National Ocean Service.</p>
             <br/>
