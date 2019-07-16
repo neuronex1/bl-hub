@@ -76,14 +76,6 @@ const ABOUT_US_CONFIG = [
         blurb: 'Sheenah develops optimal experimental platforms for studying bioluminescence-optogenetics proteins, and researches how these proteins can be used to enlighten our understanding of neural plasticity.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Manuel_Gomez-Ramirez-min.jpg',
-        title: 'Manuel Gomez-Ramirez, PhD, Brown University',
-        positions: [
-            'Research Associate in Neuroscience'
-        ],
-        blurb: 'Manny tests bioluminescent constructs <i>in vivo</i>, including both Lumiporeins and calcium-dependent bioluminescence in response to tactile stimulation in a mouse model.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Misha_Koksharov-min.jpg',
         title: 'Mikhail Koksharov, PhD, Brown University',
         positions: [
@@ -179,10 +171,18 @@ const ABOUT_US_CONFIG = [
             'Research Assistant'
         ],
         blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
-    },   
+    },
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Manuel_Gomez-Ramirez-min.jpg',
+        title: 'Manuel Gomez-Ramirez, PhD, University of Rochester',
+        positions: [
+            'Assistant Professor'
+        ],
+        blurb: 'Manny tests bioluminescent constructs <i>in vivo</i>, including both Lumiporeins and calcium-dependent bioluminescence in response to tactile stimulation in a mouse model.'
+    },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/William_Medendorp-min.jpg',
-        title: 'William Medendorp, PhD, Michigan State University',
+        title: 'William Medendorp, PhD',
         positions: [
             'Postdoctoral Researcher'
         ],
@@ -205,7 +205,6 @@ const ABOUT_US_CONFIG = [
         blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
     },        
 ];
-
 
 const AboutUs = () => {
     const renderAboutBoxes = () => {
