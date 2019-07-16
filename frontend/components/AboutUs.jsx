@@ -157,14 +157,6 @@ const ABOUT_US_CONFIG = [
         blurb: 'Rachel is is focused on molecular engineering of luciferase-driven tools.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Robyn_St.Laurent-min.jpeg',
-        title: 'Robyn St. Laurent, Brown University',
-        positions: [
-            'Graduate Student'
-        ],
-        blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
         title: 'Nina Friedman, Brown University',
         positions: [
@@ -187,14 +179,15 @@ const ABOUT_US_CONFIG = [
             'Research Assistant'
         ],
         blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
+    },   
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/William_Medendorp-min.jpg',
+        title: 'William Medendorp, PhD, Michigan State University',
+        positions: [
+            'Postdoctoral Researcher'
+        ],
+        blurb: 'William is interested in exploring the role of neuronal activity during early neonatal development in shaping adult behavior.
     },
- ];
-    
-import React from 'react';
-import AboutUsBox from './AboutUsTextBox_Alumni';
-
-const ABOUT_US_CONFIG = [
-    
         {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
         title: 'Eric Petersen, PhD, Michigan State University',
@@ -203,7 +196,14 @@ const ABOUT_US_CONFIG = [
         ],
         blurb: 'Eric is working on two projects. First, he is refining the generation of neural stem cells from adipose tissue. Second, he is applying luminopsins as a novel therapeutic method for stimulation at the neuronal level to improve recovery after spinal cord injury in a rat model.'
     },
-        
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Robyn_St.Laurent-min.jpeg',
+        title: 'Robyn St. Laurent, PhD, Stanford University',
+        positions: [
+            'Postdoctoral Fellow'
+        ],
+        blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
+    },        
 ];
 
 
