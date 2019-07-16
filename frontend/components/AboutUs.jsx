@@ -188,8 +188,13 @@ const ABOUT_US_CONFIG = [
         ],
         blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
     },
-    <br>
-<h2>BL-OG Team Alumni</h2>
+ ];
+    
+import React from 'react';
+import AboutUsBox from './AboutUsTextBox_Alumni';
+
+const ABOUT_US_CONFIG = [
+    
         {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
         title: 'Eric Petersen, PhD, Michigan State University',
