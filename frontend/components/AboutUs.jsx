@@ -139,7 +139,6 @@ const ABOUT_US_CONFIG = [
         ],
         blurb: 'Akash is engineering and testing new luminopsin constructs for activating and silencing neuronal activity.'
     },
-    
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Rachel_Schumaker-min.jpg',
         title: 'Rachel Schumaker, Central Michigan University',
@@ -186,7 +185,7 @@ const ABOUT_US_CONFIG = [
         positions: [
             'Postdoctoral Researcher'
         ],
-        blurb: 'William is interested in exploring the role of neuronal activity during early neonatal development in shaping adult behavior.
+        blurb: 'William is interested in exploring the role of neuronal activity during early neonatal development in shaping adult behavior.'
     },
         {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
