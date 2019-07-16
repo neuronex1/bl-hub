@@ -188,14 +188,9 @@ const ABOUT_US_CONFIG = [
         ],
         blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
     },
-];
-<br>
+    <br>
 <h2>BL-OG Team Alumni</h2>
-import React from 'react';
-import AboutUsBox from './AboutUsTextBox';
-
-const ABOUT_US_CONFIG = [
-    {
+        {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
         title: 'Eric Petersen, PhD, Michigan State University',
         positions: [
@@ -203,6 +198,7 @@ const ABOUT_US_CONFIG = [
         ],
         blurb: 'Eric is working on two projects. First, he is refining the generation of neural stem cells from adipose tissue. Second, he is applying luminopsins as a novel therapeutic method for stimulation at the neuronal level to improve recovery after spinal cord injury in a rat model.'
     },
+        
 ];
 
 
