@@ -191,6 +191,9 @@ const ABOUT_US_CONFIG = [
 ];
 <br>
 <h2>BL-OG Team Alumni</h2>
+import React from 'react';
+import AboutUsBox from './AboutUsTextBox';
+
 const ABOUT_US_CONFIG = [
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
