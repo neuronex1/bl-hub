@@ -93,7 +93,7 @@ const ABOUT_US_CONFIG = [
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Mansi_Prakash-min.jpg',
-        title: 'Mansi Parkash, PhD, Central Michigan University',
+        title: 'Mansi Prakash, PhD, Central Michigan University',
         positions: [
             'Postdoctoral Research Associate'
         ],
