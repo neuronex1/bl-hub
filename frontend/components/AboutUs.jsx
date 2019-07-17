@@ -183,7 +183,7 @@ const ABOUT_US_CONFIG = [
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/William_Medendorp-min.jpg',
         title: 'William Medendorp, PhD',
         positions: [
-            'Postdoctoral Researcher'
+            'Statistician'
         ],
         blurb: 'William is interested in exploring the role of neuronal activity during early neonatal development in shaping adult behavior.'
     },
