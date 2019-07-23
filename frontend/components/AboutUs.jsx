@@ -60,14 +60,6 @@ const ABOUT_US_CONFIG = [
         blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree in Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
     },
     {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
-        title: 'Gerard Lambert, University of California, San Diego',
-        positions: [
-            'Senior Laboratory Researcher'
-        ],
-        blurb: 'In addition to managing the Shaner Laboratory, Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
         title: 'Andreas Björefeldt, PhD, Central Michigan University',
         positions: [
@@ -162,6 +154,14 @@ const ABOUT_US_CONFIG = [
             'Research Assistant'
         ],
         blurb: 'Nina assists efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
+        title: 'Gerard Lambert, University of California, San Diego',
+        positions: [
+            'Senior Laboratory Researcher'
+        ],
+        blurb: 'In addition to managing the Shaner Laboratory, Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sophie_Marsh-min.jpg',
