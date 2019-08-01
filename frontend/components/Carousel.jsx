@@ -34,7 +34,7 @@ class Carousel extends React.PureComponent {
             {
                 src: 'https://s3.amazonaws.com/bl-hub/test_tubes-min.jpg',
                 caption: 'Sharing New Tools With Scientists',
-                subtitle: ['Spring 2019', 'Brown University'],
+                subtitle: [],
                 buttonLabel: 'LEARN MORE',
                 link: '/workshops',
                 photoCredit: ''
