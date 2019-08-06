@@ -3,7 +3,7 @@
 import React from 'react';
 import AboutUsBox from './AboutUsTextBox';
 
-return (
+const (
         <React.Fragment>
             <div className='nav-bar-container--home'>
                 <NavBar isHomepage={true}/>
