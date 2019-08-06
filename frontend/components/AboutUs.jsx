@@ -3,7 +3,9 @@
 import React from 'react';
 import AboutUsBox from './AboutUsTextBox';
 
-const (
+const renderCards = () => {
+       
+        return (
         <React.Fragment>
             <div className='nav-bar-container--home'>
                 <NavBar isHomepage={true}/>
