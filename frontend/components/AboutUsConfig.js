@@ -1,4 +1,4 @@
-const CURRENT_ASSOCIATES = [
+const CURRENT_MEMBERS = [
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/chris_moore-min.jpg',
         title: 'Christopher I. Moore, PhD, Brown University',

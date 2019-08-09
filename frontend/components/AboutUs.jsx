@@ -3,7 +3,7 @@
 import React from 'react';
 import AboutUsBox from './AboutUsTextBox';
 import {
-    CURRENT_ASSOCIATES,
+    CURRENT_MEMBERS,
     ALUMNI,
 } from './AboutUsConfig.js';
 
@@ -17,10 +17,10 @@ const AboutUs = () => {
     return (
         <React.Fragment>
             <h2 className='text-center'>About Us</h2>
-            <h3>Current Associates</h3>
+            <h3>Current Members</h3>
             <table className='about-us__table'>
                 <tbody>
-                    {renderAboutBoxes(CURRENT_ASSOCIATES)}
+                    {renderAboutBoxes(CURRENT_MEMBERS)}
                 </tbody>
             </table>
             <div className="horizontal-divider mtxxl mbxxl"></div>
