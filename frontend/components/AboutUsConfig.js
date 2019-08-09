@@ -187,11 +187,11 @@ export const ALUMNI = [
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/William_Medendorp-min.jpg',
-        title: 'William Medendorp, PhD',
+        title: 'William Medendorp, PhD, Research and Evaluation Associates',
         positions: [
-            'Statistician'
+            'Principal Investigator'
         ],
-        blurb: 'William is interested in exploring the role of neuronal activity during early neonatal development in shaping adult behavior.'
+        blurb: 'While completing his PhD, William explored the role of neuronal activity during early neonatal development in shaping adult behavior. With REA, his research focuses on treatment effectiveness across several domains of public health.'
     },
         {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
