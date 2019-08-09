@@ -9,6 +9,8 @@ import FAQs from './components/FAQs.jsx';
 import MblPhotos from './components/MblPhotos.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import DataIframes from './components/DataIframes.jsx';
+import ResearchObjects from './components/ResearchObjects.jsx';
+
 
 document.addEventListener("DOMContentLoaded", function () {
     if (window.location.pathname === '/') {
@@ -59,6 +61,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 <DataIframes />,
                 document.getElementById('data-iframes')
             );
+            break;
+            case '/research-objects':
+                ReactDOM.render(
+                    <ResearchObjects />,
+                    document.getElementById('research-objects')
+                );
+                break;
+
 
     }
 });

@@ -1,0 +1,32 @@
+@import 'reset';
+
+.research-objects {
+    &__table {
+        margin: auto;
+    }
+
+    &__img {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+    }
+
+    &__img-container {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 15px;
+        border: 1px solid #efefef;
+        background-position: center;
+    }
+
+    &__section {
+        vertical-align: top;
+    }
+
+    &__text-wrapper {
+        margin-left: 15px;
+    }
+}
