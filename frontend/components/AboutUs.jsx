@@ -24,7 +24,7 @@ const AboutUs = () => {
                 </tbody>
             </table>
             <div className="horizontal-divider mtxxl mbxxl"></div>
-            <h3>Alumni</h3>
+            <h3 className='text-center'>Alumni</h3>
             <table className='about-us__table'>
                 <tbody>
                     {renderAboutBoxes(ALUMNI)}
