@@ -1,4 +1,4 @@
-const CURRENT_MEMBERS = [
+export const CURRENT_MEMBERS = [
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/chris_moore-min.jpg',
         title: 'Christopher I. Moore, PhD, Brown University',
@@ -176,7 +176,7 @@ const CURRENT_MEMBERS = [
     },
 ];
 
-const ALUMNI = [
+export const ALUMNI = [
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Manuel_Gomez-Ramirez-min.jpg',
         title: 'Manuel Gomez-Ramirez, PhD, University of Rochester',
@@ -210,8 +210,3 @@ const ALUMNI = [
         blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
     },
 ];
-
-export {
-    CURRENT_ASSOCIATES,
-    ALUMNI
-};
