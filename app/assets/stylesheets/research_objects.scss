@@ -3,6 +3,8 @@
 .research-objects {
     &__table {
         margin: auto;
+        table-layout: auto;
+        width: 1200px;
     }
 
     &__img {
@@ -13,10 +15,11 @@
 
     &__img-container {
         width: 300px;
-        height: 300px;
+        height: 225px;
         overflow: hidden;
         background-size: cover;
         background-repeat: no-repeat;
+        margin-top: 20px;
         margin-bottom: 15px;
         border: 1px solid #efefef;
         background-position: center;
@@ -28,5 +31,8 @@
 
     &__text-wrapper {
         margin-left: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+        padding-bottom: 15px;
     }
 }

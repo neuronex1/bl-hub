@@ -33,8 +33,8 @@ class NavBar extends React.PureComponent {
                 link: '/constructs'
             },
             {
-                title: 'DATA',
-                link: '/data'
+                title: 'RESEARCH',
+                link: '/research-objects'
             },
             {
                 title: 'ABOUT',

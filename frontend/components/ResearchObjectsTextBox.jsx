@@ -23,8 +23,10 @@ const ResearchObjectsTextBox = (props) => {
                 <div className='research-objects__text-wrapper'>
                     <p className='mbs mtm'><b>{props.title}</b></p>
                     <p className='mbs mtm'>{props.authors}</p>
+                    <p className='mbs mtm'><i>{props.venue}</i></p>
                     <p className='mtm'
                         dangerouslySetInnerHTML={getAbstract(props.abstract)}></p>
+                    <li><a class='text-s bl-link' href='mailto:bioluminescencehub@gmail.com?subject=<%= {props.title}'>Request more information</a></li>
                 </div>
             </td>
         </tr>
