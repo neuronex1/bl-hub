@@ -52,7 +52,7 @@ const Homepage = (props) => {
                         </a>
                     </div>
             </div>
-            <h3 class='text-center'>What is Bioluminescence?</h3>
+            <h3 class='text-center'>What are the differences between bioluminescence, fluorescence, and phosphorescence?</h3>
             <div className='bl-iframe__scaled--wrapper'><iframe src='https://repository.library.brown.edu/viewers/stream/bdr:847082/'></iframe></div>
         </React.Fragment>
     );
