@@ -116,7 +116,7 @@ class Carousel extends React.PureComponent {
                             <i className="fa fa-caret fa-caret-right" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <img className='bl-hub-logo' src='https://bl-hub.s3.amazonaws.com/logos/BL+Hub+Logo.png'/>
+                    <img className='bl-hub-logo' src='https://bl-hub.s3.amazonaws.com/logos/BL+Hub+Logo_FINAL_inverse_transparent+background.png'/>
                     <p className='slide-photo-credit'>{slide.photoCredit}</p>
                 </div>
             );

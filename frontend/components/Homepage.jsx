@@ -4,39 +4,9 @@ import React from 'react';
 import Carousel from './Carousel.jsx';
 import NavBar from './NavBar.jsx';
 
-const CARDS_DATA = [
-    {
-        title: 'What is BL-OG?',
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/about-bl-og/BL-OG+channels-min.jpg',
-        destinationLink: '/what-is-BL-OG'
-    },
-    {
-        title: 'For Students & Teachers',
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/education/Scintillon-students-min.jpg',
-        destinationLink: '/education'
-    },
-    {
-        title: 'Research & Constructs',
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/open-science-fig-min.jpg',
-        destinationLink: 'constructs'
-    },
-];
 
 const Homepage = (props) => {
-    const renderCards = () => {
-        return CARDS_DATA.map(card => {
-            return (
-                <a className='hp-card-link' href={card.destinationLink} key={card.title}>
-                    <div className='hp-card mtxl mlxl mrxl mbxl'>
-                            <div className='hp-card__title'>{card.title}</div>
-                            <div className='hp-card__img' style={{backgroundImage: 'url(\'' + card.imgSrc + '\') '}} />
-                            <div className='hp-card__img-container' />
-                    </div>
-                </a>
 
-            );
-        })
-    }
 
     return (
         <React.Fragment>
@@ -44,9 +14,45 @@ const Homepage = (props) => {
                 <NavBar isHomepage={true}/>
             </div>
             <Carousel />
-            <div className='hp-cards'>
-                {renderCards()}
+            <div id='homecards' class='container'>
+                    <div class='button-img mll'>
+                        <a href='https://www.bioluminescencehub.org/what-is-BL-OG'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/What-is-BL-OG-button.jpg' alt='What is BL-OG?'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mlxl'>
+                        <a href=''>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/LMO3-Primer-Button-min.jpg' alt='Get Started with LMO3'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mll'>
+                        <a href='https://www.bioluminescencehub.org/research-objects'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Our-Research-button-min.jpg' alt='Our Research?'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mlxl'>
+                        <a href='https://www.bioluminescencehub.org/constructs'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Constructs-Database-button-min.jpg' alt='Constructs Database'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mll'>
+                        <a href='https://www.bioluminescencehub.org/data'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG-in-Action-button-min.jpg' alt='BL-OG Tools in Action'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mlxl'>
+                        <a href='https://www.bioluminescencehub.org/education'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Students-and-Teachers-button-min.jpg' alt='For Students & Teachers'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
             </div>
+            <h3 class='text-center'>What is Bioluminescence?</h3>
             <div className='bl-iframe__scaled--wrapper'><iframe src='https://repository.library.brown.edu/viewers/stream/bdr:847082/'></iframe></div>
         </React.Fragment>
     );
