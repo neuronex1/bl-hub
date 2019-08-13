@@ -19,7 +19,7 @@ export const CURRENT_MEMBERS = [
             'President of the Society for Neuroscience in 2019',
             'Co-Principal Investigator'
         ],
-        blurb: 'Diane studies the expression, regulation, and function of neuronal voltage-gated calcium ion channels, particularly their role in chronic pain and psychiatric disorders. She also studies ALS (Lou Gehrig’s Disease) including the impact of disease-causing mutations on motor neuron excitability. Learn more about the Learn more about <a class="bl-link" href="https://vivo.brown.edu/display/dlipscom">Diane</a> and the <a class="bl-link" href="https://www.brown.edu/academics/brain-science/">Carney Institute for Brain Science</a>.'
+        blurb: 'Diane studies the expression, regulation, and function of neuronal voltage-gated calcium ion channels, particularly their role in chronic pain and psychiatric disorders. She also studies ALS (Lou Gehrig’s Disease) including the impact of disease-causing mutations on motor neuron excitability. Learn more about <a class="bl-link" href="https://vivo.brown.edu/display/dlipscom">Diane</a> and the <a class="bl-link" href="https://www.brown.edu/academics/brain-science/">Carney Institute for Brain Science</a>.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Ute-min.jpg',

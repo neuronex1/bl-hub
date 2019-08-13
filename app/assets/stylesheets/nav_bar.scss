@@ -23,9 +23,10 @@
 
 .bl-nav-bar-wrapper {
     min-width: 951px;
-    position: absolute;
+    position: relative;
     float: right;
-    right: 15px;
+    right: 50px;
+    white-space: nowrap;
 
     .bl-nav-bar {
         margin: auto;
