@@ -40,6 +40,14 @@ class Carousel extends React.PureComponent {
                 photoCredit: ''
             },
             {
+              src: 'https://bl-hub.s3.amazonaws.com/home+buttons/Dissemination+Slide_cropped-min.jpg',
+              caption: 'Disseminating Knowledge Broadly',
+              subtitle: ['Workshops', 'Emissaries', 'MBL Practicum', 'Plasmids'],
+              buttonLabel: 'LEARN MORE',
+              link: '/dissemination',
+              photoCredit: ''
+            },
+            {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-2019/MBL-synopsis/Waterfront-min.jpg',
                 caption: 'MBL Practicum for Undergraduates',
                 subtitle: ['March 24-29, 2019', 'Marine Biological Laboratory', 'Woods Hole, MA'],

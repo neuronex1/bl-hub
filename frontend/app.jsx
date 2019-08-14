@@ -62,13 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('data-iframes')
             );
             break;
-            case '/research-objects':
+        case '/research-objects':
                 ReactDOM.render(
                     <ResearchObjects />,
                     document.getElementById('research-objects')
-                );
-                break;
-
-
+            );
+            break;
     }
 });
