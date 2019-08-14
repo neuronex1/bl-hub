@@ -40,7 +40,7 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mll'>
-                        <a href='https://www.bioluminescencehub.org/data'>
+                        <a href='/data'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG-in-Action-button-min.jpg' alt='BL-OG Tools in Action'/>
                             <div class='button-img__overlay'></div>
                         </a>
