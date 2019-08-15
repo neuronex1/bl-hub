@@ -156,7 +156,8 @@ footer {
     }
 
     &__overlay {
-        width: 91%;
+        max-width: 450px;
+        min-width: 310px;
         height: 100%;
         position: absolute;
         background-color: darken($lightblue, 40);
