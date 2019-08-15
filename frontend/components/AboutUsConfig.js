@@ -140,7 +140,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Rachel is is focused on molecular engineering of luciferase-driven tools.'
+        blurb: 'Rachel is focused on molecular engineering of luciferase-driven tools.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
@@ -157,14 +157,6 @@ export const CURRENT_MEMBERS = [
             'Senior Laboratory Researcher'
         ],
         blurb: 'In addition to managing the Shaner Laboratory, Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
-    },
-    {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sophie_Marsh-min.jpg',
-        title: 'Sophie Marsh, Brown University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Sophie assists efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
@@ -208,5 +200,13 @@ export const ALUMNI = [
             'Postdoctoral Fellow'
         ],
         blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
+    },
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sophie_Marsh-min.jpg',
+        title: 'Sophie Marsh',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'As a Research Assistant at Brown, Sophie assisted efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers. Now, she is working on her master&#39s degree in the UK.'
     },
 ];
