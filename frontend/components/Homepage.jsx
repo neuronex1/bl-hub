@@ -28,13 +28,13 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mll'>
-                        <a href='https://www.bioluminescencehub.org/research-objects'>
+                        <a href='/research-objects'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Our-Research-button-min.jpg' alt='Our Research?'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
                     <div class='button-img mlxl'>
-                        <a href='https://www.bioluminescencehub.org/constructs'>
+                        <a href='/constructs'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Constructs-Database-button-min.jpg' alt='Constructs Database'/>
                             <div class='button-img__overlay'></div>
                         </a>
@@ -46,8 +46,20 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mlxl'>
-                        <a href='https://www.bioluminescencehub.org/education'>
+                        <a href='/dissemination'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Dissemination-button-for-home-page-min.jpg' alt='Dissemination'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mll'>
+                        <a href='/education'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Students-and-Teachers-button-min.jpg' alt='For Students & Teachers'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mlxl'>
+                        <a href='/mbl'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Direct-MBL-button-for-home-page-min.jpg' alt='MBL Practicum'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
