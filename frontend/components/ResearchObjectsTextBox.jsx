@@ -8,6 +8,9 @@ const ResearchObjectsTextBox = (props) => {
         backgroundImage: 'url(\'' + props.imgSrc + '\') ',
     };
 
+    const getTitle = (title) => {
+        return {__html: title};
+    };
     const getAbstract = (abstract) => {
         return {__html: abstract};
     };
@@ -21,12 +24,13 @@ const ResearchObjectsTextBox = (props) => {
             </td>
             <td className='research-objects__section'>
                 <div className='research-objects__text-wrapper'>
-                    <p className='mbs mtm'><b>{props.title}</b></p>
+                    <p className='mbs mtm text-bold'
+                        dangerouslySetInnerHTML={getTitle(props.title)}></p>
                     <p className='mbs mtm'>{props.authors}</p>
                     <p className='mbs mtm'><i>{props.venue}</i></p>
                     <p className='mtm'
                         dangerouslySetInnerHTML={getAbstract(props.abstract)}></p>
-                    <li><a class='text-s bl-link' href='mailto:bioluminescencehub@gmail.com?subject=<%= {props.title}'>Request more information</a></li>
+                    <li><a class='text-s bl-link' href='mailto:bioluminescencehub@gmail.com?subject=Research-Object'>Request more information</a></li>
                 </div>
             </td>
         </tr>
