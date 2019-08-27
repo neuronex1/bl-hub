@@ -16,7 +16,7 @@ const Homepage = (props) => {
             <Carousel />
             <div id='homecards' class='container'>
                     <div class='button-img mll'>
-                        <a href='https://www.bioluminescencehub.org/what-is-BL-OG'>
+                        <a href='/what-is-BL-OG'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/What-is-BL-OG-button.jpg' alt='What is BL-OG?'/>
                             <div class='button-img__overlay'></div>
                         </a>
