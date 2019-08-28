@@ -71,6 +71,12 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+.btn-primary {
+  background-color: $lightblue;
+  color: $off-black;
+  border-color: $lightblue;
+}
+
 iframe {
     display: block;
     margin: 15px auto;
