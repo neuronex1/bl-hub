@@ -127,14 +127,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Akash_Pal-min.jpg',
-        title: 'Akash Pal, PhD, Central Michigan University',
-        positions: [
-            'Postdoctoral Researcher'
-        ],
-        blurb: 'Akash is engineering and testing new luminopsin constructs for activating and silencing neuronal activity.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Rachel_Schumaker-min.jpg',
         title: 'Rachel Schumaker, Central Michigan University',
         positions: [
@@ -185,7 +177,15 @@ export const ALUMNI = [
         ],
         blurb: 'While completing his PhD, William explored the role of neuronal activity during early neonatal development in shaping adult behavior. With REA, his research focuses on treatment effectiveness across several domains of public health.'
     },
-        {
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Akash_Pal-min.jpg',
+        title: 'Akash Pal, PhD, University of California, Davis',
+        positions: [
+            'Postdoctoral Fellow'
+        ],
+        blurb: 'Akash is presently a Postdoctoral Fellow in the <a class=bl-link href="https://basicscience.ucdmc.ucdavis.edu/tian_lab/index.html" target="_blank">Tian Laboratory</a> at UC Davis.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
         title: 'Eric Petersen, PhD, Michigan State University',
         positions: [
