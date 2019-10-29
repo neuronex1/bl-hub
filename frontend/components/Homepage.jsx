@@ -22,8 +22,8 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mlxl'>
-                        <a href=''>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/LMO3-Primer-Button-min.jpg' alt='Get Started with LMO3'/>
+                        <a href='/LMO3'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/LMO3+Primer+Button_new-min.jpg' alt='Get Started with LMO3'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
