@@ -59,7 +59,7 @@ class MblPhotos extends React.PureComponent {
     render() {
         return (
             <div>
-                <h2 className='text-center'>{this.props.year} MBL Practicum Photos</h2>
+                <h2 className='text-center'>{this.props.year} NeuroNex Practicum Photos</h2>
                 <div className='text-center'>
                     {this.renderPhotos(this.props.year)}
                 </div>

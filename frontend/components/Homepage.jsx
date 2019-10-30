@@ -29,13 +29,13 @@ const Homepage = (props) => {
                     </div>
                     <div class='button-img mll'>
                         <a href='/research-objects'>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Our-Research-button-min.jpg' alt='Our Research?'/>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Our+Research+button-min.jpg' alt='Our Research'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
                     <div class='button-img mlxl'>
                         <a href='/constructs'>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Constructs-Database-button-min.jpg' alt='Constructs Database'/>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Constructs+Database+button-min.jpg' alt='Constructs Database'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
