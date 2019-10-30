@@ -17,7 +17,7 @@ const Homepage = (props) => {
             <div id='homecards' class='container'>
                     <div class='button-img mll'>
                         <a href='/what-is-BL-OG'>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/What-is-BL-OG-button.jpg' alt='What is BL-OG?'/>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/What+is+BL-OG+button-min.jpg' alt='What is BL-OG?'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
@@ -59,7 +59,7 @@ const Homepage = (props) => {
                     </div>
                     <div class='button-img mlxl'>
                         <a href='/mbl'>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Direct-MBL-button-for-home-page-min.jpg' alt='MBL Practicum'/>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Direct+practicum+button+for+home+page-min.jpg' alt='NeuroNex Practicum'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
