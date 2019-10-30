@@ -25,7 +25,7 @@ class NavBar extends React.PureComponent {
                 link: '/education'
             },
             {
-                title: 'MBL PRACTICUM',
+                title: ' UNDERGRAD PRACTICUM',
                 link: '/mbl'
             },
             {
