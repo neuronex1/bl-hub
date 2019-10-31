@@ -4,9 +4,9 @@
 //authors: Remember to put a comma and space at the end of the leading authors' names; not needed for the last author.
 //abstract: Include an abstract or short description of the work
 
-export const RESEARCH_OBJECTS = [
+export const RESEARCH_OBJECTS_PAPERS = [
   {
-    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Petersen-2019-bioRxiv-min.jpg',
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Petersen_BioRxiv_2019.png',
     title: "Restoring function after severe spinal cord injury through bioluminescence-driven optogenetics",
     venue: 'bioRxiv; July 22, 2019',
     authors: [
@@ -33,8 +33,41 @@ export const RESEARCH_OBJECTS = [
      'U. Hochgeschwender, ',
      'C. I. Moore'
     ],
-    abstract: 'BioLuminescent (BL) light production can modulate neural activity and behavior through coexpressed OptoGenetic (OG) elements, an approach termed ‘BL-OG’. Yet, the relationship between BL-OG effects and bioluminescent photon emission has not been characterized in vivo. Further, the degree to which BL-OG effects strictly depend on optogenetic mechanisms driven by bioluminescent photons is unknown. Crucial to every neuromodulation method is whether the activator shows a dynamic concentration range driving robust, selective, and non-toxic effects. We systematically tested the effects of four key components of the BL-OG mechanism (luciferin, oxidized luciferin, luciferin vehicle, and bioluminescence), and compared these against effects induced by the Luminopsin-3 (LMO3) BL-OG molecule, a fusion of slow burn Gaussia luciferase (sbGLuc) and Volvox ChannelRhodopsin-1 (VChR1). We performed combined bioluminescence imaging and electrophysiological recordings while injecting specific doses of Coelenterazine (substrate for sbGluc), Coelenteramide (CTM, the oxidized product of CTZ), or CTZ vehicle. CTZ robustly drove activity in mice expressing LMO3, with photon production proportional to firing rate. In contrast, low and moderate doses of CTZ, CTM, or vehicle did not modulate activity in mice that did not express LMO3. We also failed to find bioluminescence effects on neural activity in mice expressing an optogenetically non-sensitive LMO3 variant. We observed weak responses to the highest dose of CTZ in control mice, but these effects were significantly smaller than those observed in the LMO3 group. These results show that in neocortex in vivo, there is a large CTZ range wherein BL-OG effects are specific to its active chemogenetic mechanism. <a class=bl-link href=" https://doi.org/10.1002/jnr.24498" target="_blank">Read more about this work in the Journal of Neuroscience</a>.'
+    abstract: 'BioLuminescent (BL) light production can modulate neural activity and behavior through coexpressed OptoGenetic (OG) elements, an approach termed ‘BL-OG’. Yet, the relationship between BL-OG effects and bioluminescent photon emission has not been characterized in vivo. Further, the degree to which BL-OG effects strictly depend on optogenetic mechanisms driven by bioluminescent photons is unknown. Crucial to every neuromodulation method is whether the activator shows a dynamic concentration range driving robust, selective, and non-toxic effects. We systematically tested the effects of four key components of the BL-OG mechanism (luciferin, oxidized luciferin, luciferin vehicle, and bioluminescence), and compared these against effects induced by the Luminopsin-3 (LMO3) BL-OG molecule, a fusion of slow burn Gaussia luciferase (sbGLuc) and Volvox ChannelRhodopsin-1 (VChR1). We performed combined bioluminescence imaging and electrophysiological recordings while injecting specific doses of Coelenterazine (substrate for sbGluc), Coelenteramide (CTM, the oxidized product of CTZ), or CTZ vehicle. CTZ robustly drove activity in mice expressing LMO3, with photon production proportional to firing rate. In contrast, low and moderate doses of CTZ, CTM, or vehicle did not modulate activity in mice that did not express LMO3. We also failed to find bioluminescence effects on neural activity in mice expressing an optogenetically non-sensitive LMO3 variant. We observed weak responses to the highest dose of CTZ in control mice, but these effects were significantly smaller than those observed in the LMO3 group. These results show that in neocortex in vivo, there is a large CTZ range wherein BL-OG effects are specific to its active chemogenetic mechanism. <a class=bl-link href=" https://doi.org/10.1002/jnr.24498" target="_blank">Read more about this work in the Journal of Neuroscience Research</a>.'
     },
+    {
+      imgSrc: ' https://bl-hub.s3.amazonaws.com/research-objects/Aequorea_victorias_secrets.png',
+      title: "<i>Aequorea victoria's</i> secrets",
+      venue: 'bioRxiv; July 7, 2019',
+      authors: [
+        'G. G. Lambert, ',
+        'H. Depernet, ',
+        'G. Gotthard, ',
+        'D. T. Schultz, ',
+        'I. Navizet, ',
+        'T. Lambert, ',
+        'D. S. Bindels, ',
+        'V. Levesque, ',
+        'J. N. Moffatt, ',
+        'A. Salih, ',
+        'A. Royant, ',
+        'N. C. Shaner'
+      ],
+      abstract: 'Using mRNA-Seq and <i>de novo</i> transcriptome assembly, we identified, cloned and characterized nine previously undiscovered fluorescent protein (FP) homologs from <i>Aequorea victoria</i> and a related <i>Aequorea</i> species, with most sequences highly divergent from avGFP. Among these FPs are the brightest GFP homolog yet characterized and a reversibly photochromic FP that responds to UV and blue light. Beyond green emitters, <i>Aequorea</i> species express purple- and blue-pigmented chromoproteins (CPs) with absorbances ranging from green to far-red, including two that are photoconvertible. X-ray crystallography revealed that <i>Aequorea</i> CPs contain a chemically novel chromophore with an unexpected crosslink to the main polypeptide chain. Because of the unique attributes of several of these newly discovered FPs, we expect that <i>Aequorea</i> will, once again, give rise to an entirely new generation of useful probes for bioimaging and biosensing. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/677344v2" target="_blank">Read more about this work on bioRxiv</a>.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Prakash_J_Neurosci_Res_2018.png',
+      title:'Defining parameters of specificity for bioluminescent optogenetic activation of neurons using in vitro multi electrode arrays (MEA)',
+      venue:'Jounral of Neuroscience Research',
+      authors: [
+      'M. Prakash, ',
+      'W. E. Medendorp, ',
+      'U. Hochgeschwender'
+      ],
+      abstract: 'In Bioluminescent Optogenetics (BL‐OG) a biological, rather than a physical, light source is used to activate light‐sensing opsins, such as channelrhodopsins or pumps. This is commonly achieved by utilizing a luminopsin (LMO), a fusion protein of a light‐emitting luciferase tethered to a light‐sensing opsin. Light of the wavelength matching the activation peak of the opsin is emitted by the luciferase upon application of its small molecule luciferin, resulting in activation of the fused opsin and subsequent effects on membrane potential. Using optimized protocols for culturing, transforming, and testing primary neurons in multi electrode arrays, we systematically defined parameters under which changes in neuronal activity are specific to bioluminescent activation of opsins, rather than due to off‐target effects of either the luciferin or its solvent on neurons directly, or on opsins directly. We further tested if there is a direct effect of bioluminescence on neurons. Critical for assuring specific BL‐OG effects are testing the concentration and formulation of the luciferin against proper controls, including testing effects of vehicle on LMO expressing and of luciferin on nonLMO expressing targets. <a class=bl-link href=" https://doi.org/10.1002/jnr.24313" target="_blank">Read more about this work in the Journal of Neuroscience Research</a>.'
+    },
+  ];
+  export const RESEARCH_OBJECTS_POSTERS = [
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Moore+2019+Brain+Initiative+poster+Final_thumbnail-min.jpg',
       title: "Distinct Advantages of BioLuminescence for Neuroscience",
