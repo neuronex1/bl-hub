@@ -22,7 +22,11 @@ const FAQs = [
     },
     {
         question: 'Are international students eligible to apply?',
-        answer:'<p>Yes!</p>'
+        answer:'<p>Yes! Depending on your home country, you might be required to complete additional paperwork, etc. for visa requirements.</p>'
+    },
+    {
+        question: 'Whom should I list as a reference?',
+        answer: '<p>We&#39;re most interested in contacts who will be able to speak about you as a student and your potential to succeed during our practicum, such as professors, employers, mentors, or others who know you really well in a (mostly) professional (but probably also a bit personal) capacity.</p>'
     },
     {
         question: 'When will I hear whether I have been accepted?',
@@ -68,7 +72,7 @@ class Carousel extends React.PureComponent {
         return (
             <div>
                 <div className='img__hero-bg img__hero-bg--faq mbxl'>
-                    <h2 className='hero-img__title text-center'>MBL Undergraduate Practicum FAQs</h2>
+                    <h2 className='hero-img__title text-center'>NeuroNex Undergraduate Practicum FAQs</h2>
                 </div>
                 {this.renderFAQs()}
                 <p>Have a question that is not answered here? <a class='bl-link' href='/contact-us'>Contact us!</a></p>
