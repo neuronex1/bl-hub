@@ -33,8 +33,8 @@ const FAQs = [
         answer: '<p>We aim to notify applicants of their status in December, before winter break, but cannot guarantee a particular date.</p>'
     },
     {
-        question: 'Attending the MBL Practicum will cause me to miss class/labs/exams at my home institution. What should I do?',
-        answer: '<p>As soon as you are invited to attend the MBL Practicum, contact your professors and discuss your options. In many cases, the faculty at your home institution will be willing to work with you and allow you to turn in your work early/late/electronically, attend a different lab section, or take an exam remotely. There are (often) ways to make up missed work, as long as you contact your professors early, present them with a plan, and follow through on the execution of that plan.</p><p>Please note that it is your responsibility to contact your professors and request permission for you to miss class; MBL Practicum faculty will not do so on your behalf.</p>'
+        question: 'Attending the NeuroNex Practicum will cause me to miss class/labs/exams at my home institution. What should I do?',
+        answer: '<p>As soon as you are invited to attend the NeuroNex Practicum, contact your professors and discuss your options. In many cases, the faculty at your home institution will be willing to work with you and allow you to turn in your work early/late/electronically, attend a different lab section, or take an exam remotely. There are (often) ways to make up missed work, as long as you contact your professors early, present them with a plan, and follow through on the implementation of that plan.</p><p>Please note that it is your responsibility to contact your professors and request permission for you to miss class; NeuroNex Practicum faculty will not do so on your behalf.</p>'
     },
 ];
 
