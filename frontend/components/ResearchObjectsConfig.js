@@ -58,7 +58,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Prakash_J_Neurosci_Res_2018.png',
       title:'Defining parameters of specificity for bioluminescent optogenetic activation of neurons using in vitro multi electrode arrays (MEA)',
-      venue:'Jounral of Neuroscience Research',
+      venue:'Journal of Neuroscience Research',
       authors: [
       'M. Prakash, ',
       'W. E. Medendorp, ',
@@ -68,6 +68,113 @@ export const RESEARCH_OBJECTS_PAPERS = [
     },
   ];
   export const RESEARCH_OBJECTS_POSTERS = [
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+      title:'Selective behavioral and circuit deficits in adulthood following widespread postnatal excitation of neocortical pyramidal cells',
+      venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
+      authors: [
+        'A. Björefeldt, ',
+        'W. E. Medendorp, ',
+        'A. Pal, ',
+        'M. L. Waddell, ',
+        'C. I. Moore, ',
+        'U. Hochgeschwender'
+      ],
+      abstract:'The amount and pattern of neuronal activity present during the early developmental period is believed to guide structural and functional properties of neural circuit assembly that persist into adulthood. Thus, alterations in neuronal activity during this time period may lead to aberrant circuit formation, a mechanism that has been implicated in certain psychiatric disorders such as autism. Here we took advantage of a bimodal experimental approach, bioluminescence-driven optogenetics, to assess the impact of cortical pyramidal cell hyperexcitation during this critical time period. To enable manipulation of cortical pyramidal cell activity during development, mice expressing the excitatory luciferase-opsin fusion LMO3 (sbGluc fused to VChR1) under a Lox-Stop-Lox sequence were crossed with Emx1-Cre mice. In presence of the luciferase substrate coelenterazine (CTZ), light emission from sbGluc drives activation of VChR1 to depolarize the cell and evoke action potential firing. CTZ was delivered intraperitoneally once a day during post-natal days 4-14 in developing mouse pups. Starting at postnatal day 50 (P50), mice that received either CTZ or vehicle treatment during development were tested in a number of behavioral paradigms and effects on morphological and electrophysiological properties were examined. Behavioral testing revealed that CTZ-treated Emx1-Cre/LSL-LMO3 mice display adult behavioral phenotypes similar to those observed in existing animal models of autism. Taking advantage of the option to interrogate the same LMO3-expressing neurons using optogenetics in <i>in vivo</i> and <i>ex vivo</i> electrophysiological recordings from cortex, these animals showed evidence of neurophysiological alterations in the form of altered neuronal network oscillations, excitation-inhibition balance and intrinsic excitability. In conclusion, we leveraged the advantage of a dual chemo- and optogenetic approach to study the impact of neuronal activity during early development on adult neurophysiology and behavior that could aid investigation of pathophysiological mechanisms underlying psychiatric disorders such as autism.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/SFN_2019_Dmitrijs_final-min.jpg',
+      title:'Miniaturized devices for bioluminescence imaging of brain and spinal cord',
+      venue:"2019 Society for Neuroscience Meeting; 2019 NeuroNex Investigator Meeting; Chicago, IL",
+      authors: [
+        'D. Celinskis, ',
+        'M. Gomez-Ramirez, ',
+        'D. A. Borton, ',
+        'C. I. Moore'
+      ],
+      abstract:'Over recent years miniature microscopes have become a key tool for <i>in vivo</i> free behavioral studies. This technology offers the ability to measure network dynamics underlying naturalistic animal behaviors by tracking fluorescent activity of genetically encoded calcium indicators. However, these indicators suffer from autofluorescence artifacts, phototoxicity and photobleaching effects, limiting chronic animal studies. These limitations can be overcome by the use of bioluminescent indicators, which offer a lower biological noise floor and do not employ external light delivery. While often significantly higher in signal-to-noise ratio, the overall lower signal intensity of luciferase output is a challenge. As such, imaging calcium or other cofactor-dependent bioluminescent indicators requires minimization of emission light losses, and optimization of the imaging sensor’s sensitivity. Here, we demonstrate a modified version of the open-source UCLA miniscope for bioluminescence imaging. The removal of excitation light optics reduces the number of assembly components by ~60%, and weight by ~20%. The reduction in components and the use of high-resolution stereolitographic (SLA) 3D printing also provides significant flexibility for the optical path design optimization to reduce the photon loss, to add complementary functions such as electrical stimulation or recording, and to adapt the microscope for imaging other parts of the body such as the spinal cord. The studies employing miniature microscopes to date have been primarily focused on brain imaging and existing designs have not been optimized for chronic use to image the spinal cord. Key challenges remain when imaging the spinal cord, in particular significant movement artifact. Here, we will also describe an implant design for attaching the miniature microscope to the spinal cord, and demonstrate the adaptation of motion correction algorithms for spinal cord imaging applications. We are currently validating the above described innovations by demonstrating bioluminescence imaging in the spinal cord of the mouse. A major goal of our project is to expand the utility of open-source miniature microscopes to new avenues of scientific inquiry (e.g., spinal cord imaging). As part of the technology sharing objectives of this NSF Bioluminescence Hub, all designs presented here are available online for use by all members of the scientific community.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+      title:'Bioluminescence driven control of photosensory proteins',
+      venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
+      authors: [
+        'E. L. Crespo, ',
+        'G. Lambert, ',
+        'N. C. Shaner, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'Bioluminescence is light emitted by a luciferase oxidizing its substrate. We previously demonstrated that such “biological” light can activate optogenetic elements, such as channelrhodopsins and pumps, effecting membrane potential changes and resulting in activation or silencing of neurons <i>in vitro</i> and <i>in vivo</i>. We explored whether bioluminescent light production can be utilized beyond activating ion-moving photoreceptors to the larger array of photosensory proteins employed as optical switches in cellular processes such as protein translocation and transcription. In initial proof-of-concept experiments we co-transfected HEK293 cells with a blue light emitting luciferase and a blue light sensing photoreceptor. Light emitters were sbGLuc, a copepod luciferase variant, NanoLuc, a luciferase derived from shrimp, as well as two novel engineered synthetic luciferases. Photoreceptors were CRY/CIB, a light-gated dimerization system, and LOV, based on light dependent protein unhinging. Bioluminescence driven activation of these photoreceptors was measured as increased transcription of luminescent and fluorescent reporter proteins in direct comparison to LED driven activation. Quantification of bioluminescence driven photoreceptor activation revealed that both light-gated switches, cryptochrome protein dimerization and light-oxygen-voltage J-alpha helix unfolding can be efficiently activated by biological light sources. Furthermore, the higher light emission of our synthetic luciferases resulted in better activation of transcription. There are many ways to improve further on these basic results. Collectively, bioluminescence driven activation of the larger families of photoreceptors will expand their use for <i>in vivo</i> applications that benefit from non-invasive light sources and engagement of spatially distributed cells.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+      title:'Non-invasive optogenetic stimulation in a rat model of spinal cord injury',
+      venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
+      authors: [
+        'G. Kendziorski, ',
+        'E. D. Petersen, ',
+        'L. Shafau, ',
+        'M. Prakash, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'The ability to manipulate specific neuronal populations of the spinal cord following spinal cord injury (SCI) could potentially prove highly beneficial for rehabilitation in patients through maintaining and strengthening still existing neuronal connections and/or facilitating the formation of new connections. A non-invasive and highly specific approach to neuronal stimulation is bioluminescent-optogenetics, where genetically expressed light emitting luciferases are tethered to light sensitive channelrhodopsins (luminopsins, LMO); neurons are activated by the addition of the luciferase substrate coelenterazine (CTZ). This approach takes advantage of utilizing ion channels for current conduction while activating the channels through application of a small chemical compound, thus allowing non-invasive stimulation and recruitment of all targeted neurons. We previously showed the efficacy of this approach in improving locomotor recovery following severe spinal cord injury in rats expressing the excitatory LMO3 under control of a pan-neuronal and motor neuron specific promoter; CTZ was applied through a lateral ventricle cannula. Here we transduced spinal cord neurons with a synapsin-driven step function LMO, SFLMO(CS). In this construct the Gaussia luciferase variant sbGLuc is fused to the step function opsin ChR2(CS). As SFOs are significantly more light sensitive than other opsins, we stimulated transduced lumbar neurons by intraperitoneal application of CTZ, allowing for a less invasive treatment.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Koksharov_Poster-NeuroNex-Workshop-2019-min.jpg',
+      title:'Bioluminescent sensing of intracellular calcium at calcium channels',
+      venue: '2019 NeuroNex Investigator Meeting; Chicago, IL',
+      authors: [
+        'M. Koksharov, ',
+        'S. Gratz, ',
+        'K. O&#39Connor-Giles, ',
+        'D. Lipscombe, ',
+        'C. I. Moore'
+      ],
+      abstract:'Bioluminescent sensors of intracellular calcium offer a number of advantages <i>in vitro</i> and <i>in vivo</i>. Calcium-sensing luciferases can be further tethered to specific voltage-gated Ca channels to sense calcium in specific neural microdomains and to potentially enable activity-dependent cell-cell communication through post-synaptic optogenetic elements. We discuss the ongoing work on sensor design and their implementation in cultured cells and <i>in vivo</i> in <i>Drosophila</i> flies.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Literman_SfN_2019-min.jpg',
+      title: 'Building a bioluminescent and optogenetic learning community through immersive outreach experiences',
+      venue: "2019 Society for Neuroscience Meeting; 2019 NeuroNex Investigator Meeting; Chicago, IL",
+      authors: [
+        'K. R. Literman, ',
+        'J. J. Allen, ',
+        'D. Lipscombe, ',
+        'U. Hochgeschwender, ',
+        'N. C. Shaner, ',
+        'C. I. Moore'
+      ],
+      abstract:'The Bioluminescence Hub, a National Science Foundation NeuroNex Technology Hub, is dedicated both to the development of novel bioluminescent and optogenetic tools and to the broad dissemination of those tools and the scientific concepts underlying their development. We are committed to education at all levels: the general public, grade and high school, undergraduate, and postgraduate. At the public and K-12 levels, we introduce participants to living bioluminescent organisms and leverage the captivating nature of these organisms to illustrate how these natural lights can illuminate the path toward discovery. In addition to mentoring undergraduate interns at each of our three partner universities, our Hub hosts an annual Undergraduate Practicum at the Marine Biological Laboratory in Woods Hole, MA, an immersive experience where students from around the country meet for lectures, hands-on laboratory experiments and demonstrations, and hone team science skills through a technology venture proposal competition. Our postgraduate training is twofold: we maximize the accessibility and utility of our tools by hosting training Workshops and sending research Emissaries to interested laboratories. In addition to providing recipient laboratories new ways to pursue their research questions, these activities provide our postgraduate team members with the opportunity to serve as educators. By tailoring unique and immersive outreach and education experiences for audiences across learning levels, the Bioluminescence Hub is building a large and diverse community that understands the innovation potential of bioluminescence- and optogenetics-based research.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+      title:'Modular family of feadily interchangeable head-post attachments for drug delivery, imaging, electrophysiology and brain maintenance in awake, behaving mice',
+      venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
+      authors: [
+        'J. W. Murphy, ',
+        'N. G. Friedman, ',
+        'D. Celinskis, ',
+        'D. Lipscombe, ',
+        'N. C. Shaner, ',
+        'U. Hochgeschwender, ',
+        'M. Gomez-Ramirez, ',
+        'C. I. Moore'
+      ],
+      abstract:'Cranial windows for optical imaging in rodents are widespread and useful. They allow for long-term imaging of neural activity as well as optical access for the stimulation of optogenetic elements. As genetically targeted imaging and manipulation of neural activity <i>in vivo</i> becomes increasingly widespread, certain experimental questions necessitate direct access to the brain otherwise typically sealed beneath glass. Specifically, the delivery of drugs directly to the restricted brain area beneath the optical window in an even and controlled manner while maintaining suitable optical access for imaging is a central challenge to many experimental preparations. A second challenge is the frequent need for simultaneous acquisition of imaging and electrophysiological data, which requires access of the recording probe to the tissue of interest. Previous approaches to these challenges have either allowed for access to only a small sub-region of the entire cranial window via a re-sealable hole in a glass or silicone window, or are sealed microfluidic devices that do not allow for direct access to the tissue. We sought to design an inexpensive, modifiable and scalable device for simultaneous optical imaging, drug delivery and electrophysiological recording. The device we present is 3D printed and affixes to our pre-existing titanium headposts through the use of thin (<1mm) neodymium disc magnets. The device was designed using open source software (OpenSCAD) and printed on a low cost 3D printer (Creality Ender 3). Central to the design of the device is that the swappable magnetic approach allows for interchangeable attachments geared toward the specific task. For instance, a microfluidic chamber enclosed by a glass window allows for drug infusion with simultaneous optical access for imaging while an optically opaque cover with a silicone disk allows for compression and protection of the craniotomy while the animal is in its home cage. We present data showing the successful activation of a bioluminescent enzyme expressed in cortical neurons by infusion of the corresponding bioluminescent substrate through our magnetic perfusion chamber. Additionally, we show that optical access remains clear over multiple experimental sessions.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+      title: "Transsynaptic neuronal activation <i>via</i> bioluminescent optogenetics",
+      venue: '2019 Society for Neuroscience Meeting; Chicago, IL',
+      authors: [
+        'R. Schumaker, ',
+        'M. Prakash, ',
+        'A. Pal, ',
+        'E. Crespo, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'Biological light activation of optogenetic sensors across synaptic partners offers the potential to optogenetically dissect synaptic communication non-invasively. The genetically encoded light source, a luciferase, is expressed pre-synaptically, and the light-sensing opsin is expressed post-synaptically. In the presence of the luciferase substrate, coelenterazine (CTZ), the pre- and post-synaptic partners will be in close proximity to allow activation of the opsin by luciferase-produced light. In order to improve the specificity of trans-synaptic signaling, we are exploring several designs of trans-synaptic reconstitution of split molecules. First, Gaussia luciferase (GLuc) is split into inactive N- and C-terminal portions, each of which are then tethered to the pre-synaptic membrane or post-synaptic opsin, respectively. Second, in a luciferase - fluorescent protein fusion construct the fluorescent protein is split such that resonance energy transfer from the luciferase and subsequent light emission for opsin activation only occurs in the presence of CTZ in synapses allowing reconstitution of the fluorescent protein. Experiments are carried out in HEK cells and cultured primary neurons.'
+    },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Moore+2019+Brain+Initiative+poster+Final_thumbnail-min.jpg',
       title: "Distinct Advantages of BioLuminescence for Neuroscience",
