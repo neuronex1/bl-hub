@@ -126,7 +126,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
       authors: [
         'M. Koksharov, ',
         'S. Gratz, ',
-        'K. O&#39Connor-Giles, ',
+        "K. O'Connor-Giles, ",
         'D. Lipscombe, ',
         'C. I. Moore'
       ],
@@ -148,7 +148,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
-      title:'Modular family of feadily interchangeable head-post attachments for drug delivery, imaging, electrophysiology and brain maintenance in awake, behaving mice',
+      title:'Modular family of readily interchangeable head-post attachments for drug delivery, imaging, electrophysiology and brain maintenance in awake, behaving mice',
       venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
       authors: [
         'J. W. Murphy, ',
@@ -161,6 +161,25 @@ export const RESEARCH_OBJECTS_PAPERS = [
         'C. I. Moore'
       ],
       abstract:'Cranial windows for optical imaging in rodents are widespread and useful. They allow for long-term imaging of neural activity as well as optical access for the stimulation of optogenetic elements. As genetically targeted imaging and manipulation of neural activity <i>in vivo</i> becomes increasingly widespread, certain experimental questions necessitate direct access to the brain otherwise typically sealed beneath glass. Specifically, the delivery of drugs directly to the restricted brain area beneath the optical window in an even and controlled manner while maintaining suitable optical access for imaging is a central challenge to many experimental preparations. A second challenge is the frequent need for simultaneous acquisition of imaging and electrophysiological data, which requires access of the recording probe to the tissue of interest. Previous approaches to these challenges have either allowed for access to only a small sub-region of the entire cranial window via a re-sealable hole in a glass or silicone window, or are sealed microfluidic devices that do not allow for direct access to the tissue. We sought to design an inexpensive, modifiable and scalable device for simultaneous optical imaging, drug delivery and electrophysiological recording. The device we present is 3D printed and affixes to our pre-existing titanium headposts through the use of thin (<1mm) neodymium disc magnets. The device was designed using open source software (OpenSCAD) and printed on a low cost 3D printer (Creality Ender 3). Central to the design of the device is that the swappable magnetic approach allows for interchangeable attachments geared toward the specific task. For instance, a microfluidic chamber enclosed by a glass window allows for drug infusion with simultaneous optical access for imaging while an optically opaque cover with a silicone disk allows for compression and protection of the craniotomy while the animal is in its home cage. We present data showing the successful activation of a bioluminescent enzyme expressed in cortical neurons by infusion of the corresponding bioluminescent substrate through our magnetic perfusion chamber. Additionally, we show that optical access remains clear over multiple experimental sessions.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Mansi+NeuroNex+2019+Poster-min.jpg',
+      title: 'Interluminescence: Trans-Synaptic Modulation through BioLuminescent OptoGenetics',
+      venue: '2019 NeuroNex Investigator Meeting; Chicago, IL',
+      authors: [
+        'M. Prakash, ',
+        'R. St. Laurent, ',
+        'A. Pal, ',
+        'K. M. Riselay, ',
+        'Y. Bhagat, ',
+        'A. Björefeldt, ',
+        'B. W. Connors, ',
+        'D. Lipscombe, ',
+        'J. A. Kauer, ',
+        'C. I. Moore, ',
+        'U. Hochgeschwender'
+      ],
+      abstract:'In BioLuminescent OptoGenetics (BL-OG), the light sensing opsin, such as a channelrhodopsin or a pump, is activated by biological light emitted from a luciferase that emits photons upon application of a luciferin, a small molecule substrate. When light emitter and sensor are tethered, as in luciferase-opsin fusion proteins (luminopsin, LMO), membrane potential changes occur in the cell expressing the LMO. BL-OG is not limited, in concept, to single cell (intra-luminescent) applications. As both light emitter and light sensor are genetically encoded, they can be expressed separately, including in separate cells. Thus, light may be transmitted between cells to drive an effect (inter-luminescence), a form of optical communication. Here, we show experiments where we co-cultured cortical neurons expressing the luciferase with hippocampal/striatal neurons expressing the opsin, with the goal of investigating BL-OG effects across synapses between these neuronal populations, thus testing the feasibility of an optical synapse.'
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
@@ -413,7 +432,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     abstract:'Optogenetics is the use of light to manipulate light sensing molecules, opsins. Activation of these light-gated ion channels and pumps, when expressed by neurons, results in depolarization or hyperpolarization of cell membranes. This allows activation and silencing of neuronal circuits in behaving experimental animals via light fibers implanted into the animal’s brain. We proposed a strategy for non-invasive optogenetics by switching out the light source from an invasive physical to a non-invasive biological one, i.e., a light producing protein, or luciferase. The luciferase emits light, activating the optogenetic actuator upon application of its small-molecule substrate, coelenterazine (CTZ). We engineered fusion proteins of a light-emitting luciferase to an optogenetic light-responsive element, resulting in a luminescent opsin, or luminopsin. Activation of fused opsins will be more efficient as the light emission of the luciferase increases. One way to increase light output of luciferases is to couple them to fluorescent proteins to take advantage of BRET (bioluminescent resonance energy transfer). This class of probe is far brighter than the parental luciferase enzyme because the quantum efficiency of emission is governed not by the luciferase enzyme, but rather by the fluorescence quantum yield of the BRET acceptor. We performed mutant library screenings in E. coli towards directed evolution of luciferases to improve their enzymatic activity and towards linker length, composition, and domain geometry of BRET probes for optimization of their efficiency. The brightest new BRET probes were codon-optimized and fused to optogenetic actuators. Fusion proteins were expressed in primary cultured neurons and assessed for their effects on activating and silencing neurons in multi electrode arrays (MEAs). New luminopsin constructs had robust expression, increased light emission compared to previously used luciferase variants, and showed efficient activation of opsins by increasing and decreasing spiking of cultured neurons.'
 },
 {
-    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Mansi+SfN+2017+Poster+BL-OG-min.jpg',
     title: 'Bioluminescence driven optogenetics for investigating functional synaptic communication ',
     venue: '2017 Society for Neuroscience Meeting; Washington, DC',
     authors: [
