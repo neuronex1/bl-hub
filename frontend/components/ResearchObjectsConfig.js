@@ -108,7 +108,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Nina+Friedman+NeuroNex+2019+poster+final-min.jpg',
-      title: 'A bright new luciferase driven by intravenous and intraperitonial injection',
+      title: 'A bright new luciferase driven by intravenous and intraperitoneal injection',
       venue: '2019 NeuroNex Investigator Meeting; Chicago, IL',
       authors: [
         'N. Friedman, ',
