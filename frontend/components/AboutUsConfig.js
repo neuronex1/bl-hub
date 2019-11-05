@@ -63,14 +63,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Andreas tests the performance of bioluminescent effectors and reporters developed in the lab, using whole cell patch clamp recordings. Andreas is interested in the role of cortical interneuron subtypes in information processing and memory functions.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sheenah_Lynn_Bryant-min.jpg',
-        title: 'Sheenah Lynn Bryant, PhD, Central Michigan University',
-        positions: [
-            'Postdoctoral Fellow'
-        ],
-        blurb: 'Sheenah develops optimal experimental platforms for studying bioluminescence-optogenetics proteins, and researches how these proteins can be used to enlighten our understanding of neural plasticity.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Misha_Koksharov-min.jpg',
         title: 'Mikhail Koksharov, PhD, Brown University',
         positions: [
@@ -114,7 +106,7 @@ export const CURRENT_MEMBERS = [
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Griffin_Kendziorski-min.jpg',
       title: 'Griffin Kendziorski, Central Michigan University',
       positions: [
-        'Graduate Student'
+            'Graduate Student'
       ],
       blurb: "Griffin is currently working on a Master's in Neuroscience, focusing on using light-activated channels as a method of retaining neural activity in downstream spinal motor neurons following a spinal cord injury."
     },
@@ -169,6 +161,14 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sheenah_Lynn_Bryant-min.jpg',
+        title: 'Sheenah Lynn Bryant, PhD',
+        positions: [
+          ''
+        ],
+        blurb: 'As a Postdoctoral Fellow at CMU, Sheenah developed optimal experimental platforms for studying bioluminescence-optogenetics proteins, and researched how these proteins can be used to enlighten our understanding of neural plasticity.'
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Manuel_Gomez-Ramirez-min.jpg',
         title: 'Manuel Gomez-Ramirez, PhD, University of Rochester',
