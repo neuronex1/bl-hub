@@ -40,7 +40,7 @@ class Carousel extends React.PureComponent {
                 photoCredit: ''
             },
             {
-              src: 'https://bl-hub.s3.amazonaws.com/home+buttons/Dissemination+Slide_cropped-min.jpg',
+              src: 'https://bl-hub.s3.amazonaws.com/home+buttons/Dissemination+Slide_V2-min.jpg',
               caption: 'Disseminating Knowledge Broadly',
               subtitle: ['Workshops', 'Emissaries', 'MBL Practicum', 'Plasmids'],
               buttonLabel: 'LEARN MORE',
