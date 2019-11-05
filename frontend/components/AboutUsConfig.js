@@ -108,7 +108,15 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Manny is focusing on driving non-ion-exchanging optical sensors with bioluminescence.'
+        blurb: 'Manny is focused on driving non-ion-exchanging optical sensors with bioluminescence.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Griffin_Kendziorski-min.jpg',
+      title: 'Griffin Kendziorski, Central Michigan University',
+      positions: [
+        'Graduate Student'
+      ],
+      blurb: "Griffin is currently working on a Master's in Neuroscience, focusing on using light-activated channels as a method of retaining neural activity in downstream spinal motor neurons following a spinal cord injury."
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Klein-min.JPG',
@@ -132,7 +140,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Rachel is focused on molecular engineering of luciferase-driven tools.'
+        blurb: 'Rachel is focused on the molecular engineering of luciferase-driven tools.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
@@ -183,7 +191,7 @@ export const ALUMNI = [
         positions: [
             'Postdoctoral Fellow'
         ],
-        blurb: 'Akash is presently a Postdoctoral Fellow in the <a class=bl-link href="https://basicscience.ucdmc.ucdavis.edu/tian_lab/index.html" target="_blank">Tian Laboratory</a> at UC Davis.'
+        blurb: 'While a graduate student at CMU, Akash worked on bioluminescent calcium indicators. He is presently a Postdoctoral Fellow in the <a class=bl-link href="https://basicscience.ucdmc.ucdavis.edu/tian_lab/index.html" target="_blank">Tian Laboratory</a> at UC Davis.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
@@ -191,7 +199,7 @@ export const ALUMNI = [
         positions: [
             'Postdoctoral Researcher'
         ],
-        blurb: 'Eric is working on two projects. First, he is refining the generation of neural stem cells from adipose tissue. Second, he is applying luminopsins as a novel therapeutic method for stimulation at the neuronal level to improve recovery after spinal cord injury in a rat model.'
+        blurb: 'While a graduate student at CMU, Eric worked on refining the generation of neural stem cells from adipose tissue. He also applied luminopsins as a novel therapeutic method for stimulation at the neuronal level to improve recovery after spinal cord injury in a rat model.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Robyn_St.Laurent-min.jpeg',
@@ -199,7 +207,7 @@ export const ALUMNI = [
         positions: [
             'Postdoctoral Fellow'
         ],
-        blurb: 'Robyn works on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
+        blurb: 'While a graduate student at Brown, Robyn worked on trans-synaptic bioluminescent modulation of opsins via activity-dependent release of bioluminescent enzymes.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sophie_Marsh-min.jpg',
