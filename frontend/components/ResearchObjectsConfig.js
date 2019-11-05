@@ -107,6 +107,22 @@ export const RESEARCH_OBJECTS_PAPERS = [
       abstract: 'Bioluminescence is light emitted by a luciferase oxidizing its substrate. We previously demonstrated that such “biological” light can activate optogenetic elements, such as channelrhodopsins and pumps, effecting membrane potential changes and resulting in activation or silencing of neurons <i>in vitro</i> and <i>in vivo</i>. We explored whether bioluminescent light production can be utilized beyond activating ion-moving photoreceptors to the larger array of photosensory proteins employed as optical switches in cellular processes such as protein translocation and transcription. In initial proof-of-concept experiments we co-transfected HEK293 cells with a blue light emitting luciferase and a blue light sensing photoreceptor. Light emitters were sbGLuc, a copepod luciferase variant, NanoLuc, a luciferase derived from shrimp, as well as two novel engineered synthetic luciferases. Photoreceptors were CRY/CIB, a light-gated dimerization system, and LOV, based on light dependent protein unhinging. Bioluminescence driven activation of these photoreceptors was measured as increased transcription of luminescent and fluorescent reporter proteins in direct comparison to LED driven activation. Quantification of bioluminescence driven photoreceptor activation revealed that both light-gated switches, cryptochrome protein dimerization and light-oxygen-voltage J-alpha helix unfolding can be efficiently activated by biological light sources. Furthermore, the higher light emission of our synthetic luciferases resulted in better activation of transcription. There are many ways to improve further on these basic results. Collectively, bioluminescence driven activation of the larger families of photoreceptors will expand their use for <i>in vivo</i> applications that benefit from non-invasive light sources and engagement of spatially distributed cells.'
     },
     {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Nina+Friedman+NeuroNex+2019+poster+final-min.jpg',
+      title: 'A bright new luciferase driven by intravenous and intraperitonial injection',
+      venue: '2019 NeuroNex Investigator Meeting; Chicago, IL',
+      authors: [
+        'N. Friedman, ',
+        'J. Murphy, ',
+        'E. Klein, ',
+        'M. Gomez-Ramirez, ',
+        'G. Lambert, ',
+        'U. Hochgeschwender, ',
+        'N. Shaner, ',
+        'C. I. Moore'
+      ],
+      abstract: 'BioLuminescent-OptoGenetic molecules for driving and imaging neural activity have a number of advantages <i>in vivo</i>. In this approach, genetically expressed luciferases bind with injected luciferins to produce cold light. The photons bind to localized to genetically expressed optogenetic and calcium indicating molecules. One benefit of this approach is widespread, genetically-targeted, non-invasive neural activation or read-out through peripheral injection of the luciferin. In past studies, luminescence has been seen through the skull after peripheral injection at low spatial and temporal resolutions. In somatosensory cortex neurons, we expressed NCS-2, a noved bright luciferase composed of mNeonGreen tethered to ekL9H, a shrimp-based luciferase variant. We injected our luciferin, h-CTZ, intraperitoneally(IP) and intravenously(IV) through the lateral tail vein, imaging at a high spatial resolution and quantifying the time course of luciferase activation. We observed a stronger peak activation of NCS2 when h-CTZ was injected IV, and a longer activation when h-CTZ was injected IP. These results show that both IV and IP delivery of h-CTZ can drive robust bioluminescence in cortical neurons.'
+    },
+    {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
       title:'Non-invasive optogenetic stimulation in a rat model of spinal cord injury',
       venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
