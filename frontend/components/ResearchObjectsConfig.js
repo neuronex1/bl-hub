@@ -315,7 +315,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
       title: 'Restoring function after severe spinal cord injury through bioluminescence-driven optogenetic stimulation of spinal circuitry',
       venue: "2018 Society for Neuroscience Meeting; 2018 NeuroNex Investigators' Meeting; San Diego, CA",
       authors: [
-            'E. D. Peteresen, ',
+            'E. D. Petersen, ',
             'A. Pal, ',
             'J. Zenchak, ',
             'E. D. Sharkey, ',
@@ -407,7 +407,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
       title: 'Non-invasive bioluminescence-activated optogenetic stimulation for rehabilitation following traumatic spinal cord injury',
       venue: '2017 Society for Neuroscience Meeting; Washington, DC',
       authors: [
-        'E. D. Peteresen, ',
+        'E. D. Petersen, ',
         'A. Pal, ',
         'E. D. Sharkey, ',
         'J. R. Zenchak, ',
