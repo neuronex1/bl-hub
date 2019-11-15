@@ -58,7 +58,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Prakash_J_Neurosci_Res_2018.png',
       title:'Defining parameters of specificity for bioluminescent optogenetic activation of neurons using in vitro multi electrode arrays (MEA)',
-      venue:'Journal of Neuroscience Research',
+      venue:'Journal of Neuroscience Research, August 28, 2018',
       authors: [
       'M. Prakash, ',
       'W. E. Medendorp, ',
