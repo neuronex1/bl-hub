@@ -21,16 +21,19 @@ const FAQs = [
         answer: '<p>You are not required to send us your résumé/CV, but you may include one when you email your transcript if you would like to share with us information that is not captured by our application.</p>'
     },
     {
+        question: 'Whom should I list as a reference?',
+        answer: '<p>We’re most interested in contacts who will be able to speak about you as a student and your potential to succeed during our practicum, such as professors, employers, mentors, or others who know you really well in a (mostly) professional (but probably also a bit personal) capacity.</p>'
+    },
+    {
         question: 'Are international students eligible to apply?',
         answer:'<p>Yes! Depending on your home country, you might be required to complete additional paperwork, etc. for visa requirements.</p>'
     },
     {
-        question: 'Whom should I list as a reference?',
-        answer: '<p>We&#39;re most interested in contacts who will be able to speak about you as a student and your potential to succeed during our practicum, such as professors, employers, mentors, or others who know you really well in a (mostly) professional (but probably also a bit personal) capacity.</p>'
-    },
-    {
         question: 'When will I hear whether I have been accepted?',
         answer: '<p>We aim to notify applicants of their status in December, before winter break, but cannot guarantee a particular date.</p>'
+    },
+    {   question: 'Is there a word limit for responses to the questions on the application?',
+        answer: '<p>No, there is no word limit or minimum for your responses to the questions on the application. We recommend composing your responses in a separate word processing program to allow for editing and saving before submitting <i>via</i> the application form.</p>'
     },
     {
         question: 'Attending the NeuroNex Practicum will cause me to miss class/labs/exams at my home institution. What should I do?',

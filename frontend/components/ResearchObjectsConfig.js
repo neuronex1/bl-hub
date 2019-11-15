@@ -137,7 +137,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
       abstract: 'BioLuminescent-OptoGenetic molecules for driving and imaging neural activity have a number of advantages <i>in vivo</i>. In this approach, genetically expressed luciferases bind with injected luciferins to produce cold light. The photons bind to localized to genetically expressed optogenetic and calcium indicating molecules. One benefit of this approach is widespread, genetically-targeted, non-invasive neural activation or read-out through peripheral injection of the luciferin. In past studies, luminescence has been seen through the skull after peripheral injection at low spatial and temporal resolutions. In somatosensory cortex neurons, we expressed NCS-2, a noved bright luciferase composed of mNeonGreen tethered to ekL9H, a shrimp-based luciferase variant. We injected our luciferin, h-CTZ, intraperitoneally(IP) and intravenously(IV) through the lateral tail vein, imaging at a high spatial resolution and quantifying the time course of luciferase activation. We observed a stronger peak activation of NCS2 when h-CTZ was injected IV, and a longer activation when h-CTZ was injected IP. These results show that both IV and IP delivery of h-CTZ can drive robust bioluminescence in cortical neurons.'
     },
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Brain-key-terms-fig-min.jpg',
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Griffin_Kendziorski_2019_SFN_Poster-thumbnail-min.jpg',
       title:'Non-invasive optogenetic stimulation in a rat model of spinal cord injury',
       venue:'2019 Society for Neuroscience Meeting; Chicago, IL',
       authors: [
