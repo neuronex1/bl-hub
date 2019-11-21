@@ -10,6 +10,7 @@ import MblPhotos from './components/MblPhotos.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import DataIframes from './components/DataIframes.jsx';
 import ResearchObjects from './components/ResearchObjects.jsx';
+import BLOGfaqs from './components/BLOG_FAQs.jsx';
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -66,6 +67,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 ReactDOM.render(
                     <ResearchObjects />,
                     document.getElementById('research-objects')
+            );
+            break;
+        case '/BLOGfaqs':
+                ReactDOM.render(
+                    <BLOGfaqs />,
+                    document.getElementById('BLOGfaqs')
             );
             break;
     }
