@@ -6,7 +6,7 @@ const DATA = [
     {
         title: 'Bioluminescence in the choroid plexus',
         bdrId: 788093,
-        description: 'This movie shows bioluminescence of the choroid plexus in an anesthetized, transgenic mouse expressing the LMO3 molecule. Water-soluble coelenterazine (CTZ) by Nanolight was injected at a concentration of 1μg/μl (2.34mM concentration, 10μl volume) directly into the ventricle.',
+        description: 'This movie shows bioluminescence of the choroid plexus in an anesthetized, transgenic mouse expressing the LMO3 BL-OG construct. Water-soluble coelenterazine (CTZ) by Nanolight was injected at a concentration of 1μg/μl (2.34mM concentration, 10μl volume) directly into the ventricle.',
         credit: 'Created by Manuel Gomez-Ramirez, PhD and Eric Klein',
         doi: '10.7301/Z0BK19VB',
     },
@@ -45,13 +45,21 @@ const DataIframes = () => {
         const src = `https://repository.library.brown.edu/viewers/stream/bdr:${data.bdrId}`;
 
         return (
-            <div class='mtxl' key={idx}>
+            <div class='mtxl clearfix' key={idx}>
                 <h3>{data.title}</h3>
-                <iframe src={src} width='560' height='315' frameBorder='0' allowFullScreen></iframe>
-                <p>{data.description}</p>
+                <iframe src={src}  class='float-left mrxl' width='560' height='315' frameBorder='0' allowFullScreen></iframe>
+                <br/>
+                <p class='mtxl'>{data.description}</p>
+                <br/>
+                <br/>
                 <br/>
                 <p>{data.credit}</p>
-                <p>DOI: <a href={`https://doi.org/${data.doi}`}>{data.doi}</a></p>
+                <p>DOI: <a class='bl-link' href={`https://doi.org/${data.doi}`}>{data.doi}</a></p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <br/>
                 {idx !== DATA.length - 1 && <div class='horizontal-divider mtxl'/>}
                 <br/>
@@ -61,3 +69,5 @@ const DataIframes = () => {
 }
 
 export default DataIframes;
+
+//in jsx you have to use <br/> instead of <br>
