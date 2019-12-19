@@ -28,6 +28,24 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mll'>
+                        <a href='/data'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG+in+Action+button_2-min.jpg' alt='BL-OG Tools in Action'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mlxl'>
+                        <a href='/BLOGfaqs'>
+                            <img src='https://bl-hub.s3.amazonaws.com/about-bl-og/BL-OG_FAQs_button-min.jpg' alt='BL-OG FAQs'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mll'>
+                        <a href='/data'>
+                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG_publications_button-min.jpg' alt='BL-OG Publications'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mll'>
                         <a href='/research-objects'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Our+Research+button-min.jpg' alt='Our Research'/>
                             <div class='button-img__overlay'></div>
@@ -39,18 +57,14 @@ const Homepage = (props) => {
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
-                    <div class='button-img mll'>
-                        <a href='/data'>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG-in-Action-button-min.jpg' alt='BL-OG Tools in Action'/>
-                            <div class='button-img__overlay'></div>
-                        </a>
-                    </div>
                     <div class='button-img mlxl'>
                         <a href='/dissemination'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Dissemination-button-for-home-page-min.jpg' alt='Dissemination'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
+
+
                     <div class='button-img mll'>
                         <a href='/education'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Students-and-Teachers-button-min.jpg' alt='For Students & Teachers'/>

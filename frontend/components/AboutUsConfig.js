@@ -143,12 +143,20 @@ export const CURRENT_MEMBERS = [
         blurb: 'Nina assists efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers.'
     },
     {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Meihua_Chu-min.jpg',
+        title: 'Meihua Chu, PhD, University of California, San Diego',
+        positions: [
+            'Research Laboratory Manager'
+        ],
+        blurb: 'Meihua is currently involved in cloning and expression of selected fluorescent molecules into mammalian cells.'
+    },
+    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
         title: 'Gerard Lambert, University of California, San Diego',
         positions: [
             'Senior Laboratory Researcher'
         ],
-        blurb: 'In addition to managing the Shaner Laboratory, Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
+        blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
