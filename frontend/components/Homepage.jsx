@@ -40,7 +40,7 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mll'>
-                        <a href='/data'>
+                        <a href='/publications'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG_publications_button-min.jpg' alt='BL-OG Publications'/>
                             <div class='button-img__overlay'></div>
                         </a>
@@ -63,8 +63,6 @@ const Homepage = (props) => {
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>
-
-
                     <div class='button-img mll'>
                         <a href='/education'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Students-and-Teachers-button-min.jpg' alt='For Students & Teachers'/>
