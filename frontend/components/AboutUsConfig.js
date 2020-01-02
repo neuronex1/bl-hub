@@ -166,6 +166,14 @@ export const CURRENT_MEMBERS = [
         ],
         blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
     },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Albertina_Torreblanca_Zanca-min.jpg',
+        title: 'Albertina Torreblanca Zanca, MS, University of California, San Diego',
+        positions: [
+            'Laboratory Assistant'
+        ],
+        blurb: 'Albertina’s work is primarily related with the design of fluorescent proteins using directed-evolution methodologies.'
+    },
 ];
 
 export const ALUMNI = [
