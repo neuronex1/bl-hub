@@ -15,7 +15,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Thomas J. Watson, Sr. Professor of Science',
             'Professor of Neuroscience ',
-            'Director of the Robert J. and Nancy D. Carney Institute for Brain Science',
+            'Reliance Dhirubhai Ambani Director of the Robert J. and Nancy D. Carney Institute for Brain Science',
             'President of the Society for Neuroscience in 2019',
             'Co-Principal Investigator'
         ],
