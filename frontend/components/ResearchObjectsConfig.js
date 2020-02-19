@@ -6,6 +6,20 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp_bioRxiv_Jan2020-min.jpg',
+    title: "Selective postnatal excitation of neocortical pyramidal neurons results in distinctive behavioral and circuit deficits in adulthood",
+    venue: 'bioRxiv; January 18, 2020',
+    authors: [
+      'W. E. Medendorp, ',
+      'A. Pal, ',
+      'M. Waddell, ',
+      'A. Björefeldt, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: 'In leading models of Autism Spectrum Disorder, and in human data, the efficacy of outgoing cortical connectivity transitions from overly exuberant to languid from early development to adulthood. This transition begs the question of whether the early enhancement in excitation might be a common driver, across etiologies, of these symptoms. We directly tested this concept by chemogenetically driving neuronal activity in neocortical neurons during postnatal days 4-14. Hyperexcitation of Emx1-, but not dopamine transporter-, parvalbumin-, or Dlx5/6-expressing neurons led to decreased social interaction and increased grooming activity in adult animals. In vivo optogenetic interrogation in adults revealed decreased baseline but increased stimulus-evoked firing rates of pyramidal neurons, impaired recruitment of inhibitory neurons and reduced cortico-striatal communication. These results directly support the prediction that changed firing in developing circuits irreversibly alters adult circuit function that leads to maladaptive changes in behaviors. This experimental approach offers a valuable platform to study the impact of disruption of developmental neural activity on the formation and function of adult neural circuits and behavior. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/2020.01.18.911347v1?rss=1" target="_blank">Read more about this work on bioRxiv</a>.'
+  },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Petersen_BioRxiv_2019.png',
     title: "Restoring function after severe spinal cord injury through bioluminescence-driven optogenetics",
     venue: 'bioRxiv; July 22, 2019',
