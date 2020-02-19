@@ -76,6 +76,17 @@ const Homepage = (props) => {
                         </a>
                     </div>
             </div>
+<div class='container'>
+  <div>
+    <iframe class='float-left prl mll mrxl' src="https://scratch.mit.edu/projects/329586725/embed" allowtransparency="true" width="483" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+  <div class='clearfix mtxxl mlxl'>
+      <p><i> Click the green flag to begin.</i></p>
+      <p class='mtxl'> BL-OG combines bioluminescence with optogenetics to allow ion channels to be opened with an external light OR chemical ligand.</p>
+      <p class='mtxl'>Here, the chemical ligand is the luciferin coelenterazine (CTZ). The CTZ is broken down by its luciferase (yellow), releasing bioluminescent light. This nearby bioluminescent light is sensed by the opsin, opening the channel.</p>
+  </div>
+</div>
+
             <h3 class='text-center'>What are the differences between bioluminescence, fluorescence, and phosphorescence?</h3>
             <div className='bl-iframe__scaled--wrapper'><iframe src='https://repository.library.brown.edu/viewers/stream/bdr:847082/'></iframe></div>
         </React.Fragment>
