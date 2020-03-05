@@ -6,6 +6,23 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/IEEE_2020_web-Banner.png',
+    title: 'Miniaturized devices for bioluminescence imaging in freely behaving animals',
+    venue: '42nd Annual International Conferences of the IEEE Engineering in Medicine and Biology Society in conjunction with the 43rd Annual Conference of the Canadian Medical and Biological Engineering Society; July 20-24, 2020',
+    authors: [
+      'D. Celinskis, ',
+      'N. Friedman, ',
+      'M. Koksharov, ',
+      'J. Murphy, ',
+      'M. Gomez-Ramirez, ',
+      'D. Borton, ',
+      'N. Shaner, ',
+      'U. Hochgeschwender, ',
+      'D. Lipscombe, ',
+      'C. I. Moore'],
+    abstract: 'Fluorescence miniature microscopy <i>in vivo</i> has recently proven a major advance, enabling cellular imaging in freely behaving animals. However, fluorescence imaging suffers from autofluorescence, phototoxicity, photobleaching and non-homogeneous illumination artifacts. These factors limit the quality and time course of data collection. Bioluminescence provides an alternative kind of activity-dependent light indicator. Bioluminescent calcium indicators do not require light input, instead generating photons through chemiluminescence. As such, limitations inherent to the requirement for light presentation are eliminated.  Further, bioluminescent indicators also do not require excitation light optics: the removal of this component should make lighter and lower cost microscope with fewer assembly parts. While there has been significant recent progress in making brighter and faster bioluminescence indicators, parallel advances in imaging hardware have not yet been realized. A hardware challenge is that despite potentially higher signal-to-noise of bioluminescence, the signal strength is lower than that of fluorescence. An open question we address in this report is whether fluorescent miniature microscopes can be rendered sensitive enough to detect bioluminescence. We demonstrate this possibility <i>in vitro</i> and <i>in vivo</i> by implementing optimizations of the UCLA fluorescent miniscope. These optimizations yielded a miniscope (BLmini) which is 22% lighter in weight, has 45% fewer components, is up to 58% less expensive, offers up to 15 times stronger signal (as dichroic filtering is not required) and is sensitive enough to capture temporal dynamics of bioluminescence in the brain with a signal-to-noise ratio of 67 dB.'
+  },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp_bioRxiv_Jan2020-min.jpg',
     title: "Selective postnatal excitation of neocortical pyramidal neurons results in distinctive behavioral and circuit deficits in adulthood",
     venue: 'bioRxiv; January 18, 2020',
