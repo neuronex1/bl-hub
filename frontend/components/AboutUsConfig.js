@@ -103,6 +103,12 @@ export const CURRENT_MEMBERS = [
         blurb: 'Manny is focused on driving non-ion-exchanging optical sensors with bioluminescence.'
     },
     {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Ebenezer-min.jpg',
+      title:'Ebenezer Ikefuama, MSc, Central Michigan University',
+      positions: ['Graduate Student'],
+      blurb: 'Ebenezer is currently investigating the application of  bioluminescent-optogenetic systems for the modulation of  spinal motor neuronal activity and  improving recovery following contusive spinal cord injuries.'
+    },
+    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Griffin_Kendziorski-min.jpg',
       title: 'Griffin Kendziorski, Central Michigan University',
       positions: [
