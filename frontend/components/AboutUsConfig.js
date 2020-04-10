@@ -157,12 +157,24 @@ export const CURRENT_MEMBERS = [
         blurb: 'Meihua is currently involved in cloning and expression of selected fluorescent molecules into mammalian cells.'
     },
     {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
+      title: 'Daniel Heydari, University of California, San Diego',
+      positions: ['Laboratory Assistant'],
+      blurb: 'Daniel assists with efforts to design improved fluorescent protein variants, with the guidance of senior researchers.'
+    },
+    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
         title: 'Gerard Lambert, University of California, San Diego',
         positions: [
             'Senior Laboratory Researcher'
         ],
         blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
+      title: 'Richard Orcutt, University of California, San Diego',
+      positions: ['Laboratory Assistant'],
+      blurb: 'Richard is currently learning Recombinant DNA techniques to ultimately assist in the generation of fluorescent protein and luciferase expression plasmid libraries.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
@@ -216,7 +228,7 @@ export const ALUMNI = [
         blurb: 'While a graduate student at CMU, Akash worked on bioluminescent calcium indicators. He is presently a Postdoctoral Fellow in the <a class=bl-link href="https://basicscience.ucdmc.ucdavis.edu/tian_lab/index.html" target="_blank">Tian Laboratory</a> at UC Davis.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Petersen-min.jpg',
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Eric_Petersen.png',
         title: 'Eric Petersen, PhD, Michigan State University',
         positions: [
             'Postdoctoral Researcher'
