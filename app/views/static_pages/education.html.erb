@@ -1,18 +1,12 @@
-<% url = 'https://repository.library.brown.edu/api/items/bdr:847089/'; %>
-<% response = RestClient.get(url) %>
-<% data = JSON.parse(response) %>
-<% @iframeHtml = data['display_inline'] %>
+
 <div id='education' class='container'>
     <h2 class='text-center'>Education at Many Levels</h2>
-    <p>We will use bioluminescence as a model phenomenon to develop interdisciplinary curricula, resources, and education outreach events for all educational levels and backgrounds. Using bioluminescence, our hub will provide an example of how a unifying concept can be used to bridge disciplinary boundaries, while illustrating core ideas in STEM content and practice.
+    <p>We use bioluminescence as a model phenomenon to develop interdisciplinary curricula, resources, and education outreach events for all educational levels and backgrounds. Using bioluminescence, our hub provides an example of how a unifying concept can be used to bridge disciplinary boundaries, while illustrating core ideas in STEM content and practice.
     </p>
     <br>
-    <div class='bl-iframe__scaled--wrapper'><%= @iframeHtml.html_safe %></div>
-    <br>
-    <h3 class='text-center'>What are the differences between bioluminescence, fluorescence, and phosphorescence?</h3>
-    <div class='bl-iframe__video'><iframe src='https://repository.library.brown.edu/viewers/stream/bdr:847082/'></iframe>
-    </div>
-    <h3 class='text-left mtxl mbxl'>Join us!</h3>
+
+
+<h3 class='text-left mtxl mbxl'>Join us!</h3>
         <div class='button-img mll'>
             <a href='/mbl'>
                 <img src='https://bl-hub.s3.amazonaws.com/education/NeuroNex+Practicum+button_general-min.jpg' alt='NeuroNex Practicum'>
@@ -50,6 +44,34 @@
             <div class='button-img__overlay'></div>
         </a>
     </div>
+
+
+    <h3 class='text-left mtxl mbxl'><i>More Coming Soon!</i> Join the NSF NeuroNex Bioluminescence Hub Junior Trainee Club</h3>
+      <p>Join our Neuroscience team! Complete these modules to learn STEM concepts and gain the scientific skills necessary to be an official Junior Trainee of the NSF NeuroNex Bioluminescence Hub team. This content covers an introduction to what our researchers do, “cold light,” and the captivating world of bioluminescence. Students will have the opportunity to observe glowing creatures and materials and learn how these natural lights can illuminate paths of discovery in the brain.</p>
+      <br>
+      <p><i>These activities are recommended for ages 9-14 with the guidance of an educator, parent, or guardian.</i></p>
+      <br>
+        <div class='button-img mll'>
+          <a href='/JTC-welcome'>
+              <img src='https://bl-hub.s3.amazonaws.com/education/Junior_Trainee_Club/JTC1_button.png' alt='Welcome to the Team!'>
+              <div class='button-img__overlay'></div>
+          </a>
+        </div>
+        <div class='button-img mlxl'>
+            <a href='/JTC-doing-science'>
+                <img src='https://bl-hub.s3.amazonaws.com/education/Junior_Trainee_Club/JTC2_button.png' alt='Doing Science'>
+                <div class='button-img__overlay'></div>
+            </a>
+        </div>
+        <div class='button-img mll'>
+          <a href='/JTC-cold-light'>
+              <img src='https://bl-hub.s3.amazonaws.com/education/Junior_Trainee_Club/JTC3_button.png' alt='Cold Light'>
+              <div class='button-img__overlay'></div>
+          </a>
+        </div>
+
+
+
 <h3 class='text-left mtxl mbxl'>Activities to Try at Home</h3>
     <div class='button-img mll'>
         <a href='https://repository.library.brown.edu/studio/item/bdr:880615/PDF/' target='_blank'>

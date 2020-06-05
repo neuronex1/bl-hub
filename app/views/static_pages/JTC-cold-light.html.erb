@@ -1,0 +1,34 @@
+<div id='JTC-cold-light' class='container'>
+<% url = 'https://repository.library.brown.edu/api/items/bdr:847089/'; %>
+<% response = RestClient.get(url) %>
+<% data = JSON.parse(response) %>
+<% @iframeHtml = data['display_inline'] %>
+
+<h3 class='text-center'>Junior Trainee Club Part 3: Cold Light</h3>
+<p>Bioluminescence is often referred to as “cold light” due to all of the light with none of the heat. In this module, you will learn about some other examples of cold light and how they compare to bioluminescence.</p>
+<br>
+<p>Watch the video below and study the chart to learn the differences between bioluminescence, flourescence, and phosphorescence.</p>
+<br>
+<div class='bl-iframe__video'><iframe src='https://repository.library.brown.edu/viewers/stream/bdr:847082/'></iframe>
+</div>
+<br>
+<div class='bl-iframe__scaled--wrapper'><%= @iframeHtml.html_safe %></div>
+<br>
+<p>Challenge time! See if you can determine whether mystery items are an example of fluorescence, phosphorescence, or bioluminescence. With the help of a parent or guardian, work through our <a class='bl-link' href='https://repository.library.brown.edu/studio/item/bdr:1111550/PDF/' target=blank>Make it Glow</a> activity.</p>
+<br>
+<div class='button-img mlxl'>
+    <a href='https://repository.library.brown.edu/studio/item/bdr:1111550/PDF/ ' target='_blank'>
+        <img src='https://bl-hub.s3.amazonaws.com/education/Make+it+Glow+button.png' alt='Make it Glow?'>
+        <div class='button-img__overlay'></div>
+    </a>
+</div>
+<br>
+<br>
+<p>With the help of a UV flashlight, you can find some luminescent items around or outside of your house. Check out our <a class='bl-link' href='https://repository.library.brown.edu/studio/item/bdr:880615/PDF/' target=blank>What Glows There?</a> activity. To get you started, take a look at laundry detergent. You may be able to find both fluorescent and phosphorescent items.</p>
+<br>
+<div class='button-img mll'>
+    <a href='https://repository.library.brown.edu/studio/item/bdr:880615/PDF/' target='_blank'>
+        <img src='https://s3.amazonaws.com/bl-hub/education/What+glows+there+button-min.jpg' alt='What Glows There?'>
+        <div class='button-img__overlay'></div>
+    </a>
+</div>
