@@ -46,7 +46,7 @@ const AboutUs = () => {
             <p className='text-m pull-right'>Website icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a></p><br/>
             <p className='text-m pull-right'>Additional icons: Clker-Free-Vector-Image (Pixabay).</p>
             <br/>
-            <p className='text-m pull-right'>Glow worms: Flickr; Eden, Janine and Jim.</p>
+            <p className='text-m pull-right'>Glow worms on Education page: Flickr; Eden, Janine and Jim.</p>
             <br/>
             <p className='text-m pull-right'><span className='italics'>Gaussia princeps</span> on Emissary button: Hopcroft/UAF/CMarZ hopcroft@ims.uaf.edu.</p>
             <br/>
@@ -55,6 +55,8 @@ const AboutUs = () => {
             <p className='text-m pull-right'>Jellyfish on Education page: NOAA's National Ocean Service.</p>
             <br/>
             <p className='text-m pull-right'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
+            <br/>
+            <p className='text-m pull-right'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
             <br/>
         </React.Fragment>
     );
