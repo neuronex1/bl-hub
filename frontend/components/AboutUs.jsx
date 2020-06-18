@@ -42,9 +42,12 @@ const AboutUs = () => {
                 </tbody>
             </table>
             <div className="horizontal-divider mtxxl mbxxl"></div>
-            <p className='text-m pull-right'>Our Hub is supported by National Science Foundation <a href='https://nsf.gov/awardsearch/showAward?AWD_ID=1707352' className='bl-link'>NeuroNex 1707352</a>.</p><br/>
+            <p className='text-m pull-right'>Our Hub is supported by National Science Foundation <a href='https://nsf.gov/awardsearch/showAward?AWD_ID=1707352' className='bl-link'>NeuroNex 1707352</a>.</p>
+            <br/>
+            <br/>
             <p className='text-m pull-right'>Website icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a></p><br/>
             <p className='text-m pull-right'>Additional icons: Clker-Free-Vector-Image (Pixabay).</p>
+            <br/>
             <br/>
             <p className='text-m pull-right'>Glow worms on Education page: Flickr; Eden, Janine and Jim.</p>
             <br/>
@@ -58,6 +61,7 @@ const AboutUs = () => {
             <br/>
             <p className='text-m pull-right'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
             <br/>
+            <p className='text-m pull-right'>Bathysphere on Education page: Commercial Fisheries Review (1946), digitized by Biodiversity Heritage Library.</p>
         </React.Fragment>
     );
 }
