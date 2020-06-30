@@ -190,7 +190,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Laboratory Assistant'
         ],
-        blurb: 'Albertina’s work is primarily related with the design of fluorescent proteins using directed-evolution methodologies.'
+        blurb: 'Albertina’s primary focus is the design of fluorescent proteins using directed-evolution methodologies.'
     },
 ];
 
