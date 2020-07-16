@@ -141,20 +141,20 @@ export const CURRENT_MEMBERS = [
         blurb: 'Rachel is focused on the molecular engineering of luciferase-driven tools.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
-        title: 'Nina Friedman, Brown University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Nina assists efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers.'
-    },
-    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Meihua_Chu-min.jpg',
         title: 'Meihua Chu, PhD, University of California, San Diego',
         positions: [
             'Research Laboratory Manager'
         ],
         blurb: 'Meihua is currently involved in cloning and expression of selected fluorescent molecules into mammalian cells.'
+    },
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
+        title: 'Nina Friedman, Brown University',
+        positions: [
+            'Research Assistant'
+        ],
+        blurb: 'Nina assists efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers.'
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
@@ -183,6 +183,14 @@ export const CURRENT_MEMBERS = [
             'Research Assistant'
         ],
         blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Maya_Tree-min.JPG',
+        title: 'Maya Tree, Central Michigan University',
+        positions: [
+            'Laboratory Technician'
+        ],
+        blurb: 'Maya’s primary focus in the Hochgeschwender lab is molecular cloning of bioluminescent constructs.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Albertina_Torreblanca_Zanca-min.jpg',

@@ -130,6 +130,41 @@ export const RESEARCH_OBJECTS_PAPERS = [
   ];
   export const RESEARCH_OBJECTS_POSTERS = [
     {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/BRAIN-PI-Meeting.png',
+      title: 'NeuroNex Technology Hub: Bioluminescence for Optimal Brain Control and Imaging',
+      venue: '6th Annual BRAIN Initiative Investigators Meeting; Virtual Meeting, June 2020',
+      authors: [
+        'C. Moore, ',
+        'U. Hochgeschwender, ',
+        'N. Shaner, ',
+        'D. Lipscombe, ',
+        'J. Allen (Program Manager)'
+      ],
+      abstract: 'Our NeuroNex Hub creates and distributes novel Bioluminescence (BL) technologies for Neuroscience, tools that provide unique advantages for control and imaging. BL light is created when a small molecule luciferin binds a luciferase and releases photons.  For cellular control, we combine BL with OptoGenetics (‘BL-OG’), placing the luciferase in molecular proximity to the activated opsin.  In our LuMinOpsin (LMO) strategy, a luciferase is tethered to an opsin, providing multiple experimental options in a single molecule: An LMO can be used for sustained, distributed chemogenetic modulation—when the luciferin is administered—or focal, temporally brief OG activation with external light. BL-OG also provides a unique temporally-precise photon report of engagement between the small-molecule driver and its target. The best established LMO—LMO3—is now being employed in a range of novel research applications.<br><br> Recent Hub progress includes development of a novel bright luciferase, elk9h, that produces robust light following intravenous or intraperitoneal luciferin injection <i>in vivo</i>. The new LMO7, created by elk9h-opsin pairing, also creates substantially stronger <i>in vitro</i> and <i>in vivo</i> activation. We also modified elk9h and related luciferases to create novel BL calcium indicators that do not require fluorescent light, eliminating photobleaching/damage and simplifying miniscope design. BL calcium indicators also provide the unique possibility of highly-local, activity-dependent self-regulation, where light production created by neural activity drives/silences opsins. In related progress, our Hub has developed multiple Interluminescent approaches.  In this strategy, BL and OG are placed in different neurons, creating synapse-specific modulation of functional connectivity. Our Interluminescent approaches can now provide selective, sustained and activity-dependent modulation between neural pairs. <br><br>Our Hub also provides substantial BL education. Workshops and in-person ‘Emissary’ visits are available for labs using these tools. Related activities include our yearly undergraduate course at MBL, and implementation of novel BL-themed pedagogy in grade- and high-schools.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/BRAIN-PI-Meeting.png',
+      title: 'BioLuminescent OptoGenetics (BL-OG): A Novel and Versatile Strategy for Neuromodulation',
+      venue: '6th Annual BRAIN Initiative Investigators Meeting; Virtual Meeting, June 2020',
+      authors: [
+        'U. Hochgeschwender, ',
+        'N. Shaner, ',
+        'C. Moore'
+      ],
+      abstract: 'Targeted modulation of genetically identified neural populations can be achieved by a number of approaches that meet specific experimental needs. If intended activation or inhibition of neurons is not limited to millisecond precision in turning activity on or off, chemogenetic approaches that activate ligands with small molecules are best suited. In parallel to DREADDs and PSAMs we developed an orthogonal approach, BL-OG, using bioluminescent light (BL) to drive optogenetic responses (OG). Injection of a small molecule (a ‘luciferin’) causes light production through a chemical interaction with a genetically expressed luciferase enzyme tethered to optogenetic elements; this light in turn activates the opsin and controls cell activity. Under this BRAIN U01 we significantly improved and expanded BL-OG tools and validated their use <i>in vivo</i> as follows. 1. Using molecular evolution and directed mutagenesis we generated luciferases and luciferase-fluorescent protein BRET probes with many-fold increased light emission. 2. We combined these improved light emitters with excitatory and inhibitory opsins with increased light sensitivity and distinct features (SFOs, anion channels), generating a palette of highly efficient BL-OG tools. 3. We tested these tools <i>in vivo</i>, finding them to perform robustly in rats and mice expressing constructs virally transduced and as conditional transgenes. 4. We compared routes of administration (intracranial, intravenous, intraperitoneal) and concentration of luciferin with time course and amplitude of neural responses. 5. We evaluated the potential for non-specific effects of luciferase light production or luciferin administration <i>in vivo</i> and found neither to drive effects independent of BL-OG expression when used at established concentrations. 6. We are disseminating plasmids on Addgene, mice at JAX, and protocols and examples on our website (http://www.bioluminescencehub.org/). In summary, we validated a toolset that is robust, specific, versatile, modular and combinatorial. As all BL-OG combinations allow both chemogenetic and conventional optogenetic activation with a single molecular actuator, this is also the only bimodal tool.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/BRAIN-PI-Meeting.png',
+      title: 'Highly specific control of neurons with photoswitchable bioluminescent optogenetics',
+      venue: '6th Annual BRAIN Initiative Investigators Meeting; Virtual Meeting, June 2020',
+      authors: [
+        'N. Shaner, ',
+        'U. Hochgeschwender, ',
+        'C. Moore'
+      ],
+      abstract: 'In this project, we propose to generate photoswitchable and photoactivatable bioluminescent (PS-BL and PA-BL) light sources. These constructs will be implemented to facilitate highly selective and reprogrammable modulation of neural ensembles. As designed, this PS-/PA-BL approach will allow rapid selection (minutes), quick re-set (hours), and can be implemented across depths by selective 2-photon (2p) activation. Neural control will be implemented by using PS-BL light to drive optogenetics (PS-BL-OG), a powerful modulation strategy. The PS-/PA-BL approach exceeds efficacy and spatial extent of current simultaneous optogenetic regulation by holography. It also has distinct advantages over methods that generate optogenetic sensitivity in cells based on activity-linked transcription by faster on- and off-set, and gives the experimenter control over selection of cells by criteria other than that of highest activity. Here, we present our initial progress towards realizing this new technology, focusing on the first Aim, in which we generate PS-BL by fusing luciferases to reversibly photoswitchable fluorescent proteins (PSFPs), selecting for optimal Förster resonance energy transfer and bright emission following optical activation. Towards this Aim, we have focused on three major technological challenges: (1) Using structure-guided directed evolution, we have improved the properties of our bright, high-contrast, monomeric PSFP, PSmOfo, which maintains a “default” non-fluorescent (“off”) state, unlike most PSFPs. The most advanced variants of PSmOfo now have brightness similar to other bright green FPs, and maintains the high on/off contrast in fluorescence brightness required for our PS-BL approach. (2) We have generated and screened libraries of FRET fusions of PSmOfo variants to bright luciferases and demonstrated robust energy transfer in the activated state. (3) We have demonstrated robust photoswitching of AAV-transduced neurons in living mice of an earlier PSmOfo-luciferase fusion using 2p excitation.'
+    },
+    {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Andreas_Bjorefeldt+_Poster_NeuroNex_Meeting_2019-min.jpg',
       title:"BRET Probes for Efficient Activation of <i>Volvox</i> Channel-rhodopsin 1 with Bioluminescent Optogenetics (BL-OG)",
       venue:'2019 NeuroNex Investigator Meeting; Chicago, IL',
@@ -287,15 +322,66 @@ export const RESEARCH_OBJECTS_PAPERS = [
       abstract: 'Biological light activation of optogenetic sensors across synaptic partners offers the potential to optogenetically dissect synaptic communication non-invasively. The genetically encoded light source, a luciferase, is expressed pre-synaptically, and the light-sensing opsin is expressed post-synaptically. In the presence of the luciferase substrate, coelenterazine (CTZ), the pre- and post-synaptic partners will be in close proximity to allow activation of the opsin by luciferase-produced light. In order to improve the specificity of trans-synaptic signaling, we are exploring several designs of trans-synaptic reconstitution of split molecules. First, <i>Gaussia</i> luciferase (GLuc) is split into inactive N- and C-terminal portions, each of which are then tethered to the pre-synaptic membrane or post-synaptic opsin, respectively. Second, in a luciferase-fluorescent protein fusion construct the fluorescent protein is split such that resonance energy transfer from the luciferase and subsequent light emission for opsin activation only occurs in the presence of CTZ in synapses allowing reconstitution of the fluorescent protein. Experiments are carried out in HEK cells and cultured primary neurons.'
     },
     {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/MI_SfN_logo.jpg',
+      title: 'Bioluminescence driven control of photosensory proteins',
+      venue: '2019 Michigan Chapter of the Society for Neuroscience Annual Meeting; Western Michigan University, Kalamazoo, MI',
+      authors: [
+        'E. L. Crespo, ',
+        'G. L. Lambert, ',
+        'N. C. Shaner, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'Bioluminescence is light emitted by a luciferase oxidizing its substrate. We previously demonstrated that such “biological” light can activate optogenetic elements, such as channelrhodopsins and pumps, effecting membrane potential changes and resulting in activation or silencing of neurons <i>in vitro</i> and <i>in vivo</i>. We explored whether bioluminescent light production can be utilized beyond activating ion-moving photoreceptors to the larger array of photosensory proteins employed as optical switches in cellular processes such as protein translocation and transcription. In initial proof-of-concept experiments we co-transfected HEK293 cells with a blue light emitting luciferase and a blue light sensing photoreceptor. Light emitters were sbGLuc, a copepod luciferase variant, NanoLuc, a luciferase derived from shrimp, as well as two novel engineered synthetic luciferases. Photoreceptors were CRY/CIB, a light-gated dimerization system, and eLOV, based on light dependent protein unhinging. Bioluminescence driven activation of these photoreceptors was measured as increased transcription of luminescent and fluorescent reporter proteins in direct comparison to LED driven activation. Quantification of bioluminescence driven photoreceptor activation revealed that both light-gated switches, cryptochrome protein dimerization and light-oxygen-voltage J-alpha helix unfolding can be efficiently activated by biological light sources. Furthermore, the higher light emission of our synthetic luciferases resulted in better activation of transcription.There are many ways to improve further on these basic results. Collectively, bioluminescence driven activation of the larger families of photoreceptors will expand their use for <i>in vivo</i> applications that benefit from non-invasive light sources and engagement of spatially distributed cells.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/MI_SfN_logo.jpg',
+      title: 'Non-invasive optogenetic stimulation in a rat model of spinal cord',
+      venue: '2019 Michigan Chapter of the Society for Neuroscience Annual Meeting; Western Michigan University, Kalamazoo, MI',
+      authors: [
+        'G. E. Kendziorski, ',
+        'E. D. Petersen, ',
+        'L. Shafau, ',
+        'M. Prakash, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'Spinal Cord Injury (SCI) is an injury that can result in paralysis below the site of injury. Out of all of the common methods used in medicine, most of the spinal cord injury treatment procedures have negative trade-offs that could permanently damage neurons. We are going to couple a non-invasive method to target neurons after injury along with swim therapy. In the case of this study we will be able to target interneurons of the spinal cord by combing an adeno associated virus (AAV) serotype 2/9 with asynapsinpromoter to restrict gene expression and subsequent stimulation to interneurons of the spinal cord. The AAV also expresses a light-emitting luciferase fused to a channelrhodopsin, which is light sensitive. Neural cells will be stimulated by the addition of Coelenterazine (CTZ), which is the luciferase substrate. CTZ injections will ultimately lead to activation of synaptic networks of neurons that express the excitatory luminopsins. The HumanSynapsinPromoter (hSYN1) can drive expression of the luminopsin, LMO3, which is stimulated by CTZ in adult rats. This will result in functional connectivity across the site of injury, aiding in the recovery of locomotion below the site of injury. After the interneural spinal cord stimulation, rigorous swim testing and therapy will be conducted in order to analyze the effects of the swim testing. Constant gait analyses will be done in order to evaluate the progression of the gait of the rats after injury and throughout the treatment.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/MI_SfN_logo.jpg',
+      title: 'Cortical Hyperexcitation During Early Development Results in Autism Behavioral Phenotypes',
+      venue: '2019 Michigan Chapter of the Society for Neuroscience Annual Meeting; Western Michigan University, Kalamazoo, MI',
+      authors: [
+        'W. E. Medendorp, ',
+        'A. Pal, ',
+        'M. L. Waddell, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'Early development is marked by spontaneous neuronal activity that occurs without the input of sensory experience. This spontaneous activity has been demonstrated in select pathways to refine foundational neural circuits before sensory input. By manipulating this activity in genetically-targeted pyramidal neuronswithin the cortex, we can experimentally test its role in formation of specific neural circuits. Many psychiatric disorders are thought to be neurodevelopmental, stemming from malformation of neural circuits in early development. Autism disorders in particular have been associated with increased cortical excitation leading to a cortical imbalance of excitation to inhibition. Early disruptions to cortical activity may underlie the later manifestation of E/I imbalance resulting in behavioral changes typical of disorders such as autism. We report here on the first unbiased testing of the role of developmental over-excitation in altering adult behavior and circuit dynamics. <br><br>We took advantage of Bioluminescent Optogenetics (BL-OG), where light stimulation of an optogenetic element is achieved either through bioluminescence emitted from a tethered luciferase upon application of a chemical substrate or through application of physical light via fiber optics, for chemogenetic activation during development and for optogenetic interrogation in adult animals. Mice conditionally expressing LMO3, a fusion of sbGLuc and VChR1, were crossed with Emx1-Cre transgenic mice, thus limiting expression of LMO3 to cortical pyramidal neurons. By delivering CTZ intraperitoneally during post-natal days 4-14, over-excitation was induced in the cortical pyramidal neurons of developing mouse pups. During adulthood, mice were tested behaviorally, and assessed for electrophysiological changes in circuit dynamics. Behavioral phenotypes are consistent with autism spectrum disorders, including social deficits and repetitive behaviors. Optogenetic circuit interrogation demonstrates disrupted cortico-striatal circuitry, as well as altered E/I balance in the cortex. The results of this research directly implicate cortical over-excitation during early postnatal development to behavioral phenotypes characteristic of autism disorders. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/2020.01.18.911347v1?rss=1" target="_blank">Read more about this work on bioRxiv</a>.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/MI_SfN_logo.jpg',
+      title: 'Activity dependent neuronal modulation',
+      venue: '2019 Michigan Chapter of the Society for Neuroscience Annual Meeting; Western Michigan University, Kalamazoo, MI',
+      authors: [
+        'A. Pal, ',
+        'W. E. Medendorp, ',
+        'Z. Zaidi, ',
+        'D. Lipscombe, ',
+        'C. I. Moore, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'We have developed a bioluminescent protein based calcium indicator, Lumicampsin (LMC) by splitting a mutated <i>Gaussia</i> luciferase and introducing the Ca<sup>2+</sup> sensing moiety Calmodulin-M13 (CaM-M13) in between the two split halves. Our results <i>in vitro</i> show that LMC is capable of producing a delta RLU/RLU<sub>o</sub> of about 200% which is higher than most luciferase based Ca<sup>2+</sup> indicators. We generated 8 versions of LMC that have varying sensitivity to Ca<sup>2+</sup> by using different CaM-M13s from already established sources (GCaMP6s, GCaMP6m, GCaMP6f, etc). To increase LMC’s functionality, we have fitted it with various organelle localizing sequences to interrogate subcellular Ca<sup>2+</sup> dynamics of the ER, mitochondria and the Golgi apparatus. LMC’s superior light emission allowed activity dependent neuronal modulation by co-expressing LMC with various optogenetic elements in primary neuronal cultures. In our initial experiments, on multi-electrode arrays, we co-expressed LMC either with Mac (inhibitory proton pump) or ChR2-C138S (excitatory step function cation channel) and were ableto modulate the opsins via LMC’s Ca<sup>2+</sup> dependent light emission. Currently we are working towards optimizing this system to achieve reliable and efficient coupling of Ca<sup>2+</sup>-induced light production and optogenetic effector activation.'
+    },
+    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Moore+2019+Brain+Initiative+poster+Final_thumbnail-min.jpg',
       title: "Distinct Advantages of BioLuminescence for Neuroscience",
       venue: '2019 BRAIN Initiative Investigators Meeting; Washington, DC',
       authors: [
-      'C. I. Moore, ',
-      'D. Lipscombe, ',
-      'U. Hochgeschwender, ',
-      'N. C. Shaner, ',
-      'J. J. Allen (Program Manager)'
+        'C. I. Moore, ',
+        'D. Lipscombe, ',
+        'U. Hochgeschwender, ',
+        'N. C. Shaner, ',
+        'J. J. Allen (Program Manager)'
       ],
       abstract: 'The overall goal of our Neurotechnology Hub is to develop and disseminate novel and powerful bioluminescent tools for brain science. Bioluminescence is used in imaging for reading out neural activity, and for activating optogenetic elements to control the activity of neurons. The Hub will advance bioluminescence as a transformative tool in neuroscience through three Aims: Innovation, Dissemination and Education. Innovation will target four key goals: Qualitative increases in bioluminescence brightness, an advance that will enable imaging and control broadly; Inter-luminescence, a means of using bioluminescence to drive optogenetic sensors across a synapse, thereby creating a novel optical pathway for neural communication; Testing <i>in vivo</i> new bright and fast calcium-sensitive luciferases, utilizing newly developed instrumentation for bioluminescence imaging; and, elaboration of control and imaging bioluminescence methods to other key models: worm, fly, fish, and primates. Dissemination targets the goal of Horizontal Open Science (sharing among scientists), i.e. developing and implementing strategies for free exchange of tools and information that foments progress and collaboration among disciplines. This is accomplished by a Hub website (http://www.bioluminescencehub.org/), Symposia, and by providing opportunities for direct training in bioluminescence methods, including Workshops and Emissaries, where members of our group visit laboratories and help them adopt our tools. Education targets the goal of Vertical Open Science (sharing across levels of understanding). We are using bioluminescence to energize science knowledge and appreciation in students and the public. We are focusing on developing a new integrated curriculum on bioluminescence that describes its biology, chemistry, physics, and its applications in neuroscience for imaging and control. This curriculum will be taught to students at all levels. Our flagship educational event is an intensive, 1-week Practicum for undergraduate students at the Marine Biological Laboratory. This course includes lectures and hands-on laboratory lessons using bioluminescent animals and engineered bioluminescent constructs.'
     },
