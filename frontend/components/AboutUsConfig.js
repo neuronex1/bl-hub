@@ -217,7 +217,7 @@ export const ALUMNI = [
         positions: [
             'Assistant Professor'
         ],
-        blurb: 'Manny tests bioluminescent constructs <i>in vivo</i>, including both Lumiporeins and calcium-dependent bioluminescence in response to tactile stimulation in a mouse model. Learn more on <a class="bl-link" href="https://www.haptic-perception-lab.org/">The Haptic Perception Lab website</a>.'
+        blurb: 'Manny tests bioluminescent constructs <i>in vivo</i>, including both Lumiporeins and calcium-dependent bioluminescence in response to tactile stimulation in a mouse model. Learn more on <a class="bl-link" href="https://www.haptic-perception-lab.org/" target=_blank>The Haptic Perception Lab website</a>.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/William_Medendorp-min.jpg',
