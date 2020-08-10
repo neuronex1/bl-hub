@@ -11,6 +11,18 @@ class Carousel extends React.PureComponent {
 
         this.slides = [
             {
+                src: 'https://bl-hub.s3.amazonaws.com/LMO3+mouse+at+JAX_2.png',
+                caption: 'LMO3 Mouse Now Available at JAX',
+                subtitle: [
+                  'BL-OG',
+                  'Development',
+                  'Behavior'
+                ],
+                buttonLabel: 'LEARN MORE',
+                link: '/LMO3',
+                photoCredit: 'Drawing: Raisa Khan'
+            },
+            {
                 src: 'https://s3.amazonaws.com/bl-hub/workshop_photo-min.jpg',
                 caption: 'Workshop: Bioluminescence Methods for Scientists',
                 subtitle: [
