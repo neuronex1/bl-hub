@@ -109,14 +109,6 @@ export const CURRENT_MEMBERS = [
       blurb: 'Ebenezer is currently investigating the application of  bioluminescent-optogenetic systems for the modulation of  spinal motor neuronal activity and  improving recovery following contusive spinal cord injuries.'
     },
     {
-      imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Griffin_Kendziorski-min.jpg',
-      title: 'Griffin Kendziorski, Central Michigan University',
-      positions: [
-            'Graduate Student'
-      ],
-      blurb: "Griffin is currently working on a Master's in Neuroscience, focusing on using light-activated channels as a method of retaining neural activity in downstream spinal motor neurons following a spinal cord injury."
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Klein-min.JPG',
         title: 'Eric Klein, Brown University',
         positions: [
@@ -131,14 +123,6 @@ export const CURRENT_MEMBERS = [
             'Graduate Student'
         ],
         blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
-    },
-    {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Rachel_Schumaker-min.jpg',
-        title: 'Rachel Schumaker, Central Michigan University',
-        positions: [
-            'Graduate Student'
-        ],
-        blurb: 'Rachel is focused on the molecular engineering of luciferase-driven tools.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Meihua_Chu-min.jpg',
@@ -203,6 +187,22 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: ' https://bl-hub.s3.amazonaws.com/portraits/Griffin-White-coat-min.jpg',
+        title: 'Griffin Kendziorski, MS, University of Kentucky',
+        positions: [
+          'Graduate and Medical Student'
+        ],
+        blurb: "Griffin completed a Master's Degree in Neuroscience at CMU, focusing on using light-activated channels as a method of retaining neural activity in downstream spinal motor neurons following a spinal cord injury. He is now training as a member of the combined MD/PhD program at the University of Kentucky."
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Rachel.png',
+        title: 'Rachel Schumaker, MS, Memphis Meats',
+        positions: [
+          'Associate Scientist II'
+      ],
+        blurb: 'After focusing on the molecular engineering of luciferase-driven tools to complete her master&#146s at CMU, Rachel began working at <a class="bl-link" href="https://www.memphismeats.com/" target="_blank">Memphis Meats</a>. There, she grows and differentiates cells to create real meat products without the need to harvest animals.'
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Sheenah_Lynn_Bryant-min.jpg',
         title: 'Sheenah Lynn Bryant, PhD',
