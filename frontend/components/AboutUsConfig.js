@@ -55,12 +55,29 @@ export const CURRENT_MEMBERS = [
         blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree in Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
     },
     {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Jason.jpg',
+      title: 'Jason Ritt, PhD, Brown University',
+      positions: [
+          'Scientific Director of Quantitative Neuroscience, Robert J. and Nancy D. Carney Institute for Brain Science',
+          'Assistant Professor of Neuroscience (Research)'
+      ],
+      blurb: 'Jason works to understand neural processing during active sensing and developing new neural engineering for neurostimulation and control.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
         title: 'Andreas Björefeldt, PhD, Central Michigan University',
         positions: [
             'Postdoctoral Fellow'
         ],
         blurb: 'Andreas tests the performance of bioluminescent effectors and reporters developed in the lab, using whole cell patch clamp recordings. Andreas is interested in the role of cortical interneuron subtypes in information processing and memory functions.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Deister.png',
+        title: 'Christopher Deister, PhD, Brown University',
+        positions: [
+            'Research Associate in Neuroscience'
+        ],
+        blurb: 'Chris is working on 2-photon imaging, photoswitchable proteins, and helping others with experimental design and data analysis.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Misha_Koksharov-min.jpg',
