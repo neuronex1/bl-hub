@@ -150,14 +150,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Meihua is currently involved in cloning and expression of selected fluorescent molecules into mammalian cells.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
-        title: 'Nina Friedman, Brown University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Nina assists efforts to test bioluminescent constructs <i>in vivo</i> with guidance from postdoctoral researchers.'
-    },
-    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
       title: 'Daniel Heydari, University of California, San Diego',
       positions: ['Laboratory Assistant'],
@@ -204,6 +196,14 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
+        title: 'Nina Friedman, University of Maryland',
+        positions: [
+          'Graduate Student'
+        ],
+        blurb: "During her time at Brown, Nina characterized bioluminescent constructs <i>in vivo</i>, focusing on activating luciferases through minimally invasive delivery of luciferin. Currently, Nina is working towards her PhD at the University of Maryland and the NIH with the <a class='bl-link' href='https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/ncb/index.shtml' target='_blank'> Histed Group</a>."
+      },
     {
         imgSrc: ' https://bl-hub.s3.amazonaws.com/portraits/Griffin-White-coat-min.jpg',
         title: 'Griffin Kendziorski, MS, University of Kentucky',
