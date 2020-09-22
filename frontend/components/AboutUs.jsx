@@ -62,6 +62,9 @@ const AboutUs = () => {
             <p className='text-m pull-right'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
             <br/>
             <p className='text-m pull-right'>Bathysphere on Education page: Commercial Fisheries Review (1946), digitized by Biodiversity Heritage Library.</p>
+            <br/>
+            <br/>
+            <p className='text-m pull-right'>Thanks to <a class='bl-link' href='https://www.maxlaumeister.com/articles/hide-related-videos-in-youtube-embeds/' target='_blank'>Maximillian Laumeister</a> for code used to embed videos used on the Education pages.</p>
         </React.Fragment>
     );
 }
