@@ -2,11 +2,11 @@
 
 
 .gradient {
-  height:6900px;
+  height:8000px;
   background-color: blue;
   background-image: linear-gradient(#0000cc, black);
 }
 
 .dive-video {
-  padding: 0px 0px 0px 80px;
+  padding: 0px 0px 0px 90px;
 }

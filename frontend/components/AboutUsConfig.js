@@ -64,14 +64,6 @@ export const CURRENT_MEMBERS = [
       blurb: 'Jason works to understand neural processing during active sensing and developing new neural engineering for neurostimulation and control.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
-        title: 'Andreas Björefeldt, PhD, Central Michigan University',
-        positions: [
-            'Postdoctoral Fellow'
-        ],
-        blurb: 'Andreas tests the performance of bioluminescent effectors and reporters developed in the lab, using whole cell patch clamp recordings. Andreas is interested in the role of cortical interneuron subtypes in information processing and memory functions.'
-    },
-    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Deister.png',
         title: 'Christopher Deister, PhD, Brown University',
         positions: [
@@ -203,6 +195,14 @@ export const ALUMNI = [
           'Graduate Student'
         ],
         blurb: "During her time at Brown, Nina characterized bioluminescent constructs <i>in vivo</i>, focusing on activating luciferases through minimally invasive delivery of luciferin. Currently, Nina is working towards her PhD at the University of Maryland and the NIH with the <a class='bl-link' href='https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/ncb/index.shtml' target='_blank'> Histed Group</a>."
+      },
+      {
+          imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
+          title: 'Andreas Björefeldt, PhD, Institute of Neuroscience and Physiology, University of Gothenburg, Sweden',
+          positions: [
+              'Researcher'
+          ],
+          blurb: 'As a Postdoctoral Fellow at CMU, Andreas tested the performance of bioluminescent effectors and reporters developed in the lab, using whole cell patch clamp recordings. Andreas is interested in the role of cortical interneuron subtypes in information processing and memory functions.'
       },
     {
         imgSrc: ' https://bl-hub.s3.amazonaws.com/portraits/Griffin-White-coat-min.jpg',
