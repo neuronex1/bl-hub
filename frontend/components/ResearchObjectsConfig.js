@@ -181,7 +181,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
         'E. Crespo, ',
         'U. Hochgeschwender'
       ],
-      abstract: "Bioluminescent optogenetics (BL-OG) can be utilized for trans-synaptic neuronal communication by expressing the light emitting luciferase in the presynaptic and the light sensing opsin in the postsynaptic neuron, with luciferin application inducing the light. <a class='bl-link' href='https://repository.library.brown.edu/studio/item/bdr:1147338/PDF' target='_blank'>Read the conference paper</a> and watch Rachel's presentation. <i>Link coming soon!</i>"
+      abstract: "Bioluminescent optogenetics (BL-OG) can be utilized for trans-synaptic neuronal communication by expressing the light emitting luciferase in the presynaptic and the light sensing opsin in the postsynaptic neuron, with luciferin application inducing the light. <a class='bl-link' href='https://repository.library.brown.edu/studio/item/bdr:1147338/PDF' target='_blank'>Read the conference paper</a> and <a class=bl-link href='https://repository.library.brown.edu/viewers/stream/bdr:1147339/' target=_blank>watch Rachel's presentation</a>."
     },
     {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Andreas_Bjorefeldt+_Poster_NeuroNex_Meeting_2019-min.jpg',
