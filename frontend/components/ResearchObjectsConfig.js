@@ -6,6 +6,58 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Lambert+et+al.+Fig+1_cropped-min.jpg',
+    title: "<i>Aequorea’s</i> secrets revealed: New fluorescent proteins with unique properties for bioimaging and biosensing",
+    venue: 'bioRxiv: July 7, 2019; PLOS Biology November 2, 2020',
+    authors: [
+      'G. G. Lambert, ',
+      'H. Depernet, ',
+      'G. Gotthard, ',
+      'D. T. Schultz, ',
+      'I. Navizet, ',
+      'T. Lambert, ',
+      'S. R. Adams, ',
+      'A. Torreblanca-Zanca, ',
+      'M. Chu, ',
+      'D. S. Bindels, ',
+      'V. Levesque, ',
+      'J. N. Moffatt, ',
+      'A. Salih, ',
+      'A. Royant, ',
+      'N. C. Shaner'
+    ],
+    abstract: "Using mRNA sequencing and de novo transcriptome assembly, we identified, cloned, and characterized 9 previously undiscovered fluorescent protein (FP) homologs from <i>Aequorea victoria</i> and a related <i>Aequorea</i> species, with most sequences highly divergent from <i>A. victoria</i> green fluorescent protein (avGFP). Among these FPs are the brightest green fluorescent protein (GFP) homolog yet characterized and a reversibly photochromic FP that responds to UV and blue light. Beyond green emitters, <i>Aequorea</i> species express purple- and blue-pigmented chromoproteins (CPs) with absorbances ranging from green to far-red, including 2 that are photoconvertible. X-ray crystallography revealed that <i>Aequorea</i> CPs contain a chemically novel chromophore with an unexpected crosslink to the main polypeptide chain. Because of the unique attributes of several of these newly discovered FPs, we expect that <i>Aequorea</i> will, once again, give rise to an entirely new generation of useful probes for bioimaging and biosensing. <a class=bl-link href='https://www.biorxiv.org/content/10.1101/677344v2' target='_blank'>Read more about this work on bioRxiv</a> and in <a class=bl-link href='https://doi.org/10.1371/journal.pbio.3000936' target='_blank'>PLOS Biology</a>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Shipley+et+al.+graphical+abstract_cropped-min.jpg',
+    title: 'Tracking calcium dynamics and immune surveillance at the choroid plexus blood-cerebrospinal fluid interface',
+    venue: 'Neuron, September 21, 2020',
+    authors: [
+      'F. B. Shipley, ',
+      'N. Dani, ',
+      'H. Xu, ',
+      'C. Deister, ',
+      'J. Cui, ',
+      'J. P. Head, ',
+      'C. Sadegh, ',
+      'R. M. Fame, ',
+      'M. L. Shannon, ',
+      'V. I. Flores, ',
+      'T. Kishkovich, ',
+      'E. Jang, ',
+      'E. M. Klein, ',
+      'G. J. Goldey, ',
+      'K. He, ',
+      'Y. Zhang, ',
+      'M. J. Holtzman, ',
+      'T. Kirchhausen, ',
+      'C. Wyart, ',
+      'C. I. Moore, ',
+      'M. L. Andermann, ',
+      'M. K. Lehtinen'],
+      abstract: 'The choroid plexus (ChP) epithelium is a source of secreted signaling factors in cerebrospinal fluid (CSF) and a key barrier between blood and brain. Here, we develop imaging tools to interrogate these functions in adult lateral ventricle ChP in whole-mount explants and in awake mice. By imaging epithelial cells in intact ChP explants, we observed calcium activity and secretory events that increased in frequency following delivery of serotonergic agonists. Using chronic two-photon imaging in awake mice, we observed spontaneous subcellular calcium events as well as strong agonist-evoked calcium activation and cytoplasmic secretion into CSF. Three-dimensional imaging of motility and mobility of multiple types of ChP immune cells at baseline and following immune challenge or focal injury revealed a range of surveillance and defensive behaviors. Together, these tools should help illuminate the diverse functions of this understudied body-brain interface. <a class=bl-link href="https://doi.org/10.1016/j.neuron.2020.08.024" target="_blank">Read more about this work in Neuron</a>.'
+    },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Celinskis_IEEE_poster-min.jpg',
     title: 'Miniaturized devices for bioluminescence imaging in freely behaving animals',
     venue: '42nd Annual International Conferences of the IEEE Engineering in Medicine and Biology Society in conjunction with the 43rd Annual Conference of the Canadian Medical and Biological Engineering Society; July 20-24, 2020; bioRxiv: June 16, 2020',
@@ -67,26 +119,6 @@ export const RESEARCH_OBJECTS_PAPERS = [
     abstract: 'BioLuminescent (BL) light production can modulate neural activity and behavior through coexpressed OptoGenetic (OG) elements, an approach termed ‘BL-OG.’ Yet, the relationship between BL-OG effects and bioluminescent photon emission has not been characterized <i>in vivo</i>. Further, the degree to which BL-OG effects strictly depend on optogenetic mechanisms driven by bioluminescent photons is unknown. Crucial to every neuromodulation method is whether the activator shows a dynamic concentration range driving robust, selective, and non-toxic effects. We systematically tested the effects of four key components of the BL-OG mechanism (luciferin, oxidized luciferin, luciferin vehicle, and bioluminescence), and compared these against effects induced by the Luminopsin-3 (LMO3) BL-OG molecule, a fusion of slow burn <i>Gaussia</i> luciferase (sbGLuc) and <i>Volvox</i> ChannelRhodopsin-1 (VChR1). We performed combined bioluminescence imaging and electrophysiological recordings while injecting specific doses of Coelenterazine (substrate for sbGluc), Coelenteramide (CTM, the oxidized product of CTZ), or CTZ vehicle. CTZ robustly drove activity in mice expressing LMO3, with photon production proportional to firing rate. In contrast, low and moderate doses of CTZ, CTM, or vehicle did not modulate activity in mice that did not express LMO3. We also failed to find bioluminescence effects on neural activity in mice expressing an optogenetically non-sensitive LMO3 variant. We observed weak responses to the highest dose of CTZ in control mice, but these effects were significantly smaller than those observed in the LMO3 group. These results show that in neocortex <i>in vivo</i>, there is a large CTZ range wherein BL-OG effects are specific to its active chemogenetic mechanism. <a class=bl-link href=" https://doi.org/10.1002/jnr.24498" target="_blank">Read more about this work in the Journal of Neuroscience Research</a>.'
     },
     {
-      imgSrc: ' https://bl-hub.s3.amazonaws.com/research-objects/Aequorea_victorias_secrets.png',
-      title: "<i>Aequorea victoria's</i> secrets",
-      venue: 'bioRxiv: July 7, 2019',
-      authors: [
-        'G. G. Lambert, ',
-        'H. Depernet, ',
-        'G. Gotthard, ',
-        'D. T. Schultz, ',
-        'I. Navizet, ',
-        'T. Lambert, ',
-        'D. S. Bindels, ',
-        'V. Levesque, ',
-        'J. N. Moffatt, ',
-        'A. Salih, ',
-        'A. Royant, ',
-        'N. C. Shaner'
-      ],
-      abstract: 'Using mRNA-Seq and <i>de novo</i> transcriptome assembly, we identified, cloned and characterized nine previously undiscovered fluorescent protein (FP) homologs from <i>Aequorea victoria</i> and a related <i>Aequorea</i> species, with most sequences highly divergent from avGFP. Among these FPs are the brightest GFP homolog yet characterized and a reversibly photochromic FP that responds to UV and blue light. Beyond green emitters, <i>Aequorea</i> species express purple- and blue-pigmented chromoproteins (CPs) with absorbances ranging from green to far-red, including two that are photoconvertible. X-ray crystallography revealed that <i>Aequorea</i> CPs contain a chemically novel chromophore with an unexpected crosslink to the main polypeptide chain. Because of the unique attributes of several of these newly discovered FPs, we expect that <i>Aequorea</i> will, once again, give rise to an entirely new generation of useful probes for bioimaging and biosensing. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/677344v2" target="_blank">Read more about this work on bioRxiv</a>.'
-    },
-    {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Prakash_J_Neurosci_Res_2018.png',
       title:'Defining parameters of specificity for bioluminescent optogenetic activation of neurons using <i>in vitro</i> multi electrode arrays (MEA)',
       venue:'Journal of Neuroscience Research, August 28, 2018',
@@ -136,6 +168,22 @@ export const RESEARCH_OBJECTS_PAPERS = [
     },
   ];
   export const RESEARCH_OBJECTS_POSTERS = [
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Louis+poster+thumbnail-min.jpg',
+      title: 'A Historical Analysis of the Searchable NeuroNex Database of Bioluminescent Molecules',
+      venue: 'Annual Biomedical Research Conference for Minority Students (ABRCMS) 2020',
+      authors: [
+        'P. Louis, ',
+        'B. Bartholomew, ',
+        'C. MacIntyre, ',
+        'R. van der Merwe, ',
+        'M. Roberts, ',
+        'J. Allen, ',
+        'N. Friedman, ',
+        'C. Moore'
+      ],
+      abstract: "As bioluminescence becomes increasingly significant to imaging and manipulating neurons in the brain, there presents a need for a database that can concisely present bioluminescent molecules in a simplified construct for researchers to access freely. The NeuroNex Bioluminescence Database lists bioluminescent molecules, their publication sources, and their molecular properties with specifics upon its compatible substrates, peak emission spectra, endogenous organism, size, signal, and more. Under the implications of this toolbox, neuroscientists and researchers may be better equipped to apply specific and appropriate bioluminescent molecules to their individual research projects quicker and more efficiently. A historical analysis of the database was conducted after obtaining nearly one hundred different bioluminescent molecules from prior publications. Due to the lack of technology and other unknown factors, earlier works lacked in the specification of molecular properties. Whereas, recent works were more elaborate on these properties. This may suggest that the first luciferases, or bioluminescent molecules, discovered may be the ones we know the least about. A future direction for scientists today is to use advanced technology to re-approach earlier works and elaborate on their properties to expand the field of bioluminescence. <a class='bl-link' target='_blank' href='https://repository.library.brown.edu/studio/item/bdr:1150602/PDF'>View this poster</a> and <a class='bl-link' target='_blank' href='https://repository.library.brown.edu/viewers/stream/bdr:1150604/'>listen to Priscilla's presentation."
+    },
     {
       imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/BRAIN-PI-Meeting.png',
       title: 'NeuroNex Technology Hub: Bioluminescence for Optimal Brain Control and Imaging',
