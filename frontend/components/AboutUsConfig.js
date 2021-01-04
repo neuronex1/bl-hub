@@ -134,14 +134,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
     },
     {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Meihua_Chu-min.jpg',
-        title: 'Meihua Chu, PhD, University of California, San Diego',
-        positions: [
-            'Research Laboratory Manager'
-        ],
-        blurb: 'Meihua is currently involved in cloning and expression of selected fluorescent molecules into mammalian cells.'
-    },
-    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
       title: 'Daniel Heydari, University of California, San Diego',
       positions: ['Laboratory Assistant'],
@@ -188,6 +180,14 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Meihua_Chu-min.jpg',
+        title: 'Meihua Chu, PhD',
+        positions: [
+          ''
+        ],
+        blurb: 'As Laboratory Manager at UCSD, Meihua cloned and expressed selected fluorescent molecules in mammalian cells.'
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Nina_Friedman-min.jpeg',
         title: 'Nina Friedman, University of Maryland',
