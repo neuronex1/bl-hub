@@ -23,6 +23,14 @@ class Carousel extends React.PureComponent {
                 photoCredit: 'Drawing: Raisa Khan'
             },
             {
+                src: 'https://bl-hub.s3.amazonaws.com/practicum/2021+Practicum+for+Carousel-min.jpg',
+                caption: 'Virtual Practicum for Undergraduates',
+                subtitle: ['February-April, 2021', 'Lectures', 'Discussions', 'Hands-on Kits'],
+                buttonLabel: 'KEEP READING',
+                link: '/mbl/2021-practicum/practicum',
+                photoCredit: ''
+            },
+            {
                 src: 'https://s3.amazonaws.com/bl-hub/workshop_photo-min.jpg',
                 caption: 'Workshop: Bioluminescence Methods for Scientists',
                 subtitle: [
@@ -54,19 +62,11 @@ class Carousel extends React.PureComponent {
             {
               src: 'https://bl-hub.s3.amazonaws.com/home+buttons/Dissemination+Slide_V2-min.jpg',
               caption: 'Disseminating Knowledge Broadly',
-              subtitle: ['Workshops', 'Emissaries', 'MBL Practicum', 'Plasmids'],
+              subtitle: ['Workshops', 'Emissaries', 'Practicum for Undergraduates', 'Plasmids'],
               buttonLabel: 'LEARN MORE',
               link: '/dissemination',
               photoCredit: ''
             },
-            {
-                src: 'https://s3.amazonaws.com/bl-hub/mbl-2019/MBL-synopsis/Waterfront-min.jpg',
-                caption: 'MBL Practicum for Undergraduates',
-                subtitle: ['March 24-29, 2019', 'Marine Biological Laboratory', 'Woods Hole, MA'],
-                buttonLabel: 'KEEP READING',
-                link: '/mbl/2019-practicum/practicum',
-                photoCredit: ''
-            }
         ];
 
         this.state = {
