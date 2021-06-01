@@ -55,7 +55,7 @@ const AboutUs = () => {
             <br/>
             <p className='text-m pull-right'>Fungi on Education page: Ylem, WikiCommons and Angus Veitch.</p>
             <br/>
-            <p className='text-m pull-right'>Jellyfish on Education page: NOAA's National Ocean Service.</p>
+            <p className='text-m pull-right'>Jellyfish on Education page: E. Widder, Operation Deep Scope 2005, NOAA's National Ocean Service.</p>
             <br/>
             <p className='text-m pull-right'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
             <br/>
