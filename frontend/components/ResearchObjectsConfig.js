@@ -6,9 +6,25 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp_2021.png',
+    title: "Selective postnatal excitation of neocortical pyramidal neurons results in distinctive behavioral and circuit deficits in adulthood",
+    venue: 'bioRxiv: January 18, 2020; iScience: March 19, 2021',
+    authors: [
+      'W. E. Medendorp, ',
+      'A. Björefeldt, ',
+      'E. L. Crespo, ',
+      'M. Prakash, ',
+      'A. Pal, ',
+      'M. Waddell, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: 'In genetic and pharmacological models of neurodevelopmental disorders, and human data, neural activity is altered within the developing neocortical network. This commonality begs the question of whether early enhancement in excitation might be a common driver, across etiologies, of characteristic behaviors. We tested this concept by chemogenetically driving cortical pyramidal neurons during postnatal days 4–14. Hyperexcitation of Emx1-, but not dopamine transporter-, parvalbumin-, or Dlx5/6-expressing neurons, led to decreased social interaction and increased grooming activity in adult animals. In vivo optogenetic interrogation in adults revealed decreased baseline but increased stimulus-evoked firing rates of pyramidal neurons and impaired recruitment of inhibitory neurons. Slice recordings in adults from prefrontal cortex layer 5 pyramidal neurons revealed decreased intrinsic excitability and increased synaptic E/I ratio. Together these results support the prediction that enhanced pyramidal firing during development, in otherwise normal cortex, can selectively drive altered adult circuit function and maladaptive changes in behavior. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/2020.01.18.911347v1?rss=1" target="_blank">Read more about this work on bioRxiv</a> and in the journal <a class="bl-link" href="https://www.sciencedirect.com/science/article/pii/S2589004221001255" target="_blank"><i>iScience</i></a>.'
+  },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Lambert+et+al.+Fig+1_cropped-min.jpg',
     title: "<i>Aequorea’s</i> secrets revealed: New fluorescent proteins with unique properties for bioimaging and biosensing",
-    venue: 'bioRxiv: July 7, 2019; PLOS Biology November 2, 2020',
+    venue: 'bioRxiv: July 7, 2019; PLOS Biology: November 2, 2020',
     authors: [
       'G. G. Lambert, ',
       'H. Depernet, ',
@@ -75,20 +91,6 @@ export const RESEARCH_OBJECTS_PAPERS = [
     abstract: '<i>In vivo</i> fluorescence miniature microscopy has recently proven a major advance, enabling cellular imaging in freely behaving animals. However, fluorescence imaging suffers from autofluorescence, phototoxicity, photobleaching and non-homogeneous illumination artifacts. These factors limit the quality and time course of data collection. Bioluminescence provides an alternative kind of activity-dependent light indicator. Bioluminescent calcium indicators do not require light input, instead generating photons through chemiluminescence. As such, limitations inherent to the requirement for light presentation are eliminated. Further, bioluminescent indicators also do not require excitation light optics: the removal of these components should make a lighter and lower cost microscope with fewer assembly parts. While there has been significant recent progress in making brighter and faster bioluminescence indicators, the advances in imaging hardware have not yet been realized. A hardware challenge is that despite potentially higher signal-to-noise of bioluminescence, the signal strength is lower than that of fluorescence. An open question we address in this report is whether fluorescent miniature microscopes can be rendered sensitive enough to detect bioluminescence. We demonstrate this possibility <i>in vitro</i> and <i>in vivo</i> by implementing optimizations of the UCLA fluorescent miniscope v3.2. These optimizations yielded a miniscope (BLmini) which is 22% lighter in weight, has 45% fewer components, is up to 58% less expensive, offers up to 15 times stronger signal and is sensitive enough to capture spatiotemporal dynamics of bioluminescence in the brain with a signal-to-noise ratio of 34 dB. <a class=bl-link href="https://ieeexplore.ieee.org/abstract/document/9175375" target=_blank>Read more about this work on IEEE <i>Xplore</i></a> and <a class=bl-link href="https://repository.library.brown.edu/viewers/stream/bdr:1128451/" target=_blank>watch a video of Dmitrijs presenting this work</a>.'
   },
   {
-    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp_bioRxiv_Jan2020-min.jpg',
-    title: "Selective postnatal excitation of neocortical pyramidal neurons results in distinctive behavioral and circuit deficits in adulthood",
-    venue: 'bioRxiv: January 18, 2020',
-    authors: [
-      'W. E. Medendorp, ',
-      'A. Pal, ',
-      'M. Waddell, ',
-      'A. Björefeldt, ',
-      'C. I. Moore, ',
-      'U. Hochgeschwender'
-    ],
-    abstract: 'In leading models of Autism Spectrum Disorder, and in human data, the efficacy of outgoing cortical connectivity transitions from overly exuberant to languid from early development to adulthood. This transition begs the question of whether the early enhancement in excitation might be a common driver, across etiologies, of these symptoms. We directly tested this concept by chemogenetically driving neuronal activity in neocortical neurons during postnatal days 4-14. Hyperexcitation of Emx1-, but not dopamine transporter-, parvalbumin-, or Dlx5/6-expressing neurons led to decreased social interaction and increased grooming activity in adult animals. <i>In vivo</i> optogenetic interrogation in adults revealed decreased baseline but increased stimulus-evoked firing rates of pyramidal neurons, impaired recruitment of inhibitory neurons and reduced cortico-striatal communication. These results directly support the prediction that changed firing in developing circuits irreversibly alters adult circuit function that leads to maladaptive changes in behaviors. This experimental approach offers a valuable platform to study the impact of disruption of developmental neural activity on the formation and function of adult neural circuits and behavior. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/2020.01.18.911347v1?rss=1" target="_blank">Read more about this work on bioRxiv</a>.'
-  },
-  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Petersen_BioRxiv_2019.png',
     title: "Restoring function after severe spinal cord injury through bioluminescence-driven optogenetics",
     venue: 'bioRxiv: July 22, 2019',
@@ -108,7 +110,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     {
      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Gomez-Ramirez+et+al.+J+Neurosci+2019-min.jpg',
      title: "The BioLuminescent-OptoGenetic <i>in vivo</i> response to coelenterazine is proportional, sensitive and specific in neocortex",
-     venue: 'bioRxiv: July 22, 2019; Journal of Neuroscience Research, September 23, 2019',
+     venue: 'bioRxiv: July 22, 2019; Journal of Neuroscience Research: September 23, 2019',
      authors: [
      'M. Gomez-Ramirez, ',
      'A. I. More, ',
