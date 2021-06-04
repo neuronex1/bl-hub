@@ -134,12 +134,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
     },
     {
-      imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
-      title: 'Daniel Heydari, University of California, San Diego',
-      positions: ['Laboratory Assistant'],
-      blurb: 'Daniel assists with efforts to design improved fluorescent protein variants, with the guidance of senior researchers.'
-    },
-    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
         title: 'Gerard Lambert, University of California, San Diego',
         positions: [
@@ -180,6 +174,12 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
+        title: 'Daniel Heydari, University of California, San Diego',
+        positions: ['Laboratory Assistant'],
+        blurb: 'In the Shaner lab, Daniel assisted with efforts to design improved fluorescent protein variants.'
+    },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Meihua_Chu-min.jpg',
         title: 'Meihua Chu, PhD',
