@@ -101,7 +101,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Dmitrijs is improving implanted miniscopes for viewing bioluminescence during head-fixed and free behavior.'
+        blurb: 'Dmitrijs is improving implanted miniscopes for viewing bioluminescence during head-fixed and free behavior. <a class="bl-link" href="/JTC-welcome#Dmitrijs_video">Learn more about Dmitrijs’ research and view his lab space</a>.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Emanuel_Crespo-min.jpg',
@@ -109,13 +109,13 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Manny is focused on driving non-ion-exchanging optical sensors with bioluminescence.'
+        blurb: 'Manny is focused on driving non-ion-exchanging optical sensors with bioluminescence. <a class="bl-link" href="/JTC-welcome#Manny_quote">Learn more about Manny’s research and why he became a molecular biologist</a>.'
     },
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Ebenezer-min.jpg',
-      title:'Ebenezer Ikefuama, MSc, Central Michigan University',
-      positions: ['Graduate Student'],
-      blurb: 'Ebenezer is currently investigating the application of  bioluminescent-optogenetic systems for the modulation of  spinal motor neuronal activity and  improving recovery following contusive spinal cord injuries.'
+        imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Ebenezer-min.jpg',
+        title:'Ebenezer Ikefuama, MSc, Central Michigan University',
+        positions: ['Graduate Student'],
+        blurb: 'Ebenezer is currently investigating the application of  bioluminescent-optogenetic systems for the modulation of  spinal motor neuronal activity and  improving recovery following contusive spinal cord injuries.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Klein-min.JPG',
@@ -142,10 +142,10 @@ export const CURRENT_MEMBERS = [
         blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
     },
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
-      title: 'Richard Orcutt, University of California, San Diego',
-      positions: ['Laboratory Assistant'],
-      blurb: 'Richard is currently learning Recombinant DNA techniques to ultimately assist in the generation of fluorescent protein and luciferase expression plasmid libraries.'
+        imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
+        title: 'Richard Orcutt, University of California, San Diego',
+        positions: ['Laboratory Assistant'],
+        blurb: 'Richard is currently learning Recombinant DNA techniques to ultimately assist in the generation of fluorescent protein and luciferase expression plasmid libraries.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
@@ -194,15 +194,15 @@ export const ALUMNI = [
         positions: [
           'Graduate Student'
         ],
-        blurb: "During her time at Brown, Nina characterized bioluminescent constructs <i>in vivo</i>, focusing on activating luciferases through minimally invasive delivery of luciferin. Currently, Nina is working towards her PhD at the University of Maryland and the NIH with the <a class='bl-link' href='https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/ncb/index.shtml' target='_blank'> Histed Group</a>."
+        blurb: "During her time at Brown, Nina characterized bioluminescent constructs <i>in vivo</i>, focusing on activating luciferases through minimally invasive delivery of luciferin. <a class='bl-link' href='/JTC-welcome#Nina_quote'>Learn more about Nina’s BL-OG research</a>. Nina is currently working towards her PhD at the University of Maryland and the NIH with the <a class='bl-link' href='https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/ncb/index.shtml' target='_blank'> Histed Group</a>."
       },
       {
-          imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
-          title: 'Andreas Björefeldt, PhD, Institute of Neuroscience and Physiology, University of Gothenburg, Sweden',
-          positions: [
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Andreas_Bjorefeldt-min.jpg',
+        title: 'Andreas Björefeldt, PhD, Institute of Neuroscience and Physiology, University of Gothenburg, Sweden',
+        positions: [
               'Researcher'
-          ],
-          blurb: 'As a Postdoctoral Fellow at CMU, Andreas tested the performance of bioluminescent effectors and reporters developed in the lab, using whole cell patch clamp recordings. Andreas is interested in the role of cortical interneuron subtypes in information processing and memory functions.'
+        ],
+        blurb: 'As a Postdoctoral Fellow at CMU, Andreas tested the performance of bioluminescent effectors and reporters developed in the lab, using whole cell patch clamp recordings. Andreas is interested in the role of cortical interneuron subtypes in information processing and memory functions.'
       },
     {
         imgSrc: ' https://bl-hub.s3.amazonaws.com/portraits/Griffin-White-coat-min.jpg',
