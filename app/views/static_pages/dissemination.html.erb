@@ -1,4 +1,4 @@
-<!-- The easiest way to update the map is to copy the entire embed code from Tableau Public and paste it in the affiliated _disseminationmap.html.erb file. Make sure you update the viz number here and in that file. -->
+<!-- The easiest way to update the map is to copy the entire embed code from Tableau Public and paste it in the affiliated _disseminationmap.html.erb file. Make sure you update the viz number here and in that file, "_disseminationmap.html.erb". -->
 
 <div class='container' id='dissemination'>
 
@@ -14,6 +14,33 @@
   <p>Together, this approach drives knowledge and tool development and the creation of new technologies and industries.</p>
   <br/>
   <br/>
+  <div class='disseminationmap'>
+  <%= render 'disseminationmap' %>
+  <script type='text/javascript'>
+      var divElement = document.getElementById('viz1624390259401');
+      var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+  </div>
+<br>
+<i>
+  <p>The controls on the upper left allow you to interact with this map.</p>
+<br>
+  <p>Click the magnifying glass to open a search box where you can enter a location of interest.<p>
+<br>
+    <p>Click the plus icon to zoom in, and the minus icon to zoom out and view our worldwide dissemination.</p>
+<br>
+  <p>Click the house icon to view dissemination within North America, or to reset the map. (You may also reset the map by reloading this page.)</p>
+<br>
+  <p>Click the right-pointing arrow to reveal tools that will allow you to zoom to a selected area (magnifying glass with square), pan to a different region of the map (crosshairs), or select certain data (rectangle, circle, and lasso). You may also use your trackpad to navigate the map. Ensure your cursor is within the frame of the map. Zoom in or out by dragging two fingers (as if to scroll) and pan by press and holding with one finger while dragging with a second finger.</p>
+<br>
+  <p>Mouse over data points for additional information.</p>
+<br>
+  <p>The controls on the middle right side of the map allow you to animate the data. Using the dropdown menu or the slider, select a time perioid to begin (suggested: January 2017). Click the right-pointing arrow to begin the animation, the square to stop the animation, or the left-pointing arrow to play the animtion in reverse. You may jump to a particular time period with the dropdown menu or slider.</p>
+</i>
 <div>
 <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1vYh-9WcUxvGmdIOozvGiXhU6skqQu6kuyrEfzHOasrQ&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 </div>
@@ -31,6 +58,15 @@
         <div class='button-img__overlay'></div>
       </a>
     </div>
+    <div class='button-img mlxl'>
+        <a href='https://www.bioluminescencehub.org/mbl'>
+          <img src='https://bl-hub.s3.amazonaws.com/education/NeuroNex+Practicum+button_general-min.jpg' alt='NeuroNex Practicum'>
+          <div class='button-img__overlay'></div>
+        </a>
+    </div>
+<br>
+<br>
+<h3 class='text-left'>Use our plasmids!</h3>
   <div class='button-img mll'>
       <a href='https://www.addgene.org/Ute_Hochgeschwender/' target='_blank'>
         <img src='https://bl-hub.s3.amazonaws.com/research-objects/Addgene-button-min.jpg' alt='Hochgeschwender Constructs'>
@@ -38,31 +74,25 @@
       </a>
       </div>
   <div class='button-img mlxl'>
+      <a href='https://www.addgene.org/Diane_Lipscombe/' target='_blank'>
+        <img src='https://bl-hub.s3.amazonaws.com/constructs/Lipscombe+constructs+button.png' alt='Lipscombe Constructs'>
+        <div class='button-img__overlay'></div>
+      </a>
+  </div>
+  <div class='button-img mll'>
       <a href='https://www.addgene.org/Nathan_Shaner/' target='_blank'>
         <img src='https://bl-hub.s3.amazonaws.com/research-objects/Addgene+button_Shaner-min.jpg' alt='Shaner Constructs'>
         <div class='button-img__overlay'></div>
       </a>
-    </div>
-  <div class='button-img mll'>
-      <a href='https://www.bioluminescencehub.org/mbl'>
-        <img src='https://bl-hub.s3.amazonaws.com/education/NeuroNex+Practicum+button_general-min.jpg' alt='NeuroNex Practicum'>
-        <div class='button-img__overlay'></div>
-      </a>
-    </div>
-<br>
-<br>    
+  </div>
 
-<div class='disseminationmap'
-<%= render 'disseminationmap' %>
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1595261730175');
-    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';
-    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-</div>
+
+<br>
+<br>
+
+
+
+
 
 
 
