@@ -93,7 +93,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Postdoctoral Research Associate'
         ],
-        blurb: 'Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication.'
+        blurb: "Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication. Read more about her research in a <a class='bl-link' target='_blank' href='https://currentexchange.cshl.edu/blog/2021/6/visitor-of-the-week-204'>Visitor of the Week highlight</a> by Cold Spring Harbor Laboratory."
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Dmitrijs_Celinskis.jpg',
