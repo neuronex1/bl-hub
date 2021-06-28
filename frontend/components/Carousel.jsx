@@ -44,7 +44,7 @@ class Carousel extends React.PureComponent {
             },
             {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
-                caption: 'MBL Practicum for Undergraduates',
+                caption: 'NeuroNex Practicum for Undergraduates',
                 title: 'Applications open October 2018!',
                 subtitle: ['Annually in March', 'Marine Biological Laboratory', 'Woods Hole, MA'],
                 buttonLabel: 'LEARN MORE',
