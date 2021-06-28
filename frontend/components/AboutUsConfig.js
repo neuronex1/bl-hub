@@ -85,7 +85,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Postdoctoral Research Associate'
         ],
-        blurb: 'Jeremy is testing bioluminescent constructs <i>in vivo</i>, including investigating the effects of coelenterazine administration parameters on bioluminescence in awake, behaving mice and calcium sensor performance.'
+        blurb: 'Jeremy is testing bioluminescent constructs <i>in vivo</i>, including investigating the effects of coelenterazine administration parameters on bioluminescence in awake, behaving mice and calcium sensor performance. <a class="bl-link" href="/JTC-welcome#Jeremy_video">Learn more about Jeremy’s research</a>.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Mansi_Prakash-min.jpg',
