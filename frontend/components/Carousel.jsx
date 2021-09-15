@@ -23,6 +23,14 @@ class Carousel extends React.PureComponent {
                 photoCredit: 'Drawing: Raisa Khan'
             },
             {
+                src: '  https://bl-hub.s3.amazonaws.com/education/2021+Interns+for+Carousel-min.jpg',
+                caption: 'Students Complete 2021 Summer Internships at Brown and CMU',
+                subtitle: ['Brown University', 'Central Michigan University'],
+                buttonLabel: 'KEEP READING',
+                link: '/education/CMU-interns-2021',
+                photoCredit: ''
+            },
+            {
                 src: 'https://bl-hub.s3.amazonaws.com/practicum/2021+Practicum+for+Carousel-min.jpg',
                 caption: 'Virtual Practicum for Undergraduates',
                 subtitle: ['February-April, 2021', 'Lectures', 'Discussions', 'Hands-on Kits'],

@@ -6,7 +6,23 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
-    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp_2021.png',
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Crespo+STAR+Protocols+2021.png',
+    title: 'Bioluminescent optogenetic (BL-OG) activation of neurons during mouse postnatal brain development',
+    venue: 'STAR Protocols, September 2021',
+    authors: [
+      'E. L. Crespo, ',
+      'M. Prakash, ',
+      'A. Björefeldt, ',
+      'W. E. Medendorp, ',
+      'N. C. Shaner, ',
+      'D. Lipscombe, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: "Bioluminescent optogenetics (BL-OG) allows activation of photosensory proteins, such as opsins, by either fiberoptics or by administering a luciferin. BL-OG thus confers both optogenetic and chemogenetic access within the same genetically targeted neuron. This bimodality offers a powerful approach for non-invasive chemogenetic manipulation of neural activity during brain development and adult behaviors with standard optogenetic spatiotemporal precision. We detail protocols for bioluminescent stimulation of neurons in postnatally developing brain and its validation through bioluminescence imaging and electrophysiological recording in mice. Read the paper at <i><a href='https://doi.org/10.1016/j.xpro.2021.100667' class='bl-link' target='_blank'>STAR Protocols</a></i>.<br><br>For complete information on the use and execution of this protocol, please refer to <a href='https://dx.doi.org/10.1016%2Fj.isci.2021.102157' class='bl-link' target='_blank'>Medendorp et al. (2021)</a>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp+iScience+2021.png',
     title: "Selective postnatal excitation of neocortical pyramidal neurons results in distinctive behavioral and circuit deficits in adulthood",
     venue: 'bioRxiv: January 18, 2020; iScience: March 19, 2021',
     authors: [
@@ -19,7 +35,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
       'C. I. Moore, ',
       'U. Hochgeschwender'
     ],
-    abstract: 'In genetic and pharmacological models of neurodevelopmental disorders, and human data, neural activity is altered within the developing neocortical network. This commonality begs the question of whether early enhancement in excitation might be a common driver, across etiologies, of characteristic behaviors. We tested this concept by chemogenetically driving cortical pyramidal neurons during postnatal days 4–14. Hyperexcitation of Emx1-, but not dopamine transporter-, parvalbumin-, or Dlx5/6-expressing neurons, led to decreased social interaction and increased grooming activity in adult animals. In vivo optogenetic interrogation in adults revealed decreased baseline but increased stimulus-evoked firing rates of pyramidal neurons and impaired recruitment of inhibitory neurons. Slice recordings in adults from prefrontal cortex layer 5 pyramidal neurons revealed decreased intrinsic excitability and increased synaptic E/I ratio. Together these results support the prediction that enhanced pyramidal firing during development, in otherwise normal cortex, can selectively drive altered adult circuit function and maladaptive changes in behavior. <a class=bl-link href="https://www.biorxiv.org/content/10.1101/2020.01.18.911347v1?rss=1" target="_blank">Read more about this work on bioRxiv</a> and in the journal <a class="bl-link" href="https://www.sciencedirect.com/science/article/pii/S2589004221001255" target="_blank"><i>iScience</i></a>.'
+    abstract: "In genetic and pharmacological models of neurodevelopmental disorders, and human data, neural activity is altered within the developing neocortical network. This commonality begs the question of whether early enhancement in excitation might be a common driver, across etiologies, of characteristic behaviors. We tested this concept by chemogenetically driving cortical pyramidal neurons during postnatal days 4–14. Hyperexcitation of Emx1-, but not dopamine transporter-, parvalbumin-, or Dlx5/6-expressing neurons, led to decreased social interaction and increased grooming activity in adult animals. In vivo optogenetic interrogation in adults revealed decreased baseline but increased stimulus-evoked firing rates of pyramidal neurons and impaired recruitment of inhibitory neurons. Slice recordings in adults from prefrontal cortex layer 5 pyramidal neurons revealed decreased intrinsic excitability and increased synaptic E/I ratio. Together these results support the prediction that enhanced pyramidal firing during development, in otherwise normal cortex, can selectively drive altered adult circuit function and maladaptive changes in behavior. <a class=bl-link href='https://www.biorxiv.org/content/10.1101/2020.01.18.911347v1?rss=1' target='_blank'>Read more about this work on bioRxiv</a>, in the journal <a class='bl-link' href='https://www.sciencedirect.com/science/article/pii/S2589004221001255' target='_blank'><i>iScience</i></a>, and on <a href='https://neuronex.org/news/19' target='_blank' class='bl-link'>neuronex.org</a>."
   },
   {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Lambert+et+al.+Fig+1_cropped-min.jpg',
@@ -170,6 +186,21 @@ export const RESEARCH_OBJECTS_PAPERS = [
     },
   ];
   export const RESEARCH_OBJECTS_POSTERS = [
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/CANACN+logo.png',
+      title: 'Next generation tools for imaging in the cortex and spinal cord',
+      venue: 'Canadian Association for Neuroscience, August 2021',
+      authors: [
+        'D. Celinskis, ',
+        'J. Murphy, ',
+        'N. Shaner, ',
+        'U. Hochgeschwender, ',
+        'D. Lipscombe, ',
+        'C. I. Moore, ',
+        'D. A. Borton'
+      ],
+      abstract: "State-of-the-art imaging tools rely on a restrained preparation, limiting natural behavior while measuring cellular activity via fluorescence (FL). Recently, advances in wearable microscopy expanded the range of accessible behaviors by allowing imaging of freely behaving animals. However, wearable microscopes to this day are primarily used for brain imaging and have not been adopted for imaging other parts of the body, for example the spinal cord. Furthermore, unfavorable attributes of FL indicators constrain the extent of imaging experiments, including photobleaching, autofluorescence and excitation light scattering noise especially in the parts of the body like the spinal cord due to myelination. All 3 of these issues can be eliminated while offering an increase in the imaging depth by using bioluminescence (BL) instead of the FL. <br><br>Here we demonstrate our ability of imaging BL calcium indicators through the cranial window in mice as fast as 5 frames per second using redesigned open-source miniscopes. Furthermore, we present an expansion of the miniscope use towards neurovascular imaging in the spinal cord. Spinal neurovascular imaging is accomplished by integrating a custom vertebral implant with miniscope hardware that ensures mechanical stability over time. Such implants allow interchangeable imaging of the brain or spinal cord in free or restrained animals. Altogether, our work expands the imaging toolbox towards better imaging quality via BL indicators and the ability to image across multiple sites throughout the nervous system using wearable miniature microscopes."
+    },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Louis+poster+thumbnail-min.jpg',
       title: 'A Historical Analysis of the Searchable NeuroNex Database of Bioluminescent Molecules',
