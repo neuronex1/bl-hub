@@ -72,14 +72,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Chris is working on 2-photon imaging, photoswitchable proteins, and helping others with experimental design and data analysis.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Misha_Koksharov-min.jpg',
-        title: 'Mikhail Koksharov, PhD, Brown University',
-        positions: [
-            'Postdoctoral Research Associate'
-        ],
-        blurb: 'Misha is developing and testing Lumiporeins and Lumicampsins (luciferases that are modified to be calcium-sensitive) for use as calcium sensors.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Jeremy_Murphy-min.jpg',
         title: 'Jeremy Murphy, PhD, Brown University',
         positions: [
@@ -174,6 +166,14 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Misha_Koksharov-min.jpg',
+        title: 'Mikhail Koksharov, PhD, Brown University',
+        positions: [
+            'Postdoctoral Research Associate'
+          ],
+        blurb: 'In the Lipscombe lab, Misha developed and tested Lumiporeins and Lumicampsins (luciferases that are modified to be calcium-sensitive) for use as calcium sensors.'
+    },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Daniel_Heydari-min.JPG',
         title: 'Daniel Heydari, University of California, San Diego',
