@@ -34,7 +34,8 @@ export const CURRENT_MEMBERS = [
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Nathan-min.jpg',
         title: 'Nathan Shaner, PhD, University of Californa, San Diego',
         positions: [
-            'Co-Principal Investigator',
+            'Associate Adjunct Professor, Neurosciences',
+            'Co-Principal Investigator'
         ],
         blurb: 'Nathan discovers new, naturally occurring bioluminescent and fluorescent molecules, and engineers improved variants for biological research applications, such as imaging.'
     },
@@ -55,11 +56,20 @@ export const CURRENT_MEMBERS = [
         blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree in Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
     },
     {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Arturo_Andrade_portrait.png',
+      title: 'Arturo Andrade, PhD, Brown University',
+      positions: [
+        'Director of the Rodent Behavioral Facility, Robert J. and Nancy D. Carney Institute for Brain Science',
+        'Assistant Professor of Brain Science (Research)'
+      ],
+      blurb: 'Arturo investigates the role of alternative splice variants of calcium channel genes in central circuits and behavior, both in health and disease. As Director of the Rodent Behavioral Facility, Arturo helps Brown researchers with behavioral phenotyping of rodent models.'
+    },
+    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Jason.jpg',
       title: 'Jason Ritt, PhD, Brown University',
       positions: [
           'Scientific Director of Quantitative Neuroscience, Robert J. and Nancy D. Carney Institute for Brain Science',
-          'Assistant Professor of Neuroscience (Research)'
+          'Associate Professor of Neuroscience (Research)'
       ],
       blurb: 'Jason works to understand neural processing during active sensing and developing new neural engineering for neurostimulation and control.'
     },
@@ -132,6 +142,12 @@ export const CURRENT_MEMBERS = [
             'Senior Laboratory Researcher'
         ],
         blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Dylan_Gregory_portrait-min.jpeg',
+        title: 'Dylan Gregory, University of California, San Diego',
+        positions: ['Research Assistant'],
+        blurb: 'Dylan is currently assisting the Shaner lab with developing and optimizing fluorescent proteins and luciferases through directed evolution and recombinant DNA techniques.'
     },
     {
         imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
