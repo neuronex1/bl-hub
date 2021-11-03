@@ -136,6 +136,14 @@ export const CURRENT_MEMBERS = [
         blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
     },
     {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ashley_Slaviero.jpg',
+        title: 'Ashley Slaviero, Central Michigan University',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'Ashley performs molecular cloning of constructs and selectively modulates synaptic transmission through the modified Act-In method for the Interluminescence project.'
+    },
+    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
         title: 'Gerard Lambert, University of California, San Diego',
         positions: [
