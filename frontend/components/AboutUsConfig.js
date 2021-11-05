@@ -48,14 +48,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Justine leads efforts to execute the innovation, dissemination, and education goals of the Hub. She provides scientific direction and maintenance of the Hub\'s website and database, coordinates the activities of program workshops, symposia, and emissaries, and develops curricula for education outreach activities at the elementary, high school, undergraduate, and graduate levels.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/Krystal-min.jpg',
-        title: 'Krystal Literman, MS, Brown University',
-        positions: [
-            'Administrative Assistant'
-        ],
-        blurb: 'Krystal aids in the coordination of both daily and long term activities for the Hub and its leaders. Krystal provides support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public.  Krystal holds a Master of Science degree in Ecology and Evolutionary Biology and has had a variety of experiences involving STEM-related outreach and education.'
-    },
-    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Arturo_Andrade_portrait.png',
       title: 'Arturo Andrade, PhD, Brown University',
       positions: [
@@ -190,6 +182,14 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/Krystal-min.jpg',
+        title: 'Krystal Literman, MS, Brown University',
+        positions: [
+            'Administrative Coordinator, Robert J. and Nancy D. Carney Institute for Brain Science'
+          ],
+          blurb: 'From 2018-2021, Krystal was the Administrative Assistant of the NeuroNex Bioluminescent Technology Hub. During this time, she aided in the coordination of both daily and long-term activities for the Hub and its leaders. Krystal provided support for the Hub’s goals: innovation and development of neuroscience research tools, dissemination of knowledge, and education outreach for students of all levels as well as the public. Krystal is now the Administrative Coordinator for the Carney Institute for Brain Science at Brown University.'
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Misha_Koksharov-min.jpg',
         title: 'Mikhail Koksharov, PhD, Brown University',
