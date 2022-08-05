@@ -49,7 +49,7 @@ export const CURRENT_MEMBERS = [
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Arturo_Andrade_portrait.png',
-      title: 'Arturo Andrade, PhD, Brown University',
+      title: 'Arturo Andrade Andrade, PhD, Brown University',
       positions: [
         'Director of the Rodent Behavioral Facility, Robert J. and Nancy D. Carney Institute for Brain Science',
         'Assistant Professor of Brain Science (Research)'
@@ -144,18 +144,6 @@ export const CURRENT_MEMBERS = [
         blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
     },
     {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Dylan_Gregory_portrait-min.jpeg',
-        title: 'Dylan Gregory, University of California, San Diego',
-        positions: ['Research Assistant'],
-        blurb: 'Dylan is currently assisting the Shaner lab with developing and optimizing fluorescent proteins and luciferases through directed evolution and recombinant DNA techniques.'
-    },
-    {
-        imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
-        title: 'Richard Orcutt, University of California, San Diego',
-        positions: ['Laboratory Assistant'],
-        blurb: 'Richard is currently learning Recombinant DNA techniques to ultimately assist in the generation of fluorescent protein and luciferase expression plasmid libraries.'
-    },
-    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
         title: 'Kathleen Riselay, Central Michigan University',
         positions: [
@@ -171,17 +159,30 @@ export const CURRENT_MEMBERS = [
         ],
         blurb: 'Maya’s primary focus in the Hochgeschwender lab is molecular cloning of bioluminescent constructs.'
     },
+
+];
+
+export const ALUMNI = [
+    {
+        imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
+        title: 'Richard Orcutt, University of California, San Diego',
+        positions: ['Laboratory Assistant'],
+        blurb: 'Richard assisted in the generation of fluorescent protein and luciferase expression plasmid libraries.'
+      },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Albertina_Torreblanca_Zanca-min.jpg',
         title: 'Albertina Torreblanca Zanca, MS, University of California, San Diego',
         positions: [
-            'Laboratory Assistant'
+          'Laboratory Assistant'
         ],
-        blurb: 'Albertina’s primary focus is the design of fluorescent proteins using directed-evolution methodologies.'
+        blurb: 'Albertina focused on the design of fluorescent proteins using directed-evolution methodologies.'
     },
-];
-
-export const ALUMNI = [
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Dylan_Gregory_portrait-min.jpeg',
+        title: 'Dylan Gregory, University of California, San Diego',
+        positions: ['Research Assistant'],
+        blurb: 'Dylan assisted the Shaner lab with developing and optimizing fluorescent proteins and luciferases through directed evolution and recombinant DNA techniques.'
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Krystal-min.jpg',
         title: 'Krystal Literman, MS, Brown University',
