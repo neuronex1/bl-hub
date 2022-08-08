@@ -10,6 +10,16 @@ class Carousel extends React.PureComponent {
         this.renderSubtitle = this.renderSubtitle.bind(this);
 
         this.slides = [
+
+            {
+              src: 'https://bl-hub.s3.amazonaws.com/Beyond_Neurons_Meeting.png',
+                caption: 'Join us for Seminars, Posters, and Workshops!',
+                subtitle: [
+                ],
+                buttonLabel: 'REGISTER NOW',
+                link: '/BeyondNeurons',
+                photoCredit: ''
+              },
             {
                 src: 'https://bl-hub.s3.amazonaws.com/LMO3+mouse+at+JAX_2.png',
                 caption: 'LMO3 Mouse Now Available at JAX',
@@ -23,38 +33,10 @@ class Carousel extends React.PureComponent {
                 photoCredit: 'Drawing: Raisa Khan'
             },
             {
-                src: '  https://bl-hub.s3.amazonaws.com/education/2021+Interns+for+Carousel-min.jpg',
-                caption: 'Students Complete 2021 Summer Internships at Brown and CMU',
-                subtitle: ['Brown University', 'Central Michigan University'],
-                buttonLabel: 'KEEP READING',
-                link: '/education/CMU-interns-2021',
-                photoCredit: ''
-            },
-            {
-                src: 'https://bl-hub.s3.amazonaws.com/practicum/2021+Practicum+for+Carousel-min.jpg',
-                caption: 'Virtual Practicum for Undergraduates',
-                subtitle: ['February-April, 2021', 'Lectures', 'Discussions', 'Hands-on Kits'],
-                buttonLabel: 'KEEP READING',
-                link: '/mbl/2021-practicum/practicum',
-                photoCredit: ''
-            },
-            {
-                src: 'https://s3.amazonaws.com/bl-hub/workshop_photo-min.jpg',
-                caption: 'Workshop: Bioluminescence Methods for Scientists',
-                subtitle: [
-                    'Lectures',
-                    'Discussions',
-                    'Demonstrations'
-                ],
-                buttonLabel: 'LEARN MORE',
-                link: '/workshops',
-                photoCredit: 'Photo: Osamu Shimomura, courtesy NSF'
-            },
-            {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
                 caption: 'NeuroNex Practicum for Undergraduates',
-                title: 'Applications open October 2018!',
-                subtitle: ['Annually in March', 'Marine Biological Laboratory', 'Woods Hole, MA'],
+                title: 'A',
+                subtitle: ['Lectures', 'Synopses', 'Photos', 'Interviews with Experts'],
                 buttonLabel: 'LEARN MORE',
                 link: '/mbl',
                 photoCredit: ''
@@ -62,7 +44,7 @@ class Carousel extends React.PureComponent {
             {
                 src: 'https://s3.amazonaws.com/bl-hub/test_tubes-min.jpg',
                 caption: 'Sharing New Tools With Scientists',
-                subtitle: ['Brown University', 'Central Michigan University', 'University of California San Diego'],
+                subtitle: ['Brown University', 'Central Michigan University', 'University of California, San Diego'],
                 buttonLabel: 'LEARN MORE',
                 link: '/constructs',
                 photoCredit: ''
