@@ -42,29 +42,20 @@ const AboutUs = () => {
                 </tbody>
             </table>
             <div className="horizontal-divider mtxxl mbxxl"></div>
-            <p className='text-m pull-right'>Our Hub is supported by National Science Foundation <a href='https://nsf.gov/awardsearch/showAward?AWD_ID=1707352' className='bl-link'>NeuroNex 1707352</a>.</p>
+            <p className='text-m'>Our Hub is supported by National Science Foundation <a href='https://nsf.gov/awardsearch/showAward?AWD_ID=1707352' className='bl-link'>NeuroNex 1707352</a>.</p>
             <br/>
+            <p className='text-m'>Website icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a></p>
+            <p className='text-m'>Additional icons: Clker-Free-Vector-Image (Pixabay).</p>
             <br/>
-            <p className='text-m pull-right'>Website icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a></p><br/>
-            <p className='text-m pull-right'>Additional icons: Clker-Free-Vector-Image (Pixabay).</p>
+            <p className='text-m'>Glow worms on Education page: Flickr; Eden, Janine and Jim.</p>
+            <p className='text-m'><span className='italics'>Gaussia princeps</span> on Emissary button: Hopcroft/UAF/CMarZ hopcroft@ims.uaf.edu.</p>
+            <p className='text-m'>Fungi on Education page: Ylem, WikiCommons and Angus Veitch.</p>
+            <p className='text-m'>Jellyfish on Education page: E. Widder, Operation Deep Scope 2005, NOAA's National Ocean Service.</p>
+            <p className='text-m'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
+            <p className='text-m'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
+            <p className='text-m'>Bathysphere on Education page: Commercial Fisheries Review (1946), digitized by Biodiversity Heritage Library.</p>
             <br/>
-            <br/>
-            <p className='text-m pull-right'>Glow worms on Education page: Flickr; Eden, Janine and Jim.</p>
-            <br/>
-            <p className='text-m pull-right'><span className='italics'>Gaussia princeps</span> on Emissary button: Hopcroft/UAF/CMarZ hopcroft@ims.uaf.edu.</p>
-            <br/>
-            <p className='text-m pull-right'>Fungi on Education page: Ylem, WikiCommons and Angus Veitch.</p>
-            <br/>
-            <p className='text-m pull-right'>Jellyfish on Education page: E. Widder, Operation Deep Scope 2005, NOAA's National Ocean Service.</p>
-            <br/>
-            <p className='text-m pull-right'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
-            <br/>
-            <p className='text-m pull-right'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
-            <br/>
-            <p className='text-m pull-right'>Bathysphere on Education page: Commercial Fisheries Review (1946), digitized by Biodiversity Heritage Library.</p>
-            <br/>
-            <br/>
-            <p className='text-m pull-right'>Thanks to <a class='bl-link' href='https://www.maxlaumeister.com/articles/hide-related-videos-in-youtube-embeds/' target='_blank'>Maximillian Laumeister</a> for code used to embed videos used on the Education pages.</p>
+            <p className='text-m'>Thanks to <a class='bl-link' href='https://www.maxlaumeister.com/articles/hide-related-videos-in-youtube-embeds/' target='_blank'>Maximillian Laumeister</a> for code used to embed videos used on the Education pages.</p>
         </React.Fragment>
     );
 }

@@ -12,9 +12,12 @@ class Carousel extends React.PureComponent {
         this.slides = [
 
             {
-              src: 'https://bl-hub.s3.amazonaws.com/Beyond_Neurons_Meeting.png',
-                caption: 'Join us for Seminars, Posters, and Workshops!',
+              src: 'https://bl-hub.s3.amazonaws.com/NeuroNex_Meeting.png',
+                caption: '',
                 subtitle: [
+                  'Seminars',
+                  'Workshops',
+                  'Posters'
                 ],
                 buttonLabel: 'REGISTER NOW',
                 link: '/BeyondNeurons',
