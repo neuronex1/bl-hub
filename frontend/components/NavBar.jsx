@@ -10,7 +10,7 @@ class NavBar extends React.PureComponent {
          this.tabs = [
            {
                title: 'NEURONEX MEETING',
-               link: '/BeyondNeurons',
+               link: 'https://www.neuronex4.org',
            },
            {
                 title: 'SYMPOSIUM',

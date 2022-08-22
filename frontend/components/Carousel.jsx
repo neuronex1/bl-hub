@@ -20,7 +20,7 @@ class Carousel extends React.PureComponent {
                   'Posters'
                 ],
                 buttonLabel: 'REGISTER NOW',
-                link: '/BeyondNeurons',
+                link: 'https://www.neuronex4.org',
                 photoCredit: ''
               },
             {
