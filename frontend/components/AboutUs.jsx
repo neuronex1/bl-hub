@@ -54,6 +54,7 @@ const AboutUs = () => {
             <p className='text-m'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
             <p className='text-m'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
             <p className='text-m'>Bathysphere on Education page: Commercial Fisheries Review (1946), digitized by Biodiversity Heritage Library.</p>
+            <p className='text-m'>Luminescing Bamboo Coral on Education page: Bioluminescence 2009 Expedition, NOAA/OER</p>
             <br/>
             <p className='text-m'>Thanks to <a class='bl-link' href='https://www.maxlaumeister.com/articles/hide-related-videos-in-youtube-embeds/' target='_blank'>Maximillian Laumeister</a> for code used to embed videos used on the Education pages.</p>
         </React.Fragment>
