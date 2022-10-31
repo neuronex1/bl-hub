@@ -74,6 +74,14 @@ export const CURRENT_MEMBERS = [
         blurb: 'Chris is working on 2-photon imaging, photoswitchable proteins, and helping others with experimental design and data analysis.'
     },
     {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Dmitrijs_Celinskis.jpg',
+        title: 'Dmitrijs Celinskis, PhD, Brown University',
+        positions: [
+            'Postdoctoral Research Associate'
+        ],
+        blurb: 'In the Lipscombe lab, Dmitrijs is studying the role of skin calcium channels in heat and mechanical hypersensitivity. He is particularly interested in developing tools tailored specifically for studying questions pertaining to the processing of noxious and innocuous sensory signals throughout the body rather than at a single focal site in the body. <a class="bl-link" href="/JTC-welcome#Dmitrijs_video">Learn more and view the lab space</a> where Dmitrijs performed his PhD research on improving implanted miniscopes for viewing bioluminescence during head-fixed and free behavior.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Jeremy_Murphy-min.jpg',
         title: 'Jeremy Murphy, PhD, Brown University',
         positions: [
@@ -88,14 +96,6 @@ export const CURRENT_MEMBERS = [
             'Postdoctoral Research Associate'
         ],
         blurb: "Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication. Read more about her research in a <a class='bl-link' target='_blank' href='https://currentexchange.cshl.edu/blog/2021/6/visitor-of-the-week-204'>Visitor of the Week highlight</a> by Cold Spring Harbor Laboratory."
-    },
-    {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Dmitrijs_Celinskis.jpg',
-        title: 'Dmitrijs Celinskis, Brown University',
-        positions: [
-            'Graduate Student'
-        ],
-        blurb: 'Dmitrijs is improving implanted miniscopes for viewing bioluminescence during head-fixed and free behavior. <a class="bl-link" href="/JTC-welcome#Dmitrijs_video">Learn more about Dmitrijs’ research and view his lab space</a>.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Emanuel_Crespo-min.jpg',
@@ -128,6 +128,14 @@ export const CURRENT_MEMBERS = [
         blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
     },
     {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Alexander_Silvagnoli-min.jpg',
+        title: 'Alexander Silvagnoli, Central Michigan University',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'Alexander is developing innovative molecular tools to dissect neocortical processing underlying various neurological disorders. To this end, they are exploring a wide array of approaches including bioluminescence and machine learning.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ashley_Slaviero.jpg',
         title: 'Ashley Slaviero, Central Michigan University',
         positions: [
@@ -158,8 +166,7 @@ export const CURRENT_MEMBERS = [
             'Laboratory Technician'
         ],
         blurb: 'Maya’s primary focus in the Hochgeschwender lab is molecular cloning of bioluminescent constructs.'
-    },
-
+    }
 ];
 
 export const ALUMNI = [
