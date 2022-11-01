@@ -23,5 +23,14 @@
   },
   "devDependencies": {
     "webpack-cli": "^3.2.1"
+  },
+  {
+  "name": "bl-hub",
+  "description": "bioluminescence hub website",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
   }
+}
+
 }
