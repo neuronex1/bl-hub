@@ -23,5 +23,5 @@
   },
   "devDependencies": {
     "webpack-cli": "^3.2.1"
-  },
+  }
 }
