@@ -13,9 +13,7 @@
     "photoswipe": "^4.1.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "webpack": "^4.6.0",
-    "node": "18.x"
-  },
+    "webpack": "^4.6.0"
   },
   "scripts": {
     "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress --display-error-details",
