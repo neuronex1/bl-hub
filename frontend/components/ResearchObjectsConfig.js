@@ -150,28 +150,35 @@ export const RESEARCH_OBJECTS_PAPERS = [
   ];
   export const RESEARCH_OBJECTS_THESES = [
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/Griffin_MS_figure.png',
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Dmitrijs_Celinskis.jpg',
+      title:'Multisite and multimodal imaging methods for studying spinal, brain, and vascular dynamics',
+      venue:'Thesis completed in partial fulfillment of the requirement for the degree of Doctor of Philosophy at Brown University, 2022',
+      authors: ['Dmitrijs Celinskis'],
+      abstract: 'Abstract coming soon!'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Griffin-White-coat-min.jpg',
       title:'Non-invasive optogenetic stimulatiion in a rat model of spinal cord injury',
       venue:'Thesis completed in partial fulfillment of the requirement for the degree of Master of Science at Central Michigan University, 2020',
       authors: ['Griffin Kendziorski'],
       abstract: 'Despite ever improving treatment methods, there still is no way to effectively restore motor function after a severe spinal cord injury (SCI). A promising approach is to re-engage spinal cord neurons caudal to the injury site. A potential method to achieve this is optogenetics. However, the invasiveness and need for an implanted optical fiber severely limits the viability of this strategy for treating spinal cord injuries. In this study, a light-producing luciferase was used as an internal light source and was fused to a highly light-sensitive step function opsin (SFO, ChR2 (CS/DA). This genetically expressed construct can be activated following an intraperitoneal injection with coelenterazine (CTZ). When activated by the luciferase, the light-sensitive opsin opens, and the flow of cations results in the excitation of the neuron (BioLuminescent OptoGenetics, BL-OG). Rats were transduced with AAV expressing the excitatory sbGLuc-ChR2 CS/DA in the lumbar spinal cord. The human synapsin (hSyn) promotor allowed expression to be confined to neurons. Prior work has demonstrated that BL-OG activated by an injection of CTZ <i>via</i> an intraventricular cannula can improve hind limb motor function following SCI. In the present study, rats were treated with intraperitoneal injections (IPs) of CTZ or vehicle every other day for two weeks following a severe contusion SCI. Interestingly, animals receiving CTZ either had large functional improvements or suffered from chronic muscle spasticity. These findings indicate that the dose of CTZ used was likely too high. In the future, we plan to investigate the effects of changing the dose of CTZ.'
     },
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/CMU+_Logo.png',
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Rachel_Schumaker-min.jpg',
       title:'Trans-synaptic neuronal communication <i>via</i> bioluminescent optogenetics',
       venue:'Thesis completed in partial fulfillment of the requirement for the degree of Master of Science at Central Michigan University, 2020',
       authors:['Rachel Schumaker'],
       abstract: 'In this study, we created a trans-synaptic, bioluminescent optogenetics approach to manipulate synaptically connected neurons. Neuronal communication mediates complex computations that underlie physiological and behavioral properties. Mapping of synaptic partners has been achieved through various methods, including GFP Reconstitution Across Synaptic Partners (GRASP). What is currently missing from the neuroscience toolkit is the ability to not only visualize but manipulate neurons that are synaptically connected. Bioluminescence-driven Optogenetics (BL-OG) is the method of harnessing a genetically encoded light source, a luciferase, to activate a light-sensing component, an opsin. In this study, BL-OG was used to create an “optical synapse” with a presynaptic light emitter and a postsynaptic light sensor to manipulate neuronal communication between synaptic partners. Various luciferase designs were tested for optimal bioluminescent emission for post-synaptic opsin activation. By utilizing an intercellular adhesion molecule, ICAM, as a scaffolding protein to help extend the light emitter across the synaptic cleft, excitatory and inhibitory opsins were able to be activated via multiple luciferases. The best performing construct developed was a bioluminescent resonance energy transfer (BRET) probe, NCS2, extended from the pre-synaptic terminal with ICAM. With the developed trans-synaptic tools, it is now possible to test specific neural circuitry <i>in vivo</i>.'
     },
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/CMU+_Logo.png',
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/William_Medendorp-min.jpg',
       title: 'Developmental hyperexcitation of cortical pyramidal neurons results in disruption of E/I balance, social behavioral deficits, and repetitive behaviors',
       venue:'Thesis completed in partial fulfillment of the requirement for the degree of Doctor of Philosophy at Central Michigan University, 2019',
       authors: ['William Medendorp'],
       abstract: 'Socially isolated mice exhibit behaviors of anxiety, depression, and social disorders. Although these behaviors are well documented, no coherent study has emerged describing the associated neurological changes that accompany these behaviors. Given that prefrontal cortex dysfunction results in behavioral abnormalities similar to those found in isolated mice, it is hypothesized that isolation during adolescence alters the development of this region. Using Thy-1-GFP mice, spine density and morphology was assessed, as well as electrophysiological activity and long-term potentiation. Results indicate an immaturity among dendritic spines among single housed animals, with dendritic spines appearing smaller and thinner. Single housed mice additionally show impaired plasticity through measures of long-term potentiation. Together these suggest an altered development and impairment of the prefrontal cortex of these animals.'
     },
     {
-      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/CMU+_Logo.png',
+      imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Akash_Pal-min.jpg',
       title:'Activity dependent neuronal modulation: A bioluminescence-activated optogenetic approach',
       venue:'Thesis completed in partial fulfillment of the requirement for the degree of Doctor of Philosophy at Central Michigan University, 2019',
       authors:['Akash Pal'],
