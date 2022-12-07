@@ -74,6 +74,14 @@ export const CURRENT_MEMBERS = [
         blurb: 'Chris is working on 2-photon imaging, photoswitchable proteins, and helping others with experimental design and data analysis.'
     },
     {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Mansi_Prakash_2022-min.jpg',
+        title: 'Mansi Prakash, PhD, Central Michigan University',
+        positions: [
+            'Fixed-Term Faculty'
+        ],
+        blurb: "Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication. Read more about her research in a <a class='bl-link' target='_blank' href='https://currentexchange.cshl.edu/blog/2021/6/visitor-of-the-week-204'>Visitor of the Week highlight</a> by Cold Spring Harbor Laboratory."
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Dmitrijs_Celinskis.jpg',
         title: 'Dmitrijs Celinskis, PhD, Brown University',
         positions: [
@@ -88,14 +96,6 @@ export const CURRENT_MEMBERS = [
             'Postdoctoral Research Associate'
         ],
         blurb: 'Jeremy is testing bioluminescent constructs <i>in vivo</i>, including investigating the effects of coelenterazine administration parameters on bioluminescence in awake, behaving mice and calcium sensor performance. <a class="bl-link" href="/JTC-welcome#Jeremy_video">Learn more about Jeremy’s research</a>.'
-    },
-    {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Mansi_Prakash-min.jpg',
-        title: 'Mansi Prakash, PhD, Central Michigan University',
-        positions: [
-            'Postdoctoral Research Associate'
-        ],
-        blurb: "Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication. Read more about her research in a <a class='bl-link' target='_blank' href='https://currentexchange.cshl.edu/blog/2021/6/visitor-of-the-week-204'>Visitor of the Week highlight</a> by Cold Spring Harbor Laboratory."
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Emanuel_Crespo-min.jpg',
