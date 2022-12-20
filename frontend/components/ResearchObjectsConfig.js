@@ -302,6 +302,159 @@ export const RESEARCH_OBJECTS_PAPERS = [
       abstract:'Chemogenetic modulation of neural populations exerts selective control over cells engineered to express an exogenous receptor that responds selectively to a small molecule. Chemogenetic approaches have steadily gained use for studies requiring circuit-wide manipulation over longer periods of time in behaving experimental animals. There are several chemogenetic platforms for manipulating neural activity. These are built from either ligand gated ion channels (i.e. PSAMs, pharmacologically selective actuator modules) or G-protein coupled receptors (i.e. DREADDs, designer receptors exclusively activated by designer drugs). An orthogonal chemogenetic approach is BL-OG (BioLuminescent-OptoGenetics), where an opsin is activated by bioluminescent light emitted from a tethered luciferase (luminopsin, LMO); light emission occurs only in the presence of a luciferin that is oxidized by the luciferase enzyme. While in both acute and long-term treatments the effects of chemogenetic activation of neurons on animal behavior are well documented, information is lacking on the molecular, cellular, and functional effects of chemogenetic stimulation technologies on the neurons expressing the actuators. We initiated <i>in vitro</i> studies designed to gain insight into how chemogenetic stimulation affects neurons by characterizing their electrophysiological attributes, their morphological features, and their transcriptome signatures. We cultured primary rat cortical neurons on multi electrode arrays (MEAs) for electrophysiological recordings, on 24 well plates for morphological analysis, and on 12 well plates for collection of RNA. Mature cultures of neurons expressing three representative chemogenetic actuators, hM3Dq, PSAM4-5HT3 and LMO7 or a control plasmid (EYFP), were stimulated once daily over 5 days with their respective effectors (CNO, PSEM, CTZ, or vehicle). The data showed differences between chemogenetic platforms in how the neurons, after repeated stimulation, reacted to excitation, the degree of their dendritic arborization, and the quantity and quality of transcriptome changes. This information on how chemogenetic stimulation affects cells is important because the causality between neural activity and behavior remains obscured without knowledge about effects of stimulation modalities on genetic repertoire, morphology, and/or electrophysiological properties of neurons. Identification of key parameters significantly altered through chemogenetic stimulation will guide interpretation of past and future chemogenetic experiments and will be instructive for users and toolbuilders of chemogenetic platforms.'
     },
     {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'A bioluminescent optogenetic synapse drives robust, dynamic changes in mouse thalamocortical circuits <i>in vivo</i>',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'J. Murphy, ',
+        'N. Friedman, ',
+        'M. Prakash, ',
+        'R. St. Laurent, ',
+        'D. Lipscombe, ',
+        'N. Shaner, ',
+        'U. Hochgeschwender, ',
+        'C. I. Moore '
+        ],
+      abstract:'Current opto- and chemogenetic tools generically modify cellular excitability, or require gene expression to target specific synaptic junctions. The ability to selectively regulate the impact of afferents on a specific subset of their synaptic targets, and only when these afferents are active, would be a powerful asset to understanding dynamic neural circuits. Here we present a bioluminescent optogenetic tool that provides a high degree of synaptic selectivity and is capable of regulating circuits based on their intrinsic activity. This intersectional dynamic goal is achieved by packaging bioluminescent enzymes in dense core vesicles within presynaptic neurons and expressing optogenetic channels on their postsynaptic targets. When the bioluminescent substrate coelenterazine (CTZ) is introduced, bioluminescent light is generated at synaptic clefts that recently released enzyme, activating the optogenetic channels in neurons postsynaptic to a presynaptically-active input. Our group has tested this molecular tool extensively <i>in vitro</i>. Here we present data employing this molecule <i>in vivo</i> in the anesthetized mouse. We targeted thalamocortical synaptic projections of the mouse vibrissal system from the posterior medial and ventral posteromedial (VPM) thalamic nuclei onto parvalbumin positive (PV) neurons in primary somatosensory cortex (SI). Thalamic neurons were virally targeted to express bioluminescent enzymes in dense core vesicles. In mice receiving vibrissal stimulation, application of CTZ directly onto the cortical surface of SI elicited strong bioluminescent light output, indicating that thalamic neurons were indeed releasing bioluminescent enzymes at their axonal terminals in SI. Next, we recorded laminar multi-unit activity in SI before and after application of CTZ to the SI surface. Upon CTZ administration and emission of bioluminescent light, a marked increase in multiunit firing was observed spanning a wide swath of SI laminae. In a second cohort of animals we virally targeted only VPM, which projects densely to PV cells in deeper layers while avoiding those in superficial layers. In this cohort of animals we observed a laminar shift to the middle layers of bioluminescence driven MUA activity in agreement with VPM termination patterns. These data provide strong preliminary evidence that a synapse- and activity-dependent optogenetic construct driven by bioluminescent light is a viable and potentially powerful tool for dynamic neural circuit dissection.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'A new excitatory luminopsin for combined optochemical manipulation of neuronal activity',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'A. Björefeldt, ',
+        'J. W. Murphy, ',
+        'E. L. Crespo, ',
+        'N. G. Friedman, ',
+        'G. G. Lambert, ',
+        'T. M. Brown, ',
+        'M. Knoblock, ',
+        'N. J. Coon, ',
+        'G. Folkert, ',
+        'C. I. Moore, ',
+        'U. Hochgeschwender, ',
+        'N. Shaner '
+        ],
+      abstract:'Experimental manipulation of neural activity in genetically defined populations is currently largely centered around optogenetic or chemogenetic techniques, each featuring unique strengths and limitations. To increase user flexibility, and facilitate designs where advantages of each above approach can be leveraged at distinct experimental stages, we have developed bioluminescent optogenetics (BL-OG) which provides combined opto- and chemogenetic control in a single molecule (a luminopsin, or LMO). The LMO features a bioluminescent light emitter fused to an optogenetic actuator, enabling both direct activation of the opsin using an LED (for temporally precise control) and chemogenetic manipulation of neuronal populations distributed throughout the brain via systemic administration of the bioluminescent substrate coelenterazine (CTZ). To expand the utility of BL-OG, we here sought to further increase the efficacy of chemogenetic (bioluminescent) activation of LMOs. Through engineering of novel Förster resonance energy transfer (FRET)-based bioluminescent emitters featuring superior brightness and emission spectra matched to Volvox channelrhodopsin 1 (VChR1), we develop and thoroughly benchmark a new excitatory LMO (LMO7) that will improve the efficacy of chemogenetic activation in targeted neuronal populations.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Bioluminescent Genetically Encoded Indicators for Molecular Imaging of Neuronal Activity',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'E. Petersen, ',
+        'E. L. Crespo, ',
+        'G. G. Lambert, ',
+        'A. T. Torreblanca, ',
+        'R. Orcutt, ',
+        'U. Hochgeschwender, ',
+        'N. Shaner, ',
+        'A. Gilad'
+        ],
+        abstract:'Genetically encoded optical sensors and advancements in microscopy instrumentation and techniques have revolutionized the scientific toolbox available for probing complex biological processes such as release of specific neurotransmitters. Most genetically encoded optical sensors currently used are based on fluorescence and have been highly successful tools for single-cell imaging in superficial brain regions. However, there remains a need to develop new tools for reporting neuronal activity <i>in vivo</i> within deeper structures without the need for hardware such as lenses or fibers to be implanted within the brain. Our approach to this problem is to replace the fluorescent elements of the existing biosensors with bioluminescent elements. This eliminates the need of external light sources to illuminate the sensor and overcomes several drawbacks of fluorescence imaging such as limited light penetration depth, excitation scattering, and tissue heating that are all associated with the external light needed for fluorescence imaging.We have bioengineered the first genetically encoded bioluminescent neurotransmitter indicators using a multistep screening approach. First rational design using a variety of split luciferases and linker variants to fuse the luciferases to a sensing protein. Then an automated workflow to screen for improved variants in mammalian cells, using automation for mini preps and transfection of mammalian cell cultures. As a result, we created a BioLuminescent Indicator of the Neurotransmitter Glutamate (BLING). Using our protein evolution approach in mammalian cells, we were able to improve our BLINGs response by 2.5x. Our improved glutamate indicator demonstrated a 255% +/-50 increase in response to neurotransmitter presentation when expressed in mammalian cells, can report changes in extracellular glutamate when used in a plate reader and outperforms various fluorescent sensors in plate reader assays. Finally, to test the feasibility of imaging BLING we used real-time microscopy which demonstrated up to a 310% increase in light emission detectable at the single cell level. We expect this new approach to neurotransmitter indicator design to enable the engineering of bioluminescent probes for multiple additional neurotransmitters, ultimately allowing neuroscientists to monitor activity associated with a specific neurotransmitter as it relates to behavior in a variety of psychiatric disorders, among many other applications.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Bright and high-contrast bioluminescent calcium indicators',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'G. G. Lambert, ',
+        'E. L. Crespo, ',
+        'A. T. Torreblanca Zanca, ',
+        'D. Heydari, ',
+        'R. Orcutt, ',
+        'D. B. Gregory, ',
+        'S. Venn, ',
+        'M. O. Tree, ',
+        'D. Lipscombe, ',
+        'C. I. Moore, ',
+        'U. Hochgeschwender, ',
+        'N. C. Shaner'
+        ],
+        abstract:'Calcium is the ubiquitous cellular second messenger and calcium signals are proxy for biologically significant events including neuronal action potentials. Genetically encoded fluorescent calcium sensors are well established tools in neuroscience, but they have a number of limitations for use in biological tissue, such as tissue heating from illumination, other off-target biological effects of high-intensity excitation, and scattering of excitation light that confines imaging to small volumes of the brain. Previous generations of bioluminescent calcium indicators have insufficient brightness and relatively small calcium-dependent changes in signal magnitudes, and these properties have limited their widespread adoption in the neuroscience research community. Here, we present “Calcium BioLuminescence-Activity Meters” (CaBLAMs), a family of bioluminescent calcium indicators engineered from a novel luciferase and calcium sensor domain topology. By optimizing each component of these indicators, including the luciferase domain, split site, calmodulin and RS20 peptide, and linker length and composition, we have achieved extremely low baseline emission at cytosolic resting calcium concentrations, a high Hill coefficient, and a very high signal change (delta-L/L) at physiologically relevant elevated cytosolic calcium concentrations. Further optimization of the luciferin (substrate) used for imaging the CaBLAMs generates signals large enough to observe glutamate-induced calcium events originating in dendrites and propagating to the soma in individual neurons <i>ex vivo</i>. These new sensors have the potential to enable imaging of calcium activity in deep brain regions in behaving mice for the first time without the need for an excitation light source.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Developmental activation of pyramidal neurons differentially regulates cytoarchitecture and excitatory-inhibitory balance across distinct regions of the neocortex',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'E. L. Crespo, ',
+        'E. C. Ikefuama, ',
+        'N. J. Coon, ',
+        'A. M. Van Loo, ',
+        'G. Folkert, ',
+        'U. Hochgeschwender ',
+        ],
+        abstract:'Many psychiatric disorders are thought to have neurodevelopmental origins, stemming from malformation of neural circuits in early development. Early disruptions to cortical activity may underlie the later manifestation of behavioral changes typical of disorders such as autism. We carried out unbiased testing of the role of developmental over-excitation in altering adult behavior and circuit dynamics. We took advantage of Bioluminescent Optogenetics (BL-OG), where light stimulation of an optogenetic element is achieved either through bioluminescence emitted from a tethered luciferase upon application of a chemical substrate or through application of physical light via fiber optics. Mice conditionally expressing LMO3, a fusion of sbGLuc and VChR1, were crossed with Emx1-Cre transgenic mice, thus limiting expression of LMO3 to cortical pyramidal neurons. By delivering the luciferin CTZ intraperitoneally during post-natal days 4-14, over-excitation was induced chemogenetically in the cortical pyramidal neurons of developing mouse pups. During adulthood, mice were tested behaviorally, assessed for electrophysiological changes in circuit dynamics by standard optogenetic interrogation, and probed for changes in interneuron numbers. While Emx1-positive neurons were hyperexcited during postnatal development across the cortex, behavioral, electrophysiological, and morphological effects manifested differently in distinct areas.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Imaging the cortex and spinal cord using bioluminescent calcium indicators and miniaturized microscopy',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'D. Celinskis, ',
+        'J. Murphy, ',
+        'N. C. Shaner, ',
+        'U. Hochgeschwender, ',
+        'D. Lipscombe, ',
+        'C. Y. Saab, ',
+        'C. Moore, ',
+        'D. Borton'
+        ],
+        abstract:'Optical imaging is a transformative tool for neuroscience, enabling the elucidation of biological circuits that generate behavior. State-of-the-art imaging tools rely on a restrained preparation, limiting natural behavior while measuring cellular activity via fluorescence (FL). Recently, advances in wearable miniature microscopy expanded the range of accessible behaviors by allowing imaging in freely behaving animals. However, miniature microscopes (miniscopes) are currently used for brain imaging using FL. Miniscopes have not been adopted for imaging bioluminescence (BL) and/or other parts of the body. However, unfavorable attributes of FL indicators constrain the extent of imaging experiments. These attributes include photobleaching, autofluorescence and excitation light scattering noise, especially in the parts of the body like the spinal cord due to myelination. All 3 issues can be eliminated, and an increase in imaging depth achieved, by using BL instead of the FL. BL does not require an external light source and offers a lower biological noise floor, often creating higher signal-to-noise ratio. However, the overall lower BL light intensity presents a challenge for imaging using low-cost low-sensitivity miniscopes. The objective of our work is to improve the quality of cortical and spinal imaging using BL and miniature microscopy tools. To this end, we (i) present an expansion of the miniscope use towards neurovascular imaging in the spinal cord. Spinal neurovascular imaging is accomplished by integrating a custom 3D-printed vertebral implant with miniscope hardware that ensures mechanical and optical stability over time up to 5 months post-implantation. Such implants allow interchangeable imaging of the brain or spinal cord in free or restrained mice. (ii) We demonstrate our ability of imaging BL calcium indicators using EM-CCD camera at rates up to 2 frames-per-second (FPS) through a cranial window in behaving animals following the systemic administration of BL substrate (luciferase), and as fast as 10 FPS with the topical administration of luciferase. With intracortical administration of luciferase BL calcium signals can be imaged using redesigned FL miniscopes (the "BLmini") at rates as fast as 5 FPS (Celinskis et al., 2020). Altogether, our work presents significant progress towards BL calcium imaging with experimenter-friendly peripheral routes of substrate administration using low-cost wearable miniature microscopes across multiple sites throughout the nervous system.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Investigation of synaptic communication through Interluminescence by patch-clamp recordings from cultured neurons',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'M. Prakash, ',
+        'A. Björefeldt, ',
+        'M. Tree, ',
+        'N. C. Shaner, ',
+        'C. I. Moore, ',
+        'D. Lipscombe, ',
+        'U. Hochgeschwender'
+        ],
+        abstract: 'In BioLuminescent OptoGenetics (BL-OG) a genetically encoded light source, a luciferase, activates a light-sensing optogenetic element, a channelrhodopsin or a pump. When light emitter and light sensor are tethered, as in luciferase-opsin fusion proteins (luminopsins, LMO), application of the luciferin coelenterazine (CTZ) and subsequent light production will change the membrane potential of the cell expressing the LMO. Here, we leverage this coupling strategy across the synapse by placing the luciferase in the presynaptic neuron and the opsin in the postsynaptic neuron. In the presence of CTZ, light emitted from the luciferase activates the opsin of synaptically connected neurons. We previously demonstrated the effects of this ‘Interluminescence’ on synapse-specific circuit control in multi electrode array recordings of cortical and striatal neuron co-cultures. Here we tested BL-OG effects across the synapse by patch clamp recordings from individual postsynaptic neurons. E18 rat cortex and striatum neurons were nucleofected with a luciferase-dTomato construct and an excitatory opsin-EYFP construct, respectively, and were plated on glass coverslips as a mixed culture. At DIVs 28-40, synaptic pairs were located by visualizing the reporter expression for the luciferase (red) on presynaptic cortical neurons and for the opsin (yellow) on postsynaptic striatal neurons. Whole cell patch configuration was achieved on the opsin-expressing postsynaptic neuron and synapse-specific modulation of the postsynaptic neuron was recorded in current clamp mode. Generation of action potentials was compared in the presence of CTZ and vehicle. Depolarization in postsynaptic neurons was robustly elicited with bioluminescence from presynaptic partners and was likely due to trans-synaptic communication. Such biological light activation across genetically determined synaptic partners offers the potential to optogenetically dissect synaptic communication non-invasively.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Precise and sustained manipulation of selected cell ensembles through photoswitchable bioluminescent-optogenetics (PS BL-OG)',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'A. I. More, ',
+        'J. W. Murphy, ',
+        'G. G. Lambert, ',
+        'C. A. Deister, ',
+        'T. M. Brown, ',
+        'O. McKissick, ',
+        'A. Torreblanca Zanca, ',
+        'D. B. Gregory, ',
+        'U. Hochgeschwender, ',
+        'N. C. Shaner, ',
+        'C. I. Moore ',
+        ],
+        abstract:'BioLuminescent-OptoGenetics (BL-OG) is a combined strategy that allows chemogenetic and/or optogenetic cellular manipulation and regulation. Luminopsins are BL-OG fusion proteins, connecting bioluminescent luciferases with optogenetic actuators that can stimulate or inhibit neural circuits through administration of a small-molecule luciferin. Luminopsins drive robust fluctuations in MUA activity in neocortex with a response that is sensitive and proportional to luciferin availability [Gomez-Ramirez, et al., 2019]. Because they will provide several distinct benefits, we are creating an array of photoswitchable (PS) Luminopsins that enable brighter and color-shifted luciferase light production after activation. First, this strategy allows selection of specific cells (e.g., members of a neural ensemble sharing similar tuning) to achieve sustained chemogenetic control lasting up to several hours. To our knowledge, this construct is the first to provide such selectivity in chemogenetics. Second, because BL-OG cellular control is directly proportional to BL light production, photon emission allows real-time tracking of the duration and magnitude of PS-activated chemogenetic control: Relating the strength of ensemble manipulation to behavioral variables, re-energizing ensemble control, or choosing alternative ensembles can therefore be conducted optimally. Third, in contrast to holographic optogenetics, PS does not require maximal light delivery in a discrete millisecond-specific window, and can therefore be applied to deeper targets and a much larger array of cells, providing a more robust option for many experimental goals. To date, we have developed multiple Luminopsin constructs that are effectively photo-switched "on" through activated availability for bioluminescent FRET (BRET). We have now confirmed robust PS BL-OG activation can be achieved in mouse neocortical neurons <i>in vivo</i>, showing substantially brighter and color-shifted output when activated. Further, these constructs show robust two-photon (2P)-driven PS, providing a high degree of precision in choosing cells or processes to modulate. We are currently testing the magnitude of electrophysiological effects following PS BL-OG activation in neurons and the impact this molecule has on well-controlled psychophysical behavior.'
+    },
+    {
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2021+logo.png',
+      title: 'Red-shifted luminopsins ',
+      venue: '2021 Society for Neuroscience Meeting; Virtual',
+      authors: [
+        'E. Ikefuama, ',
+        'J. W. Simkins, ',
+        'M. O. Tree, ',
+        'L. M. Barnett, ',
+        'G. G. Lambert, ',
+        'D. Lipscombe, ',
+        'C. I. Moore, ',
+        'N. C. Shaner, ',
+        'U. Hochgeschwender ',
+        ],
+        abstract:'BioLuminescent-OptoGenetics (BL-OG) is a bimodal approach for controlling the activity of optogenetic elements. Opsins can be activated by light from a physical source or by applying a small chemical, a luciferin, that is oxidized by a luciferase enzyme thereby emitting bioluminescent light. Various luciferases have been tethered to opsins in blue light utilizing luminopsins (LMOs), and these have been applied for excitation and inhibition of targeted neuronal populations <i>in vivo</i><sup>1-4</sup>. To expand the utility of BL-OG we generated red-shifted LMOs by combining a Renilla luciferase variant that emits light above 500 nm with red fluorescent proteins based on mCherry, mOrange, and mScarlet to leverage Förster resonance energy transfer (FRET) for bright and red light emitters. We used structure-guided design and directed evolution to optimize FRET efficiency between luciferase and fluorescent proteins, resulting in three LMOs with emission peaks between 560-592 nm. We tethered these red light emitters to excitatory (VChR1, ChrimsonR) and inhibitory (Halo, hGtACR1) red-shifted opsins and tested their efficacy in neurons <i>in vitro</i> and <i>in vivo</i>. This set of red LMOs expands the toolset for recording and controlling neural activities in the brain by allowing multiplexing with blue-shifted LMOs, opsins, and sensors. <br><br><sup>1</sup>Berglund et al., Proc Natl Acad Sci USA 113: E358-67, 2016 <br><sup>2</sup>Gomez-Ramirez et al., J Neurosci Res. Sep 23, 2019 <br><sup>3</sup>Celinskis et al., Annu Int Conf IEEE Eng Med Biol Soc. 2020:4385-4389, 2020 <br><sup>4</sup>Medendorp et al., iScience 24:102157, 2021'
+    },
+    {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/CANACN+logo.png',
       title: 'Next generation tools for imaging in the cortex and spinal cord',
       venue: 'Canadian Association for Neuroscience, August 2021',
