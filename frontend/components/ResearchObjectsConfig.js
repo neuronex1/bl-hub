@@ -6,6 +6,59 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Ikefuama_2022_graphical+abstract_cropped.png',
+    title: 'Improved locomotor recovery in a rat model of spinal cord injury by BioLuminescent-OptoGenetic (BL-OG) stimulation with an enhanced luminopsin',
+    venue: 'International Journal of Molecular Sciences, October 2022',
+    authors: [
+      'E. C. Ikefuama, ',
+      'G. E. Kendziorski, ',
+      'K. Anderson, ',
+      'L. Shafau, ',
+      'M. Prakash, ',
+      'U. Hochgeschwender, ',
+      'E. D. Petersen'
+    ],
+    abstract: "Irrespective of the many strategies focused on dealing with spinal cord injury (SCI), there is still no way to restore motor function efficiently or an adequate regenerative therapy. One promising method that could potentially prove highly beneficial for rehabilitation in patients is to re-engage specific neuronal populations of the spinal cord following SCI. Targeted activation may maintain and strengthen existing neuronal connections and/or facilitate the reorganization and development of new connections. BioLuminescent-OptoGenetics (BL-OG) presents an avenue to non-invasively and specifically stimulate neurons; genetically targeted neurons express luminopsins (LMOs), light-emitting luciferases tethered to light-sensitive channelrhodopsins that are activated by adding the luciferase substrate coelenterazine (CTZ). This approach employs ion channels for current conduction while activating the channels through treatment with the small molecule CTZ, thus allowing non-invasive stimulation of all targeted neurons. We previously showed the efficacy of this approach for improving locomotor recovery following severe spinal cord contusion injury in rats expressing the excitatory luminopsin 3 (LMO3) under control of a pan-neuronal and motor-neuron-specific promoter with CTZ applied through a lateral ventricle cannula. The goal of the present study was to test a new generation of LMOs based on opsins with higher light sensitivity which will allow for peripheral delivery of the CTZ. In this construct, the slow-burn <i>Gaussia</i> luciferase variant (sbGLuc) is fused to the opsin CheRiff, creating LMO3.2. Taking advantage of the high light sensitivity of this opsin, we stimulated transduced lumbar neurons after thoracic SCI by intraperitoneal application of CTZ, allowing for a less invasive treatment. The efficacy of this non-invasive BioLuminescent-OptoGenetic approach was confirmed by improved locomotor function. This study demonstrates that peripheral delivery of the luciferin CTZ can be used to activate LMOs expressed in spinal cord neurons that employ an opsin with increased light sensitivity. Read the paper in the <i><a href='https://doi.org/10.3390/ijms232112994' class='bl-link' target='_blank'>International Journal of Molecular Sciences</a></i>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Petersen2022fig_small.png',
+    title: 'Restoring function after severe spinal cord injury through BioLuminescent OptoGenetics',
+    venue: 'Frontiers in Neurology, January 2022',
+    authors: [
+      'E. D. Petersen, ',
+      'E. D. Sharkey, ',
+      'A. Pal, ',
+      'L. O. Shafau, ',
+      'J. Zenchak-Petersen, ',
+      'A. J. Peña, ',
+      'A. Aggarwal, ',
+      'M. Prakash, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: "The ability to manipulate specific neuronal populations of the spinal cord following spinal cord injury (SCI) could prove highly beneficial for rehabilitation in patients through maintaining and strengthening still existing neuronal connections and/or facilitating the formation of new connections. A non-invasive and highly specific approach to neuronal stimulation is bioluminescent-optogenetics (BL-OG), where genetically expressed light emitting luciferases are tethered to light sensitive channelrhodopsins (luminopsins, LMO); neurons are activated by the addition of the luciferase substrate coelenterazine (CTZ). This approach utilizes ion channels for current conduction while activating the channels through the application of a small chemical compound, thus allowing non-invasive stimulation and recruitment of all targeted neurons. Rats were transduced in the lumbar spinal cord with AAV2/9 to express the excitatory LMO3 under control of a pan-neuronal or motor neuron-specific promoter. A day after contusion injury of the thoracic spine, rats received either CTZ or vehicle every other day for 2 weeks. Activation of either neuron population below the level of injury significantly improved locomotor recovery lasting beyond the treatment window. Utilizing histological and gene expression methods we identified neuronal plasticity as a likely mechanism underlying the functional recovery. These findings provide a foundation for a rational approach to spinal cord injury rehabilitation, thereby advancing approaches for functional recovery after SCI. Read the paper in <i><a href='https://doi.org/10.3389/fneur.2021.792643' class='bl-link' target='_blank'>Frontiers in Neurology</a></i>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/Interluminescence/BillionPhotos+neuron.png',
+    title: 'Selective control of synaptically-connected circuit elements by all-optical synapses',
+    venue: 'Communications Biology, January 2022',
+    authors: [
+      'M. Prakash, ',
+      'J. Murphy, ',
+      'R. St. Laurent, ',
+      'N. Friedman, ',
+      'E. L. Crespo, ',
+      'A. Björefeldt, ',
+      'A. Pal, ',
+      'Y. Bhagat, ',
+      'J. A. Kauer, ',
+      'N. C. Shaner, ',
+      'D. Lipscombe, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: "Understanding percepts, engrams and actions requires methods for selectively modulating synaptic communication between specific subsets of interconnected cells. Here, we develop an approach to control synaptically connected elements using bioluminescent light: Luciferase-generated light, originating from a presynaptic axon terminal, modulates an opsin in its postsynaptic target. Vesicular-localized luciferase is released into the synaptic cleft in response to presynaptic activity, creating a real-time Optical Synapse. Light production is under experimenter-control by introduction of the small molecule luciferin. Signal transmission across this optical synapse is temporally defined by the presence of both the luciferin and presynaptic activity. We validate synaptic Interluminescence by multi-electrode recording in cultured neurons and in mice <i>in vivo</i>. Interluminescence represents a powerful approach to achieve synapse-specific and activity-dependent circuit control <i>in vivo</i>. Read the paper in <i><a href='https://doi.org/10.1038/s42003-021-02981-7' class='bl-link' target='_blank'>Communications Biology</a></i> and the <a href='https://neuronex.org/news/22' class='bl-link' target='_blank'>press release</a> on the NeuroNex website."
+  },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Crespo+STAR+Protocols+2021.png',
     title: 'Bioluminescent optogenetic (BL-OG) activation of neurons during mouse postnatal brain development',
     venue: 'STAR Protocols, September 2021',
@@ -19,7 +72,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
       'C. I. Moore, ',
       'U. Hochgeschwender'
     ],
-    abstract: "Bioluminescent optogenetics (BL-OG) allows activation of photosensory proteins, such as opsins, by either fiberoptics or by administering a luciferin. BL-OG thus confers both optogenetic and chemogenetic access within the same genetically targeted neuron. This bimodality offers a powerful approach for non-invasive chemogenetic manipulation of neural activity during brain development and adult behaviors with standard optogenetic spatiotemporal precision. We detail protocols for bioluminescent stimulation of neurons in postnatally developing brain and its validation through bioluminescence imaging and electrophysiological recording in mice. Read the paper at <i><a href='https://doi.org/10.1016/j.xpro.2021.100667' class='bl-link' target='_blank'>STAR Protocols</a></i>.<br><br>For complete information on the use and execution of this protocol, please refer to <a href='https://dx.doi.org/10.1016%2Fj.isci.2021.102157' class='bl-link' target='_blank'>Medendorp et al. (2021)</a>."
+    abstract: "Bioluminescent optogenetics (BL-OG) allows activation of photosensory proteins, such as opsins, by either fiberoptics or by administering a luciferin. BL-OG thus confers both optogenetic and chemogenetic access within the same genetically targeted neuron. This bimodality offers a powerful approach for non-invasive chemogenetic manipulation of neural activity during brain development and adult behaviors with standard optogenetic spatiotemporal precision. We detail protocols for bioluminescent stimulation of neurons in postnatally developing brain and its validation through bioluminescence imaging and electrophysiological recording in mice. Read the paper in <i><a href='https://doi.org/10.1016/j.xpro.2021.100667' class='bl-link' target='_blank'>STAR Protocols</a></i>.<br><br>For complete information on the use and execution of this protocol, please refer to <a href='https://dx.doi.org/10.1016%2Fj.isci.2021.102157' class='bl-link' target='_blank'>Medendorp et al. (2021)</a>."
   },
   {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Medendorp+iScience+2021.png',
