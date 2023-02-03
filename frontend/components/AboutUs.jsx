@@ -4,7 +4,6 @@ import React from 'react';
 import AboutUsBox from './AboutUsTextBox';
 import {
     CURRENT_MEMBERS,
-    ALUMNI,
 } from './AboutUsConfig.js';
 
 const AboutUs = () => {
@@ -34,13 +33,7 @@ const AboutUs = () => {
                     {renderAboutBoxes(CURRENT_MEMBERS)}
                 </tbody>
             </table>
-            <div className="horizontal-divider mtxxl mbxxl"></div>
-            <h3 className='text-center'>Alumni</h3>
-            <table className='about-us__table'>
-                <tbody>
-                    {renderAboutBoxes(ALUMNI)}
-                </tbody>
-            </table>
+            
             <div className="horizontal-divider mtxxl mbxxl"></div>
             <p className='text-m'>Our Hub is supported by National Science Foundation <a href='https://nsf.gov/awardsearch/showAward?AWD_ID=1707352' className='bl-link'>NeuroNex 1707352</a>.</p>
             <br/>
@@ -54,7 +47,8 @@ const AboutUs = () => {
             <p className='text-m'>Firefly on Education page: Art Farmer, Evansville, IN.</p>
             <p className='text-m'>Dinoflagellates in ocean on Education page: Jed Sundwall, San Diego, CA, WikiCommons.</p>
             <p className='text-m'>Bathysphere on Education page: Commercial Fisheries Review (1946), digitized by Biodiversity Heritage Library.</p>
-            <p className='text-m'>Luminescing Bamboo Coral on Education page: Bioluminescence 2009 Expedition, NOAA/OER</p>
+            <p className='text-m'>Luminescing bamboo coral on Education page: Bioluminescence 2009 Expedition, NOAA/OER</p>
+            <p className='text-m'>Shrimp spewing bioluminescence on Education page: Bioluminescence 2009 Expedition, NOAA/OER</p>
             <br/>
             <p className='text-m'>Thanks to <a class='bl-link' href='https://www.maxlaumeister.com/articles/hide-related-videos-in-youtube-embeds/' target='_blank'>Maximillian Laumeister</a> for code used to embed videos used on the Education pages.</p>
         </React.Fragment>
