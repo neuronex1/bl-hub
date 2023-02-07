@@ -23,6 +23,18 @@ class Carousel extends React.PureComponent {
                 photoCredit: 'BillionPhotos'
               },
               {
+                  src: 'https://bl-hub.s3.amazonaws.com/home+buttons/JOVE+video+for+carousel-min.jpg',
+                  caption: 'Watch our JoVE Video to get started with BL-OG',
+                  subtitle: [
+                    'Video Tutorial',
+                    'Protocol',
+                    'Materials List'
+                  ],
+                  buttonLabel: 'LEARN MORE',
+                  link: '/LMO3#JoVEvideo',
+                  photoCredit: ''
+              },
+              {
                   src: 'https://bl-hub.s3.amazonaws.com/education/2022+Interns+for+Carousel-min.jpg',
                   caption: 'Meet our 2022 Summer Interns!',
                   subtitle: [

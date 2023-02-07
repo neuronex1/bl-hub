@@ -93,7 +93,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
   {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Lambert+et+al.+Fig+1_cropped-min.jpg',
     title: "<i>Aequorea’s</i> secrets revealed: New fluorescent proteins with unique properties for bioimaging and biosensing",
-    venue: 'bioRxiv: July 7, 2019; PLOS Biology: November 2, 2020',
+    venue: 'bioRxiv: July 7, 2019; PLoS Biology: November 2, 2020',
     authors: [
       'G. G. Lambert, ',
       'H. Depernet, ',
