@@ -12,6 +12,18 @@ class Carousel extends React.PureComponent {
         this.slides = [
 
             {
+              src: 'https://bl-hub.s3.amazonaws.com/home+buttons/JOVE+video+for+carousel-min.jpg',
+              caption: 'Watch our JoVE Video to get started with BL-OG',
+              subtitle: [
+                'Video Tutorial',
+                'Protocol',
+                'Materials List'
+              ],
+              buttonLabel: 'LEARN MORE',
+              link: '/LMO3#JoVEvideo',
+              photoCredit: ''
+            },
+            {
               src: 'https://bl-hub.s3.amazonaws.com/Interluminescence/BillionPhotos+neuron.png',
                 caption: 'Interluminescence is here!',
                 subtitle: [
@@ -21,18 +33,6 @@ class Carousel extends React.PureComponent {
                 buttonLabel: 'LEARN MORE',
                 link: 'https://neuronex.org/news/22',
                 photoCredit: 'BillionPhotos'
-              },
-              {
-                  src: 'https://bl-hub.s3.amazonaws.com/home+buttons/JOVE+video+for+carousel-min.jpg',
-                  caption: 'Watch our JoVE Video to get started with BL-OG',
-                  subtitle: [
-                    'Video Tutorial',
-                    'Protocol',
-                    'Materials List'
-                  ],
-                  buttonLabel: 'LEARN MORE',
-                  link: '/LMO3#JoVEvideo',
-                  photoCredit: ''
               },
               {
                   src: 'https://bl-hub.s3.amazonaws.com/education/2022+Interns+for+Carousel-min.jpg',

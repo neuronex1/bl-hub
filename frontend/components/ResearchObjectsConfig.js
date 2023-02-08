@@ -377,12 +377,67 @@ export const RESEARCH_OBJECTS_PAPERS = [
   title: 'Controlling neuron-muscle communication with biological light',
   venue: '2022 Meeting of the Michigan Chapter of the Society for Neuroscience; Mount Pleasant, MI',
   authors: [
-    'Lily McLean, ',
-    ' Mansi Prakash, ',
-    ' Emmanuel L. Crespo, ',
-    'Ute Hochgeschwender'
+    'L. McLean, ',
+    'M. Prakash, ',
+    'E. L. Crespo, ',
+    'U. Hochgeschwender'
     ],
   abstract:"Interluminescence is a method for selective modulation of synaptic communication between genetically defined partners. Bioluminescent light from a pre-synaptic released luciferase activates a post-synaptic localized optogenetic channel, thereby allowing synapse-specific modulation of selected partners under experimenter-controlled introduction of a luciferin. Here we applied the Interluminescence strategy to control neuron-muscle communication at the neuro-muscular junction (NMJ-Int) via this <q>optical synapse.</q> <br><br><p>The NMJ is a specialized peripheral synapse that translates the action potential of the presynaptic motor neuron to the contraction of the postsynaptic muscle fiber through the release of the neurotransmitter acetylcholine (ACh) and is thus essential for our physical mobility and daily life. Deficits in NMJ formation and maintenance cause several NMJ disorders (NMJDs), including Lambert–Eaton Myasthenic Syndrome (LEMS), Congenital Myasthenic Syndrome (CMS), Duchenne muscular dystrophy (DMD) and Myasthenia Gravis (MG). In a translational context, the NMJ-Int application carries the potential to rescue trans-synaptic neuro-muscular events when the traditional NMJ synaptic milieu is compromised by therapeutically correcting pathologically diminished or overactive muscle responses to neural input.<br><br><p>To test bioluminescence control of neuron-muscle communication we set up an in vitro system by co-culturing embryonic spinal cord explants transduced with viral vectors expressing the luciferase and stable lines of C2C12, an immortalized mouse myoblast line, which expresses three different opsin constructs: ChR2(CS) (Step-function opsin; excitatory), CheRiff (excitatory) and hGtACR2 (inhibitory).  We then tested the impact of Interluminescence on communication between spinal cord motor neurons and C2C12 skeletal muscle cells by recording the muscular contractions of opsin expressing myofibers, before and after application of the luciferin coelenterazine (CTZ) and vehicle.<br><br><p>Images were acquired using an inverted microscope (Zeiss Axio Observer). The contractions of myotubes were recorded using a high-speed camera at 20X magnification under phase-contrast microscopy (Hamamatsu Orca-Flash4.0 V2 sCMOS camera; Andor iXon Ultra 888 EMCCD camera). Recordings looked at the excitatory opsin ChR2(CS) for experimental data and plain NMJ for control data. Myotube contractions were analyzed before and after LED stimulation or CTZ stimulation for experimental groups; vehicle addition was used as our control. The image analysis tool MUSCLEMOTION was used to analyze recordings in the open-source software Fiji. Using an automated open-source software tool increases the efficiency of image analysis compared to manual human analysis and enables quantitative analysis of spontaneous and stimulated myotube contractions. <a href='https://doi.org/10.26300/z1az-6m95' class=bl-link target=_blank>View this poster in the Brown Digital Repository</a>."
+    },
+    {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/2022BRAIN_meeting_logo.png',
+    title: 'Interluminescence: A BioLuminescent-OptoGenetics (BL-OG) technology for selective control of synaptically connected circuit elements by all-optical synapses',
+    venue: '2022 BRAIN Initiative Meeting; Virtual',
+    authors: [
+    'M. Prakash, ',
+    'N. C. Shaner, ',
+    'D. Lipscombe, ',
+    'C. I. Moore, ',
+    'U. Hochgeschwender'
+    ],
+    abstract:"In BioLuminescent OptoGenetics (BL-OG) a genetically encoded light source, a luciferase, activates a light-sensing optogenetic element, a channelrhodopsin or a pump. Here, I have laid the foundation for using BL-OG to develop <q>Interluminescence</q> or light between cells, to control synaptically connected elements using bioluminescent light. Here, vesicular-localized luciferase-generated light, originating from a presynaptic axon terminal, modulates an opsin in its postsynaptic target, by creating a real-time optical synapse. Light production is under experimenter-control by introduction of the small molecule luciferin (e.g. Coelenterazine or CTZ). Signal transmission across this optical synapse is temporally defined by the presence of both the luciferin and presynaptic activity. I validated synaptic Interluminescence by multi-electrode recordings using a neuronal co-culture comprised of cortical neurons expressing the luciferase, and striatal neurons expressing the opsin, with the goal of investigating Interluminescence across synapses between these two neuronal populations. Neuronal processes originating from both populations crossed the gap separating them, forming synaptic contacts between the two populations. Bioluminescence emission by cortical neurons generated with application of CTZ was used to drive striatal neurons across synapses. Such biological light activation, across synaptic partners originating from brain regions known to be synaptically connected, offers the potential to optogenetically and non-invasively dissect synaptic communication <i>in vivo</i>. <br><br>Interluminescence is tested further for a wide range of luciferases and excitatory/inhibitory opsins to delineate interluminescence properties at the single-neuron level using single-cell patch clamp recordings. While carrying out the above mentioned proof-of-principle experiments for Interluminescence in neurons, I was keenly aware that this principle can be extended from neuron-neuron communication to neuron-non-neuron to general cell-to-cell communication. Going forward, I will investigate and manipulate cell-cell communication, including re-establishing desirable, and eliminating undesirable, inter-cellular communication under various pathologic conditions. With rapid advances in the available palette of luciferases and opsins, this strategy can expand to meet a wide array of experimental needs and applications. Importantly, this platform is suitable for applications in many areas and I am looking forward to developing a sustainable and well-equipped research lab with a diverse and creative team, and collaborating extensively across the biomedical community."
+    },
+    {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/2022BRAIN_meeting_logo.png',
+    title: 'Photoswitchable bioluminescent optogenetic tools for selective chemogenetic control of neurons',
+    venue: '2022 BRAIN Initiative Meeting; Virtual',
+    authors: [
+    'G. G. Lambert, ',
+    'M. Prakash, ',
+    'A. I. More, ',
+    'J. Murphy, ',
+    'T. Brown, ',
+    'M. O. Tree, ',
+    'C. I. Moore, ',
+    'U. Hochgeschwender, ',
+    'N. C. Shaner'
+    ],
+    abstract:"Integration of bioluminescent light sources with optogenetic actuators to create BioLuminescent-OptoGenetics (BL-OG) enables conversion of any optogenetic actuator into a chemogenetic one. In this project, we aim to generate BL-OG constructs that can be independently and reversibly primed using two-photon (2p) illumination, enabling spatially precise selection of individual cells for later chemogenetic manipulation. We call this approach PhotoSwitchable BL-OG, or PS-BL-OG. We previously reported the engineering of a set of monomeric, high-contrast photoswitchable fluorescent proteins and a set of <i>Oplophorus</i> luciferase variants with a range of catalytic rates and emission quantum yields to act as Förster resonance energy transfer (FRET) donors to the photoswitchable fluorescent proteins. Subsequently, we have tested the first generation of PS-BL-OG constructs in vivo and shown that photoswitching of the FP correlates with an increase in bioluminescent output, but with inconclusive results on switchable chemogenetic activation or inhibition. We have also generated an array of new PS-BL-OG constructs using our most advanced photoswitchable FPs and luciferase variants fused to VChR1, Chrimson, and eNpHR3.0 and evaluated their behavior in cell lines and cultured primary rat neurons. Characterization data from these in vivo and <i>in vitro</i> assays have illuminated areas in need of improvement for PS-BL-OG technology to be fully realized."
+    },
+    {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/2022BRAIN_meeting_logo.png',
+    title: 'The NeuroNex Bioluminescence Hub: New tools for seeing and controlling neural activity',
+    venue: '2022 BRAIN Initiative Meeting; Virtual',
+    authors: [
+    'C. I. Moore, ',
+    'N. Shaner, ',
+    'D. Lipscombe, ',
+    'J. J. Allen, ',
+    'U. Hochgeschwender',
+    ],
+    abstract:"At the Bioluminescence Hub (bioluminescencehub.org), we systematically develop and disseminate novel and powerful bioluminescent tools for brain science while creating educational curricula and outreach events for learners of all ages. <br><br>Bioluminescence has several advantages as an imaging tool. This approach provides high SNR output without the need for fluorescent light input. Keys to making this approach more broadly useful are generating brighter output, optimizing tools for practical imaging of these signals, and effective targeting of indicator sensitivity to relevant neural fluctuation ranges. Recent Hub progress includes development of a new series of particularly bright calcium indicators, indicators integrated into cal-cium channels, and optimization of light-weight microscopes for bioluminescent imaging. <br><br>Using BioLuminescence to activate OptoGenetic sensors (‘BL-OG’) has several advantages as a control strategy. ‘LuMinOpsins’ (LMOs) are a key, elemental version of BL-OG, in which a light-producing enzyme (a luciferase) is attached by a short amino acid tether to an opsin. This approach provides a dual modality solution, a single molecule that can be either chemogenetically or optoge-netically modulated. This molecular solution also provides photon output when engaged, reporting the timing and relative intensity of modulator engagement, information inaccessible in other phar-macological/chemogenetic approaches. Reflecting these advantages, LMOs are now being adopt-ed for a variety of basic mechanistic experiments. Recent Hub progress includes the new molecule ‘LMO7,’ that provides several-fold larger intracellular currents in vitro and more robust <i>in vivo</i> activation profiles. <br><br>Our Hub provides constructs to a wealth of laboratories (<a href='/dissemination' class='bl-link'>bioluminescencehub.org/dissemination</a>) and training in Bioluminescence use. A key form of outreach is our annual undergraduate course, run as an intensive weeklong event at the Marine Biological Laboratory (pre-pandemic) and similar virtual learning experiences in 2020 and 2021 (<a href='/education' class='bl-link'>bioluminescencehub.org/education</a>)."
+    },
+    {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/2022BRAIN_meeting_logo.png',
+    title: 'Selective control of synaptically-connected circuit elements by interluminescence',
+    venue: '2022 BRAIN Initiative Meeting; Virtual',
+    authors: [
+    'U. Hochgeschwender, ',
+    'N. Shaner, ',
+    'D. Lipscombe, ',
+    'C. Moore'
+    ],
+    abstract:'A wealth of new tools can directly control output of specific neurons on fast (e.g., optogenetic) or sustained (e.g., chemogenetic) time scales. In contrast, almost no methods exist for selectively modulating communication between defined cells at the synaptic level, which is key to understanding how functional connectivity creates percepts, engrams and actions. Here, we advance a novel strategy for selectively modulating synaptic transmission, Interluminescence. This approach uses bioluminescent light from a presynaptic axon terminal, generated by a luciferase, to modulate an opsin in its postsynaptic target under experimenter-controlled introduction of a small molecule (luciferin). We developed two separate methods that target the luciferase to the synaptic cleft. To provide sustained and synapse-specific regulation, the ‘Persist-Int’ strategy places a luciferase in the synaptic cleft tethered to the presynaptic terminal, and an opsin in the opposing postsynaptic membrane. In this configuration, light generation creates sustained and activity-independent modulation. In the complementary ‘Act-Int’ strategy, luciferase is released into the synaptic cleft in response to presynaptic activity, a synapse-specific form of activity-dependent modulation. During the first year of this project we gathered robust proof-of-principle data for the Act-Int strategy by demonstrating Interluminescence activation and inhibition of synaptically connected neurons. We showed that Interluminescence requires synaptic connectivity, depends on active firing of and synaptic vesicle release from the presynaptic neuron, and that postsynaptic effects are mediated by the opsin. Importantly, we provided evidence that Interluminescence can change network dynamics <i>in vivo</i> by robustly driving broad-band gamma oscillations. We are now characterizing in detail the impact of Interluminescence in individual neurons by patch clamp recordings in primary neurons and brain slices, examining the impact of interluminescence <i>in vivo</i> in anesthetized and awake animals, and are elaborating this platform technology by testing novel luciferase – opsin combinations, and by engineering powerful new light emitting components to further increase the temporal and spatial resolution of Interluminescence.'
     },
     ];
 export const RESEARCH_OBJECTS_2021POSTERS = [
