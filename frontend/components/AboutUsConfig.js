@@ -98,6 +98,14 @@ export const CURRENT_MEMBERS = [
         blurb: 'Jeremy is testing bioluminescent constructs <i>in vivo</i>, including investigating the effects of coelenterazine administration parameters on bioluminescence in awake, behaving mice and calcium sensor performance. <a class="bl-link" href="/JTC-welcome#Jeremy_video">Learn more about Jeremy’s research</a>.'
     },
     {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Brittany+Sprecher-min.jpg',
+        title: 'Brittany Sprecher, PhD, University of California, San Diego',
+        positions: [
+            'Postdoctoral Research Fellow'
+        ],
+        blurb: 'In the Shaner Lab, Brittany is characterizing novel fluorescent molecules native to some dinoflagellate species, working to understand their ecological roles and potential for biological research applications.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Emanuel_Crespo-min.jpg',
         title: 'Emanuel Crespo, Central Michigan University',
         positions: [
