@@ -17,10 +17,6 @@ class NavBar extends React.PureComponent {
                 link: '/symposium',
             },
             {
-                title: 'EMISSARIES',
-                link: '/research/emissaries'
-            },
-            {
                 title: 'EDUCATION',
                 link: '/education'
             },
@@ -31,6 +27,10 @@ class NavBar extends React.PureComponent {
             {
                 title: 'CONSTRUCTS',
                 link: '/constructs'
+            },
+            {
+                title: 'BLBASE',
+                link: 'https://www.blbase.org'
             },
             {
                 title: 'RESEARCH',
