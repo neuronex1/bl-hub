@@ -22,6 +22,12 @@ const Homepage = (props) => {
                         </a>
                     </div>
                     <div class='button-img mlxl'>
+                        <a href='/what-is-interluminescence'>
+                            <img src='https://bl-hub.s3.amazonaws.com/Interluminescence/Interluminescence+button-min.jpg' alt='What is Interluminescence?'/>
+                            <div class='button-img__overlay'></div>
+                        </a>
+                    </div>
+                    <div class='button-img mlxl'>
                         <a href='/LMO3'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/LMO3+Primer+Button_new_JAX.png' alt='Get Started with LMO3'/>
                             <div class='button-img__overlay'></div>
@@ -42,12 +48,6 @@ const Homepage = (props) => {
                     <div class='button-img mll'>
                         <a href='/publications'>
                             <img src='https://bl-hub.s3.amazonaws.com/home+buttons/BL-OG_publications_button-min.jpg' alt='BL-OG Publications'/>
-                            <div class='button-img__overlay'></div>
-                        </a>
-                    </div>
-                    <div class='button-img mll'>
-                        <a href='/research-objects'>
-                            <img src='https://bl-hub.s3.amazonaws.com/home+buttons/Our+Research+button-min.jpg' alt='Our Research'/>
                             <div class='button-img__overlay'></div>
                         </a>
                     </div>

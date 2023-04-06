@@ -31,7 +31,7 @@ class Carousel extends React.PureComponent {
                   'Cell-to-Cell Communication'
                 ],
                 buttonLabel: 'LEARN MORE',
-                link: 'https://neuronex.org/news/22',
+                link: '/what-is-interluminescence',
                 photoCredit: 'BillionPhotos'
               },
               {

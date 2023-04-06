@@ -28,7 +28,7 @@ export const CURRENT_MEMBERS = [
             'Professor of Neuroscience',
             'Co-Principal Investigator',
         ],
-        blurb: 'Ute studies the role of neural activity in generating and alleviating neurological and psychiatric conditions, and is focused on stimulating or silencing neuronal activity using combinations of bioluminescent light and genetically-targeted, light-sensing opsins. Learn more on the <a class="bl-link" href="https://www.cmich.edu/academics/colleges/college-of-medicine/research/basic/bioluminescent-optogenetics-lab">Hochgeschwender Lab website</a>.'
+        blurb: 'Ute studies the role of neural activity in generating and alleviating neurological and psychiatric conditions, and is focused on stimulating or silencing neuronal activity using combinations of bioluminescent light and genetically-targeted, light-sensing opsins. Learn more on the <a class="bl-link" target="_blank" href="https://www.cmich.edu/academics/colleges/college-of-medicine/research/basic/bioluminescent-optogenetics-lab">Hochgeschwender Lab website</a>.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Nathan-min.jpg',

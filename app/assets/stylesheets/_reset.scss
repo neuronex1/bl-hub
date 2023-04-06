@@ -37,7 +37,12 @@ span, article, footer {
 }
 
 ul, li {
-  list-style: none;
+  list-style: circle;
+  list-style-position: outside;
+}
+
+ol, li {
+  list-style: circle;
   list-style-position: outside;
 }
 
