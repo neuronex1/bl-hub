@@ -248,7 +248,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
   export const RESEARCH_OBJECTS_2022POSTERS = [
   {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Celinskis+Beyond+Neurons+poster+fig-min_cropped.png',
-    title: 'Behavioral and electrophysiological effects of enhancing activity of layer 5 pyramidal neurons during early postnatal development',
+    title: 'Multi-site Multi-modality Imaging Methods for Studying Spinal, Brain, and Vascular Dynamics',
     venue: '4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
     authors: [
       'Dmitrijs Celinskis, ',

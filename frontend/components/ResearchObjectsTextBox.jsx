@@ -30,7 +30,7 @@ const ResearchObjectsTextBox = (props) => {
                     <p className='mbs mtm'><i>{props.venue}</i></p>
                     <p className='mtm'
                         dangerouslySetInnerHTML={getAbstract(props.abstract)}></p>
-                    <li><a class='text-s bl-link' href='mailto:bioluminescencehub@gmail.com?subject=Research-Object'>Request more information</a></li>
+                    <p><a class='text-s bl-link' href='mailto:bioluminescencehub@gmail.com?subject=Research-Object'>Request more information</a></p>
                 </div>
             </td>
         </tr>
