@@ -128,12 +128,12 @@ export const CURRENT_MEMBERS = [
         blurb: 'Eric is researching neuronal activity along blood vessels in the brain using viruses injected into mouse tail veins for systemic infection.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ian_More-min.jpg',
-        title: 'A. Ian More, Brown University',
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Seneca_Scott-min.jpg',
+        title: 'Seneca Scott, Brown University',
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
+        blurb: 'Seneca is interested in neural dynamics and brain-body communication on short timescales. To this end, he is utilizing bioluminescent tools to manipulate and record hemo-neural activity in awake, behaving animals.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Alexander_Silvagnoli-min.jpg',
@@ -178,6 +178,14 @@ export const CURRENT_MEMBERS = [
 ];
 
 export const ALUMNI = [
+    {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ian_More-min.jpg',
+        title: 'A. Ian More, Brown University',
+        positions: [
+            'Graduate Student'
+          ],
+          blurb: 'Ian has tested bioluminescent molecules <i>in vivo</i>, with simultaneous bioluminescent imaging and electrophysiology.'
+    },
     {
         imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Richard_Orcutt.JPG',
         title: 'Richard Orcutt, University of California, San Diego',
