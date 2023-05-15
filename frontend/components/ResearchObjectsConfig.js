@@ -252,22 +252,39 @@ export const RESEARCH_OBJECTS_PAPERS = [
       abstract: 'The ability to manipulate specific neuronal populations of the spinal cord following spinal cord injury (SCI) could potentially prove highly beneficial for rehabilitation in patients through maintaining and strengthening still existing neuronal connections and/or facilitating the formation of new connections. A non-invasive and highly specific approach to neuronal stimulation is bioluminescent-optogenetics (BL-OG), where genetically expressed light emitting luciferases are tethered to light sensitive channelrhodopsins (luminopsins, LMO); neurons are activated by the addition of the luciferase substrate coelenterazine (CTZ).  This approach takes advantage of utilizing ion channels for current conduction while activating the channels through application of a small chemical compound, thus allowing non-invasive stimulation and recruitment of all targeted neurons. Rats were transduced in the lumbar spinal cord with AAV2/9 expressing the excitatory LMO3 under control of the human synapsin or the Homobox 9 promoter. A day after contusion injury of the thoracic spine, rats received either CTZ or vehicle every other day for 2 weeks. We found activation of either interneuron or motor neuron populations below the level of injury to significantly improve locomotor recovery. This is the first example of non-invasive activation of an optogenetic component as a potential therapy following spinal cord injury. Utilizing histological and gene expression methods to identify mechanisms underlying improvements it was determined that neuronal plasticity is the major driving force behind the functional recovery observed. These findings provide a foundation for a rational approach to spinal cord injury rehabilitation, thereby advancing approaches for functional recovery after SCI.'
     },
   ];
+  export const RESEARCH_OBJECTS_2023POSTERS = [
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/ASNTR_logo_smaller.png',
+    title: "Targeted circuit manipulation for ameliorating Huntington's Disease pathogenesis",
+    venue: 'American Society for Neural Therapy & Repair; Clearwater Beach, FL',
+    authors: [
+      'E. C. Ikefuama, ',
+      'R. C. Schalau, ',
+      'A. M. Uprety, ',
+      'M. O. Tree, ',
+      'G. L. Dunbar, ',
+      'J. Rossignol, ',
+      'U. Hochgeschwender'
+    ],
+    abstract:'Almost 30 years after identifying the genetic mutation underlying Huntington’s disease (HD), treatments remain limited to managing late-stage symptoms of motoric, psychiatric, and cognitive deficits. Findings from patients and mouse models of HD point to pre-symptomatic imbalances in neuronal circuit activity, well before any overt symptoms are observed. Our central hypothesis is that ma¬nipulating the firing activity within selected microcircuits be¬fore the onset of symptoms by chemogenetic inhibition and/or ex¬citation of key target populations will slow HD disease progression. A crucial early event in HD is the pathological increase in the overall excitatory output from cortex onto striatum. The enhanced excitability of cortical pyramidal neurons (CPNs) in pre-symptomatic HD is one key target for correctional intervention. The window before the onset of symptoms presents an opportunity to inhibit the firing rate of CPNs projecting to the striatum with the prospect of preventing or slowing disease progression. For manipulation of neuronal activity, we utilized bioluminescent optogenetics (BL-OG) that employs light-emitting luciferases to activate light-sensing opsins. We are testing the effects of circuit manipulation on preventing or delaying behavioral deficits in the R6/2 transgenic mouse model of HD. To selectively target CPNs projecting to the striatum, an AAV vector carrying a Cre-inducible inhibitory LMO (AAV-CamKIIa-DIO-NCS3-hGtACR1) was injected into the cortex of 3-week-old mice, while a retrogradely transported Cre-recombinase (AAVrg-hSyn-Cre-P2A-dTomato) was injected into the striatum. Two weeks later, luciferin or vehicle were administered once every other day for 2 weeks to decrease CPN firing. Rotarod, open field, and CatWalk were used to assess motor coordination, exploratory behavior, and gait function. We assessed cognitive behavior through water T-maze, novel object recognition test, and passive avoidance test. Our studies will contribute to understanding how microcircuit manipulation influences motor and cognitive behavior in HD and will drive translational progress toward novel therapeutic purposes.'
+  },
+];
   export const RESEARCH_OBJECTS_2022POSTERS = [
   {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Celinskis+Beyond+Neurons+poster+fig-min_cropped.png',
     title: 'Multi-site Multi-modality Imaging Methods for Studying Spinal, Brain, and Vascular Dynamics',
     venue: '4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
     authors: [
-      'Dmitrijs Celinskis, ',
-      'Chris Black, ',
-      'Jeremy Murphy, ',
-      'Nina Friedman, ',
-      'Nathan Shaner, ',
-      'Ute Hochgeschwender, ',
-      'Diane Lipscombe, ',
-      'Carl Saab, ',
-      'Christopher I. Moore, ',
-      'David A. Borton'
+      'D. Celinskis, ',
+      'C. Black, ',
+      'J. Murphy, ',
+      'N. Friedman, ',
+      'N. Shaner, ',
+      'U. Hochgeschwender, ',
+      'D. Lipscombe, ',
+      'C. Saab, ',
+      'C. I. Moore, ',
+      'D. A. Borton'
     ],
     abstract:"Using neuroscientists&#39 tools of the trade one can image in independent animals either the brain or the spinal cord. Yet understanding many biological processes such as the perception of noxious and innocuous stimuli, or diseases like chronic pain, likely emerge from combined dynamics in both foci, that can only be understood by their simultaneous measurement. In this poster we report on multi-site surgical protocols and the designs of 3D printed universal brain-spinal cord implants that can be used in combination with wearable miniscopes and benchtop two-photon microscopy. This strategy allowed us to image neural and vascular dynamics in the brain and spinal cord of the same animals sequentially and simultaneously for up to 230 days post-implantation in the contexts of noxious and innocuous sensory behaviors. Further, <i>in vivo</i> fluorescent microscopy suffers from multiple limitations such as photon scattering noise, autofluorescence, photobleaching and phototoxicity. The photon scattering noise and, consequently, limited imaging depth are especially significant problems for spinal cord studies and the weight of miniature microscopes becomes a significant hurdle for imaging multiple parts of the body simultaneously. However, these issues can be mitigated via bioluminescence imaging. In pursuit of functional bioluminescent imaging in behaving animals, we demonstrate our ability to image bioluminescence <i>in vivo</i> using novel indicators and redesigned miniscopes (BLmini). Overall, present work offers a toolbox for imaging the brain and spinal cord in the same animal, and summarizes the progress towards next generation imaging tools using bioluminescence - innovations that can enable the optimal study of complex network dynamics from periphery-to-brain using fewer animals, reduced inter-animal variability and, otherwise impossible, synchronicity of data from brain and spinal cord. <br><a href='https://doi.org/10.26300/mk2y-2v89' class=bl-link target=_blank>View this poster in the Brown Digital Repository.</a>"
   },
