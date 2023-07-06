@@ -254,6 +254,62 @@ export const RESEARCH_OBJECTS_PAPERS = [
   ];
   export const RESEARCH_OBJECTS_2023POSTERS = [
   {
+    imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/2023BRAIN_meeting_logo.png',
+    title: 'Activity dependent light emitters for imaging, mapping, and controlling activated neural circuits',
+    venue: '2023 BRAIN Initiative Meeting; Bethesda, MD',
+    authors: [
+      'E. L. Crespo, ',
+      'A. Pal, ',
+      'G. Lambert, ',
+      'M. Prakash, ',
+      'D. Lipscombe, ',
+      'C. I. Moore, ',
+      'N. C. Shaner, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: 'Intracellular calcium is routinely utilized to report neuronal activity. We built a platform where a genetically encoded calcium sensor integrates elevated intracellular changes into multidimensional cellular control. By utilizing a luciferase split by a calcium-sensing moiety, light emission is dependent on calcium increases and can be harnessed to drive any photosensory domain. Our engineered sensors integrate increases of intracellular calcium into bioluminescence sufficient to activate photosensory proteins to modulate membrane potential, transcriptionally label activated cells, and report fast intracellular calcium fluctuations. Here, I describe key experiments I carried out that laid the foundation for this platform.<br><br>Generally, split luciferases used for calcium imaging have a high initial peak of bioluminescence that decreases over time, with calcium fluctuations seen along the entire light emission curve. If the calcium-dependent light emission is to be employed in activating photosensing domains, it is critical that light emission is low enough to not activate photoreceptors under baseline conditions and high enough to activate photosensing elements in the presence of calcium and luciferin.<br><br>I then tested a prototype of a calcium-dependent luciferase fulfilling this criterion for activity-dependent activation of opsins in individual and populations of neurons <i>in vitro</i> and <i>in vivo</i>. Further, I demonstrated performance of this activity-dependent sensor to activate light-sensing transcription factors, resulting in production of reporter proteins in activated cells. In summary, my experiments were key to developing a platform that utilizes a calcium-dependent luciferase to convert neuronal activity into activation of light-sensing domains within the same cell.<br><br>This principle can be extended from using calcium to many intracellular mechanisms as long as protein conformational changes are linked to activity-dependent light output. This general platform can be extended by integrating intracellular indicators of activity with multifaceted cellular processes.<br><br>As a student at an R2 institution with limited research resources I took full advantage of cross-training opportunities in collaborators’ laboratories at research-intensive R1 institutions (UCSD and Brown). This project allowed me, through summer research internships, to mentor and engage a high school student and several undergraduate students from diverse backgrounds in an inclusive research team.'
+  },
+  {
+    imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/2023BRAIN_meeting_logo.png',
+    title: 'Bioluminescent tools for visualizing and controlling neural activity',
+    venue: '2023 BRAIN Initiative Meeting; Bethesda, MD',
+    authors: [
+      'C. I. Moore, ',
+      'N. Shaner, ',
+      'D. Lipscombe, ',
+      'J. J. Allen, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: "At our Bioluminescence Hub (bioluminescencehub.org), we systematically develop and disseminate novel, powerful bioluminescent tools for brain science while creating educational and outreach content.<br><br>Bioluminescence has several advantages for imaging, including providing high SNR without the need for fluorescent light input, removing an invasive and potentially damaging input. Our optimizations include brighter enzymatic (luciferase) output and optimizing implantable miniscopes for imaging BL during <i>in vivo</i> behavior. We have now developed a new series of high-contrast calcium indicators, targeted to optimal sensitivity ranges for neural imaging, and another set integrated into calcium channels for exclusively sensing their activity (see Andrade et al., this meeting).<br><br>Using BioLuminescence to activate OptoGenetic elements (‘BL-OG’) has many advantages for cellular control. ‘LuMinOpsins’ (LMOs) are a BL-OG version where a luciferase enzyme is attached by short amino acid tether to an opsin. When luciferin binds the luciferase, photon output is sensed by the nearby opsin. This approach is a dual modality solution: a single molecule can be modulated chemo- or optogenetically. Further, BL-OG photon output provides an optical report, a unique mechanism of the timing and relative intensity of modulator engagement not available in other pharmacological approaches. Using these advantages, LMOs are now being adopted to induce several-fold larger intracellular currents in vitro and more robust <i>in vivo</i> activation profiles for a variety of basic mechanistic experiments.<br><br>Interluminescence, or “optical synapses,” are another recent advance, in which BL light crosses the synapse to drive a specific post-synaptic optogenetic target. This tool achieves synapse-specific and activity-dependent circuit control between connected neurons in distinct, genetically-specified pre- and post-synaptic target cell populations, and only when luciferin is presented by the experimenter.<br><br>Our Hub also organizes information about BL and direct access to these tools. We distribute BL and BL-OG constructs and conduct training in their use (<a href='/dissemination' class='bl-link' target='_blank'>/dissemination</a>). We have recently complied BLBase, a new database of bioluminescence molecules (<a href='https://www.blbase.org' class='bl-link' target='_blank'>BLbase.org</a>). Key education programs in-clude our NeuroNex Undergraduate Practicum, an intensive weeklong event at the Marine Biological Laboratory (<a href='/mbl' class='bl-link' target=’_blank’>/mbl</a>), our Bioluminescence Hub Summer Internship Program for Undergraduates, our recorded <a href='/mbl/2021-practicum/interviews' class='bl-link' target='_blank'>Interviews with Experts</a>, and our downloadable educational activities (<a href='/education' class='bl-link' target='_blank'>/education</a>)."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/2023BRAIN_meeting_logo.png',
+    title: 'Selective control of synaptically-connected circuit elements by Interluminescence',
+    venue: '2023 BRAIN Initiative Meeting; Bethesda, MD',
+    authors: [
+      'U. Hochgeschwender, ',
+      'N. Shaner, ',
+      'C. Moore'
+    ],
+    abstract: "A wealth of tools can directly control output of specific neurons on fast (e.g., optogenetic) or sustained (e.g., chemogenetic) time scales. In contrast, few methods exist for selectively modulating communication between defined cells at the synaptic level, which is key to understanding how functional connectivity creates percepts, engrams and actions. Here, we advance a novel strategy for selectively modulating synaptic transmission, Interluminescence. This approach uses bioluminescent light from a presynaptic axon terminal, generated by a luciferase, to modulate an opsin in its postsynaptic target under experimenter-controlled introduction of a small molecule (luciferin). We developed two separate methods that target the luciferase to the synaptic cleft. To provide sustained and synapse-specific regulation, the ‘Persist-Int’ strategy places a luciferase in the synaptic cleft tethered to the presynaptic terminal, and an opsin in the opposing postsynaptic membrane. In this configuration, light generation creates sustained and activity-independent modulation. In the complementary ‘Act-Int’ strategy, luciferase is released into the synaptic cleft in response to presynaptic activity, a synapse-specific form of activity-dependent modulation. We previously showed for the Act-Int strategy that Interluminescence requires synaptic connectivity, depends on active firing of and synaptic vesicle release from the presynaptic neuron, and that postsynaptic effects are mediated by the opsin. Importantly, we provided evidence that Interluminescence can change network dynamics <i>in vivo</i> by robustly driving broad-band gamma oscillations (<a href='https://doi.org/10.1038/s42003-021-02981-7' class='bl-link' target='_blank'>Prakash, M. et al. Communications Biology 5, 33, 2022</a>). We now characterized in detail the impact of Interluminescence in individual neurons by patch clamp recordings in primary neurons, further examined the impact of Interluminescence <i>in vivo</i>, and elaborated this platform technology by generating novel molecules. Specifically, we tested an expose-and-retract strategy for Act-Int and we systematically explored circular permutations of our brightest luciferases and fluorescent proteins to generate collections of high-performance split variants of each. We have generated variants with low and high affinities as interluminescence components for short- and long-term reconstitution of FP and/or luciferase activity for Act-Int and Persist-Int applications, respectively. Our novel tools provide powerful new light emitting components to further increase the temporal and spatial resolution of Interluminescence for broad applications in the neuroscience community."
+
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/2023BRAIN_meeting_logo.png',
+    title: 'Using voltage-gated calcium channels for the development of bioluminescence-based calcium sensors to monitor neural activity',
+    venue: '2023 BRAIN Initiative Meeting; Bethesda, MD',
+    authors: [
+      'A. Andrade, ',
+      'K. Webster, ',
+      'S. Denome, ',
+      'U. Hochgeschwender, ',
+      'N. Shaner, ',
+      'C. Moore, ',
+      'D. Lipscombe'
+    ],
+    abstract: 'Calcium is essential for cellular processes including neural firing and transmitter release. Fittingly, myriad calcium channels and regulators are present in distinct cellular compartments, and calcium indicators are widely used as a surrogate for activity. However, these indicators cannot track activity in specific channels. To fill this need, we are developing a novel method named ‘LuMiPorins’ (LMPs) by fusing proteins of voltage-gated calcium channels (CaVs) to bioluminescent genetically encoded calcium indicators (BL-GECIs). We initially targeted CaV2.2 and CaV3.3 channels, which have distinct voltage-dependent properties and localize to different subregions of neurons. CaV2.2 channels activate in response to relatively large depolarizations; they are expressed throughout neurons but target to presynaptic active zones where they control transmitter release. CaV3.3 channels activate with relatively small depolarizations close to the resting membrane potential, and they predominantly localize to dendrites and soma where they drive pacemaking and contribute to rebound bursting. After fusing a BL-GECI (GeNL_Ca520) to the C-terminus of these CaV channels, the resulting CaV2.2-LMP and CaV3.3-LMP fusion proteins retained channel function in mammalian tsA201 cells similar to wildtype (current density in pA/pF: CaV2.2-WT = 41.8 &plusmn; 12.6, n = 6, CaV2.2-LMP = 38.25 &plusmn; 7.5, n = 6; CaV3.3-WT = 65.7 &plusmn; 15.4, n = 5, CaV3.3-LMP = 52.3 &plusmn; 8.2, n = 7). CaV2.2-LMP and CaV3.3-LMP expressed in tsA201 cells emit light above background in the presence of the luciferin coelenterazine-h (hCTZ) (luminescence in relative light units: CaV2.2-LMP = 650.6 &plusmn; 48.5, n = 4; CaV3.3-LMP = 869.8 &plusmn; 32.2, n = 7). For CaV3.3-LMP and CaV2.2-LMP, the bioluminescence signal was sensitive to intracellular calcium, as it was reduced by intracellular BAPTA. For CaV3.3-LMP, the bioluminescence signal increased in the presence of the calcium ionophore ionomycin. The calcium sensitivity of the bioluminescence signal for CaV3.3-LMP was dependent on the hCTZ concentration with optimal signal to background at sub-micromolar concentrations. These new molecules can be used to monitor calcium-dependent neural activity. Further, the light generated by GeNL_Ca520 fused to CaV channels can, in future applications, be used to drive effector molecules like opsins to provide real time and channel-specific control of neural activity.'
+  },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/ASNTR_logo_smaller.png',
     title: "Targeted circuit manipulation for ameliorating Huntington's Disease pathogenesis",
     venue: 'American Society for Neural Therapy & Repair; Clearwater Beach, FL',
@@ -270,6 +326,45 @@ export const RESEARCH_OBJECTS_PAPERS = [
   },
 ];
   export const RESEARCH_OBJECTS_2022POSTERS = [
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/NeuroNex+logo+for+Research+Objects.png',
+    title: 'Using Biolight to Drive Transcription',
+    venue: '4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
+    authors: [
+          'A. Slaviero, ',
+          'E. L. Crespo, ',
+          'U. Hochgeschwender '
+      ],
+    abstract: "<a href='https://admin.neuronex.org/assets/b80436b4-40ad-4afd-8273-265555b4006c' class='bl-link' target='_blank'>View this poster on NeuroNex.org</a>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/NeuroNex+logo+for+Research+Objects.png',
+    title: 'Distinct Advantages of BioLuminescence for Neuroscience ',
+    venue: '4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
+      authors: [
+        'C. I. Moore, ',
+        'D. Lipscombe, ',
+        'U. Hochgeschwender, ',
+        'N. C. Shaner, ',
+        'J. J. Allen'
+      ],
+      abstract: "<a href='https://admin.neuronex.org/assets/b61eed00-40ef-4c56-bd35-b76205bbf93a' class='bl-link' target='_blank'>View this poster on NeuroNex.org</a>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/NeuroNex+logo+for+Research+Objects.png',
+    title: 'Interluminescence for Trans-Cellular Modulation: Perspectives Beyond Neurons',
+    venue: '4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
+    authors: [
+      'M. Prakash, ',
+      'L. McLean, ',
+      'E. L. Crespo, ',
+      'N. C. Shaner, ',
+      'D. Lipscombe, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender'
+    ],
+    abstract: "<a href='https://admin.neuronex.org/assets/9cfb2083-53fe-46e9-a817-993fc895af0b' class='bl-link' target='_blank'>View this poster on NeuroNex.org</a>."
+  },
   {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Celinskis+Beyond+Neurons+poster+fig-min_cropped.png',
     title: 'Multi-site Multi-modality Imaging Methods for Studying Spinal, Brain, and Vascular Dynamics',
@@ -289,9 +384,9 @@ export const RESEARCH_OBJECTS_PAPERS = [
     abstract:"Using neuroscientists&#39 tools of the trade one can image in independent animals either the brain or the spinal cord. Yet understanding many biological processes such as the perception of noxious and innocuous stimuli, or diseases like chronic pain, likely emerge from combined dynamics in both foci, that can only be understood by their simultaneous measurement. In this poster we report on multi-site surgical protocols and the designs of 3D printed universal brain-spinal cord implants that can be used in combination with wearable miniscopes and benchtop two-photon microscopy. This strategy allowed us to image neural and vascular dynamics in the brain and spinal cord of the same animals sequentially and simultaneously for up to 230 days post-implantation in the contexts of noxious and innocuous sensory behaviors. Further, <i>in vivo</i> fluorescent microscopy suffers from multiple limitations such as photon scattering noise, autofluorescence, photobleaching and phototoxicity. The photon scattering noise and, consequently, limited imaging depth are especially significant problems for spinal cord studies and the weight of miniature microscopes becomes a significant hurdle for imaging multiple parts of the body simultaneously. However, these issues can be mitigated via bioluminescence imaging. In pursuit of functional bioluminescent imaging in behaving animals, we demonstrate our ability to image bioluminescence <i>in vivo</i> using novel indicators and redesigned miniscopes (BLmini). Overall, present work offers a toolbox for imaging the brain and spinal cord in the same animal, and summarizes the progress towards next generation imaging tools using bioluminescence - innovations that can enable the optimal study of complex network dynamics from periphery-to-brain using fewer animals, reduced inter-animal variability and, otherwise impossible, synchronicity of data from brain and spinal cord. <br><a href='https://doi.org/10.26300/mk2y-2v89' class=bl-link target=_blank>View this poster in the Brown Digital Repository.</a>"
   },
   {
-    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2022+logo.png',
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2022+logo+with+NeuroNex+logo.png',
     title: 'Behavioral and electrophysiological effects of enhancing activity of layer 5 pyramidal neurons during early postnatal development',
-    venue: '2022 Society for Neuroscience Meeting; San Diego, CA',
+    venue: '2022 Society for Neuroscience Meeting and the 4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
     authors: [
     'G. W. Folkert, ',
     'A. M. Uprety, ',
@@ -299,7 +394,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
     'E. L. Crespo, ',
     'U. Hochgeschwender'
     ],
-    abstract: "In neurodevelopmental disorders, neural activity is altered within the developing neocortical network. We previously showed that enhanced pyramidal firing during development, in the otherwise normal mouse neocortex, can selectively alter adult circuit function and produce maladaptive changes in behavior. We systematically enhanced pan-neocortical pyramidal activity levels during the early postnatal development of healthy mice using non-invasive BioLuminescent-OptoGenetic (BL-OG)-mediated activation of luminopsin 3 (LMO3) expressing neurons. Developmental hyperexcitation of Emx1-positive pyramidal neurons during postnatal days 4 - 14 led to decreased social interaction and increased grooming activity in adult animals, both of which are key symptoms of autism spectrum disorder (ASD). <i>In vivo</i>, both prefrontal neural activity and functional markers of cortico-striatal connectivity were impaired in developmentally hyperexcited adult Emx1-LMO3-positive mice, and <i>ex vivo</i> slice recordings revealed alterations to both intrinsic excitability and synaptic E/I ratio in L5 prefrontal cortex pyramidal neurons. We now want to further dissect the neural populations and their specific target areas mediating the observed behavioral and electrophysiological changes. Pyramidal neurons are distributed across all layers of the cerebral cortex with the exception of layer 1, and those in each layer are distinguished by their patterns of long-range axonal projections. Those in layer 5 integrate information between cortical areas but also project to subcortical structures involved in the generation of behavior. We carried out developmental hyperexcitation in Rbp4-LMO3 mice, thus restricting LMO3 expression to L5 projection neurons. The behavioral and electrophysiological consequences were compared to those of pan-laminar neocortical developmental hyperexcitation."
+    abstract: "In neurodevelopmental disorders, neural activity is altered within the developing neocortical network. We previously showed that enhanced pyramidal firing during development, in the otherwise normal mouse neocortex, can selectively alter adult circuit function and produce maladaptive changes in behavior. We systematically enhanced pan-neocortical pyramidal activity levels during the early postnatal development of healthy mice using non-invasive BioLuminescent-OptoGenetic (BL-OG)-mediated activation of luminopsin 3 (LMO3) expressing neurons. Developmental hyperexcitation of Emx1-positive pyramidal neurons during postnatal days 4 - 14 led to decreased social interaction and increased grooming activity in adult animals, both of which are key symptoms of autism spectrum disorder (ASD). <i>In vivo</i>, both prefrontal neural activity and functional markers of cortico-striatal connectivity were impaired in developmentally hyperexcited adult Emx1-LMO3-positive mice, and <i>ex vivo</i> slice recordings revealed alterations to both intrinsic excitability and synaptic E/I ratio in L5 prefrontal cortex pyramidal neurons. We now want to further dissect the neural populations and their specific target areas mediating the observed behavioral and electrophysiological changes. Pyramidal neurons are distributed across all layers of the cerebral cortex with the exception of layer 1, and those in each layer are distinguished by their patterns of long-range axonal projections. Those in layer 5 integrate information between cortical areas but also project to subcortical structures involved in the generation of behavior. We carried out developmental hyperexcitation in Rbp4-LMO3 mice, thus restricting LMO3 expression to L5 projection neurons. The behavioral and electrophysiological consequences were compared to those of pan-laminar neocortical developmental hyperexcitation.<br><a href='https://admin.neuronex.org/assets/694a33f1-fc4c-4b40-a38a-7b6596c80532' class='bl-link' target='_blank'>View this poster on NeuroNex.org</a>."
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2022+logo.png',
@@ -325,9 +420,9 @@ export const RESEARCH_OBJECTS_PAPERS = [
       abstract: 'Fluorescent proteins (FPs) have been a part of the biological imaging toolbox for nearly 30 years, and while light microscope technology continues to advance to allow imaging of living systems at increasingly higher time and spatial resolution, the FPs used in this imaging have not advanced at the same pace. At the same time, the majority of biological imaging is still performed on “traditional” widefield and laser scanning confocal microscopes, while FP development efforts have largely focused on generating probes for advanced techniques such as single-molecule localization microscopy (SMLM). Properties critical to long-term imaging of living cells, such as photostability and behavior in fusions with other proteins have been slow to improve. To address the shortfall in development of improved FPs for both general and advanced uses, we have engineered green- and yellow-emitting monomeric variants of the ultra-bright dimeric FP AausFP1 and a red-emitting monomeric derivative of mCherry with much higher brightness than its parent. All of these new FP variants appear to be very inert when fused to other proteins and are highly photostable under both widefield and scanning laser illumination. We anticipate that these FPs will enable more sensitive detection of signal with lower illumination power, allowing researchers to observe cells expressing lower amounts of fusion protein for more biologically authentic behavior.'
     },
     {
-      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2022+logo.png',
+      imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2022+logo+with+NeuroNex+logo.png',
       title: 'The role of higher-order thalamic inputs in generating oscillatory dynamics in sensory neocortex: Integrated electrophysiological, interluminescence and fluorescence studies',
-      venue: '2022 Society for Neuroscience Meeting; San Diego, CA',
+      venue: '2022 Society for Neuroscience Meeting and the 4th NeuroNex Investigator Meeting: Beyond Neurons; San Diego, CA',
       authors: [
         'J. Murphy, ',
         'E. M. Klein, ',
@@ -337,7 +432,7 @@ export const RESEARCH_OBJECTS_PAPERS = [
         'U. Hochgeschwender, ',
         'C. I. Moore'
       ],
-      abstract: 'Oscillatory brain dynamics are correlated with many different cognitive functions. Additionally, many disorders of the nervous system are correlated with alterations in these dynamics. Understanding which brain structures, and which neuron subtypes, coordinate these dynamics holds the potential to link the rich non-invasive correlation-based data on oscillatory brain dynamics with concrete mechanisms. Further, correlational oscillatory biomarkers of nervous system disorders can be evaluated through the lens of concrete pathology. However, a detailed, mechanistic understanding of oscillatory brain dynamics remains incomplete. Prior research has implicated thalamocortical interactions as a source of oscillatory dynamics, and a parallel body of research has implicated ‘higher-order’ thalamic nuclei, such as the pulvinar in humans and primates and the posterior medial nucleus (POm) in rodents, in contextual modulation of cortical sensory processing. We present here preliminary evidence that bursting in POm precedes oscillatory "Beta Events," discrete triphasic signals (15-29 Hz). The anatomical projection pattern of POm to primary somatosensory neocortex (SI) aligns well with our detailed computational model predictions as to the laminar origins of beta-events. Further, burst spike firing, common in thalamus, is an ideal driver in this model. POm also targets a diverse array of areas, all of which express Beta Events, and prior studies have shown enhanced beta-band power with optogenetic POm drive. We recently introduced a bioluminescent ‘all-optical synapse’, in which light emitting bioluminescent molecules are released from presynaptic terminals and activate opsins expressed on virally targeted postsynaptic partners. We demonstrated that Cre-mediated expression of the excitatory opsin ChR2(C128S) in parvalbumin positive cells in SI postsynaptic to virally targeted bioluminescent thalamocortical excitatory cells was sufficient to drive increases in gamma band (30-100 Hz) oscillations in SI. We present new data here in which POm is exclusively targeted as the bioluminescent presynaptic element in VGAT-ChR2 transgenic mice in which all GABAergic neurons express the excitatory opsin. This arrangement produced a distinct increase in delta oscillations (1-5 Hz) as recorded in SI, suggesting that excitatory POm projections to different neural subpopulations in cortex are able to drive different oscillatory motifs in cortex. Further, initial studies combining 1-Photon imaging of POm axon activity with electrophysiology, and multi-site recordings, support the view that POm activity precedes Beta Events.'
+      abstract: "Oscillatory brain dynamics are correlated with many different cognitive functions. Additionally, many disorders of the nervous system are correlated with alterations in these dynamics. Understanding which brain structures, and which neuron subtypes, coordinate these dynamics holds the potential to link the rich non-invasive correlation-based data on oscillatory brain dynamics with concrete mechanisms. Further, correlational oscillatory biomarkers of nervous system disorders can be evaluated through the lens of concrete pathology. However, a detailed, mechanistic understanding of oscillatory brain dynamics remains incomplete. Prior research has implicated thalamocortical interactions as a source of oscillatory dynamics, and a parallel body of research has implicated ‘higher-order’ thalamic nuclei, such as the pulvinar in humans and primates and the posterior medial nucleus (POm) in rodents, in contextual modulation of cortical sensory processing. We present here preliminary evidence that bursting in POm precedes oscillatory 'Beta Events,' discrete triphasic signals (15-29 Hz). The anatomical projection pattern of POm to primary somatosensory neocortex (SI) aligns well with our detailed computational model predictions as to the laminar origins of beta-events. Further, burst spike firing, common in thalamus, is an ideal driver in this model. POm also targets a diverse array of areas, all of which express Beta Events, and prior studies have shown enhanced beta-band power with optogenetic POm drive. We recently introduced a bioluminescent ‘all-optical synapse’, in which light emitting bioluminescent molecules are released from presynaptic terminals and activate opsins expressed on virally targeted postsynaptic partners. We demonstrated that Cre-mediated expression of the excitatory opsin ChR2(C128S) in parvalbumin positive cells in SI postsynaptic to virally targeted bioluminescent thalamocortical excitatory cells was sufficient to drive increases in gamma band (30-100 Hz) oscillations in SI. We present new data here in which POm is exclusively targeted as the bioluminescent presynaptic element in VGAT-ChR2 transgenic mice in which all GABAergic neurons express the excitatory opsin. This arrangement produced a distinct increase in delta oscillations (1-5 Hz) as recorded in SI, suggesting that excitatory POm projections to different neural subpopulations in cortex are able to drive different oscillatory motifs in cortex. Further, initial studies combining 1-Photon imaging of POm axon activity with electrophysiology, and multi-site recordings, support the view that POm activity precedes Beta Events.<br><a href='https://admin.neuronex.org/assets/07ee74c8-3717-440f-a21f-56e62bb5a917' class='bl-link' target='_blank'>View this poster on NeuroNex.org</a>."
     },
     {
       imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/SfN2022+logo.png',
