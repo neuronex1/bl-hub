@@ -6,6 +6,68 @@
 
 export const RESEARCH_OBJECTS_PAPERS = [
   {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Crespo_bioRxiv2023.png',
+    title: 'A bioluminescent activity dependent (BLADe) platform for converting neuronal activity to photreceptor activation',
+    venue: 'bioRxiv: June 27, 2023',
+    authors:[
+      'E. L. Crespo, ',
+      'A. Pal, ',
+      'M. Prakash, ',
+      'A. D. Silvagnoli, ',
+      'Z. Zaidi, ',
+      'M. Gomez-Ramirez, ',
+      'M. O. Tree, ',
+      'N. C. Shaner, ',
+      'D. Lipscombe, ',
+      'C. Moore, ',
+      'U. Hochgeschwender'
+    ],
+      abstract:'We developed a platform that utilizes a calcium-dependent luciferase to convert neuronal activity into activation of light sensing domains within the same cell. The platform is based on a <i>Gaussia</i> luciferase variant with high light emission split by calmodulin-M13 sequences that depends on influx of calcium ions (Ca<sup>2+</sup>) for functional reconstitution. In the presence of its luciferin, coelenterazine (CTZ), Ca<sup>2+</sup> influx results in light emission that drives activation of photoreceptors, including optogenetic channels and LOV domains. Critical features of the converter luciferase are light emission low enough to not activate photoreceptors under baseline condition and high enough to activate photosensing elements in the presence of Ca<sup>2+</sup> and luciferin. We demonstrate performance of this activity-dependent sensor and integrator for changing membrane potential and driving transcription in individual and populations of neurons <i>in vitro</i> and <i>in vivo</i>. <a class=bl-link href="https://doi.org/10.1101/2023.06.25.546469" target="_blank">Read more about this work on bioRxiv</a>.'
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Lambert_bioRxiv2023.png',
+    title: 'CaBLAM! A high-contrast bioluminescent Ca<sup>2+</sup> inidicator derived from an engineered <i>Oplophorus gracilirostris</i> luciferase',
+    venue: 'bioRxiv: June 26, 2023',
+    authors:[
+      'G. G. Lambert, ',
+      'E. L. Crespo, ',
+      'J. Murphy, ',
+      'D. Boassa, ',
+      'S. Luong, ',
+      'J. Hu, ',
+      'B. Sprecher, ',
+      'M. O. Tree, ',
+      'R. Orcutt, ',
+      'D. Heydari, ',
+      'A. B. Bell, ',
+      'A. Torreblanca Zanca, ',
+      'A. Hakimi, ',
+      'D. Lipscombe, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender, ',
+      'N. C. Shaner'
+    ],
+    abstract:"Ca<sup>2+</sup> plays many critical roles in cell physiology and biochemistry, leading researchers to develop a number of fluorescent small molecule dyes and genetically encodable probes that optically report changes in Ca<sup>2+</sup> concentrations in living cells. Though such fluorescence-based genetically encoded Ca<sup>2+</sup> indicators (GECIs) have become a mainstay of modern Ca<sup>2+</sup> sensing and imaging, bioluminescence-based GECIs—probes that generate light through oxidation of a small-molecule by a luciferase or photoprotein—have several distinct advantages over their fluorescent counterparts. Bioluminescent tags do not photobleach, do not suffer from nonspecific autofluorescent background, and do not lead to phototoxicity since they do not require the extremely bright extrinsic excitation light typically required for fluorescence imaging, especially with 2-photon microscopy. Current BL GECIs perform poorly relative to fluorescent GECIs, producing small changes in bioluminescence intensity due to high baseline signal at resting Ca<sup>2+</sup> concentrations and suboptimal Ca<sup>2+</sup> affinities. Here, we describe the development of a new bioluminescent GECI, <q>CaBLAM,</q> which displays a much higher contrast (dynamic range) than previously described bioluminescent GECIs coupled with a Ca<sup>2+</sup> affinity suitable for capturing physiological changes in cytosolic Ca<sup>2+</sup> concentration. Derived from a new variant of <i>Oplophorus gracilirostris</i> luciferase with superior <i>in vitro</i> properties and a highly favorable scaffold for insertion of sensor domains, CaBLAM allows for single-cell and subcellular resolution imaging of Ca<sup>2+</sup> dynamics at high frame rates in cultured neurons. CaBLAM marks a significant milestone in the GECI timeline, enabling Ca<sup>2+</sup> recordings with high spatial and temporal resolution without perturbing cells with intense excitation light. <a class=bl-link href='https://doi.org/10.1101/2023.06.25.546478' target='_blank'>Read more about this work on bioRxiv</a>."
+  },
+  {
+    imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Bjorefeldt_bioRxiv2023.png',
+    title: 'A FRET-based excitatory luminopsin with improved efficacy of bioluminescence-driven channelrhodopsin activation',
+    venue: 'bioRxiv: June 26, 2023',
+    authors:[
+      'A. Björefeldt, ',
+      'J. Murphy, ',
+      'E. L. Crespo, ',
+      'M. Prakash, ',
+      'N. Friedman, ',
+      'T. M. Brown, ',
+      'D. Lipscombe, ',
+      'C. I. Moore, ',
+      'U. Hochgeschwender, ',
+      'N. C. Shaner'
+    ],
+    abstract: "The ability to manipulate neuronal activity both opto-and chemogenetically with a single actuator molecule presents unique and flexible means to study neural circuit function. We previously developed methodology to enable such bimodal control using fusion molecules called luminopsins (LMOs), where a channelrhodopsin actuator can be activated using either physical (LED driven) or biological (bioluminescent) light. While activation of LMOs using bioluminescence has previously allowed manipulation of circuits and behavior in mice, further improvement would advance the utility of this technique. Thus, we here aimed to increase the efficiency of bioluminescent activation of channelrhodopsins by development of novel FRET-probes with bright and spectrally matched emission tailored to <i>Volvox</i> channelrhodopsin 1 (VChR1). We find that pairing of a molecularly evolved <i>Oplophorus</i> luciferase variant with mNeonGreen significantly improves the efficacy of bioluminescent activation when tethered to VChR1 (construct named LMO7) as compared to previous and other newly generated LMO variants. We proceed to extensively benchmark LMO7 against previous LMO standard (LMO3) and find that LMO7 outperforms LMO3 in the ability to drive bioluminescent activation of VChR1 both <i>in vitro</i> and <i>in vivo</i>, and efficiently modulates animal behavior following intraperitonial injection of fluorofurimazine. In conclusion, we demonstrate a rationale for improving bioluminescent activation of optogenetic actuators using a tailored molecular engineering approach and provide a new tool to bimodally manipulate neuronal activity with increased bioluminescence-driven efficacy. <a class=bl-link href='https://doi.org/10.1101/2023.06.26.545546' target='_blank'>Read more about this work on bioRxiv</a>."
+  },
+  {
     imgSrc: 'https://bl-hub.s3.amazonaws.com/research-objects/Ikefuama_2022_graphical+abstract_cropped.png',
     title: 'Improved locomotor recovery in a rat model of spinal cord injury by BioLuminescent-OptoGenetic (BL-OG) stimulation with an enhanced luminopsin',
     venue: 'International Journal of Molecular Sciences, October 2022',
@@ -333,6 +395,10 @@ export const RESEARCH_OBJECTS_PAPERS = [
     authors: [
           'A. Slaviero, ',
           'E. L. Crespo, ',
+          'J. Simkins, ',
+          'M. Tree, ',
+          'N. C. Shaner, ',
+          'C. I. Moore, ',
           'U. Hochgeschwender '
       ],
     abstract: "<a href='https://admin.neuronex.org/assets/b80436b4-40ad-4afd-8273-265555b4006c' class='bl-link' target='_blank'>View this poster on NeuroNex.org</a>."
