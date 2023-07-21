@@ -315,6 +315,52 @@ export const RESEARCH_OBJECTS_PAPERS = [
     },
   ];
   export const RESEARCH_OBJECTS_2023POSTERS = [
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/MI-SfN+logo.jpg',
+      title: 'Targeted circuit manipulation for ameliorating Huntington&aposs Disease pathogenesis',
+      venue: '2023 Meeting of the Michigan Chapter of the Society for Neuroscience; East Lansing, MI',
+      authors: [
+        'E. C. Ikefuama, ',
+        'R. C. Schalau, ',
+        'A. M. Uprety, ',
+        'M. O. Tree, ',
+        'G. L. Dunbar, ',
+        'J. Rossignol, ',
+        'U. Hochgeschwender'
+      ],
+      abstract:'Almost 30 years after identifying the genetic mutation underlying Huntington’s disease (HD), treatments remain limited to managing late-stage symptoms of motoric, psychiatric, and cognitive deficits. Findings from patients and mouse models of HD point to pre-symptomatic imbalances in neuronal circuit activity, well before any overt symptoms are observed. Our central hypothesis is that manipulating the firing activity within selected microcircuits before the onset of symptoms by chemogenetic inhibition and/or excitation of key target populations will slow HD disease progression. A crucial early event in HD is the pathological increase in the overall excitatory output from cortex onto striatum. The enhanced excitability of cortical pyramidal neurons (CPNs) in pre-symptomatic HD is one key target for correctional intervention. The window before the onset of symptoms presents an opportunity to inhibit the firing rate of CPNs projecting to the striatum with the prospect of preventing or slowing disease progression. For manipulation of neuronal activity, we utilized bioluminescent optogenetics (BL-OG) that employs light-emitting luciferases to activate light-sensing opsins. We are testing the effects of circuit manipulation on preventing or delaying behavioral deficits in the R6/2 transgenic mouse model of HD. To selectively target CPNs projecting to the striatum, an AAV vector carrying a Cre-inducible inhibitory LMO (AAV-CamKIIa-DIO-NCS3-hGtACR1) was injected into the cortex of 3-week-old mice, while a retrogradely transported Cre-recombinase (AAVrg-hSyn-Cre-P2A-dTomato) was injected into the striatum. Two weeks later, luciferin or vehicle were administered once every other day for 2 weeks to decrease CPN firing. Rotarod, open field, and CatWalk were used to assess motor coordination, exploratory behavior, and gait function. We assessed cognitive behavior through water T-maze, novel object recognition test, and passive avoidance test. Our studies will contribute to understanding how microcircuit manipulation influences motor and cognitive behavior in HD and will drive translational progress toward novel therapeutic purposes.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/MI-SfN+logo.jpg',
+      title: 'A novel method for molecular evolution of BL-OG components utilizing photo-sensitive transcription factor EL222',
+      venue: '2023 Meeting of the Michigan Chapter of the Society for Neuroscience; East Lansing, MI',
+      authors: [
+        'J. W. Simkins, ',
+        'A. Slaviero, ',
+        'E. Crespo, ',
+        'U. Hochgeschwender'
+      ],
+      abstract:'While significant effort has been invested in discovering new optogenetic tools, advances in molecular sciences have enabled us to directly evolve existing bioluminescent-optogenetic (BL-OG) tools to meet our research and therapeutic needs. One such existing protein is the light-sensitive bacterial transcription factor EL222, which is a light-oxygen-voltage (LOV) based protein that homodimerizes in the presence of blue light, enabling transcription of a target sequence. Here, we present improvements in EL222 via a novel method of molecular evolution in mammalian cells. The method, which involves iterative rounds of mutagenesis followed by screening for reporter gene expression in a luminometer, allows us to produce variants with more advantageous activation and deactivation kinetics, altered light sensitivity, and optimized background transcription. As cellular concentrations of particular proteins often play a crucial role in the development of neurodegenerative diseases, such as the role of TFEB in the progression of Alzheimer’s disease, our results may have a significant impact on the treatment of neurodegenerative diseases.'
+    },
+    {
+      imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/MI-SfN+logo.jpg',
+      title: 'Improved bioluminescent-optogenetic tools for manipulation of neural circuits',
+      venue: '2023 Meeting of the Michigan Chapter of the Society for Neuroscience; East Lansing, MI',
+      authors: [
+        'A. Slaviero, ',
+        'E. Ikefuama, ',
+        'M. Prakash, ',
+        'A. Björefeldt, ',
+        'N. Gorantla, ',
+        'J. W. Simkins, ',
+        'M. Tree, ',
+        'L. M. Barnett, ',
+        'G. G. Lambert, ',
+        'N. C. Shaner, ',
+        'U. Hochgeschwender'
+      ],
+      abstract: 'Bioluminescent optogenetic (BL-OG) tools employ biological light generated by luciferase enzymes oxidizing their small molecule substrate, luciferin, to activate light sensing molecules. When combined with ion-moving optogenetic elements, these luciferase-opsin fusions, Luminopsins (LMOs), allow activating and inhibiting neural activity in the brain of behaving animals in a bimodal fashion: Opsins can be activated by light from a physical source or by applying the luciferin, thus expanding optogenetic tools to include a chemogenetic component (Medendorp 2021). Various luciferases have been tethered to opsins, and these LMOs have been applied for excitation and inhibition of targeted neuronal populations <i>in vivo</i> (Berglund 2016, Yu 2019, Park 2020, Berglund 2020, Zenchak 2020, Petersen 2022, Ikefuama 2022). To expand the utility of LMOs we generated a series of combinations of light emitters and light sensors and tested their efficacy for modifying membrane potential in whole-cell patch recordings in HEK cells and in multi electrode arrays (MEAs) in primary neurons. Light emitters were variants of <i>Gaussia</i>, <i>Renilla</i>, and <i>Oplophorus</i> luciferases, either alone or in combination with fluorescent proteins to leverage Förster resonance energy transfer (FRET) for bright light emitters. Light sensors resulting in depolarization or hyperpolarization were native or molecularly evolved channelrhodopsins or pumps, recently described super-sensitive channelrhodopsins, blue- and red-light sensors, and light-sensing G-protein coupled receptors. We also tested different configurations of LMOs, with the luciferase tethered to the opsin via the N-terminus, C-terminus, or both. LMOs were analyzed to gauge effects of bioluminescent response (luciferin application) relative to optogenetic response (LED stimulation). Whole cell voltage patch clamp of HEK cells allowed direct comparison of LED induced photocurrent to the current elicited by substrate application to the same cell. This comparison is quantified through coupling efficiency, the fraction of the maximum photocurrent capable of being produced by biolight. Coupling efficiencies of the initial LMOs 1 (wildtype GLuc-ChR2), 2 (wildtype GLuc-VChR1), and 3 (sbGLuc-VChR1) were 0.1%, 1.2%, and 11%, respectively. Coupling efficiencies of the improved versions are substantially higher (>50%). This set of novel LMOs expands the toolbox for bimodal control of neural activities in the brain. This work was supported by the National Science Foundation (NeuroNex-1707352).'
+  },
   {
     imgSrc:'https://bl-hub.s3.amazonaws.com/research-objects/2023BRAIN_meeting_logo.png',
     title: 'Activity dependent light emitters for imaging, mapping, and controlling activated neural circuits',
