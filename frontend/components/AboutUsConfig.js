@@ -143,7 +143,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Alexander is developing innovative molecular tools to dissect neocortical processing underlying various neurological disorders. To this end, he is exploring a wide array of approaches including bioluminescent optogenetics and machine learning.'
+        blurb: 'Alexander is developing innovative molecular tools to dissect neocortical processing underlying various neurological disorders. To this end, they are exploring a wide array of approaches including bioluminescent optogenetics and machine learning.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ashley_Slaviero.jpg',
