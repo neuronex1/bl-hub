@@ -116,8 +116,10 @@ export const CURRENT_MEMBERS = [
     {
         imgSrc:'https://bl-hub.s3.amazonaws.com/portraits/Ebenezer-min.jpg',
         title:'Ebenezer Ikefuama, MSc, Central Michigan University',
-        positions: ['Graduate Student'],
-        blurb: 'Ebenezer is currently investigating the application of  bioluminescent-optogenetic systems for the modulation of  spinal motor neuronal activity and  improving recovery following contusive spinal cord injuries.'
+        positions: [
+          'Graduate Student'
+        ],
+        blurb: 'Ebenezer is currently investigating the application of bioluminescent-optogenetic systems for the modulation of cortico-striatal circuits in Huntington’s Disease mice towards ameliorating disease progression.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Eric_Klein-min.JPG',
@@ -141,7 +143,7 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Alexander is developing innovative molecular tools to dissect neocortical processing underlying various neurological disorders. To this end, they are exploring a wide array of approaches including bioluminescence and machine learning.'
+        blurb: 'Alexander is developing innovative molecular tools to dissect neocortical processing underlying various neurological disorders. To this end, he is exploring a wide array of approaches including bioluminescent optogenetics and machine learning.'
     },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ashley_Slaviero.jpg',
@@ -149,7 +151,15 @@ export const CURRENT_MEMBERS = [
         positions: [
             'Graduate Student'
         ],
-        blurb: 'Ashley performs molecular cloning of constructs and selectively modulates synaptic transmission through the modified Act-In method for the Interluminescence project.'
+        blurb: 'Ashley molecularly evolves light sensing transcription factors in mammalian cells and combines them with luciferases in bioluminescence driven synthetic gene circuits. She also develops novel constructs for interluminescence driven neuronal communication and tests these in patch clamp recordings in cultured neurons.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/eli+pic-min.jpg',
+        title: 'Elaheh Emamgholi Zadeh, MS, Central Michigan University',
+        positions: [
+            'Graduate Student'
+        ],
+        blurb: 'Eli is using bioluminescence-driven optogenetics for studying functional synaptic communication between pre- and postsynaptic neurons in the brain.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
@@ -160,24 +170,24 @@ export const CURRENT_MEMBERS = [
         blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
-        title: 'Kathleen Riselay, Central Michigan University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
-    },
-    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Maya_Tree-min.JPG',
         title: 'Maya Tree, Central Michigan University',
         positions: [
-            'Laboratory Technician'
+            'Research Assistant'
         ],
-        blurb: 'Maya’s primary focus in the Hochgeschwender lab is molecular cloning of bioluminescent constructs.'
+        blurb: 'Maya is the Bioluminescent Optogenetics Lab’s manager and is in charge of molecular cloning of bioluminescent constructs, generation of high titer AAV viral stocks, and preparation of primary neuronal cultures.'
     }
 ];
 
 export const ALUMNI = [
+    {
+      imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
+      title: 'Kathleen Riselay, Central Michigan University',
+      positions: [
+          'Research Assistant'
+      ],
+      blurb: 'Kathleen is the Hochgeschwender lab manager and has generated large scale plasmid DNA preparations of constructs and high titer AAV viral stocks.'
+    },
     {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Ian_More-min.jpg',
         title: 'A. Ian More, Brown University',
