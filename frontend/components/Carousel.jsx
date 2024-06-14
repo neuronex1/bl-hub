@@ -34,18 +34,6 @@ class Carousel extends React.PureComponent {
                 link: '/what-is-interluminescence',
                 photoCredit: 'BillionPhotos'
               },
-              {
-                  src: 'https://bl-hub.s3.amazonaws.com/education/2022+Interns+for+Carousel-min.jpg',
-                  caption: 'Meet our 2022 Summer Interns!',
-                  subtitle: [
-                    'Education',
-                    'Research',
-                    'Training'
-                  ],
-                  buttonLabel: 'READ MORE',
-                  link: '/education',
-                  photoCredit: ''
-              },
             {
                 src: 'https://bl-hub.s3.amazonaws.com/LMO3+mouse+at+JAX_2.png',
                 caption: 'LMO3 Mouse Now Available at JAX',
@@ -61,7 +49,7 @@ class Carousel extends React.PureComponent {
             {
                 src: 'https://s3.amazonaws.com/bl-hub/mbl-min.jpg',
                 caption: 'NeuroNex Practicum for Undergraduates',
-                title: 'A',
+                title: '',
                 subtitle: ['Lectures', 'Synopses', 'Photos', 'Interviews with Experts'],
                 buttonLabel: 'LEARN MORE',
                 link: '/mbl',

@@ -4,8 +4,7 @@ export const CURRENT_MEMBERS = [
         title: 'Christopher I. Moore, PhD, Brown University',
         positions: [
             'Professor of Neuroscience',
-            'Associate Director of the Robert J. and Nancy D. Carney Institute for Brain Science',
-            'Principal Investigator'
+            'Associate Director of the Robert J. and Nancy D. Carney Institute for Brain Science'
         ],
         blurb: 'Chris studies neural dynamics and their role in information processing, and develops new technologies to test how phenomena such as ongoing brain activity patterns impact perception. Learn more on the <a class="bl-link" href="http://www.themoorelab.org">Moore Lab website</a>.'
     },
@@ -16,8 +15,7 @@ export const CURRENT_MEMBERS = [
             'Thomas J. Watson, Sr. Professor of Science',
             'Professor of Neuroscience ',
             'Reliance Dhirubhai Ambani Director of the Robert J. and Nancy D. Carney Institute for Brain Science',
-            'President of the Society for Neuroscience in 2019',
-            'Co-Principal Investigator'
+            'President of the Society for Neuroscience in 2019'
         ],
         blurb: 'Diane studies the expression, regulation, and function of neuronal voltage-gated calcium ion channels, particularly their role in chronic pain and psychiatric disorders. She also studies ALS (Lou Gehrig’s Disease) including the impact of disease-causing mutations on motor neuron excitability. Learn more about <a class="bl-link" href="https://vivo.brown.edu/display/dlipscom">Diane</a> and the <a class="bl-link" href="https://www.brown.edu/academics/brain-science/">Carney Institute for Brain Science</a>.'
     },
@@ -25,8 +23,7 @@ export const CURRENT_MEMBERS = [
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Ute-min.jpg',
         title: 'Ute Hochgeschwender, MD, College of Medicine at Central Michigan University',
         positions: [
-            'Professor of Neuroscience',
-            'Co-Principal Investigator',
+            'Professor of Neuroscience'
         ],
         blurb: 'Ute studies the role of neural activity in generating and alleviating neurological and psychiatric conditions, and is focused on stimulating or silencing neuronal activity using combinations of bioluminescent light and genetically-targeted, light-sensing opsins. Learn more on the <a class="bl-link" target="_blank" href="https://www.cmich.edu/academics/colleges/college-of-medicine/research/basic/bioluminescent-optogenetics-lab">Hochgeschwender Lab website</a>.'
     },
@@ -34,8 +31,7 @@ export const CURRENT_MEMBERS = [
         imgSrc: 'https://s3.amazonaws.com/bl-hub/Nathan-min.jpg',
         title: 'Nathan Shaner, PhD, University of Californa, San Diego',
         positions: [
-            'Associate Adjunct Professor, Neurosciences',
-            'Co-Principal Investigator'
+            'Associate Adjunct Professor, Neurosciences'
         ],
         blurb: 'Nathan discovers new, naturally occurring bioluminescent and fluorescent molecules, and engineers improved variants for biological research applications, such as imaging.'
     },
@@ -74,6 +70,14 @@ export const CURRENT_MEMBERS = [
         blurb: 'Chris is working on 2-photon imaging, photoswitchable proteins, and helping others with experimental design and data analysis.'
     },
     {
+        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Jeremy_Murphy-min.jpg',
+        title: 'Jeremy Murphy, PhD, Brown University',
+        positions: [
+            'Research Associate in Neuroscience'
+        ],
+        blurb: 'Jeremy is testing bioluminescent constructs <i>in vivo</i>, including investigating the effects of coelenterazine administration parameters on bioluminescence in awake, behaving mice and calcium sensor performance. <a class="bl-link" href="/JTC-welcome#Jeremy_video">Learn more about Jeremy’s research</a>.'
+    },
+    {
         imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Mansi_Prakash_2022-min.jpg',
         title: 'Mansi Prakash, PhD, Central Michigan University',
         positions: [
@@ -82,20 +86,36 @@ export const CURRENT_MEMBERS = [
         blurb: "Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication. Read more about her research in a <a class='bl-link' target='_blank' href='https://currentexchange.cshl.edu/blog/2021/6/visitor-of-the-week-204'>Visitor of the Week highlight</a> by Cold Spring Harbor Laboratory."
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Dmitrijs_Celinskis.jpg',
-        title: 'Dmitrijs Celinskis, PhD, Brown University',
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Christiano-min_cropped.jpeg',
+        title: 'Christiano Bermúdez, Central Michigan University',
         positions: [
-            'Postdoctoral Research Associate'
+            'Research Assistant'
         ],
-        blurb: 'In the Lipscombe lab, Dmitrijs is studying the role of skin calcium channels in heat and mechanical hypersensitivity. He is particularly interested in developing tools tailored specifically for studying questions pertaining to the processing of noxious and innocuous sensory signals throughout the body rather than at a single focal site in the body. <a class="bl-link" href="/JTC-welcome#Dmitrijs_video">Learn more and view the lab space</a> where Dmitrijs performed his PhD research on improving implanted miniscopes for viewing bioluminescence during head-fixed and free behavior.'
+        blurb: 'Christiano is interested in neuropsychiatric and neurological disorders. He is evaluating the possibility of converting excess cortical into reduced striatal activity in HD mice <i>in vivo</i> using a novel, bright, presynaptic luciferase.'
     },
     {
-        imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Jeremy_Murphy-min.jpg',
-        title: 'Jeremy Murphy, PhD, Brown University',
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
+        title: 'Gerard Lambert, University of California, San Diego',
         positions: [
-            'Postdoctoral Research Associate'
+            'Senior Laboratory Researcher'
         ],
-        blurb: 'Jeremy is testing bioluminescent constructs <i>in vivo</i>, including investigating the effects of coelenterazine administration parameters on bioluminescence in awake, behaving mice and calcium sensor performance. <a class="bl-link" href="/JTC-welcome#Jeremy_video">Learn more about Jeremy’s research</a>.'
+        blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gabrielle+Kennedy-min.jpeg',
+        title: 'Gabrielle Kennedy, Central Michigan University',
+        positions: [
+            'Research Assistant'
+        ],
+        blurb: 'Gabrielle will be working on testing new Interluminescence constructs using patch clamp to expand the Interluminescence toolbox and identify optimal pre- and post-synaptic constructs for <i>in vivo</i> use.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Maya_Tree-min.JPG',
+        title: 'Maya Tree, Central Michigan University',
+        positions: [
+            'Research Assistant'
+        ],
+        blurb: 'Maya is the Bioluminescent Optogenetics Lab’s manager and is in charge of molecular cloning of bioluminescent constructs, generation of high titer AAV viral stocks, and preparation of primary neuronal cultures.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Brittany+Sprecher-min.jpg',
@@ -161,25 +181,17 @@ export const CURRENT_MEMBERS = [
         ],
         blurb: 'Eli is using bioluminescence-driven optogenetics for studying functional synaptic communication between pre- and postsynaptic neurons in the brain.'
     },
-    {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
-        title: 'Gerard Lambert, University of California, San Diego',
-        positions: [
-            'Senior Laboratory Researcher'
-        ],
-        blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
-    },
-    {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Maya_Tree-min.JPG',
-        title: 'Maya Tree, Central Michigan University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Maya is the Bioluminescent Optogenetics Lab’s manager and is in charge of molecular cloning of bioluminescent constructs, generation of high titer AAV viral stocks, and preparation of primary neuronal cultures.'
-    }
 ];
 
 export const ALUMNI = [
+    {
+      imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Dmitrijs_Celinskis.jpg',
+      title: 'Dmitrijs Celinskis, PhD, Brown University',
+      positions: [
+          'Postdoctoral Research Associate'
+      ],
+      blurb: 'In the Lipscombe lab, Dmitrijs is studying the role of skin calcium channels in heat and mechanical hypersensitivity. He is particularly interested in developing tools tailored specifically for studying questions pertaining to the processing of noxious and innocuous sensory signals throughout the body rather than at a single focal site in the body. <a class="bl-link" href="/JTC-welcome#Dmitrijs_video">Learn more and view the lab space</a> where Dmitrijs performed his PhD research on improving implanted miniscopes for viewing bioluminescence during head-fixed and free behavior.'
+    },
     {
       imgSrc: 'https://s3.amazonaws.com/bl-hub/portraits/Kathleen_Riselay-min.jpg',
       title: 'Kathleen Riselay, Central Michigan University',
