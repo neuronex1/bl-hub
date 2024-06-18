@@ -86,28 +86,12 @@ export const CURRENT_MEMBERS = [
         blurb: "Mansi is currently involved in bioluminescence-driven optogenetics for investigating functional synaptic communication. Read more about her research in a <a class='bl-link' target='_blank' href='https://currentexchange.cshl.edu/blog/2021/6/visitor-of-the-week-204'>Visitor of the Week highlight</a> by Cold Spring Harbor Laboratory."
     },
     {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Christiano-min_cropped.jpeg',
-        title: 'Christiano Bermúdez, Central Michigan University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Christiano is interested in neuropsychiatric and neurological disorders. He is evaluating the possibility of converting excess cortical into reduced striatal activity in HD mice <i>in vivo</i> using a novel, bright, presynaptic luciferase.'
-    },
-    {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gerard_Lambert-min.jpg',
         title: 'Gerard Lambert, University of California, San Diego',
         positions: [
             'Senior Laboratory Researcher'
         ],
         blurb: 'Gerry engineers and develops genetically-encodable probes for bio-sensing and bio-imaging in live cells.'
-    },
-    {
-        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gabrielle+Kennedy-min.jpeg',
-        title: 'Gabrielle Kennedy, Central Michigan University',
-        positions: [
-            'Research Assistant'
-        ],
-        blurb: 'Gabrielle will be working on testing new Interluminescence constructs using patch clamp to expand the Interluminescence toolbox and identify optimal pre- and post-synaptic constructs for <i>in vivo</i> use.'
     },
     {
         imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Maya_Tree-min.JPG',
@@ -180,6 +164,22 @@ export const CURRENT_MEMBERS = [
             'Graduate Student'
         ],
         blurb: 'Eli is using bioluminescence-driven optogenetics for studying functional synaptic communication between pre- and postsynaptic neurons in the brain.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Christiano-min_cropped.jpeg',
+        title: 'Christiano Bermúdez, Central Michigan University',
+        positions: [
+            'Postbaccalaureate Student'
+        ],
+        blurb: 'Christiano is interested in neuropsychiatric and neurological disorders. He is evaluating the possibility of converting excess cortical into reduced striatal activity in HD mice <i>in vivo</i> using a novel, bright, presynaptic luciferase.'
+    },
+    {
+        imgSrc: 'https://bl-hub.s3.amazonaws.com/portraits/Gabrielle+Kennedy-min.jpeg',
+        title: 'Gabrielle Kennedy, Central Michigan University',
+        positions: [
+            'Postbaccalaureate Student'
+        ],
+        blurb: 'Gabrielle will be working on testing new Interluminescence constructs using patch clamp to expand the Interluminescence toolbox and identify optimal pre- and post-synaptic constructs for <i>in vivo</i> use.'
     },
 ];
 
